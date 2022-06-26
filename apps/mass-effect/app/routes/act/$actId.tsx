@@ -10,14 +10,13 @@ export let loader: LoaderFunction = async ({ params }) => {
 export default function Act() {
   let act = useLoaderData<Act>();
   const summaries = act.stepSummary.sort((a, b) => a.order - b.order);
-  console.log(summaries);
   return (
     <>
       <div dangerouslySetInnerHTML={{ __html: act.contentHtml }}></div>
       <ol>
         {summaries.map((summary) => {
           return (
-            <li>
+            <li key={summary.id}>
               <Link to={`/act/${act.id}/step/${summary.id}`} prefetch="intent">
                 {summary.title}
               </Link>

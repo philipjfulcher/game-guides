@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@nrwl/cli": "9999.20220321.0",
+    "@nrwl/devkit": "9999.20220321.0",
     "@nrwl/eslint-plugin-nx": "9999.20220321.0",
     "@nrwl/jest": "9999.20220321.0",
     "@nrwl/linter": "9999.20220321.0",
