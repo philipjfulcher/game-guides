@@ -2,6 +2,7 @@ import { join } from 'path';
 import { readdir, readFile } from 'fs/promises';
 import parseFrontMatter from 'front-matter';
 import { marked } from 'marked';
+import prisma from "~/data/db";
 
 interface ActFrontMatter {
   title: string;
@@ -29,6 +30,7 @@ interface StepSummary {
   title: string;
   optional: boolean;
   automatic: boolean;
+  completed: boolean;
 }
 
 export interface Step {
@@ -40,7 +42,9 @@ export interface Step {
   optional: boolean;
   automatic: boolean;
   parent?: string;
-  substeps: Step[]
+  substeps: Step[];
+  completed: boolean;
+  actId: string;
 }
 
 const actsPath = join(__dirname, '../app/data/acts');
@@ -77,7 +81,9 @@ export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
 
     return Promise.all(
       stepsDir.map(async (stepId: string) => {
-        const step = await getStep(actId, stepId.replace('.md', ''), true);
+        const trimmedStepId = stepId.replace('.md', '');
+        const step = await getStep(actId, trimmedStepId, true);
+
 
         return {
           order: step.order,
@@ -85,9 +91,13 @@ export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
           automatic: step.automatic,
           optional: step.optional,
           title: step.title,
+          parent: step.parent,
+          completed: !!(await prisma.completedStep.findFirst({where: {stepId: trimmedStepId,actId}}))
         };
       })
-    );
+    ).then(steps => {
+      return steps.filter(step => !step.parent)
+    });
   } catch (e) {
     return Promise.resolve([]);
   }
@@ -111,32 +121,26 @@ export async function getStep(actId: string, stepId: string, findSubSteps: boole
     optional: attributes?.optional === 'true' ?? false,
     order: parseInt(attributes.order, 10),
     substeps: findSubSteps ? await getSubSteps(actId, stepId) : [],
-    parent: attributes?.parent
+    parent: attributes?.parent,
+    completed: !!(await prisma.completedStep.findFirst({where: {stepId,actId}})),
+    actId
   };
 }
 
 export async function getSubSteps(actId: string, stepId: string): Promise<Step[]> {
-  if(stepId === 'recruit-the-assassin-and-the-justicar') {
-    console.log(`getting substeps for ${actId},${stepId}`);
-  }
+
   const stepsDir = await readdir(join(actsPath, actId, 'steps'));
 
   const substeps = await Promise.all(
       stepsDir.map(async (subStepId: string) => {
-        if(stepId === 'recruit-the-assassin-and-the-justicar') {
-          console.log(`Checking ${subStepId}`);
-        }
+
         const step = await getStep(actId, subStepId.replace('.md', ''), false);
 
         if(step?.parent && step.parent === stepId) {
-          if(stepId === 'recruit-the-assassin-and-the-justicar') {
-            console.log(`${step.id} is a substep of ${stepId}`);
-          }
+
           return step;
         } else {
-          if(stepId === 'recruit-the-assassin-and-the-justicar') {
-            console.log(`${step.id} is not a substep of ${stepId}`);
-          }
+
           return null;
         }
 
@@ -145,7 +149,6 @@ export async function getSubSteps(actId: string, stepId: string): Promise<Step[]
 
   const filteredSubsteps = substeps.filter(substep => substep !== null) as Step[];
 
-  // console.log(filteredSubsteps);
 
   return filteredSubsteps;
 

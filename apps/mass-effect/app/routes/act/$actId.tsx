@@ -15,10 +15,11 @@ export default function Act() {
       <div dangerouslySetInnerHTML={{ __html: act.contentHtml }}></div>
       <ol>
         {summaries.map((summary) => {
+            console.log(summary);
           return (
             <li key={summary.id}>
               <Link to={`/act/${act.id}/step/${summary.id}`} prefetch="intent">
-                {summary.title}
+                {summary.title} { summary.completed ? <small>completed</small> : null }
               </Link>
             </li>
           );

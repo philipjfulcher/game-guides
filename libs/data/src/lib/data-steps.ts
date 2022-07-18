@@ -22,7 +22,6 @@ export async function getActs(): Promise<Act[]> {
 
   return Promise.all(
     dir.map(async (filename) => {
-      console.log(filename);
       return {
         title: 'title',
         subtitle: 'subtitle',

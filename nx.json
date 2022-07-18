@@ -47,5 +47,6 @@
         "babel": true
       }
     }
-  }
+  },
+  "defaultProject": "db"
 }

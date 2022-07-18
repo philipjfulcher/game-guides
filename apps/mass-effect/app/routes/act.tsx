@@ -4,7 +4,6 @@ import { Act, getActs } from '~/data/data-steps';
 
 export let loader: LoaderFunction = async () => {
   const acts = await getActs();
-  console.log({ acts });
 
   // https://remix.run/api/remix#json
   return json(acts);
