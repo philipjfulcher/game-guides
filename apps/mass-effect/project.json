@@ -1,5 +1,5 @@
 {
-  "root": "apps/mass-effect",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/mass-effect",
   "projectType": "application",
   "tags": []

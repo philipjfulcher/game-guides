@@ -1,5 +1,4 @@
 {
-  "root": "libs/data",
   "sourceRoot": "libs/data/src",
   "projectType": "library",
   "tags": [],
@@ -48,7 +47,7 @@
         "coverage/libs/data"
       ],
       "options": {
-        "jestConfig": "libs/data/jest.config.js",
+        "jestConfig": "libs/data/jest.config.ts",
         "passWithNoTests": true
       }
     }

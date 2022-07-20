@@ -1,42 +1,34 @@
-import type { MetaFunction, LoaderFunction } from 'remix';
-import { useLoaderData, json, Link, Outlet } from 'remix';
-import { Act, getActs } from '~/data/data-steps';
+import type { LoaderFunction, MetaFunction } from 'remix';
+import { json, Link, Outlet, useLoaderData } from 'remix';
+import { Act, getActs, getCurrentStep } from '~/data/data-steps';
+import { CheckIcon } from '@heroicons/react/solid';
+import ActList from '~/components/act-list';
 
 export let loader: LoaderFunction = async () => {
   const acts = await getActs();
-
-  // https://remix.run/api/remix#json
-  return json(acts);
+  const currentAct = (await getCurrentStep()).actId;
+  return json({ acts, currentAct });
 };
 
-// https://remix.run/api/conventions#meta
 export let meta: MetaFunction = () => {
   return {
-    title: 'Remix Starter',
-    description: 'Welcome to remix!',
+    title: 'Mass Effect 2 Mission Order',
+    description: 'Mission tracker for Mass Effect 2',
   };
 };
 
-// https://remix.run/guides/routing#index-routes
 export default function Index() {
-  let acts = useLoaderData<Act[]>();
+  let { acts, currentAct } = useLoaderData<{
+    acts: Act[];
+    currentAct: string;
+  }>();
 
   return (
-    <div className="remix__page">
-      <main>
-        <ul>
-          {acts.map((act) => (
-            <li key={act.id} className="remix__page__resource">
-              <Link to={`/act/${act.id}`} prefetch="intent">
-                {act.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </main>
-      <aside>
+
+      <div className="flex flex-col w-full">
+        <ActList acts={acts} currentAct={currentAct}></ActList>
         <Outlet></Outlet>
-      </aside>
-    </div>
+      </div>
+
   );
 }

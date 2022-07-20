@@ -1,5 +1,4 @@
 {
-  "root": "apps/db",
   "sourceRoot": "apps/db/src",
   "projectType": "application",
   "targets": {
@@ -43,7 +42,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/db"],
       "options": {
-        "jestConfig": "apps/db/jest.config.js",
+        "jestConfig": "apps/db/jest.config.ts",
         "passWithNoTests": true
       }
     }

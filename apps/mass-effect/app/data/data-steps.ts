@@ -14,6 +14,7 @@ export interface Act extends ActFrontMatter {
   contentMarkdown: string;
   contentHtml: string;
   stepSummary: StepSummary[];
+  completed: boolean;
 }
 
 interface StepFrontmatter {
@@ -24,8 +25,9 @@ interface StepFrontmatter {
   parent?: string;
 }
 
-interface StepSummary {
+export interface StepSummary {
   id: string;
+  actId: string;
   order: number;
   title: string;
   optional: boolean;
@@ -65,6 +67,15 @@ export async function getAct(actId: string): Promise<Act> {
     actIndex.toString('utf-8')
   );
 
+  const stepSummaries = await getStepSummaries(actId);
+  const completed = stepSummaries.reduce( (acc,cur) => {
+    if(!cur.completed) {
+      return false;
+    } else {
+      return acc;
+    }
+  }, true);
+
   return {
     title: attributes.title,
     subtitle: attributes.subtitle,
@@ -72,6 +83,7 @@ export async function getAct(actId: string): Promise<Act> {
     contentMarkdown: body,
     contentHtml: marked(body),
     stepSummary: await getStepSummaries(actId),
+    completed
   };
 }
 
@@ -84,10 +96,10 @@ export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
         const trimmedStepId = stepId.replace('.md', '');
         const step = await getStep(actId, trimmedStepId, true);
 
-
         return {
           order: step.order,
           id: step.id,
+          actId,
           automatic: step.automatic,
           optional: step.optional,
           title: step.title,
@@ -151,5 +163,36 @@ export async function getSubSteps(actId: string, stepId: string): Promise<Step[]
 
 
   return filteredSubsteps;
+
+}
+
+
+export async function getCurrentStep(): Promise<{actId: string, stepId: string}> {
+  const lastCreatedStepEntry = await prisma.completedStep.findFirst({orderBy: {createdAt: 'desc'}});
+  console.log({lastCreatedStepEntry});
+  if(lastCreatedStepEntry) {
+    const act = await getAct(lastCreatedStepEntry.actId);
+
+    if(act.completed) {
+      const nextActId = `0${Number.parseInt(act.id,10) + 1}`;
+      const nextAct = await getAct(nextActId);
+      const orderedSummaries = nextAct.stepSummary.sort((a, b) => a.order - b.order);
+
+      return {actId: nextAct.id, stepId: orderedSummaries[0].id};
+    } else {
+      const lastCompletedStepIndex = act.stepSummary.findIndex(summary => summary.id === lastCreatedStepEntry.stepId);
+      const nextStepId = act.stepSummary[lastCompletedStepIndex+1].id;
+      const nextStep = await getStep(act.id,nextStepId, false);
+
+      return {actId: act.id, stepId: nextStep.id};
+    }
+
+
+  } else {
+    const firstAct = await getAct('01');
+    const firstStep = firstAct.stepSummary[0];
+
+    return { actId: firstAct.id, stepId: firstStep.id};
+  }
 
 }

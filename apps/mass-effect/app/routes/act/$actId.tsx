@@ -1,31 +1,21 @@
 import { json, Link, LoaderFunction, useLoaderData, Outlet } from 'remix';
-import { Act, getAct, getActs } from '~/data/data-steps';
+import {Act, getAct, getActs, getCurrentStep} from '~/data/data-steps';
+import MissionList from "~/components/mission-list";
 
 export let loader: LoaderFunction = async ({ params }) => {
   const act = await getAct(params.actId as string);
-
-  return json(act);
+  const currentStep = (await getCurrentStep()).stepId;
+  return json({act,currentStep});
 };
 
 export default function Act() {
-  let act = useLoaderData<Act>();
+  let {act,currentStep} = useLoaderData<{act: Act, currentStep: string}>();
+
   const summaries = act.stepSummary.sort((a, b) => a.order - b.order);
   return (
-    <>
-      <div dangerouslySetInnerHTML={{ __html: act.contentHtml }}></div>
-      <ol>
-        {summaries.map((summary) => {
-            console.log(summary);
-          return (
-            <li key={summary.id}>
-              <Link to={`/act/${act.id}/step/${summary.id}`} prefetch="intent">
-                {summary.title} { summary.completed ? <small>completed</small> : null }
-              </Link>
-            </li>
-          );
-        })}
-      </ol>
+    <div className={"flex flex-row"}>
+      <MissionList steps={summaries} currentStep={currentStep}></MissionList>
       <Outlet></Outlet>
-    </>
+    </div>
   );
 }
