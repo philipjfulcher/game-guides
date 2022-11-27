@@ -1,6 +1,7 @@
 ---
-order: 10
+order: 1
 title: "Normandy Crash Site"
+parent: "early-dlc"
 ---
 
 **Normandy Crash Site:**

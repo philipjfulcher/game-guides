@@ -3,12 +3,14 @@ import {
   Form,
   json,
   LoaderFunction,
+  redirect,
   useLoaderData,
 } from 'remix';
-import { getAct, getStep, Step } from '~/data/data-steps';
+import { getAct, getCurrentStep, getStep, Step } from '~/data/data-steps';
 import { Fragment } from 'react';
 import prisma from '~/data/db';
 import CompleteButton from '~/components/complete-button';
+import { useTransition } from '@remix-run/react';
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const step = await getStep(
@@ -30,13 +32,28 @@ export let action: ActionFunction = async ({ request }) => {
     await prisma.completedStep.create({
       data: { stepId: stepId.toString(), actId: actId.toString() },
     });
+
+    const step = await getStep(actId.toString(), stepId.toString(), false);
+
+    if(step.parent) {
+      return null;
+    } else {
+      const currentStep = await getCurrentStep();
+
+      return redirect(`/act/${currentStep.actId}/step/${currentStep.stepId}`);
+    }
   }
 
-  return null;
+
+  const currentStep = await getCurrentStep();
+
+  return redirect(`/act/${currentStep.actId}/step/${currentStep.stepId}`);
 };
 
 export default function Step() {
   let step = useLoaderData<Step>();
+  const transition = useTransition();
+  const isCreating = Boolean(transition.submission);
 
   return (
     <div className="w-full flex flex-col">
@@ -50,12 +67,14 @@ export default function Step() {
 
           {step.substeps.map((substep) => (
             <div className="pb-6" key={substep.id}>
-              <p className="font-bold">{substep.title}</p>
               <div
                 dangerouslySetInnerHTML={{ __html: substep.contentHtml }}
               ></div>
               {substep.completed ? (
-                <CompleteButton completed={substep.completed}></CompleteButton>
+                <CompleteButton
+                  completed={substep.completed}
+                  creating={isCreating && transition.submission?.formData.get('stepId') === substep.id}
+                ></CompleteButton>
               ) : (
                 <Form method="post">
                   <input
@@ -66,6 +85,7 @@ export default function Step() {
                   <input type="hidden" name="stepId" value={substep.id}></input>
                   <CompleteButton
                     completed={substep.completed}
+                    creating={isCreating && transition.submission?.formData.get('stepId') === substep.id}
                   ></CompleteButton>
                 </Form>
               )}
@@ -76,13 +96,13 @@ export default function Step() {
 
       <div className="px-4">
         {step.completed ? (
-          <CompleteButton completed={step.completed}></CompleteButton>
+          <CompleteButton completed={step.completed} creating={isCreating}></CompleteButton>
         ) : step.substeps.filter((substep) => !substep.completed).length ===
           0 ? (
           <Form method="post">
             <input type="hidden" name="actId" value={step.actId}></input>
             <input type="hidden" name="stepId" value={step.id}></input>
-            <CompleteButton completed={step.completed}></CompleteButton>
+            <CompleteButton completed={step.completed} creating={isCreating}></CompleteButton>
           </Form>
         ) : (
           <small>Complete all substeps to continue</small>

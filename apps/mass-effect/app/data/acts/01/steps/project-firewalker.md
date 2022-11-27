@@ -1,6 +1,7 @@
 ---
-order: 9
+order: 2
 title: "Project Firewalker"
+parent: "early-dlc"
 ---
 
 **Project Firewalker:**

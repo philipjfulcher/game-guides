@@ -1,7 +1,6 @@
 ---
 order: 1
 title: "Dossier: Tali"
-automatic: "true"
 --- 
 **Dossier: Tali:**
 

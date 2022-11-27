@@ -169,7 +169,6 @@ export async function getSubSteps(actId: string, stepId: string): Promise<Step[]
 
 export async function getCurrentStep(): Promise<{actId: string, stepId: string}> {
   const lastCreatedStepEntry = await prisma.completedStep.findFirst({orderBy: {createdAt: 'desc'}});
-  console.log({lastCreatedStepEntry});
   if(lastCreatedStepEntry) {
     const act = await getAct(lastCreatedStepEntry.actId);
 
@@ -180,8 +179,9 @@ export async function getCurrentStep(): Promise<{actId: string, stepId: string}>
 
       return {actId: nextAct.id, stepId: orderedSummaries[0].id};
     } else {
-      const lastCompletedStepIndex = act.stepSummary.findIndex(summary => summary.id === lastCreatedStepEntry.stepId);
-      const nextStepId = act.stepSummary[lastCompletedStepIndex+1].id;
+      const orderedSummaries = act.stepSummary.sort((a, b) => a.order - b.order);
+      const lastCompletedStepIndex = orderedSummaries.findIndex(summary => summary.id === lastCreatedStepEntry.stepId);
+      const nextStepId = orderedSummaries[lastCompletedStepIndex+1].id;
       const nextStep = await getStep(act.id,nextStepId, false);
 
       return {actId: act.id, stepId: nextStep.id};
@@ -190,7 +190,9 @@ export async function getCurrentStep(): Promise<{actId: string, stepId: string}>
 
   } else {
     const firstAct = await getAct('01');
-    const firstStep = firstAct.stepSummary[0];
+    const orderedSummaries = firstAct.stepSummary.sort((a, b) => a.order - b.order);
+
+    const firstStep = orderedSummaries[0];
 
     return { actId: firstAct.id, stepId: firstStep.id};
   }
