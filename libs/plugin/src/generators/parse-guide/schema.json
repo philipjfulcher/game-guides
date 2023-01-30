@@ -1,17 +1,19 @@
 {
   "$schema": "http://json-schema.org/schema",
   "cli": "nx",
-  "$id": "data-loader",
+  "$id": "ParseGuide",
+  "title": "",
   "type": "object",
   "properties": {
-    "name": {
+    "file": {
       "type": "string",
-      "description": "Library name",
+      "description": "file to parse",
       "$default": {
         "$source": "argv",
         "index": 0
-      }
+      },
+      "x-prompt": "What file would you like to parse?"
     }
   },
-  "required": ["name"]
+  "required": ["file"]
 }

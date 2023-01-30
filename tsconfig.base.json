@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@mass-effect/data": ["libs/data/src/index.ts"],
-      "@mass-effect/data-steps": ["libs/data-steps/src/index.ts"]
+      "@mass-effect/data-steps": ["libs/data-steps/src/index.ts"],
+      "@mass-effect/plugin": ["libs/plugin/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

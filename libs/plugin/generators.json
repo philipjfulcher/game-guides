@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "plugin",
+  "version": "0.0.1",
+  "generators": {
+    "parse-guide": {
+      "factory": "./src/generators/parse-guide/generator",
+      "schema": "./src/generators/parse-guide/schema.json",
+      "description": "parse-guide generator"
+    }
+  }
+}

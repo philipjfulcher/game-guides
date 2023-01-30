@@ -1,0 +1,2518 @@
+<>---------------------------------------------------------------------------<>
+ ____ _____ ____            ____  _
+|  _ \___ /|  _ \          | __ )| |_   _  ___
+| |_) ||_ \| |_) |  _____  |  _ \| | | | |/ _ \
+|  __/___) |  __/  |_____| | |_) | | |_| |  __/
+|_|  |____/|_|             |____/|_|\__,_|\___|
+
+ ____   ___  __  __ ____  _        ____       _     _
+|  _ \ / _ \|  \/  / ___|| |      / ___|_   _(_) __| | ___
+| |_) | | | | |\/| \___ \| |     | |  _| | | | |/ _` |/ _ \
+|  _ <| |_| | |  | |___) | |___  | |_| | |_| | | (_| |  __/
+|_| \_\\___/|_|  |_|____/|_____|  \____|\__,_|_|\__,_|\___|
+
+
+Persona 3 Portable – Round One Maximum Social Links Guide (Male’s version)
+
+By Penguin Knight
+
+Version 1.1 (2010)
+
+<>---------------------------------------------------------------------------<>
+ _____                             _
+|   __|___ ___ ___ _ _ _ ___ ___ _| |
+|   __| . |  _| -_| | | | . |  _| . |
+|__|  |___|_| |___|_____|___|_| |___|
+
+This guide is translated and written by Penguin Knight.
+
+I have gathered, translated, interpreted, and typeset this written guide for
+players who do not understand Japanese but are interested in understanding how
+to maximize all the social links in Persona 3 Portable (P3P) within the first
+game play.
+
+Here are some warnings before you read on.
+
+- This guide is highly restrictive. Nearly all actions, including time to
+  clear each dungeon, is laid out for you. Deviation is discouraged.
+
+- Keep periodic backups, in case you may miss some links.
+
+--Reference------------------------------------------------------------------<>
+
+Most of the data are taken from the following Japanese sources:
+
+  http://p3psp.gkwiki2.com/
+  http://alphawiki.net/p3p/
+
+For other data in P3P, I referred to the Japanese complete guide:
+
+  Title:     Persona 3 Portable Official Perfect Guide
+  Publisher: Enter Brain
+  ISBN:      4047262935
+  Price:     1,785 Yen (Tax included)
+
+As usual, Enter Brain delivers another very useful guide. I highly recommend
+this guide to players who understand Japanese.
+
+--Disclaimer-----------------------------------------------------------------<>
+Copyright (C) 2010 Penguin Knight. All rights reserved.
+
+Persona 3 Portable and all its related terms and story belong to Atlus Co.
+All trademarks and copyrights contained in this document are owned by their
+respective trademark and copyright holders.
+
+You may not copy or reproduce any content of this guide except for personal
+and private use.
+
+This game involves status increase that incorporates random events. I am not
+responsible for any consequence to the user's game progress, game save, or any
+other loss.
+
+--Contacts ------------------------------------------------------------------<>
+Inquiries and questions can be sent to my e-mail:
+
+  doughnutpond(at)hotmail.com
+
+To facilitate my response, please state the version of Persona you play in the
+subject line like this:
+
+“P3P Male:   Trouble with Hierophant” OR
+“P3P Female: Trouble with Hierophant” OR
+  “P4:         Trouble with Hierophant” OR
+  “P3Fes:      Trouble with Hierophant”, etc.
+
+This little work can save me a lot of time. Thanks for following this advice.
+
+<>---------------------------------------------------------------------------<>
+ _____         _           _
+|     |___ ___| |_ ___ ___| |_ ___
+|   --| . |   |  _| -_|   |  _|_ -|
+|_____|___|_|_|_| |___|_|_|_| |___|
+
+FAQs....................................................................[47NB3]
+
+Social link mechanism...................................................[XENQT]
+
+Important things to know before starting [!!!MUST READ!!!]..............[UD8V0]
+
+Schedule................................................................[2PXX9]
+
+Revision history........................................................[H37KJ]
+
+How can I support Penguin Knight?.......................................[RFVWT]
+
+
+<>[47NB3]--------------------------------------------------------------------<>
+ _____ _____ _____
+|   __|  _  |     |
+|   __|     |  |  |
+|__|  |__|__|__  _|
+               |__|
+
+Q: I am using female MC, can I use this guide?
+A: No, the structure of social links are different between the male and the
+   female MCs.
+
+Q: What is social link?
+A: In P3P, you can interact with some characters who represent different
+   Arcana. By talking to them and choosing responses correctly, they will like
+   you more, leading to the growth of the relationship. We call this growth a
+   ranking up event for the social link. In P3P, there are 22 social links.
+
+Q: What do I get from ranking up a social link?
+A: Each persona belongs to one of the 22 Arcana. The social links provide
+   bonus EXP to the persona in the same Arcana extra EXP during fusion, giving
+   the player some edge in battles.
+
+   When a social link is maxed (i.e. reaching rank 10), the social link
+   character will present you a special item which unlocks an ultimate persona
+   in the corresponding arcana.
+
+Q: What do I get from maxing all the social links in one game play?
+A: You will unlock a special persona.
+
+Q: What this guide is and is not?
+A: This guide provides an introduction to the social links only. It is not a
+   story guide. There is also no battle-related information. Players having
+   trouble with a boss should consult the complete walkthrough of P3 FES.
+
+Q: Does this guide contain spoiler?
+A: The only spoilers you’ll get are the names and locations of the social
+   links, who will be a potential lovers, and some special events on the
+   calendar.
+
+Q: How should I use this guide?
+A: If you are new to Persona 3, read the social link mechanism section.
+   Regardless if you’re new or experienced, read the “Important things”
+   section before starting. There are many details I do not repeat in the
+   schedule section, those will be explained in the “Important things”.
+
+<>[XENQT]--------------------------------------------------------------------<>
+ _____         _           _
+|     |___ ___| |_ ___ ___|_|___ _____
+| | | | -_|  _|   | .'|   | |_ -|     |
+|_|_|_|___|___|_|_|__,|_|_|_|___|_|_|_|
+
+You may skip this section if you are experienced with Persona 3, Person 3 FES,
+or Person 4.
+
+Social link is one of the main attractions of the P3 and P4 series. It allows
+player to develop more deeply with the Non-player characters (NPCs) through
+individualized story and conversation. Some social links will even become
+lovers of the main character. You may have multiple lovers. Unlike other
+love simulation game, P3 does not penalize you for being too generous in giving
+love.
+
+Every social link requires an initiation. Some of them will start
+automatically, some of them require you to start by talking to the social
+links. You will find the initiation details in the next section.
+
+There are basically three type of progression: automatic, manual, and semi-
+auto. Automatic links rank up when you go through the story. They do not
+require meetings (e.g. Fool & Judgment). Manual links have a fixed schedule
+of availability which you’ll need to study and come up with an optimized
+time table to meet with all of them. During the meeting, you will need to talk
+to them and choose the most favorable options in order to advance the
+relationship. It is difficult to juggle all these links together, and this is
+what this guide is intended to help. Semi-auto links divide into two types:
+ones that does not care about what conversational options you pick and will
+always rank up (e.g. Devil, Moon, Sun); and ones that actively schedule
+meeting with you (e.g. Fortune). Both of these are relatively easier to max.
+
+The social links also happen in different times. Some of them can be started
+very early in the game, some very late. On a day-to-day basis, some are only
+available during the day time, and some night time. Meetings with social
+link consumes time and will cause the time sequence to advance.
+
+Ranking up is based on a point system. Once the point limit is reached, the
+next meeting will be a ranking up event. For instance, during the initiation
+conversation (getting to rank 1), you have accumulated 15 points by talking.
+If the next rank (rank 2) requires 10 points to advance, then your next
+meeting will be a ranking up event. During the ranking up event, you’ll also
+talk to the social link and then see a very rewarding tarot card screen,
+congratulating you on the ranking up. Although the card comes after the talk,
+those conversation points you just got on the day will be attributed to rank 3,
+not rank 2. The fact that you are ranking up to 2 is because of the things you
+said on the initiation day, not that on today. This means it is what you said
+before that matters, not what you said during the ranking event. The extra 5
+points (15 – 10 = 5) WILL NOT be carried over.
+
+What if rank 2 actually needs 20 points? Then in the next meeting, it will
+be a “spending time” event. There will be no conversation, you’ll just be
+informed that you spent time with the social link. This type of event grants
+you 10 points. After this spend time event, you now have 25 points, this means
+you will see ranking up event in the next meeting.
+
+There are also other ways to score points. For instance, you can promise a
+date with the social link over the phone (+15 points). During the date, you can
+give the social link a gift (At max +50 points). Also, you can draw an oracle
+at the shrine with a certain social link in your mind (+10 points). Time to
+time, you can also walk your dog at night, during which sometimes you may meet
+a social link with whom you can start a conversation (+15 points).
+
+There are ways to speed up the advancement:
+
+- Pick the best answers to rip the most points. Sometimes you will see some
+  musical notes popping up during the conversation, the more notes, the happier
+  they are with your answer. Strive for the most notes. However, there are
+  sets of response among which none gives any point.
+
+- Bring a matching persona with you when meeting the social link. Doing so
+  grants you a modifier of x1.51 to all points. Using the above case as an
+  example. If you have a matching persona, you would have got 22 points (15 *
+  1.51 = 22.65, always round down). Since 22 > 20, you would be able to skip
+  one “spend time” event, and instead get a ranking up event!
+
+- Maximizing your charm to rank 6 grants you another modifier of 1.51. So, you
+  can get boost up your point bonus modifier to 2.28 times with a matching
+  persona.
+
+In Persona 3, some social links will get upset if you have not scheduled a
+meeting with them for more than a fixed amount of time. This system does not
+exist in P3P. There are three links that will get reversed or broken (two for
+male MC, one for female), they are all caused by picking the wrong answer.
+
+Also, there is no deduction of social link point even you have picked an
+answer they dislike. Refusing their invitation of going out for a date will
+not cause any adverse effect.
+
+As I have mentioned, some social links can be developed into a love relation.
+In P3P, you can choose to either become their friend or lover. Picking either
+of them will not affect the EXP bonus or the special persona unlock items.
+The good thing of having a lover is that you can have a partner to celebrate
+major holidays, and in the second playthrough, you will also get to see some
+special “couple endings” with the maxed lover social links. Having multiple
+lovers is permitted in P3P. To see all the special endings, you are advised
+to make all of the candidates your lovers. This guide is written so that all
+of them will become lovers, if you do not wish to do so, feel free to deviate
+from the suggested answers when you see “Lover flags” or “to lover” and opt
+for those indicated as “to friend”.
+
+This is the basic of the social links. Please proceed to the next section for
+a more in-depth discussion of the links and the general tactics of the
+maximization.
+
+<>[UD8V0]--------------------------------------------------------------------<>
+
+                !!READ THE FOLLOWING SECTON BEFORE YOU START!!
+
+                !!READ THE FOLLOWING SECTON BEFORE YOU START!!
+
+                !!READ THE FOLLOWING SECTON BEFORE YOU START!!
+
+ _____                   _           _      _____     _
+|     |_____ ___ ___ ___| |_ ___ ___| |_   |   | |___| |_ ___ ___
+|-   -|     | . | . |  _|  _| .'|   |  _|  | | | | . |  _| -_|_ -|
+|_____|_|_|_|  _|___|_| |_| |__,|_|_|_|    |_|___|___|_| |___|___|
+            |_|
+
+--Introduction --------------------------------------------------------------<>
+
+Hi! Welcome to yet another crazy ROMSL walkthrough. If you are new to this
+ROMSL business, please accept my apology in advance because you will
+eventually hate me: this walkthrough is very restrictive and if you like
+playing a game by exploration on yourself, you are advised to only get a gist
+of this guide and then come up with your own schedule.
+
+This guide, when done, will achieve the following: Maxing all social links
+with all lovers relations established, providing adequate dates to visit the
+Tartarus to finish all optional quests and rescue the lost people, attending
+all summer movie festivals, and reviving a special character who dies during
+the story.
+
+--Matching persona ----------------------------------------------------------<>
+
+Having a matching persona provides a 1.51 bonus multiplier to the points. Thus,
+it is extremely important that you have a matching persona all the time. Most
+links do not need this bonus before rank 2, but for safety you should always
+bring one.
+
+This walkthrough assumes that you always have a matching persona during the
+following activities:
+
+- Attending a meeting with a social link
+- Drawing an oracle at the shrine for a social link
+- Getting a phone call from a social link
+- Going out for a walk at night and meet with the corresponding social link
+- Going to movie festivals and other activities with a social link
+
+In short, keep a complete set of persona with you that cover the active social
+links.
+
+A couple social links do not require a matching persona due to their semi-
+automatic nature. The links are:
+
+- Devil
+- Sun
+
+All the required points for ranking up are zero for these two links. Which
+means regardless what you say, you will still see a ranking up event next time.
+
+There are many times you may miss a matching persona. Here are some occasions
+and suggestions for you:
+
+After a night of adventure in Tartarus: Players may often get too many
+personae or get out-powered by the enemies so that they need to fuse some new
+personae. At the end of the night, the line up may be very different from the
+original. To avoid this situation, revise your line up before you leave
+Tartarus so that you will have the right personae for the upcoming few days.
+
+Big vacation: When there is a big vacation, read ahead and see what personae
+you’ll need during and AFTER the vacation. Most of the time, you may have a
+meeting right after a vacation without having a matching persona. So, when
+you see a big block of event, read further ahead.
+
+Sunday date and movie date: Those dates happen right after you wake up and
+you will not get a chance to rearrange your persona line up. Make sure the
+night before that you have the matching persona for the upcoming date.
+
+Walk at night: Walking at night with your dog, Koromaru, will grant points to
+its social link, Strength. So, remember to bring a Strength persona. On top
+of that, if you know that you will meet another social link during the walk,
+prepare that matching persona as well, or you’ll miss the bonus.
+
+Here is a list of persona with the lowest level in each Arcana for your
+reference:
+
+Lv 05 Magician Nekomata
+  Apsaras X Pixie
+  Omoikane X Pixie
+
+Lv 04 Priestess Apsaras
+  Orpheus X Pixie
+
+Lv 33 Leanan Sidhe
+  Slime X Yatagarasu
+  Valkyrie X Jack Frost X Aramitama
+
+Lv 07 Emperor Forneus
+  Orpheus X Aramitama
+  Nekomata X Pixie
+
+Lv 07 Hierophant Omoikane
+  Orpheus X Nekomata
+  Nekomata X Angel
+
+Lv 02 Lovers Pixie
+  Alp X Narcissus
+
+Lv 06 Chariot Aramitama
+  Orpheus X Forneus
+  Apsaras X Omoikane
+
+Lv 04 Justice Angel
+  Orpheus X Apsaras
+
+Lv 09 Hermit Yomotsu Shikome
+  Orpheus X Omoikane
+  Forneus X Aramitama
+
+Lv 17 Fortune Fortuna
+Yomotsu Shikome X Inugami
+Yomotsu Shikome X Valkyrie
+
+Lv 11 Strength Valkyrie
+  Apsaras X Yomotsu Shikome
+  Pixie X Lilim
+
+Lv 10 Hanged man Inukami
+  Forneus X Valkyrie
+  Aramitama X Lilim
+
+Death: No need
+
+Lv 12 Temperance Nigimitama
+  Nekomata X Forneus
+  Jack Frost X Lilim
+
+Devil: No need
+
+Lv 31 Tower Eligor
+  Orpheus X Apsaras X Lilim
+  Nekomata X Aramitama X Prinicpality
+
+Lv 19 Star Neko Shogun
+  Jack Frost X Lilim X Pixie/Alp
+  Unicorn X Gurr
+
+Lv 15 Moon Gurr
+  Nigimitama X Arc Angel
+
+Sun: No need
+
+Judgment: No need
+
+Lv 63 Aeon Uriel
+  Ose X Kaiwan
+  Loki X Garuda
+
+--Academic, Charm, and Courage ----------------------------------------------<>
+
+Based on a lot of actions in the game, the player can level up the three
+parameters of the protagonist. The three parameters are Academic, Charm, and
+Courage. The parameters start at Rank 1, and maxed at Rank 6.
+
+Some initiations of social link have a requirement on the parameter levels. In
+order to start the social links as early as possible, raising these three
+statistics are of the first priority early in the game. In addition, there are
+other benefits. For instance, a bonus multiplier of 1.51 will be applied if
+the Charm is maxed. Combining with the matching persona, the effect will go up
+to 2.28 times!! Having high Academic also allows you to score higher in the
+tests and exams, leading to getting some good rewards from Mitsuru.
+
+In this walkthrough, these are the most common active ways of increasing the
+three statistics:
+
+Academic:
+Arcade: Quiz - This night time activity gives a whopping +4, but it costs 3000
+  yen a game. So, save up in Tartarus.
+Class – Keep listening to the teacher without falling asleep gets +2.
+Study (weekday) – Studying in your own room on a weekday grants 2 points. But
+  only if you are not tired nor sick, otherwise no point.
+Study (holiday) – Studying in your own room on a weekend grants 4 points if
+  you are with normal status or above; otherwise, 2 points.
+Movie – Watching movie that inspired intellectual thoughts grants you +4.
+
+Charm:
+Arcade: Photo sticker – This night time activity gives a whopping +4, but it
+  costs a lot as well (1500 yen).
+Coffee – Pay 500 yen to drink a coffee at night grants +2.
+Give correct answer in class – Being smart pays you off with a +2.
+Movie – Watching a romantic movie gets you a +4.
+
+Courage:
+Arcade: Horror – This virtual reality game trains your courage by granting a
+  +4. As other arcade game, it costs an arm to play (3000 yen).
+School clinic – When you are tired or sick, visit the school clinic and drink
+  some specially made medicine. The smell and taste are so weird that your
+  courage raises by 2. In this walkthrough, save/reload is often used to
+  sustain the tired status so that the protagonist can visit the clinic for
+  many days.
+Movie – Watching hero and action movie grants you a +4.
+
+The most challenging part is at the beginning, where arcade games are used a
+lot while money runs low. It is important to save up enough money to support
+this luxurious style until the next visit to Tartarus.
+
+Also at the beginning, we will need to exploit the fatigue we get after
+visiting the Tartarus by lengthening the negative health effect as long as
+possible, so that we can enjoy more medicine at the school clinic, granting
+more Courage bonus. To do so, fight in Tartarus until you got a message saying
+you start to have fatigue. The on the next day, visit the school clinic and
+drink the medicine. On that night, do some night activity, then study. Do not
+rest early. Use save/load technique until you got the message saying the
+fatigue is continuing. Repeat this sequence in this order:
+
+  Fatigue > Fatigue continues > Cold > Cold does not recover
+
+Doing so will grant a lot more free Courage points.
+
+--About the social links ----------------------------------------------------<>
+Here is the list of the social links in the order of their earliest date of
+initiation in this walkthrough.
+
+4/20 Fool – SEES
+ This whole link advances by itself.
+
+4/23 Magician – Tomochika Kenji
+ Junpei is in the classroom 2-F. Available on Tue, Thu, Fri day time.
+
+4/24 Chariot – Miyamoto Katzushi
+ You have until 5/26 to actively join the sport club. On 5/27 if you still have
+ not joined one, you will be forced to. Choosing which club does not matter.
+ Miya is in the corridor outside classroom 2-F. Available on Mon, Tue, Thu, Fri
+ day time.
+
+4/25 Hierophant – Bunkichi & Mitsuko
+ They own the bookstore at Iwatodai, which will open on 4/25. Available on
+ Tue, Wed, Thu, Fri, Sat, Sun day time.
+
+ Notice that Bunkichi will be one of the victims getting lost in Tartarus. You
+ can read about his missing on 9/12 at the police station. By 10/4 you have to
+ rescue him on 120/F or this social link will stop.
+
+4/27 Emperor – Student Council
+ On 4/27 Mitsuru will appoint you to serve in the student council. The council
+ meets on Mon, Wed, Fri. The entrance is on the 2/F of the school day time.
+
+4/29 Hermit – Maya
+ Available on Sun or holiday. Accessible through the laptop at room.
+
+4/30 Strength – Nishiwaki Yuko
+ * Flag: Invite her to walk together after Ranks 2 and 3 of Chariot.
+ Yuko is available on Wed, Sat day time.
+
+5/6 Temperance – Exchange student
+ * Need Academic Rank 2.
+ * Flag: need to meet with the student during Hierophant Rank 3 event.
+ The student is in the club room accessible from the 2/F corridor. He is
+ available on Tue, Wed, Fri day time.
+
+5/6 Hanged man – Maiko
+ * Flag: before the date, you will need to meet Maiko first with a Mad Bull
+         in your hand (Buy it in advance). She will invite you to have roasted
+         octopus with her, and then say she is feeling thirsty. Present her
+         the Mad Bull. Come back on 5/6 or later to initiate the link.
+ She is at the park next to the shrine, available on Mon, Wed, Sat day time.
+
+ Notice that Maiko will be one of the victims getting lost in Tartarus. You
+ can read about her missing on 10/21 at the police station. By 11/3 you have to
+ rescue her on 149/F or this social link will stop.
+
+5/7 Justice – Fushimi Chihiro
+ * Need Emperor Rank 1 or above
+ * Flag: Talk to Chihiro on three separate days. Talk again on the fourth day.
+ She is available on Tue, Thu, Sat day time.
+
+5/14 Tower – Mutatsu
+ * Need Courage Rank 4
+ * Flag: When Strength reaches rank 4, talk to Yuko and she will tell you about
+         a drinking monk. Then on 5/14, visit the bar at the mall. Finish the
+         order for the bar tender, then talk to the monk.
+ The monk is available on Thu, Fri, Sat, Sun night time.
+
+5/23 Devil – Shopping channel host
+ * Need Charm Rank 2
+ * Flag: Talk to Hermit after Rank 4 and learn about this host. Then visit him
+   at the mall and pay him, on three different days, 20000, 10000, and 10000
+   yen.
+ He is available on Tue, Sat night time.
+
+6/12 Death – Mysterious boy
+ This link is automatic.
+
+6/15 Priestess – Yamagishi Fuuka
+ * Need Fortune Rank 1 or above
+ * Need Courage Rank 6 (maxed)
+ She is available on Mon, Fri, Sat day time.
+
+6/17 Fortune – Hiraga Keisuke
+ Join the culture club. Hiraga is available on Tue, Wed, Thu day time. The
+ choice of club does not matter.
+
+7/13 Moon – Suemitsu Nozomi
+ * Need Magician Rank 4
+ * Need Charm Rank 2
+ * Need item Odd Morsel
+ Nozomi is available at the mall every day except Thu.
+
+7/25 Lover – Takeba Yukari
+ * Need Charm Rank 6 (maxed)
+ Yukari is in the classroom 2-F. Available on Mon, Wed, Thu, Sat day time.
+
+8/9 Sun – Kamiki Akinari
+ * Need Academic Rank 4
+ * Flag: Learn about this social link during Hanged man rank 4 event. Then
+         on any Sunday, come talk to Akinari and learn about his loss of a
+         red fountain pen. After Koromaru joins force, talk to Koromaru at
+         night and recover the pen. Take the pen to Akinari to start the
+         link.
+ He is available on Sun, day time.
+
+8/26 Star – Hayase Mamoru
+ * Need Courage Rank 4
+ Mamoru sits outside the bookstore at Iwatodai.
+
+11/21 Empress – Kirijo Mitsuru
+ * Need Academic Rank 6 (Maxed)
+ She is available on Tue, Thu, Sat day time at the school, 1/F in front of
+ the staff room.
+
+12/31 Judgment – SEES
+ This link is automatically initiated. It ranks up according to how many
+ floors you have advanced in the final dungeon.
+
+1/8 Aeon – Aigis
+ She is available on Mon, Wed, Fri, Sat in classroom 2-F.
+
+<>[2PXX9]--------------------------------------------------------------------<>
+ _____     _         _     _
+|   __|___| |_ ___ _| |_ _| |___
+|__   |  _|   | -_| . | | | | -_|
+|_____|___|_|_|___|___|___|_|___|
+
+--How to read this schedule -------------------------------------------------<>
+
+A typical day looks like this:
+
+ ><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><
+A: 6/30, Tue
+B: Notes for today: From this day and on, you'll have a 1.51 times
+   bonus on all social link due to maxed charm.
+C: Day time: Magician 07
+D: Best answers: 1>3>1
+E: Points required for next rank: 22
+F: Points got today: 15/21/33
+G: Night time: Devil 02
+H: Best answers: 1>A
+I: Points required for next rank: 0
+J: Points got today: 20/29/45
+><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><
+
+A: The date and day of the week
+
+B: This is a “read me” for the day. Make sure to go through them carefully.
+
+C: Suggested day time activity. Before starting, make sure you have the
+   matching persona if it is a social link meeting.
+
+D: Suggested best answer for the day time social link.
+
+E: Points needed for this link to advance in the next meeting.
+
+F: Points you can get if you (i) have no matching persona, (ii) have maxed
+   charm OR a matching persona, and (iii) have both maxed charm and a
+   matching persona. Using this number, you can decide if you need a matching
+   persona that day. For instance, in this case, the point needed for next
+   level is zero, so it doesn’t matter if you have not got a matching
+   persona.
+
+G-J: Same for C-F, but for night time activity.
+
+<>---------------------------------------------------------------------------<>
+4/8, Wed
+Morning class: Ans: 2 for NA, 3 for JPN
+Day time: No action allowed
+Night time: No action allowed
+<>---------------------------------------------------------------------------<>
+4/20, Mon
+Morning class: Ans: 1
+Day time: No action allowed
+Night time: No action allowed
+<>---------------------------------------------------------------------------<>
+4/22, Wed
+Day time: Movie
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+4/23, Thu
+Notes for today: When exploring Tartarus, save about 50,000 yen during
+  the Tartarus exploration to cover the upcoming arcade visits. Also,
+  get as many different personas as you can. If you found an “odd
+  morsel” from the chest, keep one, don't sell them all.
+Day time: Magician 01
+Best answers: -
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+4/24, Fri
+Notes for today: Visit school clinic today before the day-time social
+link. Save before the night-time activity, and reload until the
+message says your fatigue continues.
+Day time: Chariot: 01
+Best answers: -
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+4/25, Sat
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue worsens into sickness.
+Day time: Hierophant 01
+Best answers: -
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+4/26, Sun
+Notes for today: Save before the night-time activity, and reload until
+  the message says your sickness continues.
+Day time: Hierophant 02
+Best answers: 1>1>A>A>A
+Points required for next rank: 0
+Points got today: 20/29/45
+Night time: Coffee
+<>---------------------------------------------------------------------------<>
+4/27, Mon
+Morning class: Ans: 2
+Notes for today: Visit school clinic today before the day-time social
+  link.
+Day time: Emperor 01
+Best answers: -
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+4/28, Tue
+Notes for today: Today, a few important “flags” (prerequisites for
+  social links) will happen. (1) Justice: After school, head out to
+  the corridor and talk to Chihiro, tell her that “you want to talk”
+  to her. She will refuse, but that's fine. You've finished this flag.
+  (2) Invite Yuko to walk with you after the Chariot meeting. She will
+  refuse, that’s fine. (3) Talk to Junpei at night for Hermit link.
+Day time: Chariot: 02
+Best answers: 2>A>A
+Points required for next rank: 0
+Points got today: 5/7/11
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+4/29, Wed
+Day time: Hermit 01
+Best answers: -
+Night time: Hermit 01 (cont.)
+<>---------------------------------------------------------------------------<>
+4/30, Thu
+Notes for today: Justice flag #2: Right after school, head out to the
+  corridor and talk to Chihiro, tell her that you're “also a male”.
+  Strength is going to start today after Chariot, invite Yuko to walk
+  with you.
+Day time: Chariot: 03; Strength: 01
+Best answers: 2>1
+Points required for next rank: 15
+Points got today: 10/14/22
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+5/1, Fri
+Day time: Hospital visit
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/2, Sat
+Notes for today: Justice flag #3: Right after school, head out to the corridor
+  and talk to Chihiro. Just say "Hello" to her, and suggest "let's go out".
+  Quest: Talk to Yukari tonight for the quest item.
+Day time: Strength 02
+Best answers: 1>1>1
+Points required for next rank: 0
+Points got today: 25/36/56
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/3, Sun
+Day time: Hermit 02
+Best answers: 1>2
+Points required for next rank: 0
+Points got today: 20/29/45
+Night time: Hermit 02 (cont.)
+<>---------------------------------------------------------------------------<>
+5/4, Mon
+Notes for today: If you found an “odd morsel” from the chest, keep
+  one, don't sell them all.
+Day time: Arcade: Photo sticker
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+5/5, Tue
+Notes for today: Buy a “Mad Bull” at the dorm vending machine. Save
+  before the night-time activity, and reload until the message says
+  your fatigue continues.
+Day time: Hierophant 03
+Best answers: 1>2>A>A>A>A
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/6, Wed
+Morning class: Ans: 2
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue worsens into sickness.
+Day time: Strength 03
+Best answers: 1>A>1
+Points required for next rank: 15
+Points got today: 15/21/33
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/7, Thu
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your sickness continues.
+Day time: Justice 01
+Best answers: -
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+5/8, Fri
+Notes for today: Visit school clinic today before the day-time social
+  link.
+Day time: Magician 02
+Best answers: 2/3>1/3
+Points required for next rank: 0
+Points got today: 10/14/22
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/9, Sat
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+5/10, Sun
+Notes for today: Today the Persona Compendium is unlocked.  Save
+  before the night-time activity, and reload until the message says
+  your fatigue continues.
+Day time: Hermit 03
+Best answers: 1>1
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Hermit 03 (cont.)
+<>---------------------------------------------------------------------------<>
+5/11, Mon
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue worsens into sickness.
+Day time: Emperor 02
+Best answers: 2
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+5/12, Tue
+Notes for today: Save before the night-time activity, and reload until
+  the message says your sickness continues.
+Day time: Magician 03
+Best answers: 3>2
+Points required for next rank: 15
+Points got today: 20/29/45
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/13, Wed
+Morning class: Ans: 3
+Notes for today: Visit school clinic today before the day-time social
+  link.
+Day time: Emperor 03
+Best answers: A
+Points required for next rank: 0
+Points got today: 5/7/11
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/14, Thu
+Notes for today: Quest: Talk to Junpei tonight for the quest item
+Day time: Justice 02
+Best answers: 1>1/2>1
+Points required for next rank: 0
+Points got today: 25/36/56
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+5/15, Fri
+Morning class: Ans: 1
+Day time: Hierophant 04
+Best answers: A>A>2
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/16, Sat
+Day time: Hanged man 01
+Best answers: -
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/17, Sun
+Notes for today: Devil flag #1: Today you learn from Hermit about the
+  Demon social link at the mall (no action needed).
+Day time: Hermit 04
+Best answers: 3
+Points required for next rank: 20
+Points got today: 15/22/34
+Night time: Hermit 04 (cont.)
+<>---------------------------------------------------------------------------<>
+5/18, Mon
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+5/19, Tue
+Morning class: Ans: 4
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+5/20, Wed
+Morning class: Ans: 1
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+5/21, Thu
+Morning class: Ans: 1
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+5/22, Fri
+Morning class: Ans: 3
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+5/23, Sat
+Day time: Strength 04
+Best answers: A>A>2>1
+Points required for next rank: 15
+Points got today: 20/29/45
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/24, Sun
+Day time: Hermit 05
+Best answers: 1/3>1/3
+Points required for next rank: 20
+Points got today: 10/14/22
+Night time: Hermit 05 (cont.)
+<>---------------------------------------------------------------------------<>
+5/25, Mon
+Day time: Emperor 04
+Best answers: A>2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+5/26, Tue
+Notes for today: If you got 10th or above in the exam, talk to Mitsuru
+  today for reward. If you missed her today, she will be available on
+  Tue, Thu, Sat. Remember to claim the award before the next exam or
+  it'll be gone. Quest: Talk to Mitsuru tonight for the quest item.
+Day time: Justice 03
+Best answers: 1>1
+Points required for next rank: 22
+Points got today: 10/14/22
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/27, Wed
+Day time: Temperance 01
+Best answers: -
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/28, Thu
+Notes for today: Moon flag: Talk to Kenji and he will tell you about
+  the Moon social link.
+Day time: Magician 04
+Best answers: A>1
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+5/29, Fri
+Day time: Temperance 02
+Best answers: A>1
+Points required for next rank: 0
+Points got today: 20/29/45
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+5/30, Sat
+Notes for today: Demon flag #3: Talk to Tanaka and give him 10000 yen
+  tonight at the Mall. Tower flag: Enter to club tonight and talk to
+  the monk. Then help the bar tender finish his orders. Afterward,
+  bring the drink to the monk to initiate Tower.
+Day time: Strength 05
+Best answers: A>1>A
+Points required for next rank: 22
+Points got today: 10/14/22
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+5/31, Sun
+Notes for today: Today you may date Justice, but if you want to do TV
+  shopping, you may replace it with oracle draw. If you found an “odd
+  morsel” from the chest, keep one, don't sell them all.
+Day time: Date: Justice
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+6/1, Mon
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue continues.
+Day time: Emperor 05
+Best answers: 1
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/2, Tue
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue worsens into sickness.
+Day time: Justice 04
+Best answers: A>2
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+6/3, Wed
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your sickness continues.
+Day time: Temperance 03
+Best answers: A>3
+Points required for next rank: 15
+Points got today: 20/29/45
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/4, Thu
+Notes for today: Visit school clinic today before the day-time social
+  link.
+Day time: Justice 05
+Best answers: 1>1>1>1
+Points required for next rank: 22
+Points got today: 40/58/90
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/5, Fri
+Day time: Temperance 04
+Best answers: 3>A
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+6/6, Sat
+Day time: Justice 06
+Best answers: 1>2
+Points required for next rank: 30
+Points got today: 20/29/45
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/7, Sun
+Day time: Oracle: Chariot
+Night time: Coffee
+<>---------------------------------------------------------------------------<>
+6/8, Mon
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+6/9, Tue
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue continues.
+Day time: Chariot: 04
+Best answers: A>2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Virtual horror
+<>---------------------------------------------------------------------------<>
+6/10, Wed
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your fatigue worsens into sickness.
+Day time: Temperance 05
+Best answers: 1>2
+Points required for next rank: 15
+Points got today: 10/14/22
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/11, Thu
+Notes for today: Visit school clinic today before the day-time social
+  link. Save before the night-time activity, and reload until the
+  message says your sickness continues.
+Day time: Chariot: 05
+Best answers: 1>1
+Points required for next rank: 15
+Points got today: 20/29/45
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/12, Fri
+Notes for today: Visit school clinic today before the day-time social
+  link, your courage should be maxed. So, refuse to drink the medicine
+  and get an item from the doctor. Keep that item, it'd be needed for
+  a Velvet Room quest later.
+Day time: Magician 05
+Best answers: 2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Coffee
+<>---------------------------------------------------------------------------<>
+6/13, Sat
+Notes for today: Stock up some Yawn-be-gone (max 3) today at the
+  school.
+Day time: Hanged man 02
+Best answers: 1>A>A
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/14, Sun
+Day time: Oracle: Justice
+Night time: Coffee
+<>---------------------------------------------------------------------------<>
+6/15, Mon
+Morning class: Ans: 2
+Day time: Emperor 06
+Best answers: A>1
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/16, Tue
+Notes for today: Quest: Talk to Akihiko tonight for the quest item.
+Day time: Justice 07
+Best answers: 2>2
+Points required for next rank: 30
+Points got today: 10/14/22
+Night time: Coffee
+<>---------------------------------------------------------------------------<>
+6/17, Wed
+Morning class: Ans: 3
+Day time: Fortune 01
+Best answers: -
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/18, Thu
+Day time: Fortune 02
+Best answers: A>A
+Points required for next rank: 0
+Points got today: 5/7/11
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/19, Fri
+Day time: Priestess 01
+Best answers: -
+Night time: Coffee
+<>---------------------------------------------------------------------------<>
+6/20, Sat
+Notes for today: Quest: Talk to Ikutsuki tonight for the quest item.
+Day time: No action allowed
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/21, Sun
+Notes for today: Date with Justice is required today (it can't be
+  replaced with oracle), however, you don't need to give a gift.
+Day time: Date: Justice
+Night time: Study
+<>---------------------------------------------------------------------------<>
+6/22, Mon
+Morning class: Ans: 3
+Day time: Priestess 02
+Best answers: 1
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/23, Tue
+Day time: Justice 08
+Best answers: A>2
+Points required for next rank: 30
+Points got today: 5/7/11
+Night time: Devil 01
+Best answers: -
+<>---------------------------------------------------------------------------<>
+6/24, Wed
+Day time: Emperor 07
+Best answers: 2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/25, Thu
+Morning class: Ans: 1
+Day time: Magician 06
+Best answers: A>1
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/26, Fri
+Day time: Priestess 03
+Best answers: 1>A
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Study
+<>---------------------------------------------------------------------------<>
+6/27, Sat
+Notes for today: Stock up some Yawn-be-gone (max 3) today at the
+  school. Quest: Talk to Fuuka tonight for the quest item.
+Day time: Priestess 04
+Best answers: A>2
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+6/28, Sun
+Day time: Oracle: Strength
+Night time: Study
+<>---------------------------------------------------------------------------<>
+6/29, Mon
+Morning class: Ans: 3
+Day time: Chariot: 06
+Best answers: 2>2>2
+Points required for next rank: 15
+Points got today: 15/21/33
+Night time: Arcade: Photo sticker
+<>---------------------------------------------------------------------------<>
+6/30, Tue
+Notes for today: From this day and on, you'll have a 1.51 times bonus
+  on all social link due to maxed charm.
+Day time: Magician 07
+Best answers: 1>3>1
+Points required for next rank: 22
+Points got today: 15/21/33
+Night time: Devil 02
+Best answers: 1>A
+Points required for next rank: 0
+Points got today: 20/29/45
+<>---------------------------------------------------------------------------<>
+7/1, Wed
+Day time: Strength 06
+Best answers: 2
+Points required for next rank: 22
+Points got today: 5/7/11
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/2, Thu
+Day time: Chariot: 07
+Best answers: 1>1
+Points required for next rank: 22
+Points got today: 20/29/45
+Night time: Tower 01
+Best answers: -
+<>---------------------------------------------------------------------------<>
+7/3, Fri
+Morning class: Ans: 2
+Day time: Priestess 05
+Best answers: 2>A
+Points required for next rank: 30
+Points got today: 20/29/45
+Night time: Tower 02
+Best answers: 2>1
+Points required for next rank: 0
+Points got today: 20/29/45
+<>---------------------------------------------------------------------------<>
+7/4, Sat
+Notes for today: Buy a book cover today at the school shop for
+  tomorrow's date. Also, stock up on Yawn-be-gone.
+Day time: Priestess 06
+Best answers: 1
+Points required for next rank: 30
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/5, Sun
+Notes for today: Give Justice a book cover today during the date.
+  Tonight is the last night you can fetch an “odd morsel” from the
+  chest at Tartarus. You'll need this item to initiate a social link
+  next week.
+Day time: Date: Justice
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+7/6, Mon
+Notes for today: Use a Yawn-be-gone before studying or you will not
+  get any academic point.
+Day time: Chariot: 08
+Best answers: 2
+Points required for next rank: 22
+Points got today: 5/7/11
+Night time: Study
+<>---------------------------------------------------------------------------<>
+7/7, Tue
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+7/8, Wed
+Morning class: Ans: 2
+Notes for today: Quest: Get quest 66 and feed the cat.
+Day time: Fortune 03
+Best answers: 1>A
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/9, Thu
+Morning class: Ans: 2
+Notes for today: Quest: feed the cat.
+Day time: Justice 09
+Best answers: 1>A>A>1
+Points required for next rank: 40
+Points got today: 15/21/33
+Night time: Tower 03
+Best answers: 2
+Points required for next rank: 25
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+7/10, Fri
+Morning class: Ans: 3
+Notes for today: Quest: feed the cat.
+Day time: Priestess 07
+Best answers: A>A
+Points required for next rank: 35
+Points got today: 0/0/0
+Night time: Tower: Spend time
+<>---------------------------------------------------------------------------<>
+7/11, Sat
+Morning class: Ans: 2
+Notes for today: Quest: feed the cat. Sun flag #1: You'll meet with
+  the Sun social link today when meeting with Hanged man.
+Day time: Hanged man 03
+Best answers: A>3
+Points required for next rank: 20
+Points got today: 5/7/11
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/12, Sun
+Notes for today: Sun flag #2: Talk to Kamiki at the shrine and learn
+  about his missing pen.
+Day time: Oracle: Justice
+Night time: Tower 04
+Best answers: 2
+Points required for next rank: 25
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+7/13, Mon
+Notes for today: Answer the Moon social link “Pheromone Coffee”,
+   “Green”, and “Hagakure Bowl”, then present him an odd morsel.
+Day time: Moon 01
+Best answers: -
+Night time: Study
+<>---------------------------------------------------------------------------<>
+7/14, Tue
+Morning class: Ans: 2
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+7/15, Wed
+Morning class: Ans: 2
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+7/16, Thu
+Morning class: Ans: 2
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+7/17, Fri
+Morning class: Ans: 1
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+7/18, Sat
+Day time: No action allowed
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/19, Sun
+Day time: Oracle: Hermit
+Night time: Tower: Spend time
+<>---------------------------------------------------------------------------<>
+7/20, Mon
+Day time: Vacation
+Night time: Vacation (cont.)
+<>---------------------------------------------------------------------------<>
+7/21, Tue
+Day time: Vacation
+Night time: Vacation (cont.)
+<>---------------------------------------------------------------------------<>
+7/22, Wed
+Day time: Vacation
+Night time: Vacation (cont.)
+<>---------------------------------------------------------------------------<>
+7/23, Thu
+Day time: Vacation
+Night time: Tower 05
+Best answers: 1>2
+Points required for next rank: 25
+Points got today: 20/29/45
+<>---------------------------------------------------------------------------<>
+7/24, Fri
+Day time: Magician 08
+Best answers: 2>1/2
+Points required for next rank: 22
+Points got today: 20/29/45
+Night time: Tower 06
+Best answers: 2>2
+Points required for next rank: 30
+Points got today: 20/29/45
+<>---------------------------------------------------------------------------<>
+7/25, Sat
+Notes for today: If you got 10th or above in the exam, talk to Mitsuru
+  today for reward. If you missed her today, she will be available on
+  Tue, Thu, Sat. Remember to claim the award before the next exam or
+  it'll be gone. Yawn-be-gone on sale today.
+Day time: Justice 10
+Best answers: -
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/26, Sun
+Day time: Hermit 06
+Best answers: 2
+Points required for next rank: 20
+Points got today: 15/22/34
+Night time: Hermit 06 (cont.)
+<>---------------------------------------------------------------------------<>
+7/27, Mon
+Day time: Club activity
+Night time: Study
+<>---------------------------------------------------------------------------<>
+7/28, Tue
+Day time: Club activity
+Night time: Devil 03
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+7/29, Wed
+Day time: Club activity
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+7/30, Thu
+Day time: Club activity
+Night time: Tower: Spend time
+<>---------------------------------------------------------------------------<>
+7/31, Fri
+Day time: Club activity
+Night time: Tower 07
+Best answers: 2
+Points required for next rank: 30
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+8/1, Sat
+Day time: Club activity
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/2, Sun
+Day time: Club activity
+Night time: Tower: Spend time
+<>---------------------------------------------------------------------------<>
+8/3, Mon
+Day time: Hermit 07
+Best answers: 2>A
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Hermit 07 (cont.)
+<>---------------------------------------------------------------------------<>
+8/4, Tue
+Day time: Moon 02
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+8/5, Wed
+Day time: Hanged man: Spend time
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/6, Thu
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+8/7, Fri
+Day time: Hermit 08
+Best answers: 2>1
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Hermit 08 (cont.)
+<>---------------------------------------------------------------------------<>
+8/8, Sat
+Notes for today: Tonight is the last night to talk to Koromaru for
+  the missing fountain pen. You'll need it for Sun social link
+  tomorrow.
+Day time: Hanged man 04
+Best answers: 1/2
+Points required for next rank: 20
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/9, Sun
+Day time: Sun 01
+Best answers: -
+Night time: Tower 08
+Best answers: 1>1/3>A>2
+Points required for next rank: 40
+Points got today: 25/36/56
+<>---------------------------------------------------------------------------<>
+8/10, Mon
+Day time: Summer tutorial
+Night time: Summer tutorial (cont.)
+<>---------------------------------------------------------------------------<>
+8/11, Tue
+Day time: Summer tutorial
+Night time: Summer tutorial (cont.)
+<>---------------------------------------------------------------------------<>
+8/12, Wed
+Day time: Summer tutorial
+Night time: Summer tutorial (cont.)
+<>---------------------------------------------------------------------------<>
+8/13, Thu
+Day time: Summer tutorial
+Night time: Summer tutorial (cont.)
+<>---------------------------------------------------------------------------<>
+8/14, Fri
+Day time: Summer tutorial
+Night time: Summer tutorial (cont.)
+<>---------------------------------------------------------------------------<>
+8/15, Sat
+Day time: Summer tutorial
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/16, Sun
+Day time: Summer festival
+Night time: Summer festival (cont.)
+<>---------------------------------------------------------------------------<>
+8/17, Mon
+Day time: Hermit 09
+Best answers: 2>A>1
+Points required for next rank: 20
+Points got today: 10/14/22
+Night time: Hermit 09 (cont.)
+<>---------------------------------------------------------------------------<>
+8/18, Tue
+Day time: Movie: Temperance
+Night time: Devil 04
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/24
+<>---------------------------------------------------------------------------<>
+8/19, Wed
+Day time: Hanged man 05
+Best answers: 1>2
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/20, Thu
+Day time: Hermit 10
+Best answers: -
+Night time: Hermit 10 (cont.)
+<>---------------------------------------------------------------------------<>
+8/21, Fri
+Day time: Movie: Strength
+Night time: Tower 09
+Best answers: A>A>A
+Points required for next rank: 40
+Points got today: 15/21/33
+<>---------------------------------------------------------------------------<>
+8/22, Sat
+Day time: Hanged man 06
+Best answers: 2/3>1
+Points required for next rank: 30
+Points got today: 20/29/45
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/23, Sun
+Day time: Sun 02
+Best answers: 2>1
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Tower: Spend time
+<>---------------------------------------------------------------------------<>
+8/24, Mon
+Day time: Hanged man 07
+Best answers: A>A
+Points required for next rank: 15
+Points got today: 0/0/0
+Night time: Study
+<>---------------------------------------------------------------------------<>
+8/25, Tue
+Day time: Hierophant 05
+Best answers: 1>A
+Points required for next rank: 20
+Points got today: 10/14/22
+Night time: Devil 05
+Best answers: 2>A>1
+Points required for next rank: 0
+Points got today: 10/14/22
+<>---------------------------------------------------------------------------<>
+8/26, Wed
+Day time: Star 01
+Best answers: -
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/27, Thu
+Day time: Hierophant 06
+Best answers: 2>A
+Points required for next rank: 20
+Points got today: 15/22/34
+Night time: Tower 10
+Best answers: -
+<>---------------------------------------------------------------------------<>
+8/28, Fri
+Day time: Star 02
+Best answers: 2>2
+Points required for next rank: 0
+Points got today: 20/29/45
+Night time: Study
+<>---------------------------------------------------------------------------<>
+8/29, Sat
+Day time: Hanged man: Spend time
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+8/30, Sun
+Day time: Sun 03
+Best answers: 2>2
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Study
+<>---------------------------------------------------------------------------<>
+8/31, Mon
+Day time: Hanged man 08
+Best answers: 1>1>1
+Points required for next rank: 30
+Points got today: 35/51/79
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/1, Tue
+Morning class: Ans: 1
+Day time: Fortune 04
+Best answers: A>1
+Points required for next rank: 15
+Points got today: 20/29/45
+Night time: Devil 06
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+9/2, Wed
+Day time: No action allowed
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+9/3, Thu
+Day time: Lovers 01
+Best answers: -
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+9/4, Fri
+Notes for today: Use a Yawn-be-gone before studying.
+Day time: Priestess: Spend time
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/5, Sat
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+9/6, Sun
+Notes for today: Use a Yawn-be-gone before studying.
+Day time: Star 03
+Best answers: A>A
+Points required for next rank: 20
+Points got today: 10/14/22
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/7, Mon
+Day time: Lovers 02
+Best answers: 1>1
+Points required for next rank: 0
+Points got today: 20/29/45
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/8, Tue
+Day time: Fortune 05
+Best answers: A
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Devil 07
+Best answers: 2>1
+Points required for next rank: 0
+Points got today: 20/29/45
+<>---------------------------------------------------------------------------<>
+9/9, Wed
+Day time: Strength 07
+Best answers: 2>1
+Points required for next rank: 35
+Points got today: 20/29/45
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+9/10, Thu
+Morning class: Ans: 3
+Day time: Lovers 03
+Best answers: A
+Points required for next rank: 15
+Points got today: 0/0/0
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/11, Fri
+Morning class: Ans: 3
+Day time: Priestess 08
+Best answers: A>2
+Points required for next rank: 40
+Points got today: 20/29/45
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/12, Sat
+Day time: Strength 08
+Best answers: A>1/2
+Points required for next rank: 40
+Points got today: 5/7/11
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+9/13, Sun
+Notes for today: You may replace dating with oracle draw if you wish
+  to do TV shopping.
+Day time: Oracle: Lovers
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/14, Mon
+Morning class: Ans: 2
+Day time: Priestess 09
+Best answers: A>A
+Points required for next rank: 55
+Points got today: 0/0/0
+Night time: Study
+<>---------------------------------------------------------------------------<>
+9/15, Tue
+Day time: Magician 09
+Best answers: 2
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Devil 08
+Best answers: 2
+Points required for next rank: 0
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+9/16, Wed
+Day time: Lovers 04
+Best answers: 3
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Arcade: Quiz
+<>---------------------------------------------------------------------------<>
+9/17, Thu
+Notes for today: Quest: Talk to Shinjiro for the quest item.
+Day time: Lovers 05
+Best answers: A>A>A>1
+Points required for next rank: 30
+Points got today: 15/22/34
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+9/18, Fri
+Day time: Storm & sickness
+Night time: Storm & sickness
+<>---------------------------------------------------------------------------<>
+9/19, Sat
+Day time: Storm & sickness
+Night time: Storm & sickness
+<>---------------------------------------------------------------------------<>
+9/20, Sun
+Day time: Storm & sickness
+Night time: Storm & sickness
+<>---------------------------------------------------------------------------<>
+9/21, Mon
+Day time: Hanged man 09
+Best answers: 1
+Points required for next rank: 30
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+9/22, Tue
+Notes for today: No need to give gift today during the date.
+Day time: Date: Strength
+Night time: Devil 09
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+<>---------------------------------------------------------------------------<>
+9/23, Wed
+Day time: Hanged man 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+9/24, Thu
+Day time: Magician 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+9/25, Fri
+Day time: Emperor 08
+Best answers: A>1
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+9/26, Sat
+Morning class: Ans: 3
+Day time: Strength 09
+Best answers: 2>2
+Points required for next rank: 40
+Points got today: 20/29/45
+Night time: Devil 10
+Best answers: -
+<>---------------------------------------------------------------------------<>
+9/27, Sun
+Day time: Moon 03
+Best answers: 2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+9/28, Mon
+Day time: Lovers 06
+Best answers: 2
+Points required for next rank: 30
+Points got today: 15/22/34
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+9/29, Tue
+Day time: Fortune 06
+Best answers: A>2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+9/30, Wed
+Day time: Strength 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/1, Thu
+Notes for today: Quest: Talk to Aegis today for the quest item.
+Day time: Lovers 07
+Best answers: 1
+Points required for next rank: 35
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/2, Fri
+Day time: Temperance 06
+Best answers: 2>A>1
+Points required for next rank: 15
+Points got today: 25/36/56
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/3, Sat
+Day time: Moon 04
+Best answers: 2
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/4, Sun
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+10/5, Mon
+Notes for today: Quest: Get quest 61 and visit the staff room on eight
+  different days.
+Day time: No action allowed
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/6, Tue
+Notes for today: Quest: Visit the staff room.
+Day time: Moon 05
+Best answers: 1
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/7, Wed
+Morning class: Ans: 1
+Notes for today: Quest: Visit the staff room.
+Day time: Star 04
+Best answers: A>1>2
+Points required for next rank: 20
+Points got today: 15/21/33
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/8, Thu
+Notes for today: Quest: Visit the staff room.
+Day time: Hierophant 07
+Best answers: 1>2>A
+Points required for next rank: 20
+Points got today: 15/21/33
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/9, Fri
+Notes for today: Quest: Visit the staff room.
+Day time: Star 05
+Best answers: 2>2
+Points required for next rank: 20
+Points got today: 10/14/22
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/10, Sat
+Notes for today: Quest: Visit the staff room.
+Day time: Moon 06
+Best answers: 3
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/11, Sun
+Day time: Star 06
+Best answers: A>A>A>2
+Points required for next rank: 20
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/12, Mon
+Day time: Moon 07
+Best answers: 3>A
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/13, Tue
+Morning class: Ans: 1
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+10/14, Wed
+Morning class: Ans: 1
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+10/15, Thu
+Morning class: Ans: 2
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+10/16, Fri
+Morning class: Ans: 3
+Day time: Mid-term
+Night time: Mid-term (cont.)
+<>---------------------------------------------------------------------------<>
+10/17, Sat
+Notes for today: Quest: Visit the staff room.
+Day time: Hierophant 08
+Best answers: A>A>A
+Points required for next rank: 20
+Points got today: 20/29/45
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/18, Sun
+Day time: Oracle: Priestess
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+10/19, Mon
+Morning class: Ans: 2
+Notes for today: Quest: Visit the staff room.
+Day time: Priestess: Spend time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/20, Tue
+Notes for today: Quest: Visit the staff room. If you got 10th or above
+  in the exam, talk to Mitsuru today for reward. If you missed her
+  today, she will be available on Tue, Thu, Sat. Remember to claim
+  the award before the next exam or it'll be gone.
+Day time: Fortune 07
+Best answers: 1
+Points required for next rank: 15
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/21, Wed
+Day time: Lovers: Spend time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/22, Thu
+Morning class: Ans: 2
+Day time: Lovers 08
+Best answers: 1>A
+Points required for next rank: 40
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/23, Fri
+Morning class: Ans: 2
+Day time: Priestess: Spend time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/24, Sat
+Day time: Priestess 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/25, Sun
+Day time: Oracle: Lovers
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/26, Mon
+Morning class: Ans: 3
+Day time: Lovers 09
+Best answers: 2
+Points required for next rank: 55
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/27, Tue
+Day time: Temperance 07
+Best answers: 2
+Points required for next rank: 10
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/28, Wed
+Day time: Lovers: Spend time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+10/29, Thu
+Morning class: Ans: 3
+Day time: Lovers 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/30, Fri
+Day time: Star 07
+Best answers: 2>A>A>2
+Points required for next rank: 30
+Points got today: 25/36/56
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+10/31, Sat
+Day time: Moon 08
+Best answers: 2
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/1, Sun
+Day time: Star 08
+Best answers: 1>A
+Points required for next rank: 30
+Points got today: 20/29/45
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/2, Mon
+Day time: Chariot: Spend time
+Night time: Tartarus
+<>---------------------------------------------------------------------------<>
+11/3, Tue
+Notes for today: From tonight and on the points gained from walking
+  at night will be insignificant, feel free to visit Tartarus as
+  often as you like.
+Day time: Full moon
+Night time: Full moon (cont.)
+<>---------------------------------------------------------------------------<>
+11/4, Wed
+Day time: No action allowed
+Night time: No action allowed
+<>---------------------------------------------------------------------------<>
+11/5, Thu
+Day time: No action allowed
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/6, Fri
+Notes for today: Revival flag #1: Revival flags are all related to
+  Junpei. Talk to him whenever this flag happens and give him the
+  encouraging responses.
+Day time: Chariot: 09
+Best answers: 1
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/7, Sat
+Morning class: Ans: 1
+Day time: Moon 09
+Best answers: A
+Points required for next rank: 15
+Points got today: 0/0/0
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/8, Sun
+Day time: Star 09
+Best answers: 1>2>A>1
+Points required for next rank: 30
+Points got today: 20/28/44
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/9, Mon
+Day time: Chariot: 10
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/10, Tue
+Day time: Fortune 08
+Best answers: 1>A>A
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/11, Wed
+Notes for today: Revival flag #2
+Day time: Fortune 09
+Best answers: 1>A>A>A>A
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/12, Thu
+Morning class: Ans: 1
+Notes for today: Quest: Talk to Koromaru tonight for the quest item.
+Day time: Fortune 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/13, Fri
+Day time: Emperor 09
+Best answers: A
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/14, Sat
+Notes for today: Revival flag #3
+Day time: Moon: Spend time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/15, Sun
+Day time: Star 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/16, Mon
+Day time: Emperor 10
+Best answers: -
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/17, Tue
+Notes for today: Buy a set of juice for a Velvet Room quest later.
+  Be careful do not consume them.
+Day time: School trip
+Night time: School trip
+<>---------------------------------------------------------------------------<>
+11/18, Wed
+Day time: School trip
+Night time: School trip
+<>---------------------------------------------------------------------------<>
+11/19, Thu
+Day time: School trip
+Night time: School trip
+<>---------------------------------------------------------------------------<>
+11/20, Fri
+Day time: School trip
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/21, Sat
+Notes for today: Quest: Talk to Ken tonight for the quest item.
+Day time: Empress 01
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/22, Sun
+Notes for today: Revival flag #4
+Day time: Sun 04
+Best answers: 1>2
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/23, Mon
+Day time: Moon 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/24, Tue
+Day time: Internship
+Night time: Internship (cont.)
+<>---------------------------------------------------------------------------<>
+11/25, Wed
+Day time: Internship
+Night time: Internship (cont.)
+<>---------------------------------------------------------------------------<>
+11/26, Thu
+Day time: Internship
+Night time: Internship (cont.)
+<>---------------------------------------------------------------------------<>
+11/27, Fri
+Day time: Internship
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+11/28, Sat
+Day time: Empress 02
+Best answers: A
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/29, Sun
+Day time: Sun 05
+Best answers: 1
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+11/30, Mon
+Morning class: Ans: 3
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/1, Tue
+Day time: Empress 03
+Best answers: 2>2>A>2
+Points required for next rank: 22
+Points got today: 30/43/67
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/2, Wed
+Day time: Temperance 08
+Best answers: 2
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/3, Thu
+Day time: No action allowed
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/4, Fri
+Day time: Temperance 09
+Best answers: 2
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/5, Sat
+Day time: Hierophant 09
+Best answers: A>A
+Points required for next rank: 30
+Points got today: 5/7/11
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/6, Sun
+Day time: Sun 06
+Best answers: 1>1
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/7, Mon
+Morning class: Ans: 1
+Day time: Oracle: Hierophant
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/8, Tue
+Day time: Temperance 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/9, Wed
+Day time: Hierophant 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/10, Thu
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/11, Fri
+Morning class: Ans: 1
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/12, Sat
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/13, Sun
+Day time: Sun 07
+Best answers: 2
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/14, Mon
+Morning class: Ans: 3
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+12/15, Tue
+Morning class: Ans: 4
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+12/16, Wed
+Morning class: Ans: 1
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+12/17, Thu
+Morning class: Ans: 3
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+12/18, Fri
+Morning class: Ans: 4
+Day time: Final
+Night time: Final (cont.)
+<>---------------------------------------------------------------------------<>
+12/19, Sat
+Day time: Empress 04
+Best answers: 2>1>A
+Points required for next rank: 22
+Points got today: 20/29/45
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/20, Sun
+Day time: Sun 08
+Best answers: 1>2
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/21, Mon
+Morning class: Ans: 2
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/22, Tue
+Morning class: Ans: 1
+Notes for today: If you got 10th or above in the exam, talk to Mitsuru
+  today for the reward.
+Day time: Empress 05
+Best answers: 2>1>2
+Points required for next rank: 22
+Points got today: 45/66/102
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/23, Wed
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/24, Thu
+Day time: Christmas event
+Night time: 0
+<>---------------------------------------------------------------------------<>
+12/25, Fri
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/26, Sat
+Day time: Empress 06
+Best answers: 1/2>2>1
+Points required for next rank: 22
+Points got today: 25/36/56
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/27, Sun
+Day time: Sun 09
+Best answers: 2
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/28, Mon
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/29, Tue
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+12/30, Wed
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+12/31, Thu
+Day time: Free time
+Night time: Important story-related decision
+<>---------------------------------------------------------------------------<>
+1/1/2011, Fri
+Day time: New Year
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/2/2011, Sat
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/3/2011, Sun
+Day time: Sun 10
+Best answers: -
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/4/2011, Mon
+Day time: Date: Empress
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/5/2011, Tue
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/6/2011, Wed
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/7/2011, Thu
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/8/2011, Fri
+Morning class: Ans: 2
+Day time: Aeon 01
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/9/2011, Sat
+Day time: Empress 07
+Best answers: 1
+Points required for next rank: 22
+Points got today: 15/2/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/10/2011, Sun
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/11/2011, Mon
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/12/2011, Tue
+Day time: Empress 08
+Best answers: A>A>2>A
+Points required for next rank: 22
+Points got today: 30/44/68
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/13/2011, Wed
+Day time: Aeon 02
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/14/2011, Thu
+Day time: Empress 09
+Best answers: 3
+Points required for next rank: 22
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/15/2011, Fri
+Day time: Aeon 03
+Best answers: A>2
+Points required for next rank: 0
+Points got today: 5/7/11
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/16/2011, Sat
+Day time: Aeon 04
+Best answers: A>A>1
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/17/2011, Sun
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/18/2011, Mon
+Morning class: Ans: 2
+Day time: Aeon 05
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/19/2011, Tue
+Day time: Empress 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/20/2011, Wed
+Day time: Aeon 06
+Best answers: 3/4
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/21/2011, Thu
+Day time: Revival event
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/22/2011, Fri
+Day time: Aeon 07
+Best answers: A>A>A
+Points required for next rank: 0
+Points got today: 0/0/0
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/23/2011, Sat
+Day time: Aeon 08
+Best answers: 2>A
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/24/2011, Sun
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/25/2011, Mon
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/26/2011, Tue
+Day time: Aeon 09
+Best answers: 1
+Points required for next rank: 0
+Points got today: 15/22/34
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/27/2011, Wed
+Day time: Aeon 10
+Best answers: -
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/28/2011, Thu
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/29/2011, Fri
+Day time: Free time
+Night time: Walk
+<>---------------------------------------------------------------------------<>
+1/30/2011, Sat
+Day time: Free time
+Night time: Free time
+<>---------------------------------------------------------------------------<>
+1/31/2011, Sun
+Day time: Free time
+Night time: Tartarus
+
+End of the calendar
+
+<>[H37KJ]--------------------------------------------------------------------<>
+ _____         _     _            _____ _     _
+| __  |___ _ _|_|___|_|___ ___   |  |  |_|___| |_ ___ ___ _ _
+|    -| -_| | | |_ -| | . |   |  |     | |_ -|  _| . |  _| | |
+|__|__|___|\_/|_|___|_|___|_|_|  |__|__|_|___|_| |___|_| |_  |
+                                                         |___|
+
+August  6 2010
+First draft submitted
+
+August 10 2010
+Justice flag #3 revised so that it agrees with the P3 and P3FES version.
+
+<>[RFVWT]--------------------------------------------------------------------<>
+ _____                     _      _____ _____
+|   __|_ _ ___ ___ ___ ___| |_   |  _  |  |  |
+|__   | | | . | . | . |  _|  _|  |   __|    -|
+|_____|___|  _|  _|___|_| |_|    |__|  |__|__|
+          |_| |_|
+
+Thanks for even reading this section!
+
+I do purchase all my Japanese games and guides form Play-asia.com and so far I
+am satisfied with their service. If you are also interested in buying games
+from them, you may use my affiliated account:
+
+http://www.play-asia.com/SOap-23-83-3o1u-49-en.html
+
+I do get some commission every time you make a purchase. And certainly this is
+totally voluntary. :)
+Restore Page
