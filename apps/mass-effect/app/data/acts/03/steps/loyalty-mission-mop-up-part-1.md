@@ -1,4 +1,6 @@
-1.  **Loyalty Mission mop-up, Part 1:** at this stage, you’ll have a large slate of loyalty missions. The order you undertake them doesn’t matter too much, but we have some suggestions of groups in which you tackle them, saving some harder missions for later. First, focus on these loyalty missions in any order:
-    *   **[Jacob’s Loyalty Mission](https://www.rpgsite.net/feature/11111-mass-effect-2-loyalty-missions-consequences-how-to-gain-loyalty-resolve-conflicts#jacob-loyalty-mission) - The Gift of Greatness:** this is a straightforward mission.
-    *   **[Miranda’s Loyalty Mission](https://www.rpgsite.net/feature/11111-mass-effect-2-loyalty-missions-consequences-how-to-gain-loyalty-resolve-conflicts#miranda-loyalty-mission) - The Prodigal:** another straightforward mission, with choices that will be minorly referenced in ME3.
-    *   **[Garrus’ Loyalty Mission](https://www.rpgsite.net/feature/11111-mass-effect-2-loyalty-missions-consequences-how-to-gain-loyalty-resolve-conflicts#garrus-loyalty-mission) - Eye for an Eye:** help Garrus get his revenge.
+---
+order: 1
+title: "Loyalty Mission mop-up, Part 1"
+--- 
+
+**Loyalty Mission mop-up, Part 1:** at this stage, you’ll have a large slate of loyalty missions. The order you undertake them doesn’t matter too much, but we have some suggestions of groups in which you tackle them, saving some harder missions for later. First, focus on these loyalty missions in any order:
