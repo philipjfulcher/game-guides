@@ -1,5 +1,5 @@
-import type { LoaderFunction, MetaFunction } from 'remix';
-import { json, Link, Outlet, useLoaderData } from 'remix';
+import { type LoaderFunction, type MetaFunction, json } from "@remix-run/node";
+import { Link, Outlet, useLoaderData } from "@remix-run/react";
 import { Act, getActs, getCurrentStep } from '~/data/data-steps';
 import { CheckIcon } from '@heroicons/react/solid';
 import ActList from '~/components/act-list';

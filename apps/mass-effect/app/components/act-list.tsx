@@ -1,4 +1,4 @@
-import { Link } from 'remix';
+import { Link } from "@remix-run/react";
 import { CheckIcon } from '@heroicons/react/solid';
 import { Act } from '~/data/data-steps';
 

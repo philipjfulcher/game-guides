@@ -1,16 +1,10 @@
-import {
-  ActionFunction,
-  Form,
-  json,
-  LoaderFunction,
-  redirect,
-  useLoaderData,
-} from 'remix';
+import { json, redirect } from "@remix-run/node";
+import { Form, useLoaderData, useTransition } from "@remix-run/react";
+import { type ActionFunction, type LoaderFunction } from "@remix-run/server-runtime";
 import { getAct, getCurrentStep, getStep, Step } from '~/data/data-steps';
 import { Fragment } from 'react';
 import prisma from '~/data/db';
 import CompleteButton from '~/components/complete-button';
-import { useTransition } from '@remix-run/react';
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const step = await getStep(
@@ -50,7 +44,7 @@ export let action: ActionFunction = async ({ request }) => {
   return redirect(`/act/${currentStep.actId}/step/${currentStep.stepId}`);
 };
 
-export default function Step() {
+export default function() {
   let step = useLoaderData<Step>();
   const transition = useTransition();
   const isCreating = Boolean(transition.submission);
