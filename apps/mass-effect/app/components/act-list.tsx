@@ -13,7 +13,7 @@ export default function ActList({ acts,currentAct }: { acts: Act[]; currentAct: 
           <li key={act.title} className="relative md:flex-1 md:flex">
             {act.completed ? (
               <Link
-                to={`/act/${act.id}`}
+                to={`/mass-effect-2/act/${act.id}`}
                 prefetch="intent"
                 className="group flex items-center w-full"
               >
@@ -31,7 +31,7 @@ export default function ActList({ acts,currentAct }: { acts: Act[]; currentAct: 
               </Link>
             ) : act.id === currentAct ? (
               <Link
-                to={`/act/${act.id}`}
+                to={`/mass-effect-2/act/${act.id}`}
                 prefetch="intent"
                 className="px-6 py-4 flex items-center text-sm font-medium"
                 aria-current="step"
@@ -45,7 +45,7 @@ export default function ActList({ acts,currentAct }: { acts: Act[]; currentAct: 
               </Link>
             ) : (
               <Link
-                to={`/act/${act.id}`}
+                to={`/mass-effect-2/act/${act.id}`}
                 prefetch="intent"
                 className="group flex items-center"
               >

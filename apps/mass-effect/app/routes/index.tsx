@@ -3,7 +3,7 @@ import { Link, Outlet, useLoaderData } from "@remix-run/react";
 import { Act, getActs } from '~/data/data-steps';
 
 export let loader: LoaderFunction = async () => {
-  return redirect('/act');
+  return redirect('/mass-effect-2/act');
 };
 
 // https://remix.run/guides/routing#index-routes

@@ -34,14 +34,14 @@ export let action: ActionFunction = async ({ request }) => {
     } else {
       const currentStep = await getCurrentStep();
 
-      return redirect(`/act/${currentStep.actId}/step/${currentStep.stepId}`);
+      return redirect(`/mass-effect-2/act/${currentStep.actId}/step/${currentStep.stepId}`);
     }
   }
 
 
   const currentStep = await getCurrentStep();
 
-  return redirect(`/act/${currentStep.actId}/step/${currentStep.stepId}`);
+  return redirect(`/mass-effect-2/act/${currentStep.actId}/step/${currentStep.stepId}`);
 };
 
 export default function() {

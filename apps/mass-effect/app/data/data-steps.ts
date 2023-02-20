@@ -68,6 +68,7 @@ export async function getAct(actId: string): Promise<Act> {
   );
 
   const stepSummaries = await getStepSummaries(actId);
+
   const completed = stepSummaries.reduce( (acc,cur) => {
     if(!cur.completed) {
       return false;
@@ -181,13 +182,21 @@ export async function getCurrentStep(): Promise<{actId: string, stepId: string}>
     } else {
       const orderedSummaries = act.stepSummary.sort((a, b) => a.order - b.order);
       const lastCompletedStepIndex = orderedSummaries.findIndex(summary => summary.id === lastCreatedStepEntry.stepId);
-      const nextStepId = orderedSummaries[lastCompletedStepIndex+1].id;
-      const nextStep = await getStep(act.id,nextStepId, false);
 
-      return {actId: act.id, stepId: nextStep.id};
+        console.log({lastCompletedStepIndex,orderedSummaries})
+      if(lastCompletedStepIndex+1 >= orderedSummaries.length) {
+        const nextActId = `0${Number.parseInt(act.id,10) + 1}`;
+        const nextAct = await getAct(nextActId);
+        const orderedSummaries = nextAct.stepSummary.sort((a, b) => a.order - b.order);
+
+        return {actId: nextAct.id, stepId: orderedSummaries[0].id};
+      } else {
+        const nextStepId = orderedSummaries[lastCompletedStepIndex + 1].id;
+        const nextStep = await getStep(act.id, nextStepId, false);
+
+        return { actId: act.id, stepId: nextStep.id };
+      }
     }
-
-
   } else {
     const firstAct = await getAct('01');
     const orderedSummaries = firstAct.stepSummary.sort((a, b) => a.order - b.order);
