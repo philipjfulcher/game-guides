@@ -2,7 +2,6 @@ import { join } from 'path';
 import { readdir, readFile } from 'fs/promises';
 import parseFrontMatter from 'front-matter';
 import { marked } from 'marked';
-import prisma from '~/data/db';
 
 interface ActFrontMatter {
   title: string;
@@ -140,9 +139,7 @@ export async function getStep(
     order: parseInt(attributes.order, 10),
     substeps: findSubSteps ? await getSubSteps(actId, stepId) : [],
     parent: attributes?.parent,
-    completed: !!(await prisma.completedStep.findFirst({
-      where: { stepId, actId },
-    })),
+    completed: false,
     actId,
   };
 }
@@ -176,9 +173,7 @@ export async function getCurrentStep(): Promise<{
   actId: string;
   stepId: string;
 }> {
-  const lastCreatedStepEntry = await prisma.completedStep.findFirst({
-    orderBy: { createdAt: 'desc' },
-  });
+  let lastCreatedStepEntry: any;
   if (lastCreatedStepEntry) {
     const act = await getAct(lastCreatedStepEntry.actId);
 
