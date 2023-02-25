@@ -15,7 +15,6 @@
     "@heroicons/react": "^2.0.16",
     "@nrwl/nx-plugin": "14.7.0",
     "@nrwl/remix": "14.4.2",
-    "@prisma/client": "^4.0.0",
     "@remix-run/node": "^1.13.0",
     "@remix-run/react": "^1.13.0",
     "@remix-run/serve": "^1.13.0",
