@@ -6,19 +6,32 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  useCatch,
+  useCatch, useLoaderData
 } from "@remix-run/react";
 
 import styles from "./styles/app.css"
+import { json, LoaderArgs } from "@remix-run/node";
+import { createBrowserClient } from '@supabase/auth-helpers-remix';
+import { useState } from "react";
 
 export function links() {
   return [{ rel: "stylesheet", href: styles }]
 }
+export const loader = ({}: LoaderArgs) => {
+  const env = {
+    SUPABASE_URL: process.env.SUPABASE_URL!,
+    SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY!
+  };
 
+  return json({ env });
+};
 export default function App() {
+  const { env } = useLoaderData();
+  const [supabase] = useState(() => createBrowserClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY))
+
   return (
     <Document>
-        <Outlet />
+        <Outlet context={{ supabase }}/>
     </Document>
   );
 }

@@ -8,14 +8,14 @@ export let loader: LoaderFunction = async ({ params }) => {
   const act = await getAct(params.actId as string);
   const currentStep = await getCurrentStep();
 
-  if (!params.stepId) {
-    if (currentStep.actId === act.id) {
-      return redirect(`/mass-effect-2/act/${act.id}/step/${currentStep.stepId}`);
-    } else {
-      const orderedSummaries = act.stepSummary.sort((a, b) => a.order - b.order);
-      return redirect(`/mass-effect-2/act/${act.id}/step/${orderedSummaries[0].id}`);
-    }
-  }
+  // if (!params.stepId) {
+  //   if (currentStep.actId === act.id) {
+  //     return redirect(`/mass-effect-2/act/${act.id}/step/${currentStep.stepId}`);
+  //   } else {
+  //     const orderedSummaries = act.stepSummary.sort((a, b) => a.order - b.order);
+  //     return redirect(`/mass-effect-2/act/${act.id}/step/${orderedSummaries[0].id}`);
+  //   }
+  // }
   return json({ act, currentStep });
 };
 
