@@ -3,11 +3,12 @@ import { Link, Outlet, useLoaderData } from "@remix-run/react";
 import { type LoaderFunction } from "@remix-run/server-runtime";
 import { Act, getAct, getActs, getCurrentStep } from "~/data/data-steps";
 import MissionList from "~/components/mission-list";
+import { createServerClient } from "@supabase/auth-helpers-remix";
 
-export let loader: LoaderFunction = async ({ params }) => {
+export let loader: LoaderFunction = async ({ params, request }) => {
   const act = await getAct(params.actId as string);
   const currentStep = await getCurrentStep();
-
+  const response = new Response();
   // if (!params.stepId) {
   //   if (currentStep.actId === act.id) {
   //     return redirect(`/mass-effect-2/act/${act.id}/step/${currentStep.stepId}`);
@@ -16,6 +17,37 @@ export let loader: LoaderFunction = async ({ params }) => {
   //     return redirect(`/mass-effect-2/act/${act.id}/step/${orderedSummaries[0].id}`);
   //   }
   // }
+
+  const supabase = createServerClient(process.env.SUPABASE_URL!, process.env.SUPABASE_ANON_KEY!, { request, response });
+  const user = await supabase.auth.getUser();
+
+  console.log(user.data);
+
+  if (user?.data.user) {
+    const completedSteps = await supabase.from("completed_steps").select("*");
+    const stepSummary = act.stepSummary.map(stepSummary => {
+      return {
+        ...stepSummary,
+        completed: Boolean(completedSteps.data?.find(step => step.step_id === `${act.id}:${stepSummary.id}`))
+      };
+    });
+    console.log(stepSummary);
+
+
+    const completed = stepSummary.reduce((acc, cur) => {
+      if (!cur.completed) {
+        return false;
+      } else {
+        return acc;
+      }
+    }, true);
+
+    act.stepSummary = stepSummary;
+    act.completed = completed;
+
+
+  }
+
   return json({ act, currentStep });
 };
 

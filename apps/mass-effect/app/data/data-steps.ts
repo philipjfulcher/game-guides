@@ -105,7 +105,8 @@ export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
           optional: step.optional,
           title: step.title,
           parent: step.parent,
-          completed: !!(await prisma.completedStep.findFirst({where: {stepId: trimmedStepId,actId}}))
+          // completed: !!(await prisma.completedStep.findFirst({where: {stepId: trimmedStepId,actId}}))
+          completed: false
         };
       })
     ).then(steps => {
