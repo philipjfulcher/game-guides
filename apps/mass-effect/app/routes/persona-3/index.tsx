@@ -4,7 +4,8 @@ import {
   ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
-  EllipsisHorizontalIcon
+  EllipsisHorizontalIcon,
+  CheckIcon
 } from "@heroicons/react/24/solid";
 import { Menu, Transition } from "@headlessui/react";
 import {
@@ -21,6 +22,8 @@ import {
 
 const start = new Date("2009-04-07");
 const end = new Date("2010-01-31");
+// repalce this with real today when ready
+const today = new Date("2023-04-21");
 
 const months = eachMonthOfInterval({ start, end }).map(month => {
 
@@ -31,7 +34,9 @@ const months = eachMonthOfInterval({ start, end }).map(month => {
   //first get days in month
   let days = eachDayOfInterval({ start: month, end: lastDayOfMonth }).map(day => ({
     date: format(day, "yyyy-MM-dd"),
-    isCurrentMonth: true
+    isCurrentMonth: true,
+    isToday: today.getDate() === day.getDate() && today.getMonth() === day.getMonth(),
+    isComplete: true
   }));
 
   if (!isSameDay(month, firstDayOfWeekOfMonth)) {
@@ -39,7 +44,12 @@ const months = eachMonthOfInterval({ start, end }).map(month => {
     days = eachDayOfInterval({
       start: firstDayOfWeekOfMonth,
       end: subDays(month, 1)
-    }).map(day => ({ date: format(day, "yyyy-MM-dd"), isCurrentMonth: false })).concat(days);
+    }).map(day => ({
+      date: format(day, "yyyy-MM-dd"),
+      isCurrentMonth: false,
+      isToday: false,
+      isComplete: false
+    })).concat(days);
   }
 
   if (!isSameDay(lastDayOfMonth, lastDayOfWeekOfMonth)) {
@@ -47,7 +57,7 @@ const months = eachMonthOfInterval({ start, end }).map(month => {
     days = days.concat(eachDayOfInterval({
       start: addDays(lastDayOfMonth, 1),
       end: lastDayOfWeekOfMonth
-    }).map(day => ({ date: format(day, "yyyy-MM-dd"), isCurrentMonth: false })));
+    }).map(day => ({ date: format(day, "yyyy-MM-dd"), isCurrentMonth: false, isToday: false, isComplete: false })));
   }
 
 
@@ -286,53 +296,60 @@ export default function Example() {
           </Menu>
         </div>
       </header>
-      <div className="bg-white">
-        <div
-          className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
-          {months.map((month) => (
-            <section key={month.name} className="text-center">
-              <h2 className="font-semibold text-gray-900">{month.name}</h2>
-              <div className="mt-6 grid grid-cols-7 text-xs leading-6 text-gray-500">
-                <div>M</div>
-                <div>T</div>
-                <div>W</div>
-                <div>T</div>
-                <div>F</div>
-                <div>S</div>
-                <div>S</div>
-              </div>
-              <div
-                className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-                {month.days.map((day, dayIdx) => (
-                  <button
-                    key={day.date}
-                    type="button"
-                    className={classNames(
-                      day.isCurrentMonth ? "bg-white text-gray-900" : "bg-gray-50 text-gray-400",
-                      dayIdx === 0 && "rounded-tl-lg",
-                      dayIdx === 6 && "rounded-tr-lg",
-                      dayIdx === month.days.length - 7 && "rounded-bl-lg",
-                      dayIdx === month.days.length - 1 && "rounded-br-lg",
-                      "py-1.5 hover:bg-gray-100 focus:z-10 relative"
-                    )}
-                  >
-                    <time
-                      dateTime={day.date}
+
+      <div className={"flex flex-column"}>
+        <div className="basis-2/3 bg-white">
+          <div
+            className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
+            {months.map((month) => (
+              <section key={month.name} className="text-center">
+                <h2 className="font-semibold text-gray-900">{month.name}</h2>
+                <div className="mt-6 grid grid-cols-7 text-xs leading-6 text-gray-500">
+                  <div>M</div>
+                  <div>T</div>
+                  <div>W</div>
+                  <div>T</div>
+                  <div>F</div>
+                  <div>S</div>
+                  <div>S</div>
+                </div>
+                <div
+                  className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
+                  {month.days.map((day, dayIdx) => (
+                    <button
+                      key={day.date}
+                      type="button"
                       className={classNames(
-                        day.isToday && "bg-indigo-600 font-semibold text-white",
-                        "mx-auto flex h-7 w-7 items-center justify-center rounded-full"
+                        day.isCurrentMonth ? "bg-white text-gray-900" : "bg-gray-50 text-gray-400",
+                        dayIdx === 0 && "rounded-tl-lg",
+                        dayIdx === 6 && "rounded-tr-lg",
+                        dayIdx === month.days.length - 7 && "rounded-bl-lg",
+                        dayIdx === month.days.length - 1 && "rounded-br-lg",
+                        "py-1.5 hover:bg-gray-100 focus:z-10 relative"
                       )}
                     >
-                      {day.date.split("-").pop().replace(/^0/, "")}
-                    </time>
-                    {day.date === "2009-04-20" ? <MoonIcon
-                      className={"absolute h-4 w-4 top-0 right-0"}></MoonIcon> : null}
-                  </button>
-                ))}
-              </div>
-            </section>
-          ))}
+                      <time
+                        dateTime={day.date}
+                        className={classNames(
+                          day.isToday && "bg-indigo-600 font-semibold text-white",
+                          "mx-auto flex h-7 w-7 items-center justify-center rounded-full"
+                        )}
+                      >
+                        {day.date.split("-").pop().replace(/^0/, "")}
+                      </time>
+                      {day.date === "2009-04-20" ? <MoonIcon
+                        className={"absolute h-4 w-4 top-0 right-0 text-cyan-500"}></MoonIcon> : null}
+
+                      {day.isComplete ?
+                        <CheckIcon className={"absolute h-4 w-4 top-0 right-0 text-green-500"}></CheckIcon> : null}
+                    </button>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
         </div>
+        <div className={"basis-1/3"}>detail area</div>
       </div>
     </div>
   );

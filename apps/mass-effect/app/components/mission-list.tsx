@@ -1,19 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { CheckCircleIcon } from '@heroicons/react/solid';
-import { StepSummary } from '~/data/data-steps';
-import { Link } from '@remix-run/react';
+import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
-// const steps = [
-//   { name: 'Create account', href: '#', status: 'complete' },
-//   { name: 'Profile information', href: '#', status: 'current' },
-//   { name: 'Theme', href: '#', status: 'upcoming' },
-//   { name: 'Preview', href: '#', status: 'upcoming' },
-// ];
+import { StepSummary } from "~/data/data-steps";
+import { Link } from "@remix-run/react";
 
 export default function MissionList({
-  steps,
-  currentStep,
-}: {
+                                      steps,
+                                      currentStep
+                                    }: {
   steps: StepSummary[];
   currentStep: string;
 }) {
@@ -26,7 +20,7 @@ export default function MissionList({
               <li key={step.title}>
                 {step.completed ? (
                   <Link
-                    to={`/act/${step.actId}/step/${step.id}`}
+                    to={`/mass-effect-2/act/${step.actId}/step/${step.id}`}
                     prefetch="intent"
                     className="group"
                   >
@@ -44,7 +38,7 @@ export default function MissionList({
                   </Link>
                 ) : step.id === currentStep ? (
                   <Link
-                    to={`/act/${step.actId}/step/${step.id}`}
+                    to={`/mass-effect-2/act/${step.actId}/step/${step.id}`}
                     prefetch="intent"
                     className="flex items-start"
                     aria-current="step"
@@ -62,7 +56,7 @@ export default function MissionList({
                   </Link>
                 ) : (
                   <Link
-                    to={`/act/${step.actId}/step/${step.id}`}
+                    to={`/mass-effect-2/act/${step.actId}/step/${step.id}`}
                     prefetch="intent"
                     className="group"
                   >

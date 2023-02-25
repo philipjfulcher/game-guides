@@ -183,7 +183,6 @@ export async function getCurrentStep(): Promise<{actId: string, stepId: string}>
       const orderedSummaries = act.stepSummary.sort((a, b) => a.order - b.order);
       const lastCompletedStepIndex = orderedSummaries.findIndex(summary => summary.id === lastCreatedStepEntry.stepId);
 
-        console.log({lastCompletedStepIndex,orderedSummaries})
       if(lastCompletedStepIndex+1 >= orderedSummaries.length) {
         const nextActId = `0${Number.parseInt(act.id,10) + 1}`;
         const nextAct = await getAct(nextActId);

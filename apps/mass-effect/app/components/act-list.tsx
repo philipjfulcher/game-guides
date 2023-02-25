@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import { CheckIcon } from '@heroicons/react/solid';
+import { CheckIcon } from "@heroicons/react/24/solid";
 import { Act } from '~/data/data-steps';
 
 export default function ActList({ acts,currentAct }: { acts: Act[]; currentAct: string }) {
