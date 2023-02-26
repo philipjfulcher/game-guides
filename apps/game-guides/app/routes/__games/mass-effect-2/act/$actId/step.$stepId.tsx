@@ -1,20 +1,10 @@
-import { json, redirect, Response } from '@remix-run/node';
-import { Form, useLoaderData, useTransition } from '@remix-run/react';
-import {
-  type ActionFunction,
-  type LoaderFunction,
-} from '@remix-run/server-runtime';
-import {
-  getAct,
-  getActs,
-  getCurrentStep,
-  getStep,
-  Step,
-} from '~/data/data-steps';
-import { Fragment } from 'react';
-import prisma from '~/data/db';
-import CompleteButton from '~/components/complete-button';
-import { createServerClient } from '@supabase/auth-helpers-remix';
+import { json, redirect, Response } from "@remix-run/node";
+import { Form, useLoaderData, useTransition } from "@remix-run/react";
+import { type ActionFunction, type LoaderFunction } from "@remix-run/server-runtime";
+import { getCurrentStep, getStep } from "@mass-effect/mass-effect/data-access";
+import { Step } from "@mass-effect/mass-effect/models";
+import CompleteButton from "~/components/complete-button";
+import { createServerClient } from "@supabase/auth-helpers-remix";
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const response = new Response();

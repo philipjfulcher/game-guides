@@ -1,6 +1,6 @@
 import { Link } from '@remix-run/react';
 import { CheckIcon } from '@heroicons/react/24/solid';
-import { Act } from '~/data/data-steps';
+import { Act } from '~/../../../../libs/mass-effect/data-access/src/lib/data-steps';
 
 export default function ActList({
   acts,

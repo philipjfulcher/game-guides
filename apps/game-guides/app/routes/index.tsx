@@ -1,12 +1,5 @@
-import {
-  type LoaderFunction,
-  type MetaFunction,
-  json,
-  redirect,
-} from '@remix-run/node';
-import { Link, Outlet, useLoaderData } from '@remix-run/react';
-import { Act, getActs } from '~/data/data-steps';
-import Login from '~/components/login';
+import { type LoaderFunction, redirect } from "@remix-run/node";
+import { Outlet } from "@remix-run/react";
 
 export let loader: LoaderFunction = async () => {
   return redirect('/mass-effect-2/act');

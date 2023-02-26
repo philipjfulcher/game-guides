@@ -1,99 +1,19 @@
-import { join } from 'path';
-import { readdir, readFile } from 'fs/promises';
-import parseFrontMatter from 'front-matter';
-import { marked } from 'marked';
-
-interface ActFrontMatter {
-  title: string;
-  subtitle?: string;
-}
-
-export interface Act extends ActFrontMatter {
-  id: string;
-  contentMarkdown: string;
-  contentHtml: string;
-  stepSummary: StepSummary[];
-  completed: boolean;
-}
-
-interface StepFrontmatter {
-  order: string;
-  title: string;
-  optional?: string;
-  automatic?: string;
-  parent?: string;
-}
-
-export interface StepSummary {
-  id: string;
-  actId: string;
-  order: number;
-  title: string;
-  optional: boolean;
-  automatic: boolean;
-  completed: boolean;
-}
-
-export interface Step {
-  id: string;
-  contentMarkdown: string;
-  contentHtml: string;
-  order: number;
-  title: string;
-  optional: boolean;
-  automatic: boolean;
-  parent?: string;
-  substeps: Step[];
-  completed: boolean;
-  actId: string;
-}
-
-const actsPath = join(__dirname, '../app/data/acts');
-
-export async function getActs(): Promise<Act[]> {
-  const actDir = await readdir(actsPath);
-
-  return Promise.all(
-    actDir.map(async (dirName) => {
-      return getAct(dirName);
-    })
-  );
-}
-
-export async function getAct(actId: string): Promise<Act> {
-  const actIndex = await readFile(join(actsPath, actId, 'index.md'));
-  const { attributes, body } = parseFrontMatter<ActFrontMatter>(
-    actIndex.toString('utf-8')
-  );
-
-  const stepSummaries = await getStepSummaries(actId);
-
-  const completed = stepSummaries.reduce((acc, cur) => {
-    if (!cur.completed) {
-      return false;
-    } else {
-      return acc;
-    }
-  }, true);
-
-  return {
-    title: attributes.title,
-    subtitle: attributes.subtitle,
-    id: actId,
-    contentMarkdown: body,
-    contentHtml: marked(body),
-    stepSummary: await getStepSummaries(actId),
-    completed,
-  };
-}
+import { Step, StepFrontmatter, StepSummary } from "@mass-effect/mass-effect/models";
+import { readdir, readFile } from "fs-extra";
+import { join } from "path";
+import parseFrontMatter from "front-matter";
+import { marked } from "marked";
+import { getAct } from "./acts";
 
 export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
   try {
-    const stepsDir = await readdir(join(actsPath, actId, 'steps'));
+    const markdownPath = join(__dirname, 'markdown');
+
+    const stepsDir = await readdir(join(markdownPath, actId, "steps"));
 
     return Promise.all(
       stepsDir.map(async (stepId: string) => {
-        const trimmedStepId = stepId.replace('.md', '');
+        const trimmedStepId = stepId.replace(".md", "");
         const step = await getStep(actId, trimmedStepId, true);
 
         return {
@@ -105,7 +25,7 @@ export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
           title: step.title,
           parent: step.parent,
           // completed: !!(await prisma.completedStep.findFirst({where: {stepId: trimmedStepId,actId}}))
-          completed: false,
+          completed: false
         };
       })
     ).then((steps) => {
@@ -121,12 +41,14 @@ export async function getStep(
   stepId: string,
   findSubSteps: boolean
 ): Promise<Step> {
+  const markdownPath = join(__dirname, 'markdown');
+
   const stepFile = await readFile(
-    join(actsPath, actId, 'steps', `${stepId}.md`)
+    join(markdownPath, actId, "steps", `${stepId}.md`)
   );
 
   const { attributes, body } = parseFrontMatter<StepFrontmatter>(
-    stepFile.toString('utf-8')
+    stepFile.toString("utf-8")
   );
 
   return {
@@ -134,13 +56,13 @@ export async function getStep(
     id: stepId,
     contentMarkdown: body,
     contentHtml: marked(body),
-    automatic: attributes?.automatic === 'true' ?? false,
-    optional: attributes?.optional === 'true' ?? false,
+    automatic: attributes?.automatic === "true" ?? false,
+    optional: attributes?.optional === "true" ?? false,
     order: parseInt(attributes.order, 10),
     substeps: findSubSteps ? await getSubSteps(actId, stepId) : [],
     parent: attributes?.parent,
     completed: false,
-    actId,
+    actId
   };
 }
 
@@ -148,11 +70,13 @@ export async function getSubSteps(
   actId: string,
   stepId: string
 ): Promise<Step[]> {
-  const stepsDir = await readdir(join(actsPath, actId, 'steps'));
+  const markdownPath = join(__dirname, 'markdown');
+
+  const stepsDir = await readdir(join(markdownPath, actId, "steps"));
 
   const substeps = await Promise.all(
     stepsDir.map(async (subStepId: string) => {
-      const step = await getStep(actId, subStepId.replace('.md', ''), false);
+      const step = await getStep(actId, subStepId.replace(".md", ""), false);
 
       if (step?.parent && step.parent === stepId) {
         return step;
@@ -209,7 +133,7 @@ export async function getCurrentStep(): Promise<{
       }
     }
   } else {
-    const firstAct = await getAct('01');
+    const firstAct = await getAct("01");
     const orderedSummaries = firstAct.stepSummary.sort(
       (a, b) => a.order - b.order
     );

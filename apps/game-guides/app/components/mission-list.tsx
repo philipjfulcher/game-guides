@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 
-import { StepSummary } from '~/data/data-steps';
+import { StepSummary } from '~/../../../../libs/mass-effect/data-access/src/lib/data-steps';
 import { Link } from '@remix-run/react';
 
 export default function MissionList({

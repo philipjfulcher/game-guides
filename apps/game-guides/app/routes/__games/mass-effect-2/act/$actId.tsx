@@ -1,7 +1,8 @@
 import { json, redirect } from '@remix-run/node';
 import { Link, Outlet, useLoaderData } from '@remix-run/react';
 import { type LoaderFunction } from '@remix-run/server-runtime';
-import { Act, getAct, getActs, getCurrentStep } from '~/data/data-steps';
+import { getAct, getActs, getCurrentStep } from '@mass-effect/mass-effect/data-access';
+import { Act } from '@mass-effect/mass-effect/models';
 import MissionList from '~/components/mission-list';
 import { createServerClient } from '@supabase/auth-helpers-remix';
 
