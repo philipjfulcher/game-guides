@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "@mass-effect/game-guides",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "build": "npm run build-copy-markdown && npm run build-css && remix build",
+    "build-css": "tailwindcss -m -i ./app/tailwind.css -o app/styles/app.css",
+    "build-copy-markdown": "mkdir -p ./build/markdown && cp -a ../../libs/mass-effect/data-access/src/lib/markdown/ ./public/build/markdown",
+    "dev": "npm run dev-copy-markdown && concurrently \"npm run dev-css\" \"remix dev\"",
+    "dev-css": "tailwindcss -w -i ./app/tailwind.css -o app/styles/app.css",
+    "dev-copy-markdown": "mkdir -p ./build/markdown && cp -a ../../libs/mass-effect/data-access/src/lib/markdown/ ./build/markdown"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.3.3",
+    "@remix-run/react": "^1.3.3",
+    "@remix-run/serve": "^1.3.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@headlessui/react": "^1.7.11",
+    "@heroicons/react": "^2.0.16"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.3.3",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
