@@ -15,14 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["apps/game-guides/app/*"],
       "@mass-effect/mass-effect/data-access": [
         "libs/mass-effect/data-access/src/index.ts"
       ],
       "@mass-effect/mass-effect/models": [
         "libs/mass-effect/models/src/index.ts"
       ],
-      "@mass-effect/plugin": ["libs/plugin/src/index.ts"]
+      "@mass-effect/plugin": ["libs/plugin/src/index.ts"],
+      "~/*": ["apps/game-guides/app/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

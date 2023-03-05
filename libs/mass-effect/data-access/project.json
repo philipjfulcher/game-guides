@@ -1,4 +1,5 @@
 {
+  "name": "data-access",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/mass-effect/data-access/src",
   "projectType": "library",
@@ -12,7 +13,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/mass-effect/data-access"],
+      "outputs": ["{workspaceRoot}/coverage/libs/mass-effect/data-access"],
       "options": {
         "jestConfig": "libs/mass-effect/data-access/jest.config.ts",
         "passWithNoTests": true
