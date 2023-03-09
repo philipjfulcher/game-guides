@@ -1,9 +1,9 @@
 import { json, redirect, Response } from "@remix-run/node";
 import { Form, useLoaderData, useTransition } from "@remix-run/react";
 import { type ActionFunction, type LoaderFunction } from "@remix-run/server-runtime";
-import { getCurrentStep, getStep } from "@mass-effect/mass-effect/data-access";
-import { Step } from "@mass-effect/mass-effect/models";
-import CompleteButton from "~/components/complete-button";
+import { getCurrentStep, getStep } from "@game-guides/data-access";
+import { Step } from "@game-guides/models";
+import { CompleteButton } from "@game-guides/components";
 import { createServerClient } from "@supabase/auth-helpers-remix";
 
 export let loader: LoaderFunction = async ({ params, request }) => {

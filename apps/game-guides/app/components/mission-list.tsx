@@ -1,10 +1,10 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 
-import { StepSummary } from '~/../../../../libs/mass-effect/data-access/src/lib/data-steps';
 import { Link } from '@remix-run/react';
+import { StepSummary } from "@game-guides/models";
 
-export default function MissionList({
+export function MissionList({
   steps,
   currentStep,
 }: {

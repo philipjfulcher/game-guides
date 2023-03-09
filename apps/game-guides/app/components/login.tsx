@@ -2,7 +2,7 @@ import { useOutletContext } from '@remix-run/react';
 import { SupabaseClient } from '@supabase/auth-helpers-remix';
 import { useEffect, useState } from 'react';
 
-export default function Login() {
+export function Login() {
   const { supabase } = useOutletContext<{ supabase: SupabaseClient }>();
   const [email, setEmail] = useState<string | null>(null);
 

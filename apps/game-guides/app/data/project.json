@@ -1,21 +1,21 @@
 {
   "name": "data-access",
-  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/mass-effect/data-access/src",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/game-guides/data",
   "projectType": "library",
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/mass-effect/data-access/**/*.ts"]
+        "lintFilePatterns": ["apps/game-guides/data/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/libs/mass-effect/data-access"],
+      "outputs": ["{workspaceRoot}/coverage/libs/data-access"],
       "options": {
-        "jestConfig": "libs/mass-effect/data-access/jest.config.ts",
+        "jestConfig": "apps/game-guides/data/jest.config.ts",
         "passWithNoTests": true
       }
     }

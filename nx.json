@@ -1,5 +1,5 @@
 {
-  "npmScope": "mass-effect",
+  "npmScope": "game-guides",
   "affected": {
     "defaultBase": "main"
   },

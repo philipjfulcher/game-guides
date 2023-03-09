@@ -1,7 +1,7 @@
 import { CheckBadgeIcon } from '@heroicons/react/24/solid';
 import { CheckBadgeIcon as OutlineCheckBadgeIcon } from '@heroicons/react/24/outline';
 
-export default function CompleteButton({
+export function CompleteButton({
   completed,
   creating,
 }: {

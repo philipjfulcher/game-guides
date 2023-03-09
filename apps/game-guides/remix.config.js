@@ -7,5 +7,6 @@ module.exports = {
   publicPath: '/build/',
   serverBuildDirectory: 'build',
   devServerPort: 8002,
-  watchPaths: ['../../libs']
+  watchPaths: ['../../libs'],
+  ignoredRouteFiles: ["**/project.json"],
 };

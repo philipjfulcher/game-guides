@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'mass-effect-models',
+  displayName: 'game-guides-components',
   preset: '../../../jest.preset.js',
   globals: {},
   transform: {
@@ -12,5 +12,5 @@ export default {
     ],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../../coverage/libs/mass-effect/models',
+  coverageDirectory: '../../../coverage/libs/data-access',
 };

@@ -1,13 +1,13 @@
-import { Fragment } from 'react';
+import { Fragment } from "react";
 import {
-  MoonIcon,
+  CheckIcon,
   ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
   EllipsisHorizontalIcon,
-  CheckIcon,
-} from '@heroicons/react/24/solid';
-import { Menu, Transition } from '@headlessui/react';
+  MoonIcon
+} from "@heroicons/react/24/solid";
+import { Menu, Transition } from "@headlessui/react";
 import {
   addDays,
   eachDayOfInterval,
@@ -16,10 +16,9 @@ import {
   endOfWeek,
   format,
   isSameDay,
-  startOfMonth,
   startOfWeek,
-  subDays,
-} from 'date-fns';
+  subDays
+} from "date-fns";
 
 const start = new Date('2009-04-07');
 const end = new Date('2010-01-31');
@@ -79,7 +78,7 @@ const months = eachMonthOfInterval({ start, end }).map((month) => {
   };
 });
 
-function classNames(...classes) {
+function classNames(...classes: Array<string | null>) {
   return classes.filter(Boolean).join(' ');
 }
 
@@ -352,22 +351,22 @@ export default function Example() {
                         day.isCurrentMonth
                           ? 'bg-white text-gray-900'
                           : 'bg-gray-50 text-gray-400',
-                        dayIdx === 0 && 'rounded-tl-lg',
-                        dayIdx === 6 && 'rounded-tr-lg',
-                        dayIdx === month.days.length - 7 && 'rounded-bl-lg',
-                        dayIdx === month.days.length - 1 && 'rounded-br-lg',
+                        dayIdx === 0 ? 'rounded-tl-lg' : null,
+                        dayIdx === 6 ? 'rounded-tr-lg' : null,
+                        dayIdx === month.days.length - 7 ? 'rounded-bl-lg' : null,
+                        dayIdx === month.days.length - 1 ? 'rounded-br-lg' : null,
                         'py-1.5 hover:bg-gray-100 focus:z-10 relative'
                       )}
                     >
                       <time
                         dateTime={day.date}
                         className={classNames(
-                          day.isToday &&
-                            'bg-indigo-600 font-semibold text-white',
+                          day.isToday ?
+                            'bg-indigo-600 font-semibold text-white' : null,
                           'mx-auto flex h-7 w-7 items-center justify-center rounded-full'
                         )}
                       >
-                        {day.date.split('-').pop().replace(/^0/, '')}
+                        {day.date.split('-').pop()?.replace(/^0/, '')}
                       </time>
                       {day.date === '2009-04-20' ? (
                         <MoonIcon

@@ -14,7 +14,7 @@ describe('plugin e2e', () => {
   // on a unique project in the workspace, such that they
   // are not dependant on one another.
   beforeAll(() => {
-    ensureNxProject('@mass-effect/plugin', 'dist/libs/plugin');
+    ensureNxProject('@game-guides/plugin', 'dist/libs/plugin');
   });
 
   afterAll(() => {
