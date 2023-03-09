@@ -1,10 +1,10 @@
-import { json, redirect } from '@remix-run/node';
-import { Link, Outlet, useLoaderData } from '@remix-run/react';
-import { type LoaderFunction } from '@remix-run/server-runtime';
-import { getAct, getActs, getCurrentStep } from '@mass-effect/mass-effect/data-access';
-import { Act } from '@mass-effect/mass-effect/models';
-import MissionList from '~/components/mission-list';
-import { createServerClient } from '@supabase/auth-helpers-remix';
+import { json } from "@remix-run/node";
+import { Outlet, useLoaderData } from "@remix-run/react";
+import { type LoaderFunction } from "@remix-run/server-runtime";
+import { getAct, getCurrentStep } from "@game-guides/data-access";
+import { Act } from "@game-guides/models";
+import { MissionList } from "@game-guides/components";
+import { createServerClient } from "@supabase/auth-helpers-remix";
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const act = await getAct(params.actId as string);

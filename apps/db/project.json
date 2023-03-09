@@ -1,15 +1,19 @@
 {
+  "name": "db",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/db/src",
   "projectType": "application",
   "targets": {
     "build": {
-      "executor": "@nrwl/node:webpack",
+      "executor": "@nrwl/webpack:webpack",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/db",
         "main": "apps/db/src/main.ts",
         "tsConfig": "apps/db/tsconfig.app.json",
-        "assets": ["apps/db/src/assets"]
+        "assets": ["apps/db/src/assets"],
+        "target": "node",
+        "compiler": "tsc"
       },
       "configurations": {
         "production": {
@@ -40,7 +44,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/db"],
+      "outputs": ["{workspaceRoot}/coverage/apps/db"],
       "options": {
         "jestConfig": "apps/db/jest.config.ts",
         "passWithNoTests": true

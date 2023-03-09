@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
-  displayName: 'plugin',
-  preset: '../../jest.preset.js',
+  displayName: 'data',
+  preset: '../../../jest.preset.js',
   globals: {},
   transform: {
     '^.+\\.[tj]s$': [
@@ -12,5 +12,5 @@ export default {
     ],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/libs/plugin',
+  coverageDirectory: '../../../coverage/libs/data-access',
 };

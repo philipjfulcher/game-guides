@@ -1,8 +1,8 @@
 import { Link } from '@remix-run/react';
 import { CheckIcon } from '@heroicons/react/24/solid';
-import { Act } from '~/../../../../libs/mass-effect/data-access/src/lib/data-steps';
+import { Act } from '@game-guides/models';
 
-export default function ActList({
+export function ActList({
   acts,
   currentAct,
 }: {

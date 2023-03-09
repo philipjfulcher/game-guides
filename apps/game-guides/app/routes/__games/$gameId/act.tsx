@@ -1,8 +1,8 @@
 import { json, type LoaderFunction, type MetaFunction } from "@remix-run/node";
 import { Outlet, useLoaderData } from "@remix-run/react";
-import { getActs, getCurrentStep } from "@mass-effect/mass-effect/data-access";
-import { Act } from "@mass-effect/mass-effect/models";
-import ActList from "~/components/act-list";
+import { getActs, getCurrentStep } from "@game-guides/data-access";
+import { Act } from "@game-guides/models";
+import { ActList } from "@game-guides/components";
 import { createServerClient } from "@supabase/auth-helpers-remix";
 
 export let loader: LoaderFunction = async ({ request }) => {

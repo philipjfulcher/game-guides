@@ -1,4 +1,4 @@
-import { Step, StepFrontmatter, StepSummary } from "@mass-effect/mass-effect/models";
+import { Step, StepFrontmatter, StepSummary } from "@game-guides/models";
 import { readdir, readFile } from "fs-extra";
 import { join } from "path";
 import parseFrontMatter from "front-matter";
@@ -7,7 +7,7 @@ import { getAct } from "./acts";
 
 export async function getStepSummaries(actId: string): Promise<StepSummary[]> {
   try {
-    const markdownPath = join(__dirname, 'markdown');
+    const markdownPath = join(__dirname, '../app/data/markdown');
 
     const stepsDir = await readdir(join(markdownPath, actId, "steps"));
 
@@ -41,7 +41,7 @@ export async function getStep(
   stepId: string,
   findSubSteps: boolean
 ): Promise<Step> {
-  const markdownPath = join(__dirname, 'markdown');
+  const markdownPath = join(__dirname, '../app/data/markdown');
 
   const stepFile = await readFile(
     join(markdownPath, actId, "steps", `${stepId}.md`)
@@ -70,7 +70,7 @@ export async function getSubSteps(
   actId: string,
   stepId: string
 ): Promise<Step[]> {
-  const markdownPath = join(__dirname, 'markdown');
+  const markdownPath = join(__dirname, '../app/data/markdown');
 
   const stepsDir = await readdir(join(markdownPath, actId, "steps"));
 

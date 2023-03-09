@@ -1,4 +1,4 @@
-import { Act, ActFrontMatter } from "@mass-effect/mass-effect/models";
+import { Act, ActFrontMatter } from "@game-guides/models";
 import { join } from "path";
 import parseFrontMatter from "front-matter";
 import { marked } from "marked";
@@ -6,7 +6,7 @@ import { getStepSummaries } from "./steps";
 import { readdir, readFile } from "fs-extra";
 
 export async function getActs(): Promise<Act[]> {
-  const markdownPath = join(__dirname, 'markdown');
+  const markdownPath = join(__dirname, '../app/data/markdown');
 
   console.log({markdownPath,process: process.cwd(), file: __filename, dir: __dirname, boo: 'boo'})
   const actDir = await readdir(markdownPath);
@@ -19,7 +19,7 @@ export async function getActs(): Promise<Act[]> {
 }
 
 export async function getAct(actId: string): Promise<Act> {
-  const markdownPath = join(__dirname, 'markdown');
+  const markdownPath = join(__dirname, '../app/data/markdown');
 
   const actIndex = await readFile(join(markdownPath, actId, "index.md"));
   const { attributes, body } = parseFrontMatter<ActFrontMatter>(
