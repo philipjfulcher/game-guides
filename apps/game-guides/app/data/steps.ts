@@ -1,22 +1,25 @@
-import { Step, StepFrontmatter, StepSummary } from "@game-guides/models";
-import { readdir, readFile } from "fs-extra";
-import { join } from "path";
-import parseFrontMatter from "front-matter";
-import { marked } from "marked";
-import { getAct, getActs } from "./acts";
-import { getMarkdownDirectory } from "./util";
-import { SupabaseClient, User } from "@supabase/auth-helpers-remix";
-import { Database } from "@game-guides/data-access";
+import { Step, StepFrontmatter, StepSummary } from '@game-guides/models';
+import { readdir, readFile } from 'fs-extra';
+import { join } from 'path';
+import parseFrontMatter from 'front-matter';
+import { marked } from 'marked';
+import { getAct, getActs } from './acts';
+import { getMarkdownDirectory } from './util';
+import { SupabaseClient, User } from '@supabase/auth-helpers-remix';
+import { Database } from '@game-guides/data-access';
 
-export async function getStepSummaries(actId: string, gameId: string): Promise<StepSummary[]> {
+export async function getStepSummaries(
+  actId: string,
+  gameId: string
+): Promise<StepSummary[]> {
   try {
     const markdownPath = getMarkdownDirectory(gameId);
 
-    const stepsDir = await readdir(join(markdownPath, actId, "steps"));
+    const stepsDir = await readdir(join(markdownPath, actId, 'steps'));
 
     return Promise.all(
       stepsDir.map(async (stepId: string) => {
-        const trimmedStepId = stepId.replace(".md", "");
+        const trimmedStepId = stepId.replace('.md', '');
         const step = await getStep(actId, trimmedStepId, true, gameId);
         return {
           order: step.order,
@@ -26,7 +29,7 @@ export async function getStepSummaries(actId: string, gameId: string): Promise<S
           optional: step.optional,
           title: step.title,
           parent: step.parent,
-          completed: false
+          completed: false,
         };
       })
     ).then((steps) => {
@@ -46,11 +49,11 @@ export async function getStep(
   const markdownPath = getMarkdownDirectory(gameId);
 
   const stepFile = await readFile(
-    join(markdownPath, actId, "steps", `${stepId}.md`)
+    join(markdownPath, actId, 'steps', `${stepId}.md`)
   );
 
   const { attributes, body } = parseFrontMatter<StepFrontmatter>(
-    stepFile.toString("utf-8")
+    stepFile.toString('utf-8')
   );
 
   return {
@@ -58,13 +61,13 @@ export async function getStep(
     id: stepId,
     contentMarkdown: body,
     contentHtml: marked(body),
-    automatic: attributes?.automatic === "true" ?? false,
-    optional: attributes?.optional === "true" ?? false,
+    automatic: attributes?.automatic === 'true' ?? false,
+    optional: attributes?.optional === 'true' ?? false,
     order: parseInt(attributes.order, 10),
     substeps: findSubSteps ? await getSubSteps(actId, stepId, gameId) : [],
     parent: attributes?.parent,
     completed: false,
-    actId
+    actId,
   };
 }
 
@@ -75,11 +78,16 @@ export async function getSubSteps(
 ): Promise<Step[]> {
   const markdownPath = getMarkdownDirectory(gameId);
 
-  const stepsDir = await readdir(join(markdownPath, actId, "steps"));
+  const stepsDir = await readdir(join(markdownPath, actId, 'steps'));
 
   const substeps = await Promise.all(
     stepsDir.map(async (subStepId: string) => {
-      const step = await getStep(actId, subStepId.replace(".md", ""), false, gameId);
+      const step = await getStep(
+        actId,
+        subStepId.replace('.md', ''),
+        false,
+        gameId
+      );
 
       if (step?.parent && step.parent === stepId) {
         return step;
@@ -96,11 +104,19 @@ export async function getSubSteps(
   return filteredSubsteps;
 }
 
-export async function getCurrentStep(gameId: string, supabase: SupabaseClient<Database>): Promise<{
+export async function getCurrentStep(
+  gameId: string,
+  supabase: SupabaseClient<Database>
+): Promise<{
   actId: string;
   stepId: string;
 }> {
-  const lastCreatedStepResult = await supabase.from("completed_steps").select("*").eq("game_id", gameId).order("created_at", { ascending: false }).limit(1);
+  const lastCreatedStepResult = await supabase
+    .from('completed_steps')
+    .select('*')
+    .eq('game_id', gameId)
+    .order('created_at', { ascending: false })
+    .limit(1);
   const lastCreatedStep = lastCreatedStepResult.data?.[0];
   if (lastCreatedStep) {
     const [actId, stepId] = lastCreatedStep.step_id.split(':');

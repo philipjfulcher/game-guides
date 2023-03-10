@@ -1,11 +1,19 @@
-import { json, redirect, Response } from "@remix-run/node";
-import { Form, useLoaderData, useParams, useTransition } from "@remix-run/react";
-import { type ActionFunction, type LoaderFunction } from "@remix-run/server-runtime";
-import { getCurrentStep, getStep, validGameId } from "@game-guides/data-access";
-import { Step } from "@game-guides/models";
-import { CompleteButton } from "@game-guides/components";
-import { createServerClient } from "@supabase/auth-helpers-remix";
-import { createSupabaseServerClient } from "../../../../../data/supabase";
+import { json, redirect, Response } from '@remix-run/node';
+import {
+  Form,
+  useLoaderData,
+  useParams,
+  useTransition,
+} from '@remix-run/react';
+import {
+  type ActionFunction,
+  type LoaderFunction,
+} from '@remix-run/server-runtime';
+import { getCurrentStep, getStep, validGameId } from '@game-guides/data-access';
+import { Step } from '@game-guides/models';
+import { CompleteButton } from '@game-guides/components';
+import { createServerClient } from '@supabase/auth-helpers-remix';
+import { createSupabaseServerClient } from '../../../../../data/supabase';
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const response = new Response();
@@ -19,15 +27,16 @@ export let loader: LoaderFunction = async ({ params, request }) => {
       gameId
     );
 
-    const supabase = createSupabaseServerClient(
-      { request, response }
-    );
+    const supabase = createSupabaseServerClient({ request, response });
     const user = await supabase.auth.getUser();
 
     if (user?.data.user) {
-      const completedSteps = await supabase.from("completed_steps").select("*").eq('game_id',gameId);
+      const completedSteps = await supabase
+        .from('completed_steps')
+        .select('*')
+        .eq('game_id', gameId);
 
-      console.log({completedSteps});
+      console.log({ completedSteps });
 
       const completed = Boolean(
         completedSteps.data?.find(
@@ -41,7 +50,6 @@ export let loader: LoaderFunction = async ({ params, request }) => {
   } else {
     throw new Error(`${gameId} is not a valid game.`);
   }
-
 };
 
 export let action: ActionFunction = async ({ request }) => {
@@ -54,9 +62,9 @@ export let action: ActionFunction = async ({ request }) => {
   );
   const formData = await request.formData();
 
-  const gameId = formData.get("gameId");
-  const stepId = formData.get("stepId");
-  const actId = formData.get("actId");
+  const gameId = formData.get('gameId');
+  const stepId = formData.get('stepId');
+  const actId = formData.get('actId');
   const user = await supabase.auth.getUser();
 
   console.log(user.data);
@@ -66,26 +74,34 @@ export let action: ActionFunction = async ({ request }) => {
     //   data: { stepId: stepId.toString(), actId: actId.toString() },
     // });
 
-    const result = await supabase.from("completed_steps").insert([
+    const result = await supabase.from('completed_steps').insert([
       {
         game_id: gameId,
         user_id: user.data.user.id,
-        step_id: `${actId}:${stepId}`
-      }
+        step_id: `${actId}:${stepId}`,
+      },
     ]);
 
-    const step = await getStep(actId.toString(), stepId.toString(), false, gameId.toString());
+    const step = await getStep(
+      actId.toString(),
+      stepId.toString(),
+      false,
+      gameId.toString()
+    );
 
     if (step.parent) {
       return null;
     } else {
-      const currentStep = await getCurrentStep(gameId.toString(),supabase);
+      const currentStep = await getCurrentStep(gameId.toString(), supabase);
 
       return redirect(
         `/${gameId}/act/${currentStep.actId}/step/${currentStep.stepId}`
       );
     }
-    const currentStep = await getCurrentStep(gameId?.toString() as string,supabase);
+    const currentStep = await getCurrentStep(
+      gameId?.toString() as string,
+      supabase
+    );
 
     return redirect(
       `/${gameId}/act/${currentStep.actId}/step/${currentStep.stepId}`
@@ -93,14 +109,13 @@ export let action: ActionFunction = async ({ request }) => {
   } else {
     throw new Error(`I dunno', it's messed up`);
   }
-
 };
 
-export default function() {
+export default function () {
   let step = useLoaderData<Step>();
   const transition = useTransition();
   const isCreating = Boolean(transition.submission);
-  const {gameId} = useParams();
+  const { gameId } = useParams();
 
   return (
     <div className="w-full flex flex-col">
@@ -122,7 +137,7 @@ export default function() {
                   completed={substep.completed}
                   creating={
                     isCreating &&
-                    transition.submission?.formData.get("stepId") === substep.id
+                    transition.submission?.formData.get('stepId') === substep.id
                   }
                 ></CompleteButton>
               ) : (
@@ -138,8 +153,8 @@ export default function() {
                     completed={substep.completed}
                     creating={
                       isCreating &&
-                      transition.submission?.formData.get("stepId") ===
-                      substep.id
+                      transition.submission?.formData.get('stepId') ===
+                        substep.id
                     }
                   ></CompleteButton>
                 </Form>
@@ -156,7 +171,7 @@ export default function() {
             creating={isCreating}
           ></CompleteButton>
         ) : step.substeps.filter((substep) => !substep.completed).length ===
-        0 ? (
+          0 ? (
           <Form method="post">
             <input type="hidden" name="actId" value={step.actId}></input>
             <input type="hidden" name="stepId" value={step.id}></input>

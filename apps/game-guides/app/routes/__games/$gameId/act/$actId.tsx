@@ -1,11 +1,11 @@
-import { json, redirect } from "@remix-run/node";
-import { Outlet, useLoaderData, useParams } from "@remix-run/react";
-import { type LoaderFunction } from "@remix-run/server-runtime";
-import { getAct, getCurrentStep, validGameId } from "@game-guides/data-access";
-import { Act } from "@game-guides/models";
-import { MissionList } from "@game-guides/components";
-import { createServerClient } from "@supabase/auth-helpers-remix";
-import { ThreeColLayout } from "@game-guides/layout";
+import { json, redirect } from '@remix-run/node';
+import { Outlet, useLoaderData, useParams } from '@remix-run/react';
+import { type LoaderFunction } from '@remix-run/server-runtime';
+import { getAct, getCurrentStep, validGameId } from '@game-guides/data-access';
+import { Act } from '@game-guides/models';
+import { MissionList } from '@game-guides/components';
+import { createServerClient } from '@supabase/auth-helpers-remix';
+import { ThreeColLayout } from '@game-guides/layout';
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const gameId = params.gameId;
@@ -22,16 +22,19 @@ export let loader: LoaderFunction = async ({ params, request }) => {
       if (currentStep.actId === act.id) {
         return redirect(`/${gameId}/act/${act.id}/step/${currentStep.stepId}`);
       } else {
-        const orderedSummaries = act.stepSummary.sort((a, b) => a.order - b.order);
-        return redirect(`/${gameId}/act/${act.id}/step/${orderedSummaries[0].id}`);
+        const orderedSummaries = act.stepSummary.sort(
+          (a, b) => a.order - b.order
+        );
+        return redirect(
+          `/${gameId}/act/${act.id}/step/${orderedSummaries[0].id}`
+        );
       }
     }
-
 
     const user = await supabase.auth.getUser();
 
     if (user?.data.user) {
-      const completedSteps = await supabase.from("completed_steps").select("*");
+      const completedSteps = await supabase.from('completed_steps').select('*');
       const stepSummary = act.stepSummary.map((stepSummary) => {
         return {
           ...stepSummary,
@@ -39,7 +42,7 @@ export let loader: LoaderFunction = async ({ params, request }) => {
             completedSteps.data?.find(
               (step) => step.step_id === `${act.id}:${stepSummary.id}`
             )
-          )
+          ),
         };
       });
 
@@ -56,14 +59,12 @@ export let loader: LoaderFunction = async ({ params, request }) => {
     }
 
     return json({ act, currentStep });
-
   } else {
     throw new Error(`${gameId} is not a valid game.`);
   }
-
 };
 
-export default function() {
+export default function () {
   let { act, currentStep } = useLoaderData<{ act: Act; currentStep: string }>();
   const { gameId } = useParams();
   const summaries = act.stepSummary.sort((a, b) => a.order - b.order);
@@ -73,7 +74,11 @@ export default function() {
     //   <Outlet></Outlet>
     // </div>
     <ThreeColLayout>
-      <MissionList gameId={gameId as string} steps={summaries} currentStep={currentStep}></MissionList>
+      <MissionList
+        gameId={gameId as string}
+        steps={summaries}
+        currentStep={currentStep}
+      ></MissionList>
       <Outlet></Outlet>
       <div></div>
     </ThreeColLayout>

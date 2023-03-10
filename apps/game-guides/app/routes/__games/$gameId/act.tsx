@@ -1,9 +1,9 @@
-import { json, type LoaderFunction, type MetaFunction } from "@remix-run/node";
-import { Outlet, useLoaderData, useParams } from "@remix-run/react";
-import { getActs, getCurrentStep, validGameId } from "@game-guides/data-access";
-import { Act } from "@game-guides/models";
-import { ActList } from "@game-guides/components";
-import { createServerClient } from "@supabase/auth-helpers-remix";
+import { json, type LoaderFunction, type MetaFunction } from '@remix-run/node';
+import { Outlet, useLoaderData, useParams } from '@remix-run/react';
+import { getActs, getCurrentStep, validGameId } from '@game-guides/data-access';
+import { Act } from '@game-guides/models';
+import { ActList } from '@game-guides/components';
+import { createServerClient } from '@supabase/auth-helpers-remix';
 
 export let loader: LoaderFunction = async ({ request, params }) => {
   const response = new Response();
@@ -17,10 +17,10 @@ export let loader: LoaderFunction = async ({ request, params }) => {
 
   if (gameId && validGameId(gameId)) {
     let acts = await getActs(gameId);
-    const currentAct = (await getCurrentStep(gameId,supabase)).actId;
+    const currentAct = (await getCurrentStep(gameId, supabase)).actId;
 
     if (user?.data.user) {
-      const completedSteps = await supabase.from("completed_steps").select("*");
+      const completedSteps = await supabase.from('completed_steps').select('*');
       acts = acts.map((act) => {
         const stepSummary = act.stepSummary.map((stepSummary) => {
           return {
@@ -29,7 +29,7 @@ export let loader: LoaderFunction = async ({ request, params }) => {
               completedSteps.data?.find(
                 (step) => step.step_id === `${act.id}:${stepSummary.id}`
               )
-            )
+            ),
           };
         });
         console.log(stepSummary);
@@ -45,7 +45,7 @@ export let loader: LoaderFunction = async ({ request, params }) => {
         return {
           ...act,
           stepSummary,
-          completed
+          completed,
         };
       });
     }
@@ -53,13 +53,12 @@ export let loader: LoaderFunction = async ({ request, params }) => {
   } else {
     throw Error(`${gameId} is not a valid game.`);
   }
-
 };
 
 export let meta: MetaFunction = () => {
   return {
-    title: "Mass Effect 2 Mission Order",
-    description: "Mission tracker for Mass Effect 2"
+    title: 'Mass Effect 2 Mission Order',
+    description: 'Mission tracker for Mass Effect 2',
   };
 };
 
@@ -73,7 +72,11 @@ export default function Index() {
 
   return (
     <div className="flex flex-col w-full">
-      <ActList acts={acts} currentAct={currentAct} gameId={gameId as string}></ActList>
+      <ActList
+        acts={acts}
+        currentAct={currentAct}
+        gameId={gameId as string}
+      ></ActList>
       <Outlet></Outlet>
     </div>
   );

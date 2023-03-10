@@ -1,13 +1,13 @@
-import { Act, ActFrontMatter } from "@game-guides/models";
-import { join } from "path";
-import parseFrontMatter from "front-matter";
-import { marked } from "marked";
-import { getStepSummaries } from "./steps";
-import { readdir, readFile } from "fs-extra";
-import { getMarkdownDirectory } from "./util";
+import { Act, ActFrontMatter } from '@game-guides/models';
+import { join } from 'path';
+import parseFrontMatter from 'front-matter';
+import { marked } from 'marked';
+import { getStepSummaries } from './steps';
+import { readdir, readFile } from 'fs-extra';
+import { getMarkdownDirectory } from './util';
 
 export async function getActs(gameId: string): Promise<Act[]> {
-  const markdownPath = getMarkdownDirectory(gameId)
+  const markdownPath = getMarkdownDirectory(gameId);
   const actDir = await readdir(markdownPath);
 
   return Promise.all(
@@ -18,14 +18,14 @@ export async function getActs(gameId: string): Promise<Act[]> {
 }
 
 export async function getAct(actId: string, gameId: string): Promise<Act> {
-  const markdownPath = getMarkdownDirectory(gameId)
+  const markdownPath = getMarkdownDirectory(gameId);
 
-  const actIndex = await readFile(join(markdownPath, actId, "index.md"));
+  const actIndex = await readFile(join(markdownPath, actId, 'index.md'));
   const { attributes, body } = parseFrontMatter<ActFrontMatter>(
-    actIndex.toString("utf-8")
+    actIndex.toString('utf-8')
   );
 
-  const stepSummaries = await getStepSummaries(actId,gameId);
+  const stepSummaries = await getStepSummaries(actId, gameId);
 
   const completed = stepSummaries.reduce((acc, cur) => {
     if (!cur.completed) {
@@ -42,6 +42,6 @@ export async function getAct(actId: string, gameId: string): Promise<Act> {
     contentMarkdown: body,
     contentHtml: marked(body),
     stepSummary: await getStepSummaries(actId, gameId),
-    completed
+    completed,
   };
 }

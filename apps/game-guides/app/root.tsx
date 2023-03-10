@@ -7,24 +7,24 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch,
-  useLoaderData
-} from "@remix-run/react";
+  useLoaderData,
+} from '@remix-run/react';
 
-import styles from "./styles/app.css";
-import { json, LoaderArgs } from "@remix-run/node";
-import { createBrowserClient } from "@supabase/auth-helpers-remix";
-import { useState } from "react";
-import Shell from "./layout/Shell";
-import { Navbar, ThreeColLayout } from "@game-guides/layout";
+import styles from './styles/app.css';
+import { json, LoaderArgs } from '@remix-run/node';
+import { createBrowserClient } from '@supabase/auth-helpers-remix';
+import { useState } from 'react';
+import Shell from './layout/Shell';
+import { Navbar, ThreeColLayout } from '@game-guides/layout';
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }];
+  return [{ rel: 'stylesheet', href: styles }];
 }
 
 export const loader = ({}: LoaderArgs) => {
   const env = {
     SUPABASE_URL: process.env.SUPABASE_URL!,
-    SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY!
+    SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY!,
   };
 
   return json({ env });
@@ -102,27 +102,27 @@ export function CatchBoundary() {
 }
 
 function Document({
-                    children,
-                    title
-                  }: {
+  children,
+  title,
+}: {
   children: React.ReactNode;
   title?: string;
 }) {
   return (
     <html lang="en">
-    <head>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      {title ? <title>{title}</title> : null}
-      <Meta />
-      <Links />
-    </head>
-    <body>
-    {children}
-    <ScrollRestoration />
-    <Scripts />
-    {process.env.NODE_ENV === "development" && <LiveReload />}
-    </body>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        {title ? <title>{title}</title> : null}
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        {children}
+        <ScrollRestoration />
+        <Scripts />
+        {process.env.NODE_ENV === 'development' && <LiveReload />}
+      </body>
     </html>
   );
 }

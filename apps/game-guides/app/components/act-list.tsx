@@ -7,7 +7,7 @@ export function ActList({
   acts,
   currentAct,
 }: {
-  gameId: string,
+  gameId: string;
   acts: Act[];
   currentAct: string;
 }) {

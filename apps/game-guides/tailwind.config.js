@@ -1,11 +1,10 @@
 /** @type {import("tailwindcss").Config} */
-const path = require("path");
+const path = require('path');
 
 module.exports = {
-  content: [path.join(__dirname, "app/**/*.{js,ts,jsx,tsx}")],
+  content: [path.join(__dirname, 'app/**/*.{js,ts,jsx,tsx}')],
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: [require("@tailwindcss/forms")
-  ]
+  plugins: [require('@tailwindcss/forms')],
 };

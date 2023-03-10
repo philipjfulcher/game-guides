@@ -1,3 +1,3 @@
 export * from './Shell';
 export * from './Navbar';
-export { ThreeColLayout } from "./ThreeColLayout";
+export { ThreeColLayout } from './ThreeColLayout';
