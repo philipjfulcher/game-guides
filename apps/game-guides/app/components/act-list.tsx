@@ -3,9 +3,11 @@ import { CheckIcon } from '@heroicons/react/24/solid';
 import { Act } from '@game-guides/models';
 
 export function ActList({
+  gameId,
   acts,
   currentAct,
 }: {
+  gameId: string,
   acts: Act[];
   currentAct: string;
 }) {
@@ -19,7 +21,7 @@ export function ActList({
           <li key={act.title} className="relative md:flex-1 md:flex">
             {act.completed ? (
               <Link
-                to={`/mass-effect-2/act/${act.id}`}
+                to={`/${gameId}/act/${act.id}`}
                 prefetch="intent"
                 className="group flex items-center w-full"
               >
@@ -37,13 +39,13 @@ export function ActList({
               </Link>
             ) : act.id === currentAct ? (
               <Link
-                to={`/mass-effect-2/act/${act.id}`}
+                to={`/${gameId}/act/${act.id}`}
                 prefetch="intent"
                 className="px-6 py-4 flex items-center text-sm font-medium"
                 aria-current="step"
               >
                 <span className="flex-shrink-0 w-10 h-10 flex items-center justify-center border-2 border-indigo-600 rounded-full">
-                  <span className="text-indigo-600">{act.id}</span>
+                  <span className="text-indigo-600">{actIdx + 1}</span>
                 </span>
                 <span className="ml-4 text-sm font-medium text-indigo-600">
                   {act.title}
@@ -51,7 +53,7 @@ export function ActList({
               </Link>
             ) : (
               <Link
-                to={`/mass-effect-2/act/${act.id}`}
+                to={`/${gameId}/act/${act.id}`}
                 prefetch="intent"
                 className="group flex items-center"
               >

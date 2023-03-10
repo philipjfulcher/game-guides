@@ -7,7 +7,9 @@ import { StepSummary } from "@game-guides/models";
 export function MissionList({
   steps,
   currentStep,
+  gameId
 }: {
+  gameId: string,
   steps: StepSummary[];
   currentStep: string;
 }) {

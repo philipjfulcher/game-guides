@@ -1,37 +1,47 @@
 import { json, redirect, Response } from "@remix-run/node";
-import { Form, useLoaderData, useTransition } from "@remix-run/react";
+import { Form, useLoaderData, useParams, useTransition } from "@remix-run/react";
 import { type ActionFunction, type LoaderFunction } from "@remix-run/server-runtime";
-import { getCurrentStep, getStep } from "@game-guides/data-access";
+import { getCurrentStep, getStep, validGameId } from "@game-guides/data-access";
 import { Step } from "@game-guides/models";
 import { CompleteButton } from "@game-guides/components";
 import { createServerClient } from "@supabase/auth-helpers-remix";
+import { createSupabaseServerClient } from "../../../../../data/supabase";
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const response = new Response();
-  const step = await getStep(
-    params.actId as string,
-    params.stepId as string,
-    true
-  );
+  const gameId = params.gameId;
 
-  const supabase = createServerClient(
-    process.env.SUPABASE_URL!,
-    process.env.SUPABASE_ANON_KEY!,
-    { request, response }
-  );
-  const user = await supabase.auth.getUser();
-
-  if (user?.data.user) {
-    const completedSteps = await supabase.from('completed_steps').select('*');
-    const completed = Boolean(
-      completedSteps.data?.find(
-        (step) => step.step_id === `${params.actId}:${params.stepId}`
-      )
+  if (gameId && validGameId(gameId)) {
+    const step = await getStep(
+      params.actId as string,
+      params.stepId as string,
+      true,
+      gameId
     );
-    step.completed = completed;
+
+    const supabase = createSupabaseServerClient(
+      { request, response }
+    );
+    const user = await supabase.auth.getUser();
+
+    if (user?.data.user) {
+      const completedSteps = await supabase.from("completed_steps").select("*").eq('game_id',gameId);
+
+      console.log({completedSteps});
+
+      const completed = Boolean(
+        completedSteps.data?.find(
+          (step) => step.step_id === `${params.actId}:${params.stepId}`
+        )
+      );
+      step.completed = completed;
+    }
+
+    return json(step);
+  } else {
+    throw new Error(`${gameId} is not a valid game.`);
   }
 
-  return json(step);
 };
 
 export let action: ActionFunction = async ({ request }) => {
@@ -44,49 +54,53 @@ export let action: ActionFunction = async ({ request }) => {
   );
   const formData = await request.formData();
 
-  const stepId = formData.get('stepId');
-  const actId = formData.get('actId');
+  const gameId = formData.get("gameId");
+  const stepId = formData.get("stepId");
+  const actId = formData.get("actId");
   const user = await supabase.auth.getUser();
 
   console.log(user.data);
 
-  if (user.data?.user?.id && stepId && actId) {
+  if (user.data?.user?.id && stepId && actId && gameId) {
     // await prisma.completedStep.create({
     //   data: { stepId: stepId.toString(), actId: actId.toString() },
     // });
 
-    const result = await supabase.from('completed_steps').insert([
+    const result = await supabase.from("completed_steps").insert([
       {
-        game_id: 2,
+        game_id: gameId,
         user_id: user.data.user.id,
-        step_id: `${actId}:${stepId}`,
-      },
+        step_id: `${actId}:${stepId}`
+      }
     ]);
 
-    const step = await getStep(actId.toString(), stepId.toString(), false);
+    const step = await getStep(actId.toString(), stepId.toString(), false, gameId.toString());
 
     if (step.parent) {
       return null;
     } else {
-      const currentStep = await getCurrentStep();
+      const currentStep = await getCurrentStep(gameId.toString(),supabase);
 
       return redirect(
-        `/mass-effect-2/act/${currentStep.actId}/step/${currentStep.stepId}`
+        `/${gameId}/act/${currentStep.actId}/step/${currentStep.stepId}`
       );
     }
+    const currentStep = await getCurrentStep(gameId?.toString() as string,supabase);
+
+    return redirect(
+      `/${gameId}/act/${currentStep.actId}/step/${currentStep.stepId}`
+    );
+  } else {
+    throw new Error(`I dunno', it's messed up`);
   }
 
-  const currentStep = await getCurrentStep();
-
-  return redirect(
-    `/mass-effect-2/act/${currentStep.actId}/step/${currentStep.stepId}`
-  );
 };
 
-export default function () {
+export default function() {
   let step = useLoaderData<Step>();
   const transition = useTransition();
   const isCreating = Boolean(transition.submission);
+  const {gameId} = useParams();
 
   return (
     <div className="w-full flex flex-col">
@@ -108,7 +122,7 @@ export default function () {
                   completed={substep.completed}
                   creating={
                     isCreating &&
-                    transition.submission?.formData.get('stepId') === substep.id
+                    transition.submission?.formData.get("stepId") === substep.id
                   }
                 ></CompleteButton>
               ) : (
@@ -119,12 +133,13 @@ export default function () {
                     value={substep.actId}
                   ></input>
                   <input type="hidden" name="stepId" value={substep.id}></input>
+                  <input type="hidden" name="gameId" value={gameId}></input>
                   <CompleteButton
                     completed={substep.completed}
                     creating={
                       isCreating &&
-                      transition.submission?.formData.get('stepId') ===
-                        substep.id
+                      transition.submission?.formData.get("stepId") ===
+                      substep.id
                     }
                   ></CompleteButton>
                 </Form>
@@ -141,10 +156,12 @@ export default function () {
             creating={isCreating}
           ></CompleteButton>
         ) : step.substeps.filter((substep) => !substep.completed).length ===
-          0 ? (
+        0 ? (
           <Form method="post">
             <input type="hidden" name="actId" value={step.actId}></input>
             <input type="hidden" name="stepId" value={step.id}></input>
+            <input type="hidden" name="gameId" value={gameId}></input>
+
             <CompleteButton
               completed={step.completed}
               creating={isCreating}
