@@ -1,14 +1,15 @@
 import { json, redirect } from "@remix-run/node";
-import { Outlet, useLoaderData } from "@remix-run/react";
+import { Outlet, useLoaderData, useParams } from "@remix-run/react";
 import { type LoaderFunction } from "@remix-run/server-runtime";
 import { getAct, getCurrentStep, validGameId } from "@game-guides/data-access";
 import { Act } from "@game-guides/models";
 import { MissionList } from "@game-guides/components";
 import { createServerClient } from "@supabase/auth-helpers-remix";
+import { ThreeColLayout } from "@game-guides/layout";
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const gameId = params.gameId;
-    const response = new Response();
+  const response = new Response();
   const supabase = createServerClient(
     process.env.SUPABASE_URL!,
     process.env.SUPABASE_ANON_KEY!,
@@ -16,7 +17,7 @@ export let loader: LoaderFunction = async ({ params, request }) => {
   );
   if (gameId && validGameId(gameId)) {
     const act = await getAct(params.actId as string, gameId);
-    const currentStep = await getCurrentStep(gameId,supabase);
+    const currentStep = await getCurrentStep(gameId, supabase);
     if (!params.stepId) {
       if (currentStep.actId === act.id) {
         return redirect(`/${gameId}/act/${act.id}/step/${currentStep.stepId}`);
@@ -30,7 +31,7 @@ export let loader: LoaderFunction = async ({ params, request }) => {
     const user = await supabase.auth.getUser();
 
     if (user?.data.user) {
-      const completedSteps = await supabase.from('completed_steps').select('*');
+      const completedSteps = await supabase.from("completed_steps").select("*");
       const stepSummary = act.stepSummary.map((stepSummary) => {
         return {
           ...stepSummary,
@@ -38,7 +39,7 @@ export let loader: LoaderFunction = async ({ params, request }) => {
             completedSteps.data?.find(
               (step) => step.step_id === `${act.id}:${stepSummary.id}`
             )
-          ),
+          )
         };
       });
 
@@ -62,14 +63,19 @@ export let loader: LoaderFunction = async ({ params, request }) => {
 
 };
 
-export default function () {
+export default function() {
   let { act, currentStep } = useLoaderData<{ act: Act; currentStep: string }>();
-
+  const { gameId } = useParams();
   const summaries = act.stepSummary.sort((a, b) => a.order - b.order);
   return (
-    <div className={'flex flex-row'}>
-      <MissionList steps={summaries} currentStep={currentStep}></MissionList>
+    // <div className={'flex flex-row'}>
+    //   <MissionList gameId={gameId as string} steps={summaries} currentStep={currentStep}></MissionList>
+    //   <Outlet></Outlet>
+    // </div>
+    <ThreeColLayout>
+      <MissionList gameId={gameId as string} steps={summaries} currentStep={currentStep}></MissionList>
       <Outlet></Outlet>
-    </div>
+      <div></div>
+    </ThreeColLayout>
   );
 }

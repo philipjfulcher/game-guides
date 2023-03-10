@@ -14,15 +14,14 @@ export function MissionList({
   currentStep: string;
 }) {
   return (
-    <div className="w-72">
-      <div className="py-12 px-4 sm:px-6 lg:px-8">
+      <div className="py-4 px-4 sm:px-6 lg:px-8">
         <nav className="flex justify-center" aria-label="Progress">
           <ol role="list" className="space-y-6">
             {steps.map((step) => (
               <li key={step.title}>
                 {step.completed ? (
                   <Link
-                    to={`/mass-effect-2/act/${step.actId}/step/${step.id}`}
+                    to={`/${gameId}/act/${step.actId}/step/${step.id}`}
                     prefetch="intent"
                     className="group"
                   >
@@ -40,7 +39,7 @@ export function MissionList({
                   </Link>
                 ) : step.id === currentStep ? (
                   <Link
-                    to={`/mass-effect-2/act/${step.actId}/step/${step.id}`}
+                    to={`/${gameId}/act/${step.actId}/step/${step.id}`}
                     prefetch="intent"
                     className="flex items-start"
                     aria-current="step"
@@ -58,7 +57,7 @@ export function MissionList({
                   </Link>
                 ) : (
                   <Link
-                    to={`/mass-effect-2/act/${step.actId}/step/${step.id}`}
+                    to={`/${gameId}/act/${step.actId}/step/${step.id}`}
                     prefetch="intent"
                     className="group"
                   >
@@ -80,6 +79,5 @@ export function MissionList({
           </ol>
         </nav>
       </div>
-    </div>
   );
 }
