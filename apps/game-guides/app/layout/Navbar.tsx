@@ -1,10 +1,14 @@
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3CenterLeftIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { classNames } from "./util";
 import { GameSelectMenu, SelectMenuItem } from "./GameSelectMenu";
 import { NavBarLinks } from "./NavBarLinks";
-import { useParams } from "@remix-run/react";
+import { useOutletContext, useParams } from "@remix-run/react";
+import { SupabaseClient } from "@supabase/auth-helpers-remix";
+import { useOutletContext } from "@remix-run/react";
+import { SupabaseClient } from "@supabase/auth-helpers-remix";
+import { useEffect, useState } from "react";
 
 const menuItems: SelectMenuItem[] = [
   {
@@ -22,9 +26,37 @@ const menuItems: SelectMenuItem[] = [
 ];
 
 
+export function Navbar({supabase}:{supabase: SupabaseClient}): JSX.Element {
+  const { gameId } = useParams() as { gameId: string };
 
-export function Navbar(): JSX.Element {
-  const {gameId} = useParams() as {gameId: string};
+  const [email, setEmail] = useState<string | null>(null);
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      if (data.user?.email) {
+        setEmail(data.user.email);
+      }
+
+
+      supabase.auth.onAuthStateChange((event, session) => {
+        if (event === "SIGNED_IN" && session?.user?.email) {
+          setEmail(session.user.email);
+        } else if (event === "SIGNED_OUT") {
+          setEmail(null);
+        }
+      });
+    });
+  }, [supabase]);
+  const handleGoogleLogin = async () => {
+    await supabase.auth.signInWithOAuth({
+      provider: "google"
+    });
+  };
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+  };
+
   return (
     <Disclosure as="nav" className="flex-shrink-0 bg-indigo-600">
       {({ open }) => (
@@ -46,7 +78,7 @@ export function Navbar(): JSX.Element {
                 <div className="w-full px-2 lg:px-6">
                   <GameSelectMenu
                     items={menuItems}
-                    selectedItemId={"mass-effect-2"}
+                    selectedItemId={gameId}
                   ></GameSelectMenu>
                 </div>
               </div>
@@ -67,7 +99,7 @@ export function Navbar(): JSX.Element {
                 </Disclosure.Button>
               </div>
 
-              <NavBarLinks gameId={gameId}></NavBarLinks>
+              <NavBarLinks gameId={gameId} supabase={supabase}></NavBarLinks>
             </div>
           </div>
 
@@ -90,13 +122,32 @@ export function Navbar(): JSX.Element {
             </div>
             <div className="border-t border-indigo-800 pt-4 pb-3">
               <div className="px-2">
-                <Disclosure.Button
-                  as="a"
-                  href="#"
-                  className="block rounded-md px-3 py-2 text-base font-medium text-indigo-200 hover:bg-indigo-600 hover:text-indigo-100"
-                >
-                  Your Profile
-                </Disclosure.Button>
+
+                {email ? (
+                  <>
+                    <Disclosure.Button
+                      as="button"
+                      className="block rounded-md px-3 py-2 text-base font-medium text-indigo-200 hover:bg-indigo-600 hover:text-indigo-100"
+                    >
+                      Welcome, {email}
+                    </Disclosure.Button>
+                    <Disclosure.Button
+                      as="button"
+                      onClick={handleLogout}
+                      className="block rounded-md px-3 py-2 text-base font-medium text-indigo-200 hover:bg-indigo-600 hover:text-indigo-100"
+                    >
+                      Logout
+                    </Disclosure.Button>
+                  </>
+                ) : (
+                  <Disclosure.Button
+                    as="button"
+                    onClick={handleGoogleLogin}
+                    className="mt-1 block rounded-md px-3 py-2 text-base font-medium text-indigo-200 hover:bg-indigo-600 hover:text-indigo-100"
+                  >
+                    Login
+                  </Disclosure.Button>
+                )}
                 <Disclosure.Button
                   as="a"
                   href="#"

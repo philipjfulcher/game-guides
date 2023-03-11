@@ -1,6 +1,7 @@
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { classNames } from "./util";
+import { SupabaseClient } from "@supabase/auth-helpers-remix";
 
 const menuLinks: { label: string; urlSegment: string }[] = [
   {
@@ -9,12 +10,42 @@ const menuLinks: { label: string; urlSegment: string }[] = [
   }
 ];
 
-export function NavBarLinks({gameId}: {gameId: string}) {
+export function NavBarLinks({gameId,supabase}: {gameId: string,supabase: SupabaseClient}) {
+  const [email, setEmail] = useState<string | null>(null);
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      if (data.user?.email) {
+        setEmail(data.user.email);
+      }
+
+
+      supabase.auth.onAuthStateChange((event, session) => {
+        if (event === "SIGNED_IN" && session?.user?.email) {
+          setEmail(session.user.email);
+        } else if (event === "SIGNED_OUT") {
+          setEmail(null);
+        }
+      });
+    });
+  }, [supabase]);
+
+  const handleGoogleLogin = async () => {
+    await supabase.auth.signInWithOAuth({
+      provider: "google"
+    });
+  };
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+  };
+
   return <div className="hidden lg:block lg:w-80">
     <div className="flex items-center justify-end">
       <div className="flex">
         {menuLinks.map(link => {
           return <a
+            key={link.urlSegment}
             href="#"
             className="rounded-md px-3 py-2 text-sm font-medium text-indigo-200 hover:text-white"
           >
@@ -47,19 +78,45 @@ export function NavBarLinks({gameId}: {gameId: string}) {
         >
           <Menu.Items
             className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-            <Menu.Item>
+
+            { email ? (<><Menu.Item>
               {({ active }) => (
-                <a
-                  href="#"
+                <button
                   className={classNames(
                     active ? "bg-gray-100" : "",
                     "block px-4 py-2 text-sm text-gray-700"
                   )}
                 >
-                  View Profile
-                </a>
+                  Welcome, {email}
+                </button>
               )}
             </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <button
+                    onClick={handleLogout}
+                    className={classNames(
+                      active ? "bg-gray-100" : "",
+                      "block px-4 py-2 text-sm text-gray-700"
+                    )}
+                  >
+                    Logout
+                  </button>
+                )}
+              </Menu.Item>
+            </>) : (<Menu.Item>
+              {({ active }) => (
+                <button
+                  onClick={handleGoogleLogin}
+                  className={classNames(
+                    active ? "bg-gray-100" : "",
+                    "block px-4 py-2 text-sm text-gray-700"
+                  )}
+                >
+                  Login
+                </button>
+              )}
+            </Menu.Item>) }
             <Menu.Item>
               {({ active }) => (
                 <a

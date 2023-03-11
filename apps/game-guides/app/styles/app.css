@@ -1234,6 +1234,10 @@ a {
   padding: 0.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1540,6 +1544,10 @@ a {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.parsed-markdown p {
+  margin-bottom: 1rem;
 }
 
 .hover\:bg-indigo-700:hover {

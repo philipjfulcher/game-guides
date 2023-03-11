@@ -38,7 +38,7 @@ export default function App() {
   return (
     <Document>
       <Shell>
-        <Navbar></Navbar>
+        <Navbar supabase={supabase}></Navbar>
         <Outlet context={{ supabase }} />
       </Shell>
     </Document>

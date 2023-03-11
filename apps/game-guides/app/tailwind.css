@@ -8,3 +8,7 @@
     @apply text-indigo-600;
   }
 }
+
+.parsed-markdown p {
+  @apply mb-4;
+}

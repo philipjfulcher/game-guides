@@ -30,13 +30,18 @@ export default async function(tree: Tree, options: ParseGuideGeneratorSchema) {
   let currentSubSection: Section;
 
   rl.on("line", (line) => {
+    console.log(line)
     if (line.endsWith("/")) {
       const cleanLine = line.replace(/([ ]+\/)/, "");
       if (sectionTitles.includes(cleanLine)) {
         console.log("Starting section");
         if (currentSection !== undefined) {
+          if(currentSubSection !== undefined) {
+            currentSection.subsections.push(currentSubSection);
+          }
           sections.push(currentSection);
         }
+
         currentSection = {
           title: cleanLine,
           subsections: []
@@ -54,47 +59,55 @@ export default async function(tree: Tree, options: ParseGuideGeneratorSchema) {
           content: []
         };
       }
-    } else if (line !== "") {
+    } else {
       currentSubSection.content.push(line);
     }
   });
 
   return new Promise<void>((resolve, reject) => {
     rl.on("close", () => {
-      sections.forEach(section => {
-        const safeSectionName = names(section.title).fileName.replaceAll(".", "");
+      sections.forEach((section, sectionIndex) => {
+        let safeSectionName = names(section.title).fileName.replaceAll(".", "");
+        safeSectionName = `${sectionIndex}-${safeSectionName}`;
         const sectionIndexFileName = joinPathFragments("apps/game-guides/app/data/metroid-prime-remastered/", safeSectionName, "/index.md");
-        const sectionContent = `---
-        title: ${section.title}
-        subtitle:
-        ---
+        const sectionContent =
+`---
+title: ${section.title}
+subtitle:
+---
 
-        #### ${section.title}
-        `;
+#### ${section.title}
+`;
 
         tree.write(sectionIndexFileName, sectionContent);
 
         section.subsections.forEach((subsection, index) => {
           const safeSubSectionName = names(subsection.title).fileName.replaceAll(".", "").replaceAll("\"", "").replaceAll("'", "").replaceAll("“",'').replaceAll("”",'').replaceAll('!','');
           const subsectionFileName = joinPathFragments("apps/game-guides/app/data/metroid-prime-remastered/", safeSectionName, "/steps", `${safeSubSectionName}.md`);
-          const subSectionContent = `---
-        title: ${subsection.title}
-        order: ${index}
-        ---
+          const subSectionContent =
+`---
+title: ${subsection.title}
+order: ${index}
+---
 
-        ${subsection.content.join("\n")}
-        `;
+${subsection.content.map(line => {
+  if(line.startsWith('BOSS')) {
+    return `**${line}**`
+  } else {
+    return line;
+  }
+}).join("\n")}
+`;
 
           tree.write(subsectionFileName, subSectionContent);
 
         });
 
-        // create dire
-        // console.log(section.title);
-        //
-        // section.subsections.forEach(subsection => {
-        //   console.log(`  ${subsection.title}`);
-        // });
+        console.log(section.title);
+
+        section.subsections.forEach(subsection => {
+          console.log(`  ${subsection.title}`);
+        });
       });
       resolve();
     });

@@ -12,6 +12,7 @@ export function Login() {
         setEmail(data.user.email);
       }
 
+
       supabase.auth.onAuthStateChange((event, session) => {
         if (event === 'SIGNED_IN' && session?.user?.email) {
           setEmail(session.user.email);
