@@ -14,6 +14,10 @@ const menuItems: SelectMenuItem[] = [
   {
     id: "kh-bbs",
     label: "Kingdom Hearts: Birth by Sleep"
+  },
+  {
+    id: "metroid-prime-remastered",
+    label: "Metroid Prime Remastered"
   }
 ];
 
