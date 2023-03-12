@@ -15,15 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@game-guides/data-access": [
-        "apps/game-guides/app/data/index.ts"
-      ],
-      "@game-guides/components": [
-        "apps/game-guides/app/components/index.ts"
-      ],
-      "@game-guides/models": [
-        "apps/game-guides/app/models/index.ts"
-      ],
+      "@game-guides/components": ["apps/game-guides/app/components/index.ts"],
+      "@game-guides/data-access": ["apps/game-guides/app/data/index.ts"],
+      "@game-guides/layout": ["apps/game-guides/app/layout/index.ts"],
+      "@game-guides/models": ["apps/game-guides/app/models/index.ts"],
       "@game-guides/plugin": ["libs/plugin/src/index.ts"]
     }
   },

@@ -14,10 +14,13 @@ import styles from './styles/app.css';
 import { json, LoaderArgs } from '@remix-run/node';
 import { createBrowserClient } from '@supabase/auth-helpers-remix';
 import { useState } from 'react';
+import Shell from './layout/Shell';
+import { Navbar, ThreeColLayout } from '@game-guides/layout';
 
 export function links() {
   return [{ rel: 'stylesheet', href: styles }];
 }
+
 export const loader = ({}: LoaderArgs) => {
   const env = {
     SUPABASE_URL: process.env.SUPABASE_URL!,
@@ -34,7 +37,10 @@ export default function App() {
 
   return (
     <Document>
-      <Outlet context={{ supabase }} />
+      <Shell>
+        <Navbar supabase={supabase}></Navbar>
+        <Outlet context={{ supabase }} />
+      </Shell>
     </Document>
   );
 }

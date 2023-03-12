@@ -8,3 +8,21 @@
     @apply text-indigo-600;
   }
 }
+
+.parsed-markdown p {
+  @apply mb-4;
+}
+
+.parsed-markdown blockquote {
+  @apply border-l;
+  @apply border-indigo-600;
+  @apply pl-8;
+  @apply mt-4;
+}
+
+.parsed-markdown blockquote p {
+  @apply text-xl;
+  @apply leading-8;
+  @apply tracking-tight;
+  @apply text-gray-900;
+}
