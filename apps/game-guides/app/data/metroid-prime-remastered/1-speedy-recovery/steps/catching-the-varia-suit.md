@@ -67,30 +67,3 @@ yet, just fall. For some reason, you don't take damage for falling from high
 distances. The next room is that same Magmoor transport you encountered. Scan
 the conduit next to it to activate it, then use the elevator to descend into
 the molten depths of the planet.....
-
--------------------------
-Number of scans obtained: 5
-
-Creatures: 4
-Venom Weed
-Flaaghra
-Tentacle
-Pulse Bombu
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 1
-Ultra Energy
-
-Total scans obtained: 41
--------------------------
-
-Total Missile Expansions obtained: 6
-Total Energy Tanks obtained: 3
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 5
-Total percentage: 14%
-
-

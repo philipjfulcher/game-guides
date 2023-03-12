@@ -3,8 +3,6 @@ title: Grappling for joy
 order: 5
 ---
 
-
-
 Alright. About now, whenever you come across enemies, they will drop new
 pick-ups. These are basically yellow glowing....um....balls... Just...when you
 see it, scan it. Anyway, let's head back to the Omega Research. Once you enter,
@@ -29,34 +27,3 @@ to head back to the Main Quarry. Now, from here, after you kill the Space
 Pirates, head into the Security Access A. The wall to your left when you enter
 is made of Bendezium. Power Bomb it to reveal another MISSILE EXPANSION. Now,
 exit the Phazon Mines....but we'll be back.
-
-NOTE: The Japanese seem to always get better things, screwing us Americans off.
-The JPN version of this game has a better, more original Grapple Beam
-acquirement cutscene. If you want to see the differences between the two
-cutscenes, head to www.metroid2002.com for videos.
-
--------------------------
-Number of scans obtained: 2
-
-Creatures: 0
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 2*
-Power Bomb Ammo
-Grapple Point
-
-Total scans obtained: 116
-
-* means that all scans of that section in the Log Book have been obtained
--------------------------
-
-Total Missile Expansions obtained: 28
-Total Energy Tanks obtained: 11
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 16
-Total percentage: 55%
-
-

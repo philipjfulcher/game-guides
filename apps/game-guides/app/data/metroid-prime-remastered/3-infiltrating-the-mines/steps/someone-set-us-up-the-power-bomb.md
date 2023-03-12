@@ -3,19 +3,12 @@ title: Someone set us up the Power Bomb!
 order: 4
 ---
 
-
-
 That is a joke of that famous game that had bad translation....I forget the
 name. Ask the message boards in GameFAQs what this reference means. Anyway,
 this section is actually the hardest part of the game, in that being, the Save
 Points are too darn far apart, and there are a lot of powerful Pirates and
 defenses. Also, fighting the enemies will require some skill, and there are a
 few fun puzzles, so let's get to work.
-
-NOTE*
-Like the Missile Launcher, I'm not listing the Power Bomb as an Expansion,
-it'll be listed in the “Suit upgrades” list. Just to let you know. However, any
-other Expansions you get will be listed.
 
 Head through the next tunnel, seeing even more Phazon, and you'll arrive at the
 Main Quarry.....this sure looks like it's above ground, to me. It's because the
@@ -126,39 +119,3 @@ to the center to grab the POWER BOMBS! When in Morph Ball mode, press Y to set
 a Power Bomb. The blast is strong enough to break Bendezium-made structures.
 Now, head into the un-blocked Ice Beam door here to get to a Save Station. Oh
 man, I bet you needed one of those! We'll end this subsection now.
-
--------------------------
-Number of scans obtained: 15
-
-Creatures: 5
-Mega Turret
-Wave Trooper
-Power Trooper
-Ice Trooper
-Elite Pirate
-
-Pirate Logs: 10
-Elite Pirates
-Metroid Prime
-Hunter Weapons
-Prime Breach
-Chozo Ghosts
-Chozo Studies
-Chozo Artifacts
-Prime Mutations
-Omega Pirate
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 114
--------------------------
-
-Total Missile Expansions obtained: 27
-Total Energy Tanks obtained: 10
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 15
-Total percentage: 52%
-
-

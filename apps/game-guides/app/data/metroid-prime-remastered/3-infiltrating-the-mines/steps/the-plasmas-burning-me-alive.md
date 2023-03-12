@@ -3,8 +3,6 @@ title: The “Plasma”'s burning me alive!
 order: 8
 ---
 
-
-
 Head to the Geothermal Core, as this place holds the item we're looking for in
 this subsection. Find a place to climb up rock ledges, and use the Grapple
 point to get to the first cylinder. Head inside the Spinner up here. Use it to
@@ -58,25 +56,3 @@ Spider Ball track. Follow it to grab another MISSILE EXPANSION. We've only got
 there, start roof-hopping. One roof has a sheet of ice on it. Melt it and
 collect the POWER BOMB EXPANSION inside. Now, I guess we've got everything, so
 let's head back to the Main Quarry of the Phazon Mines.
-
--------------------------
-Number of scans obtained: 1
-
-Creatures: 0
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 0*
-
-Total scans obtained: 118
--------------------------
-
-Total Missile Expansions obtained: 41
-Total Energy Tanks obtained: 13
-Total Power Bomb Expansions obtained: 3
-Total Suit upgrades obtained: 19
-Total percentage: 76%
-
-

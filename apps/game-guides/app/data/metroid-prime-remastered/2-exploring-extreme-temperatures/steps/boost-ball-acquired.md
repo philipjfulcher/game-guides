@@ -3,8 +3,6 @@ title: Boost Ball acquired
 order: 1
 ---
 
-
-
 First, after the elevator, fall down the next room, then continue through the
 hallways, busting those Shriekbats, until you reach a Save Room. (Behind a door
 with a Blast Shield.) In the room ahead, you'll see your first pool of lava. A
@@ -164,37 +162,3 @@ since we got the Boost Ball. You can save near the elevator if you want. (It's
 recommended that you do, though. I mean, we did a lot since the last time we
 saved.) Just head to the Chozo Ruins. Once you're there, read the next
 subsection. This one is done.
-
--------------------------
-Number of scans obtained: 11
-
-Creatures: 10
-Grizby
-Burrower
-Magmoor
-Puffer
-Triclops
-Crystallite
-Flickerbat
-Scatter Bombu
-Baby Sheegoth
-Ice Burrower
-
-Pirate Logs: 0
-
-Chozo Lore: 1
-Cipher
-The Turned
-
-Research: 0
-
-Total scans obtained: 52
--------------------------
-
-Total Missile Expansions obtained: 7
-Total Energy Tanks obtained: 4
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 6
-Total percentage: 17%
-
-

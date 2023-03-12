@@ -3,8 +3,6 @@ title: Space Jump Boots!
 order: 2
 ---
 
-
-
 Alright. Now, just take any route you wish, but you need to get back to the
 Main Plaza. (All paths will lead you there, except one which has a Spider Ball
 track.) Once you're there, use the half-pipe in the middle. Be sure to be on
@@ -59,27 +57,3 @@ down here, but you can ignore them if you want. The door will lead to Transport
 Tunnel B. There's a bridge here, and a MISSILE EXPANSION is hidden beneath.
 Past this tunnel is an elevator, which will lead to another part of Magmoor
 Caverns. Scan the conduit and use the elevator.
-
--------------------------
-Number of scans obtained: 2
-
-Creatures: 2
-Geemer
-Bloodflower
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 54
--------------------------
-
-Total Missile Expansions obtained: 12
-Total Energy Tanks obtained: 4
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 7
-Total percentage: 23%
-
-

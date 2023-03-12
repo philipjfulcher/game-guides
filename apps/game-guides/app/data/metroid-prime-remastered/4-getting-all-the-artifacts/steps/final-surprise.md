@@ -3,8 +3,6 @@ title: Final Surprise
 order: 13
 ---
 
-
-
 An object will appear over the horizon, and it's heading towards the Temple at
 a high speed...it's Meta Ridley! He flies right into the center column,
 destroying it, thus canceling the Crater access. Then, he'll face Samus, ready
@@ -43,29 +41,3 @@ the edge, his robotic-self will be destroyed at impact.
 Samus will look down at where Meta Ridley fell, and will turn around to see
 Chozo Ghosts filling the spots where the destroyed totems laid. They'll gather
 up their power, and will create a portal. Step inside to be whisked off....
-
--------------------------
-Number of scans obtained: 1
-
-Creatures: 1
-Meta-Ridley
-
-Pirate Logs: 0*
-
-Chozo Lore: 0*
-
-Research: 0*
-
-Artifacts: 0*
-
-Total scans obtained: 140
--------------------------
-
-Total Missile Expansions obtained: 49*
-Total Energy Tanks obtained: 14*
-Total Power Bomb Expansions obtained: 4*
-Total Suit upgrades obtained: 21*
-Total Artifacts obtained: 12*
-Total percentage: 100%
-
-

@@ -3,8 +3,6 @@ title: Grabbing the Morph Ball
 order: 2
 ---
 
-
-
 Yes, we're going to get the Morph Ball. So, let's head back to the Main Plaza.
 Head back right, destroying the Beetles in your way, heading towards the door
 that you first entered the Main Plaza. To your right, once you are facing it,
@@ -25,26 +23,3 @@ subsection, huh? Anyway, now that you've got this move, you can exit this room.
 If you want, go ahead and save at the Ruined Nursery, although you will have to
 backtrack all the way to the Main Plaza. But hey, if you're enjoying this game,
 you might as well save!
-
--------------------------
-Number of scans obtained: 1
-
-Creatures: 1
-Plated Beetle
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 25
--------------------------
-
-Total Missile Expansions obtained: 1
-Total Energy Tanks obtained: 1
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 2
-Total percentage: 4%
-
-

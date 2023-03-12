@@ -3,8 +3,6 @@ title: Thermal Visor
 order: 5
 ---
 
-
-
 Anyway, head through the door here, and keep goin' until you reach an elevator.
 This one will lead you to the Control Tower. As usual, you have to scan the
 conduit next to the elevator if you want to use it. At the top, at the Control
@@ -75,34 +73,3 @@ Cordite. Blast it with a Super Missile to unveil a MISSILE EXPANSION. Now,
 let's get the damn hell out of this base and head into the Save Station at the
 Ruined Courtyard. Whew! (remember, you have to wear your new visor so you can
 see the Shadow Pirates, and the way out.) End subsection.
-
--------------------------
-Number of scans obtained: 9
-
-Creatures: 4
-Flying Pirate
-Metroid
-Ice Beetle
-Sentry Drone
-
-Pirate Logs: 5
-Meta Ridley
-Metroid Studies
-Phazon Infusion
-Metroid Forces
-Metroid Morphology
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 78
--------------------------
-
-Total Missile Expansions obtained: 15
-Total Energy Tanks obtained: 6
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 10
-Total percentage: 31%
-
-

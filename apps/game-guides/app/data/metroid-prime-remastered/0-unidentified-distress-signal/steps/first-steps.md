@@ -135,26 +135,3 @@ and Meta Ridley will come flying towards Tallon IV, and Samus will head into
 her ship and chase him, but she loses the tracking on him, thus ground-based
 recon is required. You'll proceed to land in the Tallon Overworld, Samus
 checking out the place, then you'll be prompted to save, so save.
-
--------------------------
-Number of scans obtained: 8
-
-Creatures: 3
-Parasite
-Auto-Defense Turret
-Parasite Queen
-
-Pirate Logs: 1
-Fall of Zebes
-
-Chozo Lore: 0
-
-Research: 4
-Map Station
-Missile Ammo
-Small Energy
-Save Station
-
-Total scans obtained: 8
-
-

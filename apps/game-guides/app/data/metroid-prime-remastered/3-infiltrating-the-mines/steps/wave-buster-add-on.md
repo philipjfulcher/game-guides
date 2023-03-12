@@ -3,8 +3,6 @@ title: Wave Buster add-on
 order: 1
 ---
 
-
-
 Once you arrive in Magmoor Caverns, you'll notice a Save Station is behind you.
 Might as well use it. Alright, head on through to the Magmoor Workstation,
 being careful of the flamethrowers on the ceiling of the preceding tunnel. As
@@ -61,28 +59,3 @@ you hold the A Button, you can continue shooting the beam at the cost of 5
 Missiles every second. Since this beam has an auto-tracking feature, you don't
 need to be locked-on to an enemy. Since this move is more costly than the Super
 Missiles, only use this for special occasions.
-
--------------------------
-Number of scans obtained: 3
-
-Creatures: 3
-Puddle Spore
-Plated Puffer
-Oculus
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 83
--------------------------
-
-Total Missile Expansions obtained: 16
-Total Energy Tanks obtained: 7
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 12
-Total percentage: 35%
-
-

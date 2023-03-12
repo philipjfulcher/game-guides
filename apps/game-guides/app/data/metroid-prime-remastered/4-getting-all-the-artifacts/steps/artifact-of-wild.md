@@ -3,13 +3,11 @@ title: Artifact of Wild
 order: 4
 ---
 
-
-
-“A Sunchamber high atop our ruined home became
-the nest of a great beast, and a source of corruption.
-Many Chozo Spirits have been drawn to this tainted place.
-Release their bond to the world to claim the Artifact
-of Wild.”
+> “A Sunchamber high atop our ruined home became
+> the nest of a great beast, and a source of corruption.
+> Many Chozo Spirits have been drawn to this tainted place.
+> Release their bond to the world to claim the Artifact
+> of Wild.”
 
 This clue's not as clear as the others, but you can still guess that it's
 talking of the Chozo Ruins. Although, this one clearly states the name of the
@@ -31,28 +29,3 @@ them. Once they're all defeated, the Artifact of Wild will appear where
 Flaaghra was planted. I know you hate to stand in a previously dangerous spot,
 but please do so you can grab this Artifact. Now, let's see what the next hint
 will give us.
-
--------------------------
-Number of scans obtained: 1
-
-Creatures: 0
-
-Pirate Logs: 0*
-
-Chozo Lore: 1*
-
-Research: 0*
-
-Artifacts: 0
-
-Total scans obtained: 134
--------------------------
-
-Total Missile Expansions obtained: 49*
-Total Energy Tanks obtained: 14*
-Total Power Bomb Expansions obtained: 4*
-Total Suit upgrades obtained: 21*
-Total Artifacts obtained: 4
-Total percentage: 91%
-
-

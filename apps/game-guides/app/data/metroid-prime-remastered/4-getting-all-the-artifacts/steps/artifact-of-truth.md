@@ -3,8 +3,6 @@ title: Artifact of Truth
 order: 1
 ---
 
-
-
 While on top of your ship, if you look straight ahead, you'll see a door on a
 high ledge. Now, look a little bit to your left, (past the waterfall) and you
 should see some ledges. Climb up them, and when you get to the top, head
@@ -22,39 +20,3 @@ but it isn't, and is colored pale blue. Grab it, and you should have the
 Artifact of Truth! Now, scan the totems here. You should grab the clues for all
 Artifacts except 4. Once you've gotten them, head back to your ship and save.
 Now, let's see what the Artifact of Strength clue gives us....
-
--------------------------
-Number of scans obtained: 11
-
-Creatures: 0
-
-Pirate Logs: 1*
-Artifact Temple
-
-Chozo Lore: 2
-Statuary
-Binding
-
-Research: 0*
-
-Artifacts: 8
-Truth
-Strength
-Elder
-Wild
-Lifegiver
-Chozo
-World
-Spirit
-
-Total scans obtained: 133
--------------------------
-
-Total Missile Expansions obtained: 49*
-Total Energy Tanks obtained: 14*
-Total Power Bomb Expansions obtained: 3
-Total Suit upgrades obtained: 21*
-Total Artifacts obtained: 1
-Total percentage: 87%
-
-

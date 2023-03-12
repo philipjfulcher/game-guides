@@ -3,8 +3,6 @@ title: This Suit doesn't “Phazon” me!
 order: 10
 ---
 
-
-
 Alright, in the Central Dynamo, break the blockage in front of the Ice Beam
 door. The next room has quite a few Mega Turrets really close together. A Super
 Missile should destroy all of them. Head into the next room, where a cutscene
@@ -119,13 +117,6 @@ correctly, he should be dead. Of course, only if he follows that pattern. He
 may do another pattern, but I'm not entirely sure. I've only fought him once or
 twice.
 
-*thanks to that one speedy video of beating Omega Pirate for this strategy*
-
-*NOTE:
-The Power Bomb strategy only seems to work on the PAL version of the game. So
-if you don't have the PAL version, just stick to firing Super Missiles at him.
----------------------
-
 Once he's beaten, the Omega Pirate will fall right on top of Samus. You'll see
 Phazon coming out of him, with a lot of bubbling. Finally, Samus will emerge
 from the Omega Pirate, dripping Phazon, and her suit's color has changed, as
@@ -138,10 +129,6 @@ exit here, find the elevator and activate it, then walk along the catwalks, to
 the door, which will lead to the last ENERGY TANK. Scan the conduit here to
 unlock the gate. Walk through the Phazon, through the door, and into the Phazon
 Processing Center.
-
-NOTE: Once again, the JPN version gets a different Phazon Suit acquirement
-cutscene. Note, I said DIFFERENT. That doesn't mean it's better. *ahem* Check
-www.metroid2002.com for videos of the differences.
 
 There will be quite a few color-coded Space Pirates here, so take them all out.
 Now, go on one of the ledges here. If you're on a ledge where you hear the
@@ -160,29 +147,3 @@ EXPANSION. Now, head to the Great Tree Hall. At the top, use the X-Ray Visor to
 spot an invisible platform. Use it to reach a door, which behind it is the last
 MISSILE EXPANSION. Alright, head back to your ship and recharge and save. End
 subsection and section.
-
--------------------------
-Number of scans obtained: 3
-
-Creatures: 2
-Plasma Trooper
-Omega Pirate
-
-Pirate Logs: 1
-Special Forces
-
-Chozo Lore: 0
-
-Research: 0*
-
-Total scans obtained: 121
--------------------------
-
-Total Missile Expansions obtained: 49*
-Total Energy Tanks obtained: 14*
-Total Power Bomb Expansions obtained: 3
-Total Suit upgrades obtained: 21*
-Total percentage: 86%
-* means that you have acquired the maximum there is in the game
-
-

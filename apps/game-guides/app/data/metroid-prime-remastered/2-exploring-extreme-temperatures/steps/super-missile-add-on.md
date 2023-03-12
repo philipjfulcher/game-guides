@@ -3,8 +3,6 @@ title: Super Missile add-on
 order: 4
 ---
 
-
-
 Yes, unlike Super Metroid and Zero Mission, the Super Missiles aren't a
 different weapon. It's an add-on like Metroid Fusion, except you can still use
 Missiles. Anyway, look around in the Ice Ruins East or Ice Ruins West. We're
@@ -87,38 +85,3 @@ Charge up a shot with your POWER Beam, (not your Wave Beam) and when it's fully
 charged, press the Y button. This is great for blowing up things made of
 Cordite. Note that this move uses 5 Missiles in order to work, so use them
 sparingly. Let's end this subsection.
-
--------------------------
-Number of scans obtained: 14
-
-Creatures: 3
-Shadow Pirate
-Space Pirate
-Ice Shriekbat
-
-Pirate Logs: 7
-Mining Status
-Security Breaches
-Phazon Analysis
-Parasite Larva
-Glacial Wastes
-Contact
-
-Chozo Lore: 0
-
-Research: 4
-Spinner
-Zebes
-Tallon IV
-Stalactite
-
-Total scans obtained: 69
--------------------------
-
-Total Missile Expansions obtained: 13
-Total Energy Tanks obtained: 5
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 9
-Total percentage: 27%
-
-

@@ -3,8 +3,6 @@ title: Spider Ball
 order: 6
 ---
 
-
-
 This is, once again, one of the shortest subsections in this walkthrough, like
 the Thermal Visor. Anyway, since we saved in the Ruined Courtyard, let's head
 towards that door that wasn't powered. Now, remember what we did in the
@@ -67,27 +65,3 @@ around here? Well, scan one first, then use it to head to an entrance to a
 Magmoor Transport. We are not going to exit back to the Ruined Courtyard. Use
 the elevator when you get there. We'll end this subsection, thus ending the
 Extreme Temperatures section.
-
--------------------------
-Number of scans obtained: 2
-
-Creatures: 1
-Thardus
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 1
-Spider Ball Track
-
-Total scans obtained: 80
--------------------------
-
-Total Missile Expansions obtained: 15
-Total Energy Tanks obtained: 6
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 11
-Total percentage: 32%
-
-

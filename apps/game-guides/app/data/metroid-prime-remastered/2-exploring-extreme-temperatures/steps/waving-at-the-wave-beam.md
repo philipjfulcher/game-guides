@@ -3,8 +3,6 @@ title: Waving at the Wave Beam
 order: 3
 ---
 
-
-
 Alrighty. Now that we are in Magmoor Caverns, you have two places to go. Let's
 go to the right. There will be a Morph Ball corridor on the side of the wall.
 Proceed through it to get to the other side, avoiding the Magmoor. Once you get
@@ -77,33 +75,11 @@ C-stick! You're going to use this a lot, so keep it equipped. Also, now you can
 destroy those Bombus! Just head back to the Shores and save at the Save
 Station.
 
-DISCOVERY*
+**DISCOVERY**
 I found out how to make your Missiles able to rapid-fire! Just keep pressing
 the Y and A buttons simultaneously to fire Missiles faster than normal! This is
 great for those bosses that require Missiles to destroy, and that you want to
 finish the battle quickly. (Example: Adult Sheegoth) But, in order for this to
 work, you have to be switched to the Power Beam. Also, if you run out of
 Missiles, just use bombs on his underside.
-
--------------------------
-Number of scans obtained: 1
-
-Creatures: 1
-Adult Sheegoth
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 55
--------------------------
-
-Total Missile Expansions obtained: 13
-Total Energy Tanks obtained: 4
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 8
-Total percentage: 25%
-
 

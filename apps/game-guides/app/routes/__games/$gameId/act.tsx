@@ -32,7 +32,6 @@ export let loader: LoaderFunction = async ({ request, params }) => {
             ),
           };
         });
-        console.log(stepSummary);
 
         const completed = stepSummary.reduce((acc, cur) => {
           if (!cur.completed) {

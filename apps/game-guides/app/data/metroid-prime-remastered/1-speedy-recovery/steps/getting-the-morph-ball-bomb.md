@@ -3,8 +3,6 @@ title: Getting the Morph Ball Bomb
 order: 4
 ---
 
-
-
 OK, we're gonna get the Morph Ball Bomb next. I will continue this section
 until we get every Missile and/or Energy Tank that we can get, even after we
 get the main item in this subsection. Alright, we're gonna have to do some
@@ -77,32 +75,3 @@ up once more. This will allow you to reach the last Slot. Once you've activated
 all the Slots, the vault will open, exposing a MISSILE EXPANSION. Continue
 through, until you get to an ENERGY TANK, overlooking the far end of the Main
 Plaza. Alright. That should be it. Let's end this subsection.
-
--------------------------
-Number of scans obtained: 7
-
-Creatures: 3
-Incinerator Drone
-Barbed War Wasps
-Stone Toad
-
-Pirate Logs: 0
-
-Chozo Lore: 1
-Beginnings
-
-Research: 3
-Large Energy
-Door Lock
-Morph Ball Slot
-
-Total scans obtained: 36
--------------------------
-
-Total Missile Expansions obtained: 6
-Total Energy Tanks obtained: 3
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 4
-Total percentage: 13%
-
-

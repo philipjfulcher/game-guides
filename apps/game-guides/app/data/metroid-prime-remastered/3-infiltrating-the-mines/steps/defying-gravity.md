@@ -3,8 +3,6 @@ title: Defying “Gravity”
 order: 3
 ---
 
-
-
 Alright. Now we're in Tallon Overworld. Go through the tunnel, and soon you'll
 come to some vines. Morph Ball through there, and quickly roll through the
 Venom Weeds, and grab a MISSILE EXPANSION along the way. Keep going until you
@@ -170,33 +168,3 @@ Seedlings. As you cross over a bridge, you'll see a large amount of blue Phazon
 below, with it crackling and shooting streams of electricity. Your suit will
 also say on the HUD, in red, “Intense Radiation Detected.” Keep going, and
 activate the elevator, and head down......to the dangerous Phazon Mines....
-
--------------------------
-Number of scans obtained: 8
-
-Creatures: 8
-Hunter Metroid
-Glider
-Jelzap
-Aqua Reaper
-Tallon Crab
-Aqua Drone
-Aqua Pirate
-Aqua Sac
-
-Pirate Logs: 0
-
-Chozo Lore: 0
-
-Research: 0
-
-Total scans obtained: 99
--------------------------
-
-Total Missile Expansions obtained: 24
-Total Energy Tanks obtained: 10
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 14
-Total percentage: 48%
-
-

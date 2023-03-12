@@ -3,8 +3,6 @@ title: THE X-RAY VISORZ! THEY DO NOTHING!!!
 order: 6
 ---
 
-
-
 If you don't watch the Simpsons, then you won't get this joke of a joke making
 fun of Arnold Schwarznegger. *gasps for air* Anyway, head back to the Great
 Tree Hall and start climbing. Somewhat at the top, you'll see a tower with a
@@ -56,26 +54,3 @@ emerge at another balcony overlooking the Main Plaza. Before you drop down,
 though, use the Grapple Point up here to swing yourself to a MISSILE EXPANSION.
 We should be pretty much done here....for now. Head to the Magmoor Caverns from
 here, and I'll end this subsection.
-
--------------------------
-Number of scans obtained: 1
-
-Creatures: 0
-
-Pirate Logs: 0
-
-Chozo Lore: 1
-Newborn
-
-Research: 0*
-
-Total scans obtained: 117
--------------------------
-
-Total Missile Expansions obtained: 33
-Total Energy Tanks obtained: 12
-Total Power Bomb Expansions obtained: 1
-Total Suit upgrades obtained: 17
-Total percentage: 63%
-
-

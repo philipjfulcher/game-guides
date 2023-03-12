@@ -1298,11 +1298,6 @@ a {
   padding-bottom: 4rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1397,6 +1392,10 @@ a {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .leading-6 {
@@ -1548,6 +1547,22 @@ a {
 
 .parsed-markdown p {
   margin-bottom: 1rem;
+}
+
+.parsed-markdown blockquote {
+  border-left-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(79 70 229 / var(--tw-border-opacity));
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.parsed-markdown blockquote p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .hover\:bg-indigo-700:hover {

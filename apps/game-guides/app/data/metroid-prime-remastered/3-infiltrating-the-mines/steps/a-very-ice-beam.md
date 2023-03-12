@@ -3,8 +3,6 @@ title: A very 'Ice Beam
 order: 2
 ---
 
-
-
 Now let's head over to the Ruined Fountain. Here, we're gonna get a Missile
 Expansion. Jump into the fountain, and Morph. When water spews out, you will be
 shot up to a Spider Ball Track. Use it to reach the MISSILE EXPANSION. Now,
@@ -109,33 +107,3 @@ you off into a hidden part of the room, and it contains an ENERGY TANK! Anyway,
 find a hole to get you back out, then head back to the Reflecting Pool and use
 the Save Station there. Once you use it, Morph Ball through the tunnel next to
 the Station to reach an elevator to Tallon Overworld East.
-
--------------------------
-Number of scans obtained: 8
-
-Creatures: 2
-Plated Parasite
-Chozo Ghost
-
-Pirate Logs: 0
-
-Chozo Lore: 5
-Cradle
-Worm
-Hatchling's Shell
-Infestation
-Hope
-
-Research: 1
-Missile Station
-
-Total scans obtained: 91
--------------------------
-
-Total Missile Expansions obtained: 21
-Total Energy Tanks obtained: 8
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 13
-Total percentage: 42%
-
-

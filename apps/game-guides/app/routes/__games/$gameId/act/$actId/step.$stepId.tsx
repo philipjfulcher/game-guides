@@ -13,7 +13,7 @@ import { getCurrentStep, getStep, validGameId } from "@game-guides/data-access";
 import { Step } from "@game-guides/models";
 import { CompleteButton } from "@game-guides/components";
 import { createServerClient } from "@supabase/auth-helpers-remix";
-import { createSupabaseServerClient } from "../../../../../data/supabase";
+import { createSupabaseServerClient } from "@game-guides/data-access";
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const response = new Response();
@@ -35,8 +35,6 @@ export let loader: LoaderFunction = async ({ params, request }) => {
         .from("completed_steps")
         .select("*")
         .eq("game_id", gameId);
-
-      console.log({ completedSteps });
 
       const completed = Boolean(
         completedSteps.data?.find(
@@ -66,8 +64,6 @@ export let action: ActionFunction = async ({ request }) => {
   const stepId = formData.get("stepId");
   const actId = formData.get("actId");
   const user = await supabase.auth.getUser();
-
-  console.log(user.data);
 
   if (user.data?.user?.id && stepId && actId && gameId) {
 
@@ -117,6 +113,7 @@ export default function() {
   return (
     <div className="w-full flex flex-col">
       <div className="p-4">
+        <h2 className="text-lg font-bold">{step.title}</h2>
         <div className="parsed-markdown"
              dangerouslySetInnerHTML={{ __html: step.contentHtml }}></div>
       </div>

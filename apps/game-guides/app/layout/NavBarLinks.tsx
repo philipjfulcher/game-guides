@@ -2,6 +2,7 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useState } from "react";
 import { classNames } from "./util";
 import { SupabaseClient } from "@supabase/auth-helpers-remix";
+import { UserCircleIcon } from "@heroicons/react/24/outline";
 
 const menuLinks: { label: string; urlSegment: string }[] = [
   {
@@ -60,11 +61,7 @@ export function NavBarLinks({gameId,supabase}: {gameId: string,supabase: Supabas
           <Menu.Button
             className="flex rounded-full bg-indigo-700 text-sm text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700">
             <span className="sr-only">Open user menu</span>
-            <img
-              className="h-8 w-8 rounded-full"
-              src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&h=256&q=80"
-              alt=""
-            />
+            <UserCircleIcon className="w-8" />
           </Menu.Button>
         </div>
         <Transition

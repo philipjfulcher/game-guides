@@ -19,7 +19,6 @@ export async function getActs(gameId: string): Promise<Act[]> {
 
 export async function getAct(actId: string, gameId: string): Promise<Act> {
   const markdownPath = getMarkdownDirectory(gameId);
-
   const actIndex = await readFile(join(markdownPath, actId, 'index.md'));
   const { attributes, body } = parseFrontMatter<ActFrontMatter>(
     actIndex.toString('utf-8')

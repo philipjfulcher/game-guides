@@ -3,8 +3,6 @@ title: Getting the Missile Launcher
 order: 1
 ---
 
-
-
 Yes, the first thing you obtain is the Missile Launcher. First, jump off then
 scan your ship, then head to the door to the ship's right. You'll come to a
 small sandy room, and two Beetles will pop out. Scan one, then destroy them.
@@ -94,41 +92,3 @@ it on the Space Frigate, remember? Of course, this place is really huge... @_@.
 I think that's about it, so head to the Ruined Nursery, and save at the Save
 Room. I'll end this subsection here. Let's look at what we've obtained in this
 subsection.
-
--------------------------
-Number of scans obtained: 16
-
-Creatures: 12
-Beetle
-Sap Sac
-Zoomer
-Scarab
-Eyon
-War Wasp
-War Wasp Hive
-Plazmite
-Tangle Weeds
-Ram War Wasps
-Hive Mecha
-Blastcap
-
-Pirate Logs: 0
-
-Chozo Lore: 2
-Fountain
-Exodus
-
-Research: 2
-Samus's Ship
-Blast Shield
-
-Total scans obtained: 24
--------------------------
-
-Total Missile Expansions obtained: 1
-Total Energy Tanks obtained: 1
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 1
-Total percentage: 3%
-
-

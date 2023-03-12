@@ -61,29 +61,3 @@ the Chozo Lore, then grab the CHARGE BEAM. (Whew! That's a lot of scanning!)
 After you grab the Charge Beam, the walls will come alive with Eyons! Now that
 you have the Charge Beam, you can destroy them. (Yay) After you destroy them
 all, return to the Gathering Hall and save at the Save Station.
-
--------------------------
-Number of scans obtained: 4
-
-Creatures: 2
-Shriekbat
-Reaper Vine
-
-Pirate Logs: 0
-
-Chozo Lore: 2
-Hatchling
-Meteor Strike
-
-Research: 0
-
-Total scans obtained: 29
--------------------------
-
-Total Missile Expansions obtained: 2
-Total Energy Tanks obtained: 1
-Total Power Bomb Expansions obtained: 0
-Total Suit upgrades obtained: 3
-Total percentage: 6%
-
-
