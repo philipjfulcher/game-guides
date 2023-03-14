@@ -1,0 +1,18 @@
+[build]
+command = "yarn nx build game-guides  --skip-nx-cache && cp _app_redirects apps/game-guides/public/_redirects"
+publish = "apps/game-guides/public"
+functions = "apps/game-guides/.netlify/functions-internal"
+
+[dev]
+command = "yarn nx dev game-guides"
+targetPort = 3000
+
+[[headers]]
+for = "/build/*"
+
+[functions]
+included_files = ["apps/game-guides/app/data/markdown/**/*.md"]
+
+[headers.values]
+# Set to 60 seconds as an example. You can also add cache headers via Remix. See the documentation on [headers](https://remix.run/docs/en/v1/route/headers) in Remix.
+"Cache-Control" = "public, max-age=60, s-maxage=60"

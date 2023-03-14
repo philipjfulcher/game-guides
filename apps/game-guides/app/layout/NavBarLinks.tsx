@@ -11,7 +11,7 @@ const menuLinks: { label: string; urlSegment: string }[] = [
   }
 ];
 
-export function NavBarLinks({gameId,supabase}: {gameId: string,supabase: SupabaseClient}) {
+export function NavBarLinks({gameId,supabase, redirectUri}: {gameId: string,supabase: SupabaseClient, redirectUri}) {
   const [email, setEmail] = useState<string | null>(null);
 
   useEffect(() => {
@@ -32,8 +32,12 @@ export function NavBarLinks({gameId,supabase}: {gameId: string,supabase: Supabas
   }, [supabase]);
 
   const handleGoogleLogin = async () => {
+    console.log({redirectUri})
     await supabase.auth.signInWithOAuth({
-      provider: "google"
+      provider: "google",
+      options: {
+        redirectTo: redirectUri
+      }
     });
   };
 

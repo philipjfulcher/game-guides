@@ -43,3 +43,6 @@ apps/**/build
 apps/**/.cache
 
 .env
+
+# Local Netlify folder
+.netlify
