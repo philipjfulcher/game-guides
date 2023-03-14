@@ -26,7 +26,7 @@ const menuItems: SelectMenuItem[] = [
 ];
 
 
-export function Navbar({supabase}:{supabase: SupabaseClient}): JSX.Element {
+export function Navbar({supabase, redirectUri}:{supabase: SupabaseClient,redirectUri: string}): JSX.Element {
   const { gameId } = useParams() as { gameId: string };
 
   const [email, setEmail] = useState<string | null>(null);
@@ -48,8 +48,13 @@ export function Navbar({supabase}:{supabase: SupabaseClient}): JSX.Element {
     });
   }, [supabase]);
   const handleGoogleLogin = async () => {
+    console.log({redirectUri})
+
     await supabase.auth.signInWithOAuth({
-      provider: "google"
+      provider: "google",
+      options: {
+        redirectTo: redirectUri
+      }
     });
   };
 
@@ -99,7 +104,7 @@ export function Navbar({supabase}:{supabase: SupabaseClient}): JSX.Element {
                 </Disclosure.Button>
               </div>
 
-              <NavBarLinks gameId={gameId} supabase={supabase}></NavBarLinks>
+              <NavBarLinks gameId={gameId} supabase={supabase} redirectUri={redirectUri}></NavBarLinks>
             </div>
           </div>
 

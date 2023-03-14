@@ -25,6 +25,7 @@ export const loader = ({}: LoaderArgs) => {
   const env = {
     SUPABASE_URL: process.env.SUPABASE_URL!,
     SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY!,
+    GOOGLE_AUTH_REDIRECT_URI: process.env.GOOGLE_AUTH_REDIRECT_URI
   };
 
   return json({ env });
@@ -34,12 +35,12 @@ export default function App() {
   const [supabase] = useState(() =>
     createBrowserClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY)
   );
-
+console.log({env})
   return (
     <Document>
       <Shell>
-        <Navbar supabase={supabase}></Navbar>
-        <Outlet context={{ supabase }} />
+        <Navbar supabase={supabase} redirectUri={env.GOOGLE_AUTH_REDIRECT_URI}></Navbar>
+        <Outlet context={{ supabase, redirectUri: env.GOOGLE_AUTH_REDIRECT_URI }} />
       </Shell>
     </Document>
   );

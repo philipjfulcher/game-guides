@@ -1812,6 +1812,13 @@
     got "^11.8.5"
     os-filter-obj "^2.0.0"
 
+"@netlify/functions@^1.3.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-1.4.0.tgz#027a2e5d54df5519ccbd14cf450231e97bbbf93a"
+  integrity sha512-gy7ULTIRroc2/jyFVGx1djCmmBMVisIwrvkqggq5B6iDcInRSy2Tpkm+V5C63hKJVkNRskKWtLQKm9ecCaQTjA==
+  dependencies:
+    is-promise "^4.0.0"
+
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz#dbf733a965ca47b1973177dc0bb6c889edcfb129"
@@ -2315,6 +2322,13 @@
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@remix-run/express/-/express-1.14.1.tgz#d8d6c7d078887b8f3c482102f54920958975ee18"
   integrity sha512-Y8pGdxcv4PnnHjq19VZKb/VurYwt0LQKCd6CaCITuEvZ2INtXdvxcxHPe0EUTNDp79tEHO5h0O1s21jvcQ+YAg==
+  dependencies:
+    "@remix-run/node" "1.14.1"
+
+"@remix-run/netlify@^1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/netlify/-/netlify-1.14.1.tgz#bf2c0a1051f0f9b0cee029a83f19ccf39fe08e2c"
+  integrity sha512-wG6PkjHlzl8xl2ctaEKnjcoCgCDa7T3pOuyIfsNsUAhHgR43vl2tzvWku7uUzUmpPacC7QkOmGOZ+jvD0T1eiA==
   dependencies:
     "@remix-run/node" "1.14.1"
 
@@ -7719,6 +7733,11 @@ is-potential-custom-element-name@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
   integrity sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==
+
+is-promise@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-4.0.0.tgz#42ff9f84206c1991d26debf520dd5c01042dd2f3"
+  integrity sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==
 
 is-reference@^1.2.1:
   version "1.2.1"
