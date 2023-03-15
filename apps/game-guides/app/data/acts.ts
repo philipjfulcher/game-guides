@@ -20,7 +20,7 @@ export async function getActs(gameId: string): Promise<Act[]> {
   }
 
   return Promise.all(
-    actDir.map(async (dirName) => {
+    actDir.filter(dirName => dirName !== 'reference').map(async (dirName) => {
       return getAct(dirName, gameId);
     })
   );
