@@ -1,14 +1,34 @@
-import { Step, StepFrontmatter, StepSummary } from "@game-guides/models";
-import { readdir, readFile } from "fs-extra";
-import { join } from "path";
+import {Act, Step, StepFrontmatter, StepSummary} from "@game-guides/models";
+import {readdir, readFile} from "fs-extra";
+import {join} from "path";
 import parseFrontMatter from "front-matter";
-import { marked } from "marked";
-import { getAct, getActs } from "./acts";
-import { getMarkdownDirectory } from "./util";
-import { SupabaseClient, User } from "@supabase/auth-helpers-remix";
-import { Database } from "@game-guides/data-access";
+import {marked} from "marked";
+import {fetchActs, getAct, getActs} from "./acts";
+import {getMarkdownDirectory} from "./util";
+import {SupabaseClient, User} from "@supabase/auth-helpers-remix";
+import {Database} from "@game-guides/data-access";
+import {SimpleInMemoryCache} from "./simple-in-memory-cache";
+
+const StepSummaryCache = new SimpleInMemoryCache<StepSummary[]>();
 
 export async function getStepSummaries(
+  actId: string,
+  gameId: string
+): Promise<StepSummary[]> {
+  const cacheKey = `${gameId}-${actId}`;
+  let stepSummaries = StepSummaryCache.get(cacheKey);
+
+  if (!stepSummaries) {
+    stepSummaries = await fetchStepSummaries(actId, gameId);
+    StepSummaryCache.set(cacheKey, stepSummaries, Date.now() + (24 * 60 * 60 * 1000));
+  }
+
+  return stepSummaries;
+
+
+}
+
+export async function fetchStepSummaries(
   actId: string,
   gameId: string
 ): Promise<StepSummary[]> {
@@ -40,7 +60,26 @@ export async function getStepSummaries(
   }
 }
 
+const StepCache = new SimpleInMemoryCache<Step>();
+
 export async function getStep(
+  actId: string,
+  stepId: string,
+  findSubSteps: boolean,
+  gameId: string
+): Promise<Step> {
+  const cacheKey = `${gameId}-${actId}-${stepId}-${findSubSteps.toString()}`;
+  let step = StepCache.get(cacheKey);
+
+  if (!step) {
+    step = await fetchStep(actId, stepId, findSubSteps, gameId);
+    StepCache.set(cacheKey, step, Date.now() + (24 * 60 * 60 * 1000));
+  }
+
+  return step;
+}
+
+export async function fetchStep(
   actId: string,
   stepId: string,
   findSubSteps: boolean,
@@ -52,7 +91,7 @@ export async function getStep(
     join(markdownPath, actId, "steps", `${stepId}.md`)
   );
 
-  const { attributes, body } = parseFrontMatter<StepFrontmatter>(
+  const {attributes, body} = parseFrontMatter<StepFrontmatter>(
     stepFile.toString("utf-8")
   );
 
@@ -115,7 +154,7 @@ export async function getCurrentStep(
     .from("completed_steps")
     .select("*")
     .eq("game_id", gameId)
-    .order("created_at", { ascending: false })
+    .order("created_at", {ascending: false})
     .limit(1);
 
   const lastCreatedStep = lastCreatedStepResult.data?.[0];
@@ -133,7 +172,7 @@ export async function getCurrentStep(
         (a, b) => a.order - b.order
       );
 
-      return { actId: nextAct.id, stepId: orderedSummaries[0].id };
+      return {actId: nextAct.id, stepId: orderedSummaries[0].id};
     } else {
       const orderedSummaries = act.stepSummary.sort(
         (a, b) => a.order - b.order
@@ -147,11 +186,11 @@ export async function getCurrentStep(
           (a, b) => a.order - b.order
         );
 
-        return { actId: nextAct.id, stepId: orderedSummaries[0].id };
-      } else if(nextAct) {
+        return {actId: nextAct.id, stepId: orderedSummaries[0].id};
+      } else if (nextAct) {
         const nextStepId = orderedSummaries[lastCompletedStepIndex + 1].id;
 
-        return { actId: act.id, stepId: nextStepId };
+        return {actId: act.id, stepId: nextStepId};
       } else {
         const firstAct = (await getActs(gameId))[0];
         const orderedSummaries = firstAct.stepSummary.sort(
@@ -159,7 +198,7 @@ export async function getCurrentStep(
         );
 
         const firstStep = orderedSummaries[0];
-        return { actId: firstAct.id, stepId: firstStep.id };
+        return {actId: firstAct.id, stepId: firstStep.id};
       }
     }
   } else {
@@ -169,6 +208,6 @@ export async function getCurrentStep(
     );
 
     const firstStep = orderedSummaries[0];
-    return { actId: firstAct.id, stepId: firstStep.id };
+    return {actId: firstAct.id, stepId: firstStep.id};
   }
 }

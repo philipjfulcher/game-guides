@@ -69,10 +69,6 @@ export default function () {
   const { gameId } = useParams();
   const summaries = act.stepSummary.sort((a, b) => a.order - b.order);
   return (
-    // <div className={'flex flex-row'}>
-    //   <MissionList gameId={gameId as string} steps={summaries} currentStep={currentStep}></MissionList>
-    //   <Outlet></Outlet>
-    // </div>
     <ThreeColLayout>
       <MissionList
         gameId={gameId as string}

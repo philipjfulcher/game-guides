@@ -5,28 +5,41 @@ import {marked} from 'marked';
 import {getStepSummaries} from './steps';
 import {readdir, readFile} from 'fs-extra';
 import {getMarkdownDirectory} from './util';
+import {SimpleInMemoryCache} from "./simple-in-memory-cache";
 
-export async function getActs(gameId: string): Promise<Act[]> {
+export async function fetchActs(gameId: string): Promise<Act[]> {
   const markdownPath = getMarkdownDirectory(gameId);
   let actDir;
 
-  try {
-    actDir = await readdir(markdownPath);
-  } catch (err) {
-    const lambdaTaskRoot = process.env.LAMBDA_TASK_ROOT;
-    const lambdaTaskRootContents = await readdir(process.env.LAMBDA_TASK_ROOT!);
-    const dirContents = await readdir(__dirname)
-    throw Error(`Error reading actDir: ${markdownPath}, MARKDOWN_PATH: ${process.env.MARKDOWN_PATH}, ${JSON.stringify({lambdaTaskRoot,lambdaTaskRootContents, dirContents})})}`)
-  }
+  actDir = await readdir(markdownPath);
 
   return Promise.all(
     actDir.map(async (dirName) => {
-      return getAct(dirName, gameId);
+      return fetchAct(dirName, gameId);
     })
   );
 }
 
+const ActsCache = new SimpleInMemoryCache<Act[]>();
+
+
+export async function getActs(gameId: string): Promise<Act[]> {
+  let acts = ActsCache.get(gameId);
+
+  if (!acts) {
+    acts = await fetchActs(gameId);
+    ActsCache.set(gameId, acts, Date.now() + (24 * 60 * 60 * 1000));
+  }
+
+  return acts;
+}
+
 export async function getAct(actId: string, gameId: string): Promise<Act> {
+  const acts = await getActs(gameId);
+  return acts.find(act => act.id === actId)!;
+}
+
+export async function fetchAct(actId: string, gameId: string): Promise<Act> {
   const markdownPath = getMarkdownDirectory(gameId);
   const actIndex = await readFile(join(markdownPath, actId, 'index.md'));
   const {attributes, body} = parseFrontMatter<ActFrontMatter>(

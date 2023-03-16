@@ -26,3 +26,53 @@
   @apply tracking-tight;
   @apply text-gray-900;
 }
+
+.parsed-markdown table {
+  @apply min-w-full;
+  @apply divide-y;
+  @apply divide-gray-300;
+  @apply my-4;
+}
+
+.parsed-markdown th {
+  @apply py-3.5;
+  @apply pl-4 pr-3;
+  @apply text-left;
+  @apply text-sm;
+  @apply font-semibold;
+  @apply text-gray-900;
+  @apply sm:pl-0;
+}
+
+.parsed-markdown tbody {
+  @apply divide-y;
+  @apply divide-gray-200;
+}
+
+.parsed-markdown td {
+  @apply whitespace-nowrap;
+  @apply py-4;
+  @apply pl-4;
+  @apply pr-3;
+  @apply text-sm;
+  @apply font-medium;
+  @apply text-gray-900;
+  @apply sm:pl-0;
+}
+
+.parsed-markdown pre code {
+  @apply font-mono;
+  @apply text-xs;
+}
+
+.parsed-markdown ul {
+  @apply list-disc;
+  @apply my-2;
+
+}
+
+.parsed-markdown h2 {
+  @apply text-lg;
+  @apply font-semibold;
+  @apply my-4;
+}
