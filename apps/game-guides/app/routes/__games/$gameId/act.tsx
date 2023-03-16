@@ -17,6 +17,7 @@ export let loader: LoaderFunction = async ({ request, params }) => {
 
   if (gameId && validGameId(gameId)) {
     let acts = await getActs(gameId);
+    acts = acts.filter(act => act.id !== 'reference');
     const currentAct = (await getCurrentStep(gameId, supabase)).actId;
 
     if (user?.data.user) {

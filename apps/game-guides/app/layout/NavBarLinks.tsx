@@ -4,16 +4,16 @@ import { classNames } from "./util";
 import { SupabaseClient } from "@supabase/auth-helpers-remix";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 
-const menuLinks: { label: string; urlSegment: string }[] = [
-  {
-    label: "Reference",
-    urlSegment: "reference"
-  }
-];
+
 
 export function NavBarLinks({gameId,supabase, redirectUri}: {gameId: string,supabase: SupabaseClient, redirectUri}) {
   const [email, setEmail] = useState<string | null>(null);
-
+  const menuLinks: { label: string; url: string }[] = [
+    {
+      label: "Reference",
+      url: `/${gameId}/act/reference`
+    }
+  ];
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
       if (data.user?.email) {
@@ -50,8 +50,8 @@ export function NavBarLinks({gameId,supabase, redirectUri}: {gameId: string,supa
       <div className="flex">
         {menuLinks.map(link => {
           return <a
-            key={link.urlSegment}
-            href="#"
+            key={link.url}
+            href={link.url}
             className="rounded-md px-3 py-2 text-sm font-medium text-indigo-200 hover:text-white"
           >
             {link.label}

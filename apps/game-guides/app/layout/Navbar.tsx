@@ -1,14 +1,10 @@
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3CenterLeftIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Fragment, useEffect, useState } from "react";
-import { classNames } from "./util";
-import { GameSelectMenu, SelectMenuItem } from "./GameSelectMenu";
-import { NavBarLinks } from "./NavBarLinks";
-import { useOutletContext, useParams } from "@remix-run/react";
-import { SupabaseClient } from "@supabase/auth-helpers-remix";
-import { useOutletContext } from "@remix-run/react";
-import { SupabaseClient } from "@supabase/auth-helpers-remix";
-import { useEffect, useState } from "react";
+import {Disclosure} from "@headlessui/react";
+import {Bars3CenterLeftIcon, XMarkIcon} from "@heroicons/react/24/outline";
+import {useEffect, useState} from "react";
+import {GameSelectMenu, SelectMenuItem} from "./GameSelectMenu";
+import {NavBarLinks} from "./NavBarLinks";
+import {useParams} from "@remix-run/react";
+import {SupabaseClient} from "@supabase/auth-helpers-remix";
 
 const menuItems: SelectMenuItem[] = [
   {
@@ -26,13 +22,13 @@ const menuItems: SelectMenuItem[] = [
 ];
 
 
-export function Navbar({supabase, redirectUri}:{supabase: SupabaseClient,redirectUri: string}): JSX.Element {
-  const { gameId } = useParams() as { gameId: string };
+export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redirectUri: string }): JSX.Element {
+  const {gameId} = useParams() as { gameId: string };
 
   const [email, setEmail] = useState<string | null>(null);
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => {
+    supabase.auth.getUser().then(({data}) => {
       if (data.user?.email) {
         setEmail(data.user.email);
       }
@@ -64,7 +60,7 @@ export function Navbar({supabase, redirectUri}:{supabase: SupabaseClient,redirec
 
   return (
     <Disclosure as="nav" className="flex-shrink-0 bg-indigo-600">
-      {({ open }) => (
+      {({open}) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
@@ -94,7 +90,7 @@ export function Navbar({supabase, redirectUri}:{supabase: SupabaseClient,redirec
                   className="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-400 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className="block h-6 w-6" aria-hidden="true"/>
                   ) : (
                     <Bars3CenterLeftIcon
                       className="block h-6 w-6"
