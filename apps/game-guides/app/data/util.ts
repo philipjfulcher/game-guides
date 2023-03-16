@@ -6,5 +6,5 @@ export function getMarkdownDirectory(gameId: string) {
 
 export const gameIds = ['mass-effect-2', 'kh-bbs', 'metroid-prime-remastered'];
 export function validGameId(gameId: string | null | undefined) {
-  return gameIds.includes(gameId);
+  return gameId && gameIds.includes(gameId);
 }
