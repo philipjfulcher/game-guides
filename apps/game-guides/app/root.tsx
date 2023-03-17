@@ -35,7 +35,6 @@ export default function App() {
   const [supabase] = useState(() =>
     createBrowserClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY)
   );
-console.log({env})
   return (
     <Document>
       <Shell>

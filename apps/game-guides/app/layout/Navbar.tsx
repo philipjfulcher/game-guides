@@ -44,8 +44,6 @@ export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redi
     });
   }, [supabase]);
   const handleGoogleLogin = async () => {
-    console.log({redirectUri})
-
     await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
