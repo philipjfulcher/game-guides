@@ -32,7 +32,6 @@ export function NavBarLinks({gameId,supabase, redirectUri}: {gameId: string,supa
   }, [supabase]);
 
   const handleGoogleLogin = async () => {
-    console.log({redirectUri})
     await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
