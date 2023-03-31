@@ -1,0 +1,18 @@
+{
+  "date": "5/6/2009",
+  "dayOfWeek": "Wed",
+  "notes": "Visit school clinic today before the day-time social link. Save before the night-time activity, and reload until the message says your fatigue worsens into sickness.",
+  "dayTime": {
+    "activity": "Strength 03",
+    "bestAnswers": "1>A>1",
+    "pointsForNextRank": "15",
+    "pointsGotToday": "15/21/33"
+  },
+  "nightTime": {
+    "activity": "Arcade: Quiz",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": "Ans: 2"
+}

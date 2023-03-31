@@ -1,0 +1,18 @@
+{
+  "date": "11/1/2009",
+  "dayOfWeek": "Sun",
+  "notes": "",
+  "dayTime": {
+    "activity": "Star 08",
+    "bestAnswers": "1>A",
+    "pointsForNextRank": "30",
+    "pointsGotToday": "20/29/45"
+  },
+  "nightTime": {
+    "activity": "Walk",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

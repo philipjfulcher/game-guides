@@ -1,0 +1,18 @@
+{
+  "date": "7/10/2009",
+  "dayOfWeek": "Fri",
+  "notes": "Quest: feed the cat.",
+  "dayTime": {
+    "activity": "Priestess 07",
+    "bestAnswers": "A>A",
+    "pointsForNextRank": "35",
+    "pointsGotToday": "0/0/0"
+  },
+  "nightTime": {
+    "activity": "Tower: Spend time",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": "Ans: 3"
+}

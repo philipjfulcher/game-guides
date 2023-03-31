@@ -1,0 +1,18 @@
+{
+  "date": "10/3/2009",
+  "dayOfWeek": "Sat",
+  "notes": "",
+  "dayTime": {
+    "activity": "Moon 04",
+    "bestAnswers": "2",
+    "pointsForNextRank": "15",
+    "pointsGotToday": "15/22/34"
+  },
+  "nightTime": {
+    "activity": "Free time",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

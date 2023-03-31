@@ -1,0 +1,18 @@
+{
+  "date": "5/12/2009",
+  "dayOfWeek": "Tue",
+  "notes": "Save before the night-time activity, and reload until the message says your sickness continues.",
+  "dayTime": {
+    "activity": "Magician 03",
+    "bestAnswers": "3>2",
+    "pointsForNextRank": "15",
+    "pointsGotToday": "20/29/45"
+  },
+  "nightTime": {
+    "activity": "Arcade: Virtual horror",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

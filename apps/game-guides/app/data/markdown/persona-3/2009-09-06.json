@@ -1,0 +1,18 @@
+{
+  "date": "9/6/2009",
+  "dayOfWeek": "Sun",
+  "notes": "Use a Yawn-be-gone before studying.",
+  "dayTime": {
+    "activity": "Star 03",
+    "bestAnswers": "A>A",
+    "pointsForNextRank": "20",
+    "pointsGotToday": "10/14/22"
+  },
+  "nightTime": {
+    "activity": "Study",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

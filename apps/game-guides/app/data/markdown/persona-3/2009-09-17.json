@@ -1,0 +1,18 @@
+{
+  "date": "9/17/2009",
+  "dayOfWeek": "Thu",
+  "notes": "Quest: Talk to Shinjiro for the quest item.",
+  "dayTime": {
+    "activity": "Lovers 05",
+    "bestAnswers": "A>A>A>1",
+    "pointsForNextRank": "30",
+    "pointsGotToday": "15/22/34"
+  },
+  "nightTime": {
+    "activity": "Tartarus",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}
