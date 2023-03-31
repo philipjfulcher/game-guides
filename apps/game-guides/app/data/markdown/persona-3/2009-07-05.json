@@ -1,0 +1,18 @@
+{
+  "date": "7/5/2009",
+  "dayOfWeek": "Sun",
+  "notes": "Give Justice a book cover today during the date. Tonight is the last night you can fetch an “odd morsel” from the chest at Tartarus. You'll need this item to initiate a social link next week.",
+  "dayTime": {
+    "activity": "Date: Justice",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "nightTime": {
+    "activity": "Tartarus",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

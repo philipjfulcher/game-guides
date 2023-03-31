@@ -1,0 +1,18 @@
+{
+  "date": "4/26/2009",
+  "dayOfWeek": "Sun",
+  "notes": "Save before the night-time activity, and reload until the message says your sickness continues.",
+  "dayTime": {
+    "activity": "Hierophant 02",
+    "bestAnswers": "1>1>A>A>A",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "20/29/45"
+  },
+  "nightTime": {
+    "activity": "Coffee",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

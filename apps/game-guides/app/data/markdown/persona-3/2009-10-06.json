@@ -1,0 +1,18 @@
+{
+  "date": "10/6/2009",
+  "dayOfWeek": "Tue",
+  "notes": "Quest: Visit the staff room.",
+  "dayTime": {
+    "activity": "Moon 05",
+    "bestAnswers": "1",
+    "pointsForNextRank": "22",
+    "pointsGotToday": "15/22/34"
+  },
+  "nightTime": {
+    "activity": "Free time",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

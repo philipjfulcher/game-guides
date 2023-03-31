@@ -1,0 +1,18 @@
+{
+  "date": "7/6/2009",
+  "dayOfWeek": "Mon",
+  "notes": "Use a Yawn-be-gone before studying or you will not get any academic point.",
+  "dayTime": {
+    "activity": "Chariot: 08",
+    "bestAnswers": "2",
+    "pointsForNextRank": "22",
+    "pointsGotToday": "5/7/11"
+  },
+  "nightTime": {
+    "activity": "Study",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

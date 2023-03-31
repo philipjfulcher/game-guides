@@ -1,43 +1,51 @@
-import {Disclosure} from "@headlessui/react";
-import {Bars3CenterLeftIcon, XMarkIcon} from "@heroicons/react/24/outline";
-import {useEffect, useState} from "react";
-import {GameSelectMenu, SelectMenuItem} from "./GameSelectMenu";
-import {NavBarLinks} from "./NavBarLinks";
-import {useParams} from "@remix-run/react";
-import {SupabaseClient} from "@supabase/auth-helpers-remix";
+import { Disclosure } from '@headlessui/react';
+import { Bars3CenterLeftIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { useEffect, useState } from 'react';
+import { GameSelectMenu, SelectMenuItem } from './GameSelectMenu';
+import { NavBarLinks } from './NavBarLinks';
+import { useParams } from '@remix-run/react';
+import { SupabaseClient } from '@supabase/auth-helpers-remix';
 
 const menuItems: SelectMenuItem[] = [
   {
-    id: "mass-effect-2",
-    label: "Mass Effect 2"
+    id: 'mass-effect-2',
+    label: 'Mass Effect 2',
   },
   {
-    id: "kh-bbs",
-    label: "Kingdom Hearts: Birth by Sleep"
+    id: 'kh-bbs',
+    label: 'Kingdom Hearts: Birth by Sleep',
   },
   {
-    id: "metroid-prime-remastered",
-    label: "Metroid Prime Remastered"
-  }
+    id: 'metroid-prime-remastered',
+    label: 'Metroid Prime Remastered',
+  },
+  {
+    id: 'persona-3',
+    label: 'Persona 3',
+  },
 ];
 
-
-export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redirectUri: string }): JSX.Element {
-  const {gameId} = useParams() as { gameId: string };
+export function Navbar({
+  supabase,
+  redirectUri,
+}: {
+  supabase: SupabaseClient;
+  redirectUri: string;
+}): JSX.Element {
+  const { gameId } = useParams() as { gameId: string };
 
   const [email, setEmail] = useState<string | null>(null);
 
   useEffect(() => {
-    supabase.auth.getUser().then(({data}) => {
+    supabase.auth.getUser().then(({ data }) => {
       if (data.user?.email) {
         setEmail(data.user.email);
       }
 
-
       supabase.auth.onAuthStateChange((event, session) => {
-        if (event === "SIGNED_IN" && session?.user?.email) {
+        if (event === 'SIGNED_IN' && session?.user?.email) {
           setEmail(session.user.email);
-        } else if (event === "SIGNED_OUT") {
+        } else if (event === 'SIGNED_OUT') {
           setEmail(null);
         }
       });
@@ -45,10 +53,10 @@ export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redi
   }, [supabase]);
   const handleGoogleLogin = async () => {
     await supabase.auth.signInWithOAuth({
-      provider: "google",
+      provider: 'google',
       options: {
-        redirectTo: redirectUri
-      }
+        redirectTo: redirectUri,
+      },
     });
   };
 
@@ -58,7 +66,7 @@ export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redi
 
   return (
     <Disclosure as="nav" className="flex-shrink-0 bg-indigo-600">
-      {({open}) => (
+      {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
@@ -84,11 +92,10 @@ export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redi
 
               <div className="flex lg:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button
-                  className="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-400 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-400 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true"/>
+                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
                     <Bars3CenterLeftIcon
                       className="block h-6 w-6"
@@ -98,7 +105,11 @@ export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redi
                 </Disclosure.Button>
               </div>
 
-              <NavBarLinks gameId={gameId} supabase={supabase} redirectUri={redirectUri}></NavBarLinks>
+              <NavBarLinks
+                gameId={gameId}
+                supabase={supabase}
+                redirectUri={redirectUri}
+              ></NavBarLinks>
             </div>
           </div>
 
@@ -121,7 +132,6 @@ export function Navbar({supabase, redirectUri}: { supabase: SupabaseClient, redi
             </div>
             <div className="border-t border-indigo-800 pt-4 pb-3">
               <div className="px-2">
-
                 {email ? (
                   <>
                     <Disclosure.Button

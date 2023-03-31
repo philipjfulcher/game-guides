@@ -1,0 +1,18 @@
+{
+  "date": "7/9/2009",
+  "dayOfWeek": "Thu",
+  "notes": "Quest: feed the cat.",
+  "dayTime": {
+    "activity": "Justice 09",
+    "bestAnswers": "1>A>A>1",
+    "pointsForNextRank": "40",
+    "pointsGotToday": "15/21/33"
+  },
+  "nightTime": {
+    "activity": "Tower 03",
+    "bestAnswers": "2",
+    "pointsForNextRank": "25",
+    "pointsGotToday": "15/22/34"
+  },
+  "morningClass": "Ans: 2"
+}

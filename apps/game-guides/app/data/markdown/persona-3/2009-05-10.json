@@ -1,0 +1,18 @@
+{
+  "date": "5/10/2009",
+  "dayOfWeek": "Sun",
+  "notes": "Today the Persona Compendium is unlocked.  Save before the night-time activity, and reload until the message says your fatigue continues.",
+  "dayTime": {
+    "activity": "Hermit 03",
+    "bestAnswers": "1>1",
+    "pointsForNextRank": "20",
+    "pointsGotToday": "20/29/45"
+  },
+  "nightTime": {
+    "activity": "Hermit 03 (cont.)",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}
