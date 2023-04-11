@@ -1,15 +1,13 @@
-import {Fragment} from 'react';
+import { Fragment } from 'react';
 import {
   CheckIcon,
   ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
+  ClockIcon,
   EllipsisHorizontalIcon,
-  SunIcon,
-  MoonIcon,
-  ClockIcon
 } from '@heroicons/react/24/solid';
-import {Menu, Transition} from '@headlessui/react';
+import { Menu, Transition } from '@headlessui/react';
 import {
   addDays,
   eachDayOfInterval,
@@ -21,10 +19,14 @@ import {
   startOfWeek,
   subDays,
 } from 'date-fns';
-import {Link, Outlet, useLoaderData} from '@remix-run/react';
-import {json, LoaderArgs} from '@remix-run/node';
-import {createSupabaseServerClient, Database, getDate} from '@game-guides/data-access';
-import {SupabaseClient} from '@supabase/auth-helpers-remix';
+import { Link, Outlet, useLoaderData } from '@remix-run/react';
+import { json, LoaderArgs } from '@remix-run/node';
+import {
+  createSupabaseServerClient,
+  Database,
+  getDate,
+} from '@game-guides/data-access';
+import { SupabaseClient } from '@supabase/auth-helpers-remix';
 
 async function getMonths(supabase: SupabaseClient<Database>) {
   const completedDays = await supabase
@@ -36,37 +38,36 @@ async function getMonths(supabase: SupabaseClient<Database>) {
   const end = new Date('2010-01-31');
   const today = new Date();
 
-  const months = eachMonthOfInterval({start, end});
+  const months = eachMonthOfInterval({ start, end });
   let monthsData: any[] = [];
 
   for (let month of months) {
     const lastDayOfMonth = endOfMonth(month);
-    const firstDayOfWeekOfMonth = startOfWeek(month, {weekStartsOn: 1});
-    const lastDayOfWeekOfMonth = endOfWeek(lastDayOfMonth, {weekStartsOn: 1});
+    const firstDayOfWeekOfMonth = startOfWeek(month, { weekStartsOn: 1 });
+    const lastDayOfWeekOfMonth = endOfWeek(lastDayOfMonth, { weekStartsOn: 1 });
 
     //first get days in month
-    let days = eachDayOfInterval({start: month, end: lastDayOfMonth});
+    let days = eachDayOfInterval({ start: month, end: lastDayOfMonth });
     let dayData: any[] = [];
 
     for (let day of days) {
       const formattedDate = format(day, 'yyyy-MM-dd');
-      const dateData = await getDate(
-        formattedDate
-      );
+      const dateData = await getDate(formattedDate);
 
       if (dateData) {
         dayData.push({
           date: format(day, 'yyyy-MM-dd'),
           isCurrentMonth: true,
-          isTartarusDay: dateData?.nightTime.activity === "Tartarus",
+          isTartarusDay: dateData?.nightTime.activity === 'Tartarus',
           isToday:
             today.getDate() === day.getDate() &&
             today.getMonth() === day.getMonth(),
           isComplete:
             completedDays.data?.find(
-              (completedDay) => completedDay.step_id === format(day, 'yyyy-MM-dd')
+              (completedDay) =>
+                completedDay.step_id === format(day, 'yyyy-MM-dd')
             ) ?? false,
-        })
+        });
       } else {
         dayData.push({
           date: format(day, 'yyyy-MM-dd'),
@@ -75,14 +76,10 @@ async function getMonths(supabase: SupabaseClient<Database>) {
           isToday:
             today.getDate() === day.getDate() &&
             today.getMonth() === day.getMonth(),
-          isComplete:
-            false,
-        })
+          isComplete: false,
+        });
       }
-
-
     }
-
 
     if (!isSameDay(month, firstDayOfWeekOfMonth)) {
       // get the rest of the week before month start
@@ -125,12 +122,12 @@ async function getMonths(supabase: SupabaseClient<Database>) {
   return monthsData;
 }
 
-export const loader = async ({request}: LoaderArgs) => {
+export const loader = async ({ request }: LoaderArgs) => {
   const response = new Response();
-  const supabase = createSupabaseServerClient({request, response});
+  const supabase = createSupabaseServerClient({ request, response });
 
   const months = await getMonths(supabase);
-  return json({months});
+  return json({ months });
 };
 
 function classNames(...classes: Array<string | null>) {
@@ -138,7 +135,7 @@ function classNames(...classes: Array<string | null>) {
 }
 
 export default function Calendar() {
-  const {months} = useLoaderData<typeof loader>();
+  const { months } = useLoaderData<typeof loader>();
 
   return (
     <div>
@@ -153,7 +150,7 @@ export default function Calendar() {
               className="flex items-center justify-center rounded-l-md border border-r-0 border-gray-300 bg-white py-2 pl-3 pr-4 text-gray-400 hover:text-gray-500 focus:relative md:w-9 md:px-2 md:hover:bg-gray-50"
             >
               <span className="sr-only">Previous month</span>
-              <ChevronLeftIcon className="h-5 w-5" aria-hidden="true"/>
+              <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
             </button>
             <button
               type="button"
@@ -161,13 +158,13 @@ export default function Calendar() {
             >
               Today
             </button>
-            <span className="relative -mx-px h-5 w-px bg-gray-300 md:hidden"/>
+            <span className="relative -mx-px h-5 w-px bg-gray-300 md:hidden" />
             <button
               type="button"
               className="flex items-center justify-center rounded-r-md border border-l-0 border-gray-300 bg-white py-2 pl-4 pr-3 text-gray-400 hover:text-gray-500 focus:relative md:w-9 md:px-2 md:hover:bg-gray-50"
             >
               <span className="sr-only">Next month</span>
-              <ChevronRightIcon className="h-5 w-5" aria-hidden="true"/>
+              <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
             </button>
           </div>
           <div className="hidden md:ml-4 md:flex md:items-center">
@@ -192,11 +189,10 @@ export default function Calendar() {
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
               >
-                <Menu.Items
-                  className="absolute right-0 z-10 mt-3 w-36 origin-top-right overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <Menu.Items className="absolute right-0 z-10 mt-3 w-36 origin-top-right overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div className="py-1">
                     <Menu.Item>
-                      {({active}) => (
+                      {({ active }) => (
                         <a
                           href="#"
                           className={classNames(
@@ -211,7 +207,7 @@ export default function Calendar() {
                       )}
                     </Menu.Item>
                     <Menu.Item>
-                      {({active}) => (
+                      {({ active }) => (
                         <a
                           href="#"
                           className={classNames(
@@ -226,7 +222,7 @@ export default function Calendar() {
                       )}
                     </Menu.Item>
                     <Menu.Item>
-                      {({active}) => (
+                      {({ active }) => (
                         <a
                           href="#"
                           className={classNames(
@@ -241,7 +237,7 @@ export default function Calendar() {
                       )}
                     </Menu.Item>
                     <Menu.Item>
-                      {({active}) => (
+                      {({ active }) => (
                         <a
                           href="#"
                           className={classNames(
@@ -259,7 +255,7 @@ export default function Calendar() {
                 </Menu.Items>
               </Transition>
             </Menu>
-            <div className="ml-6 h-6 w-px bg-gray-300"/>
+            <div className="ml-6 h-6 w-px bg-gray-300" />
             <button
               type="button"
               className="ml-6 rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -268,10 +264,9 @@ export default function Calendar() {
             </button>
           </div>
           <Menu as="div" className="relative ml-6 md:hidden">
-            <Menu.Button
-              className="-mx-2 flex items-center rounded-full border border-transparent p-2 text-gray-400 hover:text-gray-500">
+            <Menu.Button className="-mx-2 flex items-center rounded-full border border-transparent p-2 text-gray-400 hover:text-gray-500">
               <span className="sr-only">Open menu</span>
-              <EllipsisHorizontalIcon className="h-5 w-5" aria-hidden="true"/>
+              <EllipsisHorizontalIcon className="h-5 w-5" aria-hidden="true" />
             </Menu.Button>
 
             <Transition
@@ -283,11 +278,10 @@ export default function Calendar() {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items
-                className="absolute right-0 z-10 mt-3 w-36 origin-top-right divide-y divide-gray-100 overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className="absolute right-0 z-10 mt-3 w-36 origin-top-right divide-y divide-gray-100 overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div className="py-1">
                   <Menu.Item>
-                    {({active}) => (
+                    {({ active }) => (
                       <a
                         href="#"
                         className={classNames(
@@ -304,7 +298,7 @@ export default function Calendar() {
                 </div>
                 <div className="py-1">
                   <Menu.Item>
-                    {({active}) => (
+                    {({ active }) => (
                       <a
                         href="#"
                         className={classNames(
@@ -321,7 +315,7 @@ export default function Calendar() {
                 </div>
                 <div className="py-1">
                   <Menu.Item>
-                    {({active}) => (
+                    {({ active }) => (
                       <a
                         href="#"
                         className={classNames(
@@ -336,7 +330,7 @@ export default function Calendar() {
                     )}
                   </Menu.Item>
                   <Menu.Item>
-                    {({active}) => (
+                    {({ active }) => (
                       <a
                         href="#"
                         className={classNames(
@@ -351,7 +345,7 @@ export default function Calendar() {
                     )}
                   </Menu.Item>
                   <Menu.Item>
-                    {({active}) => (
+                    {({ active }) => (
                       <a
                         href="#"
                         className={classNames(
@@ -366,7 +360,7 @@ export default function Calendar() {
                     )}
                   </Menu.Item>
                   <Menu.Item>
-                    {({active}) => (
+                    {({ active }) => (
                       <a
                         href="#"
                         className={classNames(
@@ -389,8 +383,7 @@ export default function Calendar() {
 
       <div className={'flex flex-column'}>
         <div className="basis-2/3 bg-white">
-          <div
-            className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
+          <div className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
             {months.map((month) => (
               <section key={month.name} className="text-center">
                 <h2 className="font-semibold text-gray-900">{month.name}</h2>
@@ -403,11 +396,10 @@ export default function Calendar() {
                   <div>S</div>
                   <div>S</div>
                 </div>
-                <div
-                  className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
+                <div className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
                   {month.days.map((day, dayIdx) => (
                     <Link
-                      to={`/persona-3/${day.date.replaceAll('-','/')}`}
+                      to={`/persona-3/${day.date.replaceAll('-', '/')}`}
                       key={day.date}
                       type="button"
                       className={classNames(

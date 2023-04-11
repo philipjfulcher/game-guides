@@ -1,5 +1,3 @@
-import { PropsWithChildren } from './util';
-
 export interface ThreeColLayoutProps {
   children: [JSX.Element, JSX.Element, JSX.Element];
 }

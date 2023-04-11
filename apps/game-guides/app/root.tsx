@@ -1,5 +1,4 @@
 import {
-  Link,
   Links,
   LiveReload,
   Meta,
@@ -15,7 +14,7 @@ import { json, LoaderArgs } from '@remix-run/node';
 import { createBrowserClient } from '@supabase/auth-helpers-remix';
 import { useState } from 'react';
 import Shell from './layout/Shell';
-import { Navbar, ThreeColLayout } from '@game-guides/layout';
+import { Navbar } from '@game-guides/layout';
 
 export function links() {
   return [{ rel: 'stylesheet', href: styles }];
@@ -25,7 +24,7 @@ export const loader = ({}: LoaderArgs) => {
   const env = {
     SUPABASE_URL: process.env.SUPABASE_URL!,
     SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY!,
-    GOOGLE_AUTH_REDIRECT_URI: process.env.GOOGLE_AUTH_REDIRECT_URI
+    GOOGLE_AUTH_REDIRECT_URI: process.env.GOOGLE_AUTH_REDIRECT_URI,
   };
 
   return json({ env });
@@ -38,8 +37,13 @@ export default function App() {
   return (
     <Document>
       <Shell>
-        <Navbar supabase={supabase} redirectUri={env.GOOGLE_AUTH_REDIRECT_URI}></Navbar>
-        <Outlet context={{ supabase, redirectUri: env.GOOGLE_AUTH_REDIRECT_URI }} />
+        <Navbar
+          supabase={supabase}
+          redirectUri={env.GOOGLE_AUTH_REDIRECT_URI}
+        ></Navbar>
+        <Outlet
+          context={{ supabase, redirectUri: env.GOOGLE_AUTH_REDIRECT_URI }}
+        />
       </Shell>
     </Document>
   );
