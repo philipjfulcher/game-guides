@@ -5,7 +5,9 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   EllipsisHorizontalIcon,
+  SunIcon,
   MoonIcon,
+  ClockIcon
 } from '@heroicons/react/24/solid';
 import {Menu, Transition} from '@headlessui/react';
 import {
@@ -19,7 +21,7 @@ import {
   startOfWeek,
   subDays,
 } from 'date-fns';
-import {Outlet, useLoaderData} from '@remix-run/react';
+import {Link, Outlet, useLoaderData} from '@remix-run/react';
 import {json, LoaderArgs} from '@remix-run/node';
 import {createSupabaseServerClient, Database, getDate} from '@game-guides/data-access';
 import {SupabaseClient} from '@supabase/auth-helpers-remix';
@@ -29,7 +31,7 @@ async function getMonths(supabase: SupabaseClient<Database>) {
     .from('completed_steps')
     .select('*')
     .eq('game_id', 'persona-3');
-console.log(completedDays.data)
+
   const start = new Date('2009-04-07');
   const end = new Date('2010-01-31');
   const today = new Date();
@@ -128,7 +130,6 @@ export const loader = async ({request}: LoaderArgs) => {
   const supabase = createSupabaseServerClient({request, response});
 
   const months = await getMonths(supabase);
-  console.log(months);
   return json({months});
 };
 
@@ -405,7 +406,8 @@ export default function Calendar() {
                 <div
                   className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
                   {month.days.map((day, dayIdx) => (
-                    <button
+                    <Link
+                      to={`/persona-3/${day.date.replaceAll('-','/')}`}
                       key={day.date}
                       type="button"
                       className={classNames(
@@ -435,11 +437,11 @@ export default function Calendar() {
                         {day.date.split('-').pop()?.replace(/^0/, '')}
                       </time>
                       {day.isTartarusDay ? (
-                        <MoonIcon
+                        <ClockIcon
                           className={
                             'absolute h-4 w-4 top-0 right-0 text-cyan-500'
                           }
-                        ></MoonIcon>
+                        ></ClockIcon>
                       ) : null}
 
                       {day.isComplete ? (
@@ -449,7 +451,7 @@ export default function Calendar() {
                           }
                         ></CheckIcon>
                       ) : null}
-                    </button>
+                    </Link>
                   ))}
                 </div>
               </section>

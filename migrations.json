@@ -1,20 +1,28 @@
 {
   "migrations": [
     {
-      "version": "14.5.4",
       "cli": "nx",
-      "description": "Update tsconfig.json and tsconfig.json to enable import of workspace libs",
-      "factory": "./src/migrations/update-14-5-4/update-tsconfig-and-remix-config-for-1-6-8",
-      "package": "@nrwl/remix",
-      "name": "update-tsconfig-and-remix-config-for-1-6-8"
+      "version": "15.9.1",
+      "description": "Add @nrwl/linter, @nrwl/cypress, @nrwl/jest, @nrwl/rollup if they are used",
+      "factory": "./src/migrations/update-15-9-1/add-dropped-dependencies",
+      "package": "@nrwl/web",
+      "name": "add-dropped-dependencies"
     },
     {
-      "version": "15.8.6",
+      "version": "15.9.0-beta.0",
       "cli": "nx",
-      "description": "Update remix.env.d.ts for node types import",
-      "factory": "./src/migrations/update-15-8-6/update-remix-env-d",
-      "package": "@nrwl/remix",
-      "name": "update-remix-env-config"
+      "description": "Update nx plugin jest configs to support jest 29 changes (https://jestjs.io/docs/upgrading-to-jest29)",
+      "factory": "./src/migrations/update-15-9-0/jest-29-configs",
+      "package": "@nrwl/nx-plugin",
+      "name": "update-configs-jest-29"
+    },
+    {
+      "version": "15.9.0-beta.0",
+      "cli": "nx",
+      "description": "Update nx plugin jest test files to support jest 29 changes (https://jestjs.io/docs/upgrading-to-jest29)",
+      "factory": "./src/migrations/update-15-9-0/jest-29-tests",
+      "package": "@nrwl/nx-plugin",
+      "name": "update-tests-jest-29"
     }
   ]
 }
