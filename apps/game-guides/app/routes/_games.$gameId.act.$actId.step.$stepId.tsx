@@ -9,11 +9,15 @@ import {
   type ActionFunction,
   type LoaderFunction,
 } from '@remix-run/server-runtime';
-import { getCurrentStep, getStep, validGameId } from '@game-guides/data-access';
+import {
+  createSupabaseServerClient,
+  getCurrentStep,
+  getStep,
+  validGameId,
+} from '@game-guides/data-access';
 import { Step } from '@game-guides/models';
 import { CompleteButton } from '@game-guides/components';
 import { createServerClient } from '@supabase/auth-helpers-remix';
-import { createSupabaseServerClient } from '@game-guides/data-access';
 
 export let loader: LoaderFunction = async ({ params, request }) => {
   const response = new Response();

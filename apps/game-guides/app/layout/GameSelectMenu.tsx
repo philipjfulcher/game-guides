@@ -22,7 +22,7 @@ export function GameSelectMenu({ items, selectedItemId }: SelectMenuProps) {
 
   useEffect(() => {
     if (selected !== gameId) {
-      navigate(`/${selected}/act`);
+      navigate(`/${selected}`);
     }
   }, [selected]);
 

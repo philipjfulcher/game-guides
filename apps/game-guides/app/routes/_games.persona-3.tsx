@@ -1,13 +1,4 @@
-import {Fragment} from 'react';
-import {
-  CheckIcon,
-  ChevronDownIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  EllipsisHorizontalIcon,
-  MoonIcon,
-} from '@heroicons/react/24/solid';
-import {Menu, Transition} from '@headlessui/react';
+import {CheckIcon, ClockIcon,} from '@heroicons/react/24/solid';
 import {
   addDays,
   eachDayOfInterval,
@@ -19,23 +10,38 @@ import {
   startOfWeek,
   subDays,
 } from 'date-fns';
-import {Outlet, useLoaderData} from '@remix-run/react';
+import {Link, Outlet, useLoaderData, useParams} from '@remix-run/react';
 import {json, LoaderArgs} from '@remix-run/node';
-import {createSupabaseServerClient, Database, getDate} from '@game-guides/data-access';
+import {createSupabaseServerClient, Database, getDate,} from '@game-guides/data-access';
 import {SupabaseClient} from '@supabase/auth-helpers-remix';
+import {Fragment} from "react";
+
+interface DayData {
+  date: string;
+  isCurrentMonth: boolean;
+  isTartarusDay: boolean;
+  isToday: boolean;
+  isComplete: boolean;
+  hasData: boolean;
+}
+
+interface MonthData {
+  name: string;
+  days: DayData[]
+}
 
 async function getMonths(supabase: SupabaseClient<Database>) {
   const completedDays = await supabase
     .from('completed_steps')
     .select('*')
     .eq('game_id', 'persona-3');
-console.log(completedDays.data)
+
   const start = new Date('2009-04-07');
   const end = new Date('2010-01-31');
   const today = new Date();
 
   const months = eachMonthOfInterval({start, end});
-  let monthsData: any[] = [];
+  let monthsData: MonthData[] = [];
 
   for (let month of months) {
     const lastDayOfMonth = endOfMonth(month);
@@ -44,43 +50,40 @@ console.log(completedDays.data)
 
     //first get days in month
     let days = eachDayOfInterval({start: month, end: lastDayOfMonth});
-    let dayData: any[] = [];
+    let dayData: DayData[] = [];
 
     for (let day of days) {
       const formattedDate = format(day, 'yyyy-MM-dd');
-      const dateData = await getDate(
-        formattedDate
-      );
+      const dateData = await getDate(formattedDate);
 
       if (dateData) {
         dayData.push({
           date: format(day, 'yyyy-MM-dd'),
           isCurrentMonth: true,
-          isTartarusDay: dateData?.nightTime.activity === "Tartarus",
+          isTartarusDay: dateData?.nightTime.activity === 'Tartarus',
           isToday:
             today.getDate() === day.getDate() &&
             today.getMonth() === day.getMonth(),
           isComplete:
-            completedDays.data?.find(
-              (completedDay) => completedDay.step_id === format(day, 'yyyy-MM-dd')
-            ) ?? false,
-        })
+            Boolean(completedDays.data?.find(
+              (completedDay) =>
+                completedDay.step_id === format(day, 'yyyy-MM-dd')
+            )),
+          hasData: true
+        });
       } else {
         dayData.push({
           date: format(day, 'yyyy-MM-dd'),
-          isCurrentMonth: false,
+          isCurrentMonth: true,
           isTartarusDay: false,
           isToday:
             today.getDate() === day.getDate() &&
             today.getMonth() === day.getMonth(),
-          isComplete:
-            false,
-        })
+          isComplete: false,
+          hasData: false
+        });
       }
-
-
     }
-
 
     if (!isSameDay(month, firstDayOfWeekOfMonth)) {
       // get the rest of the week before month start
@@ -94,6 +97,7 @@ console.log(completedDays.data)
           isCurrentMonth: false,
           isToday: false,
           isComplete: false,
+          hasData: false
         }))
         .concat(dayData);
     }
@@ -110,6 +114,7 @@ console.log(completedDays.data)
           isTartarusDay: false,
           isToday: false,
           isComplete: false,
+          hasData: false
         }))
       );
     }
@@ -128,7 +133,6 @@ export const loader = async ({request}: LoaderArgs) => {
   const supabase = createSupabaseServerClient({request, response});
 
   const months = await getMonths(supabase);
-  console.log(months);
   return json({months});
 };
 
@@ -138,254 +142,10 @@ function classNames(...classes: Array<string | null>) {
 
 export default function Calendar() {
   const {months} = useLoaderData<typeof loader>();
-
+  const {month,day,year} = useParams();
+  const selectedDate = `${year}-${month}-${day}`;
   return (
     <div>
-      <header className="flex items-center justify-between border-b border-gray-200 py-4 px-6">
-        <h1 className="text-lg font-semibold text-gray-900">
-          <time dateTime="2022">2022</time>
-        </h1>
-        <div className="flex items-center">
-          <div className="flex items-center rounded-md shadow-sm md:items-stretch">
-            <button
-              type="button"
-              className="flex items-center justify-center rounded-l-md border border-r-0 border-gray-300 bg-white py-2 pl-3 pr-4 text-gray-400 hover:text-gray-500 focus:relative md:w-9 md:px-2 md:hover:bg-gray-50"
-            >
-              <span className="sr-only">Previous month</span>
-              <ChevronLeftIcon className="h-5 w-5" aria-hidden="true"/>
-            </button>
-            <button
-              type="button"
-              className="hidden border-t border-b border-gray-300 bg-white px-3.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 focus:relative md:block"
-            >
-              Today
-            </button>
-            <span className="relative -mx-px h-5 w-px bg-gray-300 md:hidden"/>
-            <button
-              type="button"
-              className="flex items-center justify-center rounded-r-md border border-l-0 border-gray-300 bg-white py-2 pl-4 pr-3 text-gray-400 hover:text-gray-500 focus:relative md:w-9 md:px-2 md:hover:bg-gray-50"
-            >
-              <span className="sr-only">Next month</span>
-              <ChevronRightIcon className="h-5 w-5" aria-hidden="true"/>
-            </button>
-          </div>
-          <div className="hidden md:ml-4 md:flex md:items-center">
-            <Menu as="div" className="relative">
-              <Menu.Button
-                type="button"
-                className="flex items-center rounded-md border border-gray-300 bg-white py-2 pl-3 pr-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50"
-              >
-                Year view
-                <ChevronDownIcon
-                  className="ml-2 h-5 w-5 text-gray-400"
-                  aria-hidden="true"
-                />
-              </Menu.Button>
-
-              <Transition
-                as={Fragment}
-                enter="transition ease-out duration-100"
-                enterFrom="transform opacity-0 scale-95"
-                enterTo="transform opacity-100 scale-100"
-                leave="transition ease-in duration-75"
-                leaveFrom="transform opacity-100 scale-100"
-                leaveTo="transform opacity-0 scale-95"
-              >
-                <Menu.Items
-                  className="absolute right-0 z-10 mt-3 w-36 origin-top-right overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                  <div className="py-1">
-                    <Menu.Item>
-                      {({active}) => (
-                        <a
-                          href="#"
-                          className={classNames(
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700',
-                            'block px-4 py-2 text-sm'
-                          )}
-                        >
-                          Day view
-                        </a>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({active}) => (
-                        <a
-                          href="#"
-                          className={classNames(
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700',
-                            'block px-4 py-2 text-sm'
-                          )}
-                        >
-                          Week view
-                        </a>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({active}) => (
-                        <a
-                          href="#"
-                          className={classNames(
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700',
-                            'block px-4 py-2 text-sm'
-                          )}
-                        >
-                          Month view
-                        </a>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({active}) => (
-                        <a
-                          href="#"
-                          className={classNames(
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700',
-                            'block px-4 py-2 text-sm'
-                          )}
-                        >
-                          Year view
-                        </a>
-                      )}
-                    </Menu.Item>
-                  </div>
-                </Menu.Items>
-              </Transition>
-            </Menu>
-            <div className="ml-6 h-6 w-px bg-gray-300"/>
-            <button
-              type="button"
-              className="ml-6 rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-            >
-              Add event
-            </button>
-          </div>
-          <Menu as="div" className="relative ml-6 md:hidden">
-            <Menu.Button
-              className="-mx-2 flex items-center rounded-full border border-transparent p-2 text-gray-400 hover:text-gray-500">
-              <span className="sr-only">Open menu</span>
-              <EllipsisHorizontalIcon className="h-5 w-5" aria-hidden="true"/>
-            </Menu.Button>
-
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-100"
-              enterFrom="transform opacity-0 scale-95"
-              enterTo="transform opacity-100 scale-100"
-              leave="transition ease-in duration-75"
-              leaveFrom="transform opacity-100 scale-100"
-              leaveTo="transform opacity-0 scale-95"
-            >
-              <Menu.Items
-                className="absolute right-0 z-10 mt-3 w-36 origin-top-right divide-y divide-gray-100 overflow-hidden rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                <div className="py-1">
-                  <Menu.Item>
-                    {({active}) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Create event
-                      </a>
-                    )}
-                  </Menu.Item>
-                </div>
-                <div className="py-1">
-                  <Menu.Item>
-                    {({active}) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Go to today
-                      </a>
-                    )}
-                  </Menu.Item>
-                </div>
-                <div className="py-1">
-                  <Menu.Item>
-                    {({active}) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Day view
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({active}) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Week view
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({active}) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Month view
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({active}) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Year view
-                      </a>
-                    )}
-                  </Menu.Item>
-                </div>
-              </Menu.Items>
-            </Transition>
-          </Menu>
-        </div>
-      </header>
-
       <div className={'flex flex-column'}>
         <div className="basis-2/3 bg-white">
           <div
@@ -404,12 +164,15 @@ export default function Calendar() {
                 </div>
                 <div
                   className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-                  {month.days.map((day, dayIdx) => (
-                    <button
+                  {month.days.map((day, dayIdx) => {
+                    const DayElement = day.isCurrentMonth && day.hasData ? Link : ({children,className}) => <div className={className}>{children}</div>;
+
+                    return <DayElement
                       key={day.date}
+                      to={`/persona-3/${day.date.replaceAll('-', '/')}`}
                       type="button"
                       className={classNames(
-                        day.isCurrentMonth
+                        day.isCurrentMonth && day.hasData
                           ? 'bg-white text-gray-900'
                           : 'bg-gray-50 text-gray-400',
                         dayIdx === 0 ? 'rounded-tl-lg' : null,
@@ -420,7 +183,8 @@ export default function Calendar() {
                         dayIdx === month.days.length - 1
                           ? 'rounded-br-lg'
                           : null,
-                        'py-1.5 hover:bg-gray-100 focus:z-10 relative'
+                        day.date === selectedDate ? 'ring-1 ring-cyan-500' : null,
+                        'py-1.5 hover:bg-gray-100 focus:z-10 relative no-underline'
                       )}
                     >
                       <time
@@ -435,11 +199,11 @@ export default function Calendar() {
                         {day.date.split('-').pop()?.replace(/^0/, '')}
                       </time>
                       {day.isTartarusDay ? (
-                        <MoonIcon
+                        <ClockIcon
                           className={
                             'absolute h-4 w-4 top-0 right-0 text-cyan-500'
                           }
-                        ></MoonIcon>
+                        ></ClockIcon>
                       ) : null}
 
                       {day.isComplete ? (
@@ -449,17 +213,19 @@ export default function Calendar() {
                           }
                         ></CheckIcon>
                       ) : null}
-                    </button>
-                  ))}
-                </div>
-              </section>
-            ))}
+                    </DayElement>
+                  }
+                  )}
           </div>
-        </div>
-        <div className={'basis-1/3'}>
-          <Outlet></Outlet>
-        </div>
+        </section>
+        ))}
       </div>
     </div>
-  );
+  <div className={'basis-1/3'}>
+    <Outlet></Outlet>
+  </div>
+</div>
+</div>
+)
+  ;
 }

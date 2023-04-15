@@ -1,4 +1,4 @@
-import { getAct, getActs, validGameId } from '@game-guides/data-access';
+import { getAct, validGameId } from '@game-guides/data-access';
 import { json, LoaderArgs, redirect } from '@remix-run/node';
 
 export async function loader({ params }: LoaderArgs) {
