@@ -9,8 +9,8 @@ import {
   useLoaderData,
 } from '@remix-run/react';
 
-import styles from './styles/app.css';
-import { json, LoaderArgs } from '@remix-run/node';
+import styles from './tailwind.css';
+import {json, LoaderArgs, MetaFunction, V2_MetaFunction} from '@remix-run/node';
 import { createBrowserClient } from '@supabase/auth-helpers-remix';
 import { useState } from 'react';
 import Shell from './layout/Shell';
@@ -29,6 +29,15 @@ export const loader = ({}: LoaderArgs) => {
 
   return json({ env });
 };
+
+export let meta: V2_MetaFunction = () => {
+  return [{
+    title: 'Game Guides',
+    description: 'Game guides with built-in progress tracking',
+  }];
+};
+
+
 export default function App() {
   const { env } = useLoaderData();
   const [supabase] = useState(() =>
