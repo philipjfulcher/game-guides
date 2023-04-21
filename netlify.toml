@@ -11,7 +11,7 @@ targetPort = 3000
 for = "/build/*"
 
 [functions]
-included_files = ["apps/game-guides/app/data/markdown/**/*.md"]
+included_files = ["apps/game-guides/app/data/markdown/**/*.md","apps/game-guides/app/data/markdown/**/*.json"]
 
 [headers.values]
 # Set to 60 seconds as an example. You can also add cache headers via Remix. See the documentation on [headers](https://remix.run/docs/en/v1/route/headers) in Remix.

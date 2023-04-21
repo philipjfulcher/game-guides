@@ -68,11 +68,19 @@
 .parsed-markdown ul {
   @apply list-disc;
   @apply my-2;
+}
 
+.parsed-markdown ul > li > ul {
+  @apply my-0;
+  @apply mx-4;
 }
 
 .parsed-markdown h2 {
   @apply text-lg;
   @apply font-semibold;
   @apply my-4;
+}
+
+.parsed-markdown.persona-markdown img {
+  display: inline;
 }

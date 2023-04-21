@@ -138,6 +138,10 @@ export default function Persona3Day() {
           </div>
         </li>
       </ul>
+      <div
+        className="parsed-markdown persona-markdown"
+        dangerouslySetInnerHTML={{ __html: data.htmlContent }}
+      ></div>
       {data.completed ? (
         <CompleteButton
           completed={data.completed}

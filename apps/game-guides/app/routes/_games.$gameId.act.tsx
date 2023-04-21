@@ -55,13 +55,6 @@ export let loader: LoaderFunction = async ({ request, params }) => {
   }
 };
 
-export let meta: MetaFunction = () => {
-  return {
-    title: 'Mass Effect 2 Mission Order',
-    description: 'Mission tracker for Mass Effect 2',
-  };
-};
-
 export default function Index() {
   let { acts, currentAct } = useLoaderData<{
     acts: Act[];
