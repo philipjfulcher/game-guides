@@ -1,4 +1,4 @@
-import {CheckIcon, ClockIcon,} from '@heroicons/react/24/solid';
+import { CheckIcon, ClockIcon } from '@heroicons/react/24/solid';
 import {
   addDays,
   eachDayOfInterval,
@@ -10,11 +10,15 @@ import {
   startOfWeek,
   subDays,
 } from 'date-fns';
-import {Link, Outlet, useLoaderData, useParams} from '@remix-run/react';
-import {json, LoaderArgs} from '@remix-run/node';
-import {createSupabaseServerClient, Database, getDate,} from '@game-guides/data-access';
-import {SupabaseClient} from '@supabase/auth-helpers-remix';
-import {Fragment} from "react";
+import { Link, Outlet, useLoaderData, useParams } from '@remix-run/react';
+import { json, LoaderArgs } from '@remix-run/node';
+import {
+  createSupabaseServerClient,
+  Database,
+  getDate,
+} from '@game-guides/data-access';
+import { SupabaseClient } from '@supabase/auth-helpers-remix';
+import { Fragment } from 'react';
 
 interface DayData {
   date: string;
@@ -22,12 +26,13 @@ interface DayData {
   isTartarusDay: boolean;
   isToday: boolean;
   isComplete: boolean;
-  hasData: boolean;
+  hasContent: boolean;
+  htmlContent?: string;
 }
 
 interface MonthData {
   name: string;
-  days: DayData[]
+  days: DayData[];
 }
 
 async function getMonths(supabase: SupabaseClient<Database>) {
@@ -40,16 +45,16 @@ async function getMonths(supabase: SupabaseClient<Database>) {
   const end = new Date('2010-01-31');
   const today = new Date();
 
-  const months = eachMonthOfInterval({start, end});
+  const months = eachMonthOfInterval({ start, end });
   let monthsData: MonthData[] = [];
 
   for (let month of months) {
     const lastDayOfMonth = endOfMonth(month);
-    const firstDayOfWeekOfMonth = startOfWeek(month, {weekStartsOn: 1});
-    const lastDayOfWeekOfMonth = endOfWeek(lastDayOfMonth, {weekStartsOn: 1});
+    const firstDayOfWeekOfMonth = startOfWeek(month, { weekStartsOn: 1 });
+    const lastDayOfWeekOfMonth = endOfWeek(lastDayOfMonth, { weekStartsOn: 1 });
 
     //first get days in month
-    let days = eachDayOfInterval({start: month, end: lastDayOfMonth});
+    let days = eachDayOfInterval({ start: month, end: lastDayOfMonth });
     let dayData: DayData[] = [];
 
     for (let day of days) {
@@ -58,18 +63,19 @@ async function getMonths(supabase: SupabaseClient<Database>) {
 
       if (dateData) {
         dayData.push({
-          date: format(day, 'yyyy-MM-dd'),
+          date: formattedDate,
           isCurrentMonth: true,
-          isTartarusDay: dateData?.nightTime.activity === 'Tartarus',
+          isTartarusDay: dateData.htmlContent.match(/tartarus/i),
           isToday:
             today.getDate() === day.getDate() &&
             today.getMonth() === day.getMonth(),
-          isComplete:
-            Boolean(completedDays.data?.find(
-              (completedDay) =>
-                completedDay.step_id === format(day, 'yyyy-MM-dd')
-            )),
-          hasData: true
+          isComplete: Boolean(
+            completedDays.data?.find(
+              (completedDay) => completedDay.step_id === formattedDate
+            )
+          ),
+          hasContent: true,
+          htmlContent: dateData.htmlContent,
         });
       } else {
         dayData.push({
@@ -80,7 +86,7 @@ async function getMonths(supabase: SupabaseClient<Database>) {
             today.getDate() === day.getDate() &&
             today.getMonth() === day.getMonth(),
           isComplete: false,
-          hasData: false
+          hasContent: false,
         });
       }
     }
@@ -97,7 +103,7 @@ async function getMonths(supabase: SupabaseClient<Database>) {
           isCurrentMonth: false,
           isToday: false,
           isComplete: false,
-          hasData: false
+          hasContent: false,
         }))
         .concat(dayData);
     }
@@ -114,7 +120,7 @@ async function getMonths(supabase: SupabaseClient<Database>) {
           isTartarusDay: false,
           isToday: false,
           isComplete: false,
-          hasData: false
+          hasContent: false,
         }))
       );
     }
@@ -128,12 +134,12 @@ async function getMonths(supabase: SupabaseClient<Database>) {
   return monthsData;
 }
 
-export const loader = async ({request}: LoaderArgs) => {
+export const loader = async ({ request }: LoaderArgs) => {
   const response = new Response();
-  const supabase = createSupabaseServerClient({request, response});
+  const supabase = createSupabaseServerClient({ request, response });
 
   const months = await getMonths(supabase);
-  return json({months});
+  return json({ months });
 };
 
 function classNames(...classes: Array<string | null>) {
@@ -141,15 +147,14 @@ function classNames(...classes: Array<string | null>) {
 }
 
 export default function Calendar() {
-  const {months} = useLoaderData<typeof loader>();
-  const {month,day,year} = useParams();
+  const { months } = useLoaderData<typeof loader>();
+  const { month, day, year } = useParams();
   const selectedDate = `${year}-${month}-${day}`;
   return (
     <div>
       <div className={'flex flex-column'}>
         <div className="basis-2/3 bg-white">
-          <div
-            className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
+          <div className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
             {months.map((month) => (
               <section key={month.name} className="text-center">
                 <h2 className="font-semibold text-gray-900">{month.name}</h2>
@@ -162,70 +167,76 @@ export default function Calendar() {
                   <div>S</div>
                   <div>S</div>
                 </div>
-                <div
-                  className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
+                <div className="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
                   {month.days.map((day, dayIdx) => {
-                    const DayElement = day.isCurrentMonth && day.hasData ? Link : ({children,className}) => <div className={className}>{children}</div>;
+                    const DayElement =
+                      day.isCurrentMonth && day.hasContent
+                        ? Link
+                        : ({ children, className }) => (
+                            <div className={className}>{children}</div>
+                          );
 
-                    return <DayElement
-                      key={day.date}
-                      to={`/persona-3/${day.date.replaceAll('-', '/')}`}
-                      type="button"
-                      className={classNames(
-                        day.isCurrentMonth && day.hasData
-                          ? 'bg-white text-gray-900'
-                          : 'bg-gray-50 text-gray-400',
-                        dayIdx === 0 ? 'rounded-tl-lg' : null,
-                        dayIdx === 6 ? 'rounded-tr-lg' : null,
-                        dayIdx === month.days.length - 7
-                          ? 'rounded-bl-lg'
-                          : null,
-                        dayIdx === month.days.length - 1
-                          ? 'rounded-br-lg'
-                          : null,
-                        day.date === selectedDate ? 'ring-1 ring-cyan-500' : null,
-                        'py-1.5 hover:bg-gray-100 focus:z-10 relative no-underline'
-                      )}
-                    >
-                      <time
-                        dateTime={day.date}
+                    return (
+                      <DayElement
+                        key={day.date}
+                        to={`/persona-3/${day.date.replaceAll('-', '/')}`}
+                        type="button"
                         className={classNames(
-                          day.isToday
-                            ? 'bg-indigo-600 font-semibold text-white'
+                          day.isCurrentMonth && day.hasContent
+                            ? 'bg-white text-gray-900'
+                            : 'bg-gray-50 text-gray-400',
+                          dayIdx === 0 ? 'rounded-tl-lg' : null,
+                          dayIdx === 6 ? 'rounded-tr-lg' : null,
+                          dayIdx === month.days.length - 7
+                            ? 'rounded-bl-lg'
                             : null,
-                          'mx-auto flex h-7 w-7 items-center justify-center rounded-full'
+                          dayIdx === month.days.length - 1
+                            ? 'rounded-br-lg'
+                            : null,
+                          day.date === selectedDate
+                            ? 'ring-1 ring-cyan-500'
+                            : null,
+                          'py-1.5 hover:bg-gray-100 focus:z-10 relative no-underline'
                         )}
                       >
-                        {day.date.split('-').pop()?.replace(/^0/, '')}
-                      </time>
-                      {day.isTartarusDay ? (
-                        <ClockIcon
-                          className={
-                            'absolute h-4 w-4 top-0 right-0 text-cyan-500'
-                          }
-                        ></ClockIcon>
-                      ) : null}
+                        <time
+                          dateTime={day.date}
+                          className={classNames(
+                            day.isToday
+                              ? 'bg-indigo-600 font-semibold text-white'
+                              : null,
+                            'mx-auto flex h-7 w-7 items-center justify-center rounded-full'
+                          )}
+                        >
+                          {day.date.split('-').pop()?.replace(/^0/, '')}
+                        </time>
+                        {day.isTartarusDay ? (
+                          <ClockIcon
+                            className={
+                              'absolute h-4 w-4 top-0 right-0 text-cyan-500'
+                            }
+                          ></ClockIcon>
+                        ) : null}
 
-                      {day.isComplete ? (
-                        <CheckIcon
-                          className={
-                            'absolute h-4 w-4 top-0 right-0 text-green-500'
-                          }
-                        ></CheckIcon>
-                      ) : null}
-                    </DayElement>
-                  }
-                  )}
+                        {day.isComplete ? (
+                          <CheckIcon
+                            className={
+                              'absolute h-4 w-4 top-0 right-0 text-green-500'
+                            }
+                          ></CheckIcon>
+                        ) : null}
+                      </DayElement>
+                    );
+                  })}
+                </div>
+              </section>
+            ))}
           </div>
-        </section>
-        ))}
+        </div>
+        <div className={'basis-1/3'}>
+          <Outlet></Outlet>
+        </div>
       </div>
     </div>
-  <div className={'basis-1/3'}>
-    <Outlet></Outlet>
-  </div>
-</div>
-</div>
-)
-  ;
+  );
 }
