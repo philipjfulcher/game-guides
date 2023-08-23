@@ -1,3 +1,4 @@
 {
-  "name": "games-guides-models"
+  "name": "games-guides-models",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json"
 }

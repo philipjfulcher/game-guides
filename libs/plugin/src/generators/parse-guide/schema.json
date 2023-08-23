@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "cli": "nx",
   "$id": "ParseGuide",
   "title": "",
   "type": "object",
@@ -15,5 +14,7 @@
       "x-prompt": "What file would you like to parse?"
     }
   },
-  "required": ["file"]
+  "required": [
+    "file"
+  ]
 }

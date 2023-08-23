@@ -1,4 +1,4 @@
-import { Tree, workspaceRoot, writeJson } from '@nrwl/devkit';
+import { Tree, workspaceRoot, writeJson } from '@nx/devkit';
 import { join } from 'path';
 import { ParseGuideGeneratorSchema } from './schema';
 import { createInterface } from 'readline';

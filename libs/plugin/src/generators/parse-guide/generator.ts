@@ -1,4 +1,4 @@
-import { Tree, workspaceRoot } from '@nrwl/devkit';
+import { Tree, workspaceRoot } from '@nx/devkit';
 import { ParseGuideGeneratorSchema } from './schema';
 import Persona3Parser from './persona-3.parser';
 import MetroidPrimeParser from './metroid-prime.parser';
