@@ -1,0 +1,7 @@
+{
+  "name": "school-lunch",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/school-lunch",
+  "projectType": "application",
+  "tags": []
+}

@@ -116,7 +116,7 @@ function parseDays(days: string[][]): Day[] {
   return days.map((day) => {
     const dayLine = day.shift();
     const [date, dayOfWeek] = dayLine.split(', ');
-    let parsedDay: Day = {
+    const parsedDay: Day = {
       date: date.endsWith('2011')
         ? date.replace('2011', '2010')
         : `${date}/2009`,
