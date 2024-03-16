@@ -1,17 +1,15 @@
 import {json} from "@remix-run/node";
-import {Link, Outlet, useLoaderData, useParams} from "@remix-run/react";
-import {CheckIcon, ClockIcon} from "@heroicons/react/24/solid";
+import {useLoaderData} from "@remix-run/react";
 import {
   eachDayOfInterval,
   endOfMonth,
   endOfWeek,
   format,
-  getMonth, isMonday,
-  isThisMonth, isWeekend,
-  lightFormat, nextMonday,
-  setMonth,
+  isMonday,
+  isWeekend,
+  lightFormat,
+  nextMonday,
   startOfMonth,
-  startOfWeek,
 } from 'date-fns';
 
 function classNames(...classes: Array<string | null>) {
@@ -37,6 +35,7 @@ function filterOption(option: string) {
 
 export const loader = async () => {
   const today = new Date();
+  console.log({today})
   const startOfThisMonth = startOfMonth(today);
   const startDate = isMonday(startOfThisMonth) ? startOfThisMonth : nextMonday(startOfThisMonth);
   const endDate = endOfWeek(endOfMonth(today));
@@ -49,20 +48,25 @@ export const loader = async () => {
 
   const body = await response.json();
 
-  const lunches = body.FamilyMenuSessions.find(session => session.ServingSession === 'Lunch');
-  const days: Day[] = lunches.MenuPlans[0].Days.map(day => ({
+  console.log({body})
+
+  const lunches = body.FamilyMenuSessions.find((session: any) => session.ServingSession === 'Lunch');
+  const days: Day[] = lunches.MenuPlans[0].Days.map((day: any) => ({
     dateAsString: day.Date,
-    options: [...new Set(day.MenuMeals[0].RecipeCategories.find(category => category.CategoryName === "Main Entree")?.Recipes.map(recipe => filterOption(recipe.RecipeName)))] ?? []
+    options: [...new Set(day.MenuMeals[0].RecipeCategories.find((category: any) => category.CategoryName === "Main Entree")?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName)))] ?? []
   }));
   console.log(days);
 
-  const actualDays: Day[] = eachDayOfInterval({start: startDate, end: endDate}).map(date => {
+  const actualDays: (null | Day)[] = eachDayOfInterval({start: startDate, end: endDate}).map(date => {
 
-    if(isWeekend(date)) {
+    if (isWeekend(date)) {
       return null;
     } else {
-      console.log(lightFormat(date,"M-d-yyyy"))
-      return days.find(day => day.dateAsString === lightFormat(date,"M/d/yyyy")) ?? {dateAsString: lightFormat(date,"M/d/yyyy"),options: [] }
+      console.log(lightFormat(date, "M-d-yyyy"))
+      return days.find(day => day.dateAsString === lightFormat(date, "M/d/yyyy")) ?? {
+        dateAsString: lightFormat(date, "M/d/yyyy"),
+        options: []
+      }
     }
   }).filter(day => day !== null)
 
@@ -73,6 +77,7 @@ export const loader = async () => {
 
 export default function Calendar() {
   const {days, currentMonth} = useLoaderData<typeof loader>();
+
   return (
     <div className={'flex p-1'}>
       <section className="text-center">
@@ -89,7 +94,7 @@ export default function Calendar() {
           {days.map((day, dayIdx) => {
             return (
               <div
-                key={day.dateAsString}
+                key={day?.dateAsString}
                 className={classNames(
                   'bg-white text-gray-900',
                   dayIdx === 0 ? 'rounded-tl-lg' : null,
@@ -104,15 +109,15 @@ export default function Calendar() {
                 )}
               >
                 <time
-                  dateTime={day.dateAsString}
+                  dateTime={day?.dateAsString}
                   className={classNames(
                     'mx-auto font-bold flex h-7 w-7 items-center justify-center rounded-full bg-purple-500 text-white'
                   )}
                 >
-                  {day.dateAsString.split('/')[1]?.replace(/^0/, '')}
+                  {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
                 </time>
 
-                {day.options.map(option => <p className={"mb-0.5"}>{option}</p>)}
+                {day?.options.map(option => <p className={"mb-0.5"}>{option}</p>)}
               </div>
             );
           })}

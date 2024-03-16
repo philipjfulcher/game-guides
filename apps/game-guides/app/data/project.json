@@ -6,7 +6,6 @@
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/game-guides/data/**/*.ts"]
       }
@@ -15,8 +14,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/libs/data-access"],
       "options": {
-        "jestConfig": "apps/game-guides/data/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "apps/game-guides/data/jest.config.ts"
       }
     }
   },

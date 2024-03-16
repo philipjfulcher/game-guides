@@ -20,11 +20,6 @@ module.exports = {
   devServerPort: 8002,
   watchPaths: ['../../libs'],
   ignoredRouteFiles: ['**/project.json'],
-  future: {
-    v2_routeConvention: true,
-    v2_meta: true,
-    v2_errorBoundary: true,
-    v2_normalizeFormMethod: true,
-    unstable_tailwind: true
-  },
+  tailwind:true,
+  serverModuleFormat: 'cjs'
 };
