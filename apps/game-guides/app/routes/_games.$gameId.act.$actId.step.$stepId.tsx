@@ -109,7 +109,7 @@ export let action: ActionFunction = async ({ request }) => {
 export default function () {
   let step = useLoaderData<Step>();
   const transition = useNavigation();
-  const isCreating = Boolean(transition);
+  const isCreating = transition.state === 'submitting';
   const { gameId } = useParams();
 
   return (
@@ -137,7 +137,7 @@ export default function () {
                   completed={substep.completed}
                   creating={
                     isCreating &&
-                    transition.submission?.formData.get('stepId') === substep.id
+                    transition.formData?.get('stepId') === substep.id
                   }
                 ></CompleteButton>
               ) : (
@@ -153,7 +153,7 @@ export default function () {
                     completed={substep.completed}
                     creating={
                       isCreating &&
-                      transition.submission?.formData.get('stepId') ===
+                      transition.formData?.get('stepId') ===
                         substep.id
                     }
                   ></CompleteButton>

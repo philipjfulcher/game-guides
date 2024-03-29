@@ -1,0 +1,1222 @@
+<<---------------------------------PRE-JOURNEY-------------------------------->>
+
+
+
+If you have already Quick Saved in the game, the option to load it will be
+available. Otherwise, let us Venture Forth!
+
+Go ahead and create a new adventure log. Select which log you want, then make a
+name for yourself. In the NES version of the game, your stat growth differs
+depending on your name, but not so much on the Switch. So choose any name you
+want that's eight characters or less, select your message speed (which also
+affects battle speed), select your volume levels, and you are all set to go!
+
+Note: Message speed and volume levels can be changed by selecting the Misc.
+option in your Main Menu and then selecting Settings.
+
+
+
+<<----------------------------------TANTEGEL---------------------------------->>
+
+
+
+You will start with a talk between the Hero and the King. Your mission is to
+retrieve the Sphere of Light from the Dragonlord and restore light to the dark
+land of Alefgard... once more? Apparently this is not the first time Alefgard
+has been the land of darkness.
+
+It looks as if the Hero has a big nose. And the plume on the helmet looks like
+the Tanooki Tail from Super Mario 3. Mario! Is that you? You are in the wrong
+game!
+
+Anyway, once you have control of the Hero, open the chests for 120G, a TORCH and
+a MAGIC KEY. Use the Magic Key to unlock the door and go downstairs.
+
+Go south a bit and you should see three pots. Search the left pot for a
+MEDICINAL HERB. The guy behind the counter to the south will restore your MP for
+free. Then you could use your Heal spell, talk to the guy again to refill your
+MP again, and repeat until you are at maximum HP and MP, therefore saving money
+on Inn prices. I do not bother with this method because staying at an Inn is
+faster and the cost is so cheap that I prefer the saved time more.
+
+Equip your Bamboo Spear and leave Tantegel Castle through either the north or
+south exit. You are now on the overworld screen. You can view your map now by
+pressing X. Go east to the Town of Tantegel.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| TOWN OF TANTEGEL                                                             |
+|                                                                              |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           -----------------------------      |
+| Bamboo Spear               10G            Medicinal Herb           10G       |
+| Oaken Club                 60G            Torch                     8G       |
+| Copper Sword              180G            Dragon Scale             20G       |
+| Plain Clothes              20G                                               |
+| Leather Suit               70G                                               |
+| Leather Shield             90G                                               |
+|                                           HOLY WATER SHOP                    |
+|                                           ----------------------------       |
+| INN:                        3G            Holy Water               12G       |
+|                                                                              |
+|                                                                              |
+| Vault                                                                        |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Just north of where you enter is an equipment shop. Buy a Leather Suit for 70G,
+then go south to the Inn. The drawer in the southeast room of the Inn has a
+CHIMAERA WING. Next to that room is the Vault. Talk to the lady and she will
+deposit or withdraw gold or items for you.
+
+East of the Inn and across the bridge is an item shop. Buy a Dragon Scale for
+20G. You will have to equip it manually. Then leave town, because it's time to
+grind for a bit. You can save 60G to buy the Oaken Club, but personally I go
+straight for 180G so I can buy a Copper Sword.
+
+Notice the building with the locked door. This is the Holy Water Shop.
+Unfortunately you do not have access to this building right now, but remember it
+for later.
+
+
+
+<<----------------------------------GRIND 1----------------------------------->>
+
+
+
+Walk around a bit making sure you stay close to the castle. In this area are
+Slimes and She-Slimes. Fight them until you get to level 2. You can stay here to
+reach level 3, but once I'm level 2 I like to go to the hills southwest of the
+castle so I can start fighting Drackys. Do NOT go to the southern part of the
+hills; the monsters there are stronger and they will kill you. If your HP falls
+to 7 or less, go straight to the Inn, sleep and come back.
+
+At level 3 you learn the Heal spell, which costs 3MP per use. Now I like to go
+to a patch of hills northwest of Tantegel Castle and south of a cave surrounded
+by sand. You can fight Ghosts here. Ghosts dodge more than the average monster.
+Keep fighting until you have your Copper Sword.
+
+At level 4 you learn the Sizz spell which does 16-20 damage if successful.
+
+Do NOT cross the bridge southwest of the cave in the desert yet. Instead, earn
+90G and head back to the Town of Tantegel to buy and equip a Leather Shield. Be
+sure to have a Torch in your inventory. Torches light dark dungeons and do not
+wear out until you leave the dungeon.
+
+You should now be equipped as listed below.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| RECOMMENDED LEVEL: 5                                                         |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+|                                                                              |
+| Weapon: Copper Sword (Town of Tantegel)                                      |
+| Armour: Leather Armour (Town of Tantegel)                                    |
+| Shield: Leather Shield (Town of Tantegel)                                    |
+| Accessory: Dragon Scale (Town of Tantegel)                                   |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+
+<<-------------------------ERDRICK'S CAVE (OPTIONAL)-------------------------->>
+
+
+
+The cave surrounded by sand is called Erdrick's Cave. This cave is entirely
+optional and has no monsters or treasure, so you can skip it if you want.
+
+
+
+Floor B1
+
+
+
+Use your Torch, head south and take the first path east all the way,
+go north a couple squares and continue east. Follow the eastern wall south to
+the stairs at the southeast corner of the floor.
+
+
+
+Floor B2
+
+
+
+Follow the mostly linear path to find the Stone Tablet. You need three sacred
+artefacts to reach the island where the Dragonlord's Castle is. Erdrick
+entrusted these items to three Sages, whose descendants continue to guard them.
+That's all for this cave, so let's get out of here.
+
+
+
+<<---------------------------------GALENHOLM---------------------------------->>
+
+
+
+After leaving Erdrick's Cave, head northwest to a settlement called Galenholm.
+There is nothing to do in this town other than rest at the Inn and max out your
+stock of Medicinal Herbs.
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| GALENHOLM                                                                    |
+|                                                                              |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| --------------------------------          -----------------------------      |
+| Oaken Club                   60G          Medicinal Herb            10G      |
+| Copper Sword                180G          Torch                      8G      |
+| Iron Axe                    560G          Dragon Scale              20G      |
+| Leather Suit                 70G                                             |
+| Chain Mail                  300G                                             |
+| Iron Shield                 800G          INN:                       6G      |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+
+<<----------------------------------GRIND 2----------------------------------->>
+
+
+
+Once you are at level 5, head south to the hills just past the bridge. Here you
+will want to grind 560G for the Iron Axe and 300G for the Chain Mail. You should
+not purchase the Iron Shield because you can get a free one later. If you run
+out of Medicinal Herbs and your HP is low, simply go back to Galennholm to rest
+and restock.
+
+There's another place you can grind. Remember the hills southwest of Tantegel
+where you fought Drackys at level 2? If you go to the southernmost row of hills,
+you can fight the same monsters as in the grinding spot mentioned in the
+previous paragraph. Use the Town of Tantegel to rest and restock.
+
+In these hills you can find Ghosts, Prestidigitators, Drackolytes and Scorpions.
+Prestidigitators and Drackolytes can cast Sizz. Do not bother with physical
+attacks on the Scorpions; use Sizz instead to one-shot them. In fact, Scorpions
+are the only monsters I ever use Sizz on. I recommend getting the Iron Axe, the
+Chain Mail and level 7 before attempting to head south of the hills, because you
+may run into tougher monsters called Skeletons.
+
+At level 7 you learn Snooze, with a cost of 2MP per use, which comes in handy
+when dealing with Skeletons. Also, if you have the Iron Axe, you no longer need
+to cast Sizz ever again, now that Scorpions can easily be taken out with
+physical attacks.
+
+South of these hills is the Craggy Cave. You probably saw it before as you were
+grinding near Tantegel. You could bring a torch and 6 herbs and go here now as
+the cave is not very difficult, if you are feeling brave or have played the game
+before. But in this walkthrough I'm going to guide you to another village first.
+
+
+
+<<-------------------------------------KOL------------------------------------>>
+
+
+
+Starting from Galenholm, walk east. Instead of walking south to Tantegel,
+continue walking east. Cross the bridge, head southeast and cross another
+bridge. From here, head north until you see a village. This is the village of
+Kol.
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| KOL                                                                          |
+|                                                                              |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           -----------------------------      |
+| Copper Sword               180G           Medicinal Herb            10G      |
+| Iron Axe                   560G           Torch                      8G      |
+| Iron Armour               1000G           Dragon Scale              20G      |
+| Full Plate Armour         3000G           Chimaera Wing             24G      |
+| Leather Shield              90G                                              |
+|                                                                              |
+|                                                                              |
+| SECRET ITEM:     Faerie Flute             INN:                      12G      |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+Head northwest in this town and you should see a sparkle about four steps south
+of a square of water. Walk over to it and press A to search the area. You will
+find the FAERIE FLUTE. Search the drawers north of there to find PLAIN CLOTHES
+and a SEED OF STRENGTH. Seeds give permanent stat boosts to the Hero which is
+really nice. Might as well use the seeds right away as the Hero is your only
+party member.
+
+Next to the drawers is a girl who will give you a Puff-Puff Massage for 20G. Ah,
+the classic Puff-Puff Massage. It has been a staple of Dragon Quest ever since
+it was released on the Famicom in 1986. Sadly, it was censored in the 1989 NES
+version. Oh well.
+
+That's all you can do in this town for now. Do not worry about getting Iron
+Armour yet. The Craggy Cave coming up is pretty easy as it is. Unless you plan
+to skip this cave (not recommended), make sure you have six Herbs and a Torch
+before heading out.
+
+If you are at level 9 you do not need the Torch because you will be given access
+to the Glow spell, at a cost of 2MP per use. The upside to using this spell is
+that it brightens a wider area than a Torch. The downsides are that the spell
+wears off after so many steps and it costs MP. After 132 steps, the amount of
+light you have will be reduced, and after another 132 steps, the effect of Glow
+will be completely gone.
+
+
+
+<<----------------------------CRAGGY CAVE (OPTIONAL)-------------------------->>
+
+
+
+This part is optional but highly recommended. Go back to Galenholm and head
+south across the bridge. Continue south, then go east past a poisonous swamp and
+you should see a cave. This is Craggy Cave, formally called Rocky Mountain Cave.
+Quick Save before you enter. Be careful as you do not want to get stuck in the
+cave without MP or a Torch.
+
+
+
+Floor B1
+
+
+
+There are two levels to the cave. You start off in the upper level with Ghosts,
+Prestidigitators, Scorpions and Lunaticks. Lunaticks are even easier than
+Skeletons, so no worries.
+
+Once you are in the cave, go east at the first intersection. east again at the
+second one, then east again at the third one. Follow the path south, then west
+until you hit water. Go to the northwest corner of the water to find a chest
+with ~340G.
+
+Walk south of the water and follow the path west. Head north at the
+intersection, then east at the next one. You should see a hallway with pillars
+going west. Follow it, then swing north to the stairs.
+
+
+
+Floor B2
+
+
+
+The second floor has tougher monsters, with Skeletons, Fightgeists (they can
+cast Sizz), Drackymas (they can cast Heal and Sizz), Drohl Drones, and the
+dreaded Legerdemen. Legerdemen can cast Sizz and Snooze. I have bad memories
+about these monsters, who were called Warlocks in the NES version. Basically,
+they can put you to sleep and cast Sizz over and over until you die. Thankfully,
+it does not happen that often.
+
+First start going east. Skip the first room to the north and go to the second
+room which has a chest containing ~535G. The third room has a chest* containing
+a TORCH. Follow the path east and south, then take the first path going west.
+Continue west to the corner (ignoring the path south), north to the wall
+(ignoring the path west), then head east and south to a room with a chest
+containing an IRON SHIELD, which you should equip right away.
+
+* If you want a Choker, approach the chest with the Torch inside while holding a
+full inventory. If you already took the Torch, the chest will respawn upon
+exiting the cave. Attempt to open it. If the item is a Torch, refuse to throw
+something away, which will put the Torch back inside the chest. Repeat this over
+and over again until you are offered a CHOKER. You must throw something away in
+order to receive it. You can sell this cursed item for a hefty 1200G. Once you
+take the Choker, the chest will no longer respawn.
+
+Head west, skipping the south path you just came from to find another room with
+a chest containing a WARRIOR'S RING, the second and final accessory. Continue
+west and all the way south to a room with two chests. They contain a SEED OF
+STRENGTH and a SEED OF MAGIC.
+
+That's all the treasure you can get in this cave. Time to get out of here. From
+where you are, go north and take the first path east. Follow this path south to
+the wall, west to the wall and finally north to the stairs.
+
+
+
+Floor B1
+
+
+
+Follow the linear path past the pillars, then head south and west. Take the
+first path leading south, then take the first path going east. You should be at
+the water. Follow the path east and north until you hit a wall, then head west
+until you hit a corner. Follow this wall clockwise until you reach the stairs.
+
+
+
+<<--------------------------------QUAGMIRE CAVE------------------------------->>
+
+
+
+If you chose to skip the Craggy Cave, go back to Galenholm and buy an Iron
+Shield.
+
+I recommend getting to level 9 before doing this next part. Make sure you are
+equipped as listed below.
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| RECOMMENDED LEVEL: 9                                                         |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ---------------------------------------------------                          |
+|                                                                              |
+| Weapon: Iron Axe (Galenholm or Kol)                                          |
+| Armour: Chain Mail (Galenholm) or Iron Armour (Kol)                          |
+| Shield: Iron Shield (Galenholm or Craggy Cave)                               |
+| Accessory: Dragon Scale (most Item Shops)                                    |
+| Accessory: Warrior's Ring (Craggy Cave)(optional)                            |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+South of Kol is a poisonous swamp leading to Quagmire Cave. Giggity. It used to
+be called the Swamp Cave. Let's go there now. Keep an eye on your HP as you go
+through the swamp. Inside the cave, you can use Glow or a Torch if you want but
+you do not even need those. Just go straight south along the long path until you
+hit a wall, then go east, south, east, south, and finally west to the stairs.
+
+
+
+<<---------------------------------RIMULDAR----------------------------------->>
+
+
+
+You are now in the southeastern area of Alefgard. Roaming south of the cave are
+Skeletons, Legerdemen, and two new monsters, the Iron Scorpion (good Resilience)
+and the Bewarewolf. Iron Scorpions may use their turn to defend, which means you
+do half the damage with your weapon or your spells that turn.
+
+Keep heading south along the east coast until you see a town to the west. Walk
+south around the impassable mountains to get there. Do not go further south
+because there are tougher monsters down there. Welcome to the town of Rimuldar!
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| RIMULDAR                                                                     |
+|                                                                              |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ------------------------------     |
+| Copper Sword               180G           Medicinal Herb             10G     |
+| Iron Axe                   560G           Torch                       8G     |
+| Steel Broadsword          1500G           Chimaera Wing              24G     |
+| Iron Armour               1000G                                              |
+| Full Plate Armour         3000G                                              |
+| Magic Armour              7700G                                              |
+|                                                                              |
+|                                                                              |
+| MAGIC KEY SHOP                            INN:                       24G     |
+| -------------------------------                                              |
+| Magic Key                   16G                                              |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+Go to the Equipment Shop and buy the Steel Broadsword for 1500G. Also, you can
+buy an Iron Armour if you do not have one yet. Personally, I skip the Iron
+Armour and go straight for the Full Plate Armour. Do not worry if you cannot
+afford Full Plate Armour or Iron Armour right now. At level 10, Chain Mail is
+fine for the monsters just outside of Rimuldar.
+
+North of the Equipment Shop is a merchant who serves as the town's Item Shop.
+West of him are two rooms. Search the drawer in the right one for a CHIMAERA
+WING. Now go back to where you entered the town. If you hug the water, you can
+walk north and west around the town to another shop. This shop sells... Magic
+Keys! Finally!
+
+In the Magic Key Shop, search the pots for ~120G and a SEED OF RESILIENCE. Buy 6
+Keys from the shop owner, then leave and re-enter the town. Inside the Inn is a
+chest that's blocked by two doors. Open both doors to get a SEED OF LIFE. Buy 2
+more Magic Keys, then leave town.
+
+
+
+<<------------------------------------GRIND 3--------------------------------->>
+
+
+
+At this point I recommend doing another grinding session to earn 3000G, which
+you will need for the Full Plate Armour. Forget about the Magic Armor... it's
+really not worth it. Both armours have the exact same defense. The difference is
+that Magic Armour heals 1 HP every four steps and reduces spell and fire damage
+by about 25%. I recommend grinding on the hills just south of Rimuldar. Make
+sure you stay on the northern part of the hills. Once you have your Full Plate
+Armour, you can safely go further south, but do not go west of the bridge south
+of Rimuldar yet.
+
+You should be at least level 10 by now. At level 10 you learn Fizzle, which, if
+successful, prevents monsters from casting spells at a cost of 2MP. I wouldn't
+bother using it on the Legerdemen, since they can be beaten easily by this
+point. Same goes for the Skeleton Scrappers, because you can do more damage to
+them than their Heal spell can restore. Same goes for the Scarewolves because
+when they can be two-shotted, a Fizzle cast is a wasted turn when you or the
+monster could be attacking. I usually do not use Fizzle at all, save for one
+particular monster later in the game.
+
+Further south you run into new monsters. Scarewolves can cast Fizzle, Skeleton
+Scrappers can cast Heal, and Gold Golems have high HP and can defend. Also, Gold
+Golems drop 650G a pop. which will be coming in handy as you will soon need
+24600G for a new sword and shield, or 14800G if you want to skip the sword.
+
+At level 12 you learn the Evac spell, which instantly warps you out of dungeons
+at a cost of 6MP. Now I recommend you cross the bridge to the south and grind on
+the hills. You should come across a new monster. Chimaeras have good attack but
+by now they should be outmatched.
+
+At level 13 you learn the Zoom spell, which warps you to Tantegel Castle at a
+cost of only 1 MP. This spell can save your life. It doesn't work in dungeons;
+you have to Evac first. You can take a break from grinding at this point because
+you are now powerful enough to get through the next dungeon. Use Zoom or a
+Chimaera Wing to get back to Tantegel fast and save yourself time from all
+the weak encounters.
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| RECOMMENDED LEVEL: 13                                                        |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ---------------------------------------------------                          |
+|                                                                              |
+| Weapon: Steel Broadsword (Rimuldar)                                          |
+| Armour: Full Plate Armour (Kol, Rimuldar)                                    |
+| Shield: Iron Shield (Galenholm or Craggy Cave)                               |
+| Accessory: Dragon Scale (most Item Shops)                                    |
+| Accessory: Warrior's Ring (Craggy Cave)(optional)                            |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+
+<<-----------------------------------SUNSTONE--------------------------------->>
+
+
+
+On the northeast side of the Town of Tantegel, there is a shop behind a locked
+door... doesn't seem like a great way to do business, if their front door is
+always locked... anyway, they sell you Holy Water for 12G a pop. Holy Water
+removes encounters with monsters much weaker than you, which removes the
+inconvenience of getting into battles that give you almost nothing in experience
+and gold. Basically, it's a time saver. Unfortunately Holy Water doesn't work in
+dungeons, and it wears off after so many steps.
+
+Enter Tantegel Castle and open the door to the treasure room. In the chests you
+get ~345G, MAGIC KEY, SEED OF MAGIC, and SEED OF AGILITY. Go north and east and
+open the locked door. There's a Magic Key shop in the northeast corner that
+sells keys at 24G a pop. Also, you can walk outside the perimeter of the castle
+in this area. Go one square east of the eastern Castle wall, then head south.
+When you hit water, you can afford to go one more square east, then head south
+to the stairs.
+
+In the drawers to the right are a MEDICINAL HERB and a SEED OF LIFE. And in the
+chest you get the SUNSTONE. Alright! One artefact found, two more to go.
+
+
+
+
+<<---------------------------------GALEN'S GRAVE------------------------------>>
+
+
+
+You need 2 keys at least for the next dungeon. Once you are all set, head
+northwest to Galenholm. When you get to the settlement, use a key on the door to
+the big building. In this building are three chests containing a COPPER SWORD, a
+TORCH and ~630G. If you use a Magic Key and talk to the old lady in the purple
+dress, she will give you another Magic Key. Position yourself directly north of
+the old lady. Go west one square, then go north into the blackness. Follow the
+pathway and talk to the guy to gain access to the stairs. You have just entered
+Galen's Grave.
+
+
+
+Floor B1
+
+
+
+Go east to the wall, then go north. Take the first path going east all the way
+to the wall. Next, head north and west to three chests. Open them for a SEED OF
+LIFE, 535G and a MAGIC KEY. Head back east and this time go all the way south.
+Use a Magic Key on the door, then follow the path to the stairs.
+
+
+
+Floor B2
+
+
+
+You will find yourself in the northeast corner of this floor. You can choose to
+go west or south; either way, make it to the stairs on the southwest corner. Be
+sure to keep your HP above 50 for the next floors.
+
+
+
+Floor B3
+
+
+
+On this floor there are some new monsters. Spitegeists can cast Sizz, Snooze and
+Fizzle. Drohl Diabolists can cast Snooze. Raving Lunaticks can cast Heal and
+Sizz. And the hardest monster in this dungeon, the Skeleton Soldier, can cast
+Heal and also does pretty good physical damage. Anyway, head north, taking the
+path to the right to find the stairs.
+
+
+
+Floor B4
+
+
+
+Make your way to the east side of the room and climb the stairs in the centre.
+
+
+
+Floor B3
+
+
+
+In this room, open the chest to receive the LYRE OF IRE. This item is not one of
+Erdrick's artefacts, but it can be traded for one. You are done in this dungeon
+so cast Evac to get back to the overworld.
+
+
+
+<<--------------------------------STAFF OF RAIN------------------------------->>
+
+
+
+Zoom to Tantegel and walk eastward to Kol.
+
+West of Kol is a path you may not have checked out yet. Follow the path as it
+arcs northward, enter the Shrine and go down the stairs. Give the old man the
+Lyre of Ire and he will give you access to a chest which contains the STAFF OF
+RAIN. Alright! Two artefacts collected, one more to go. At this point I would
+Zoom back to Tantegel Town to deposit the Staff of Rain and the Sunstone in the
+Vault next to the Inn.
+
+
+
+<<-----------------------------------GRIND 4---------------------------------->>
+
+
+
+Unfortunately, it's time to grind again. I recommend fighting in Gold Golem
+territory far to the south of Galenholm, because you are going to need gold.
+Cross the bridge and head south into the desert where you will see a town. Do
+not attempt to enter the town as it is destroyed and filled with powerful
+monsters. Instead, do your grinding in the desert, making sure you stay north of
+the town.
+
+If you want the next sword upgrade and the best shield in the game, earn 24600G.
+If you choose to wait until you get the ultimate sword in the game, you only
+need 14800G. Also, you need to journey to a new town that sells this new
+equipment. I recommend getting to level 14 for the next part.
+
+
+
+<<-------------------------------ROAD TO CANTLIN------------------------------>>
+
+
+
+Once you have earned your gold, make sure you sleep at the Inn and have the
+Faerie Flute with you along with maximum Medicinal Herbs and Magic Keys. Deposit
+all your gold at the Vault and save with the King of Tantegel. This is going to
+be a little bit of a walk through rough monster terrain.
+
+Once you are past Chimaera territory, you will have to flee from every single
+battle (except for Metal Slimes). I recommend Quick Saving after every couple
+battles. At level 14 it is highly unlikely that you will die during the walk. If
+you do die, do not worry. Your money is safe in the Vault.
+
+Head back to the desert to the far south of Galenholm. Continue south until you
+reach the sea, then go east across the bridge. Continue to follow the path
+northeast, ignoring the next bridge. Eventually you should come to a bridge with
+a poisonous swamp next to it. Cross the bridge and approach the town to the
+south but keep at least four steps away from it. Heal up to maximum and Quick
+Save your game. Now try to go into the town. It's mini-boss time!
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| GOLEM - 150HP                                                                |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| If you have the Faerie Flute, you should be able to defeat Golem without     |
+| getting a scratch on you. Use the "Item" option and select your Faerie Flute |
+| to lull the Golem to sleep. If he stays asleep, attack him. If he wakes up,  |
+| use the Faerie Flute again. He will never get a turn in to attack. In the    |
+| NES version, the Golem could wake up and attack the Hero in the same turn,   |
+| but not so much on the Switch.                                               |
+|                                                                              |
+| For defeating him you get 2500 EXP and some pocket change. Now you can access|
+| a new town. Victory!                                                         |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+At this point you should be at least close to getting level 15, at which you
+will learn the Holy Protection spell. It wipes weak encounters off the map for
+64 steps but does not work in dungeons. It is the same as using a Holy Water.
+
+
+
+<<-----------------------------------CANTLIN---------------------------------->>
+
+
+
+Enter the town. Welcome to Cantlin! The Equipment Shop is south of the
+northeastern stairs. There are two other equipment shops that sell equipment you
+could have gotten in other towns. You need a key to access the shop as well as
+the adjoining Magic Key Shop. The northwestern stairs lead to a Vault where you
+can withdraw your gold. The Holy Water Shop is at the southeast corner of town.
+
+Note that you cannot buy Medicinal Herbs or Torches here.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| CANTLIN                                                                      |
+|                                                                              |
+|                                                                              |
+| EQUIPMENT SHOP                              MAGIC KEY SHOP                   |
+| -----------------------------               ----------------------------     |
+| Fire Blade              9800G               Magic Key                32G     |
+| Silver Shield          14800G                                                |
+|                                                                              |
+|                                                                              |
+| INN:                     50G                HOLY WATER SHOP                  |
+|                                             ----------------------------     |
+|                                             Holy Water               12G     |
+| Vault                                                                        |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+If you chose to grind 14800G and wait for the ultimate weapon, buy the Silver
+Shield. If you chose to grind 24600G, get the Fire Blade as well. You can use
+the Fire Blade as an item during battle to shoot flames at monsters. I really
+do not recommend doing that, as your physical attack should be enough.
+
+Search the drawer at the Inn for a SEED OF RESILIENCE. South of the Inn, use a
+Magic Key to get to a drawer which holds... a MAGIC KEY. Also, the guy in here
+talks about previously owning a shop in Damdara, the destroyed town in the
+desert that you passed by earlier. Go south to a narrow hallway leading to the
+eastern part of the town, then go north a bit to find a drawer with a SEED OF
+MAGIC inside. That should be it for Cantlin. Zoom back to Tantegel, heal at the
+Inn and save with the King.
+
+
+
+<<------------------------SAVE THE PRINCESS (OPTIONAL)------------------------>>
+
+
+
+Now it is time to save Princess Gwaelin… if you want. Yup, this quest is
+entirely optional. You do not have to save her to beat the game! Leave her to
+rot for all the game cares; as long as you defeat the Dragonlord, you will get
+the end-game credits. If you save her though, the ending will be a little
+different, and more satisfying in my opinion.
+
+Leave Tantegel and cast Holy Protection if you want to wipe out monster
+encounters. Head east to the cave tunnel you previously travelled through when
+going to Rimuldar. Once inside, cast Glow, then head east and south. Stay along
+the eastern wall until you get to a locked door. Use a Magic Key, then continue
+until you are just a few steps away from a dragon blocking a room entrance.
+Quick Save here, then talk to the dragon for a battle.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| GREEN DRAGON - 150 HP                                                        |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| The Green Dragon has a physical attack and a fire attack. Simply heal when   |
+| you go below 40 HP and attack when you do not, and the dragon should go down |
+| easy enough.                                                                 |
+|                                                                              |
+| For defeating the Green Dragon you get 950 EXP and some gold. You saved      |
+| Princess Gwaelin! Victory!                                                   |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Unfortunately, in the Switch version of the game there is no "But thou must."
+Got to go back to the good old NES for that one. Oh well. I'm just a tad
+disappointed I guess, that they would change an iconic line like that. Similar
+to how they changed "...But you're still hungry" in the DS version of Chrono
+Trigger. Damn you Square-Enix! Just kidding. Anyway, I'm digressing. Where was
+I?
+
+Oh yes, bringing Princess Gwaelin back home to Tantegel. You can Evac/Zoom back
+if you want. Talk to the King and Gwaelin will give you the PRINCESS'S PLEDGE.
+It tells you how many steps north, south, east or west Tantegel Castle is to
+you, like a medieval GPS. Also, it tells you how much experience you need to get
+to the next level.
+
+
+
+<<-------------------------------LEGENDARY ARMOUR----------------------------->>
+
+
+
+Remember Damdara, the town in the southern desert that was destroyed by
+monsters? Remember that guy in Cantlin who was talking about a shop he used to
+run there? It's time to enter that town.
+
+In Damdara you can run into Cosmic Chimaeras who can cast Midheal. They can only
+be taken out with physical attacks. Tearwolves do not have spells. Also, you
+have Green Dragons, although be aware that these dragons have far less HP than
+the dragon that is/was guarding Princess Gwaelin. Vis Magers can cast Fizzle and
+a new spell, Sizzle, a more powerful Sizz spell which can do massive damage to
+you. I have been killed more than once by these guys, especially when they get
+the first move on you. Keep your health high, 70+ HP and Quick Save after every
+battle and you should be fine.
+
+Anyway, from where you entered, head south, then east across town. You should be
+able to see a sparkle, indicating an hidden item. Approach the sparkle but stay
+a few squares away. Heal up to max, and make sure you have at least 56 MP,
+enough for a Fizzle cast and 18 Heal casts. If you do not, sleep at the Inn in
+Galenholm and come back. Along with your Herbs, you should have at least 24
+Heals to work with. Quick Save here; now you are ready to take on the guard of
+this treasure, a Knight Aberrant.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| KNIGHT ABERRANT - 78 HP - 4 MP - Can cast Snooze                             |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| Remember when I said there is one particular monster in the game that I use  |
+| Fizzle on? This is the monster. Cast Fizzle to prevent the Knight Aberrant   |
+| from casting Snooze on you. It is guaranteed to work the first time. Attack  |
+| and Heal if you go below 55 HP. Try not to use Medicinal Herbs until you run |
+| out of MP. Even if the Knight Aberrant is constantly attacking, you should be|
+| regaining a bit more HP than the monster can take, giving you a chance to hit|
+| him once every few turns.                                                    |
+|                                                                              |
+| After 3 or 4 hits, the monster should go down, giving you access to a secret |
+| sparkly treasure. Victory!                                                   |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+For your troubles you get the mighty ERDRICK'S ARMOUR, the ultimate armour of
+the game. Its defense is higher than all other armours. It lowers the damage of
+Sizz, Sizzle and Fire attacks by 25%. It makes you invulnerable to the poisonous
+swamp and damage tiles. On top of that, it heals 1 HP per step. This armour is
+obscene.
+
+
+
+<<------------------------------------GRIND 5--------------------------------->>
+
+
+
+On your run to Cantlin, you passed by some new monsters. Just south and west of
+Damdara, you have Death Scorpions, Knight Errants who can cast Fizzle, Skeleton
+Soldiers who can cast Heal, and Dark Skeletons that dodge a lot.
+
+If you go further south, near the water but before crossing the bridge to go
+east, you will run into some tougher monsters. Most notably, the Metal Slime! He
+has more Resilience than the Dragonlord himself. Holy hell. Unfortunately for
+him, the Metal Slime has the strength and spell capacity of a Drackolyte. Also,
+he runs away a lot. Metal Slimes give 775 EXP a pop if you are lucky enough to
+kill one. This is a favourite spot to grind for the whole game.
+
+Also far south you have Hocus Chimaeras, who can cast Snooze and Sizz on you, as
+well as Heal.
+
+Near Cantlin are the same monsters you already met at Damdara.
+
+At level 17 you will learn Midheal, an absolute necessity for beating the game.
+
+
+
+<<--------------------------------MARK OF ERDRICK----------------------------->>
+
+
+
+Once you get to level 17, go back to Cantlin. Notice the building in the centre
+of the town. If you go inside the building (just walk into the side of it) and
+exit south, you will see two doors followed by a pathway lined with damage
+tiles. Before you had Erdrick's Armour, each tile would deal 15 damage to you.
+But because you have the armour equipped, the tiles now do no damage at all.
+
+Unlock one of the doors and walk harmlessly over to a person who will tell you
+where to search for the last artefact. Tantegel is 70 steps north and 40 steps
+west of the artefact.
+
+If you have it, go outside and use the Princess's Pledge. The coordinates the
+man gave in Cantlin are Tantegel's coordinates relative to the artefact. Match
+them up with your location and you find the artefact.
+
+Go north from Cantlin, cross the bridge and head southwest. Cross the next
+bridge you see and head southeast to a huge poisonous swamp. Go to the east side
+of the swamp and keep using Princess's Pledge to find the MARK OF ERDRICK. A "!"
+will appear above the Hero's head once he's found the right spot. That's three
+out of three. Zoom back to Tantegel, rest up at the Inn and save with the King.
+
+
+
+<<----------------------------------RAINBOW DROP------------------------------>>
+
+
+
+Head over to the Vault, deposit your Faerie Flute and Princess's Pledge.
+Withdraw the Sunstone and the Staff of Rain. Also, make sure you have the Mark
+of Erdrick. Now you need to walk to the Holy Sanctum south of Rimuldar. Cast
+Holy Protection the whole way to avoid all the monster encounters.
+
+Head inside and go downstairs to find a priest. Talk to him in order to give him
+the Sunstone and the Staff of Rain. He will offer them to the Almighty Goddess.
+A chest will appear; open it to receive the RAINBOW DROP. Leave the Sanctum.
+
+Northwest of the Sanctum and west of Rimuldar is a narrow peninsula. Go to the
+very tip of the peninsula and use the Rainbow Drop to make a bridge appear. Now
+you have access to the Dragonlord's Castle. Return to Rimuldar if you need to
+rest at the Inn or stock up on Medicinal Herbs and Magic Keys. Otherwise,
+continue to the Dragonlord's Castle.
+
+
+
+<<--------------------------------LEGENDARY SWORD----------------------------->>
+
+
+
+On this floor and the next floor down, you will be fighting the same monsters
+you saw at Damdara, including Knight Aberrants.
+
+From the entrance, head west and follow the path to the Throne room that is
+between two other rooms with staircases that lead nowhere. Search the sparkle
+behind the Throne to find a hidden stairway leading to the next level.
+
+
+
+Floor B1
+
+
+
+Use a Magic Key on the door and follow the linear path west, south, then east.
+Take the northeast path to the stairs.
+
+
+
+Floor B2
+
+
+
+On this floor you can fight Blue Dragons, who attack and breathe fire. I
+recommend using the Snooze-Flee tactic on the Stone Golems instead of fighting
+them. From the stairs, head west and follow the path. Take the north path at the
+intersection. When you come to two paths heading south, take the western path
+south to some stairs.
+
+
+
+Floor B3
+
+
+
+Northwest of the stairs are two chests containing 502G and a MEDICINAL HERB. Go
+east past the stairs you just came from, also passing the stairs in the
+northeast corner and head west and down the next stairs you see.
+
+
+
+Floor B4
+
+
+
+Walk directly south and you should see two staircases, one ascending and one
+descending. The descending stairs leads to a room that loops endlessly. Take the
+ascending stairs.
+
+
+
+Floor B3
+
+
+
+Go southeast to the stairs and take them up to the next floor.
+
+
+
+Floor B2
+
+
+
+Take the stairs right next to you.
+
+
+
+Floor B1
+
+
+
+Finally, head north and open the chest to find the best weapon in the game,
+ERDRICK'S SWORD.
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| RECOMMENDED LEVEL: 17                                                        |
+|                                                                              |
+|                                                                              |
+| CURRENT EQUIPMENT:                                                           |
+| ----------------------------------------------------------                   |
+|                                                                              |
+| Weapon: Erdrick's Sword (Dragonlord's Castle)                                |
+| Armour: Erdrick's Armour (Damdara)                                           |
+| Shield: Silver Shield (Cantlin)                                              |
+| Accessory: Dragon Scale (Most Item Shops) (optional)                         |
+| Accessory: Warrior's Ring (Craggy Cave) (optional)                           |
+|                                                                              |
+|                                                                              |
+| Note: The defense boost the Dragon Scale provides is negligible at this point|
+| in the game. If you prefer item space, you can get rid of both accessories   |
+| now.                                                                         |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+
+<<----------------------------------FINAL GRIND------------------------------->>
+
+
+
+The only thing left to do in the game is to meet up with the final two monsters
+you haven't seen yet and beat the Dragonlord. It may be possible to beat him at
+level 17, but it will be very difficult to do. Level 20 is a more normal level
+to take on the Dragonlord with. I like grinding south of Damdara where the Metal
+Slimes are.
+
+At Level 19 you learn the final spell, Sizzle. It can deal 50-65 damage to
+monsters. It's pretty much useless. Many of the tougher monsters have a
+resistance to Sizzle. Your MP is better spent using Midheal.
+
+
+
+<<-----------------------------DRAGONLORD'S CASTLE---------------------------->>
+
+
+
+Once you feel like you are ready to take on the Dragonlord, Zoom to Tantegel,
+rest at the Inn, max out on your Medicinal Herbs and Magic Keys and save with
+the King. There is no saving after beating the Dragonlord. Make a pit stop in
+Rimuldar if you'd like.
+
+Head towards the Dragonlord's Castle. As you go through the Castle a second
+time, try to conserve as much MP as possible, and feel free to use all of your
+Herbs if need be.
+
+Go to the Throne room, search the sparkle and go down the stairs.
+
+
+
+Floor B1
+
+
+
+Use a Magic Key on the door and follow the linear path west, south, then east.
+Take the northeast path to the stairs.
+
+
+
+Floor B2
+
+
+
+From the stairs, head west and follow the path. Take the north path at the
+intersection. When you come to two paths heading south, take the western path
+south to some stairs.
+
+
+
+Floor B3
+
+
+
+Go northeast, ignore the first stairs, head west and go down the second stairs.
+
+
+
+Floor B4
+
+
+
+Now you are back on the floor where you saw the two flights of stairs, where the
+ascending stairs lead to Erdrick's Sword and the descending stairs lead to an
+endless loop. Ignore both stairs and head east, then north to more descending
+stairs.
+
+
+
+Floor B5
+
+
+
+You can encounter the final two monsters (besides the Dragonlord himself) on
+this floor as well as the two final floors just below. Knight Abhorrents can
+cast Midheal and Sizzle. Red Dragons can cast Fizzle, so make sure you keep your
+HP high. Follow the path to the end to go down another flight of stairs.
+
+
+
+Floor B6
+
+
+
+On this floor, simply walk straight east and down the stairs to the final floor.
+
+
+
+Floor B7
+
+
+
+Walk straight north and head to the treasure room. The chests contain WASTEBAND
+(cursed), SEED OF MAGIC, MEDICINAL HERB, 424G, nothing, MAGIC KEY, nothing,
+503G, and a CHIMAERA WING. If you want to keep your MP stat gain, Evac out and
+Zoom to Tantegel Castle to rest and save. However, you will have to redo the
+Dragonlord's Castle and get to the bottom floor again.
+
+From the stairs on the final floor, take the leftmost path, turning east and
+moving past the pillars. Continue east, then head south across two bridges. You
+should be able to see the Dragonlord now. Heal up to full using any leftover
+Herbs you may have left. Make a Quick Save.
+
+
+
+<<----------------------------------DRAGONLORD-------------------------------->>
+
+
+
+Talk to the Dragonlord. He will give you an opportunity to rule the world
+alongside him. The catch is that he will get the Living half while you get the
+Dead half. Clever Dragonlord. Anyway, if you accept his proposal twice, you will
+be returned to the Inn at Rimuldar. So decline his offer twice and prepare for
+the final battle!
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| DRAGONLORD - 225 HP - 40 MP - Can cast Snooze, Midheal and Sizzle            |
+|                                                                              |
+|------------------------------------------------------------------------------|
+|                                                                              |
+| During this battle, be sure to keep your HP above 95 in case of Snooze. Keep |
+| attacking him physically. Even though he has Midheal, he will eventually be  |
+| taken down.                                                                  |
+|                                                                              |
+| Victory! Oh, wait a second...                                                |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+Crap. True form! The real final battle begins!
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| DRAGONLORD (TRUE FORM) - 300 HP                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+|                                                                              |
+| This Boss is the real deal. He can spit out a fiery torrent of flames and    |
+| breathe fire, both of which do minimal damage. His physical attacks do       |
+| medium damage. Also, he can belch out blistering flames, doing a maximum     |
+| damage of 50+, and that's with Erdrick's Armour equipped. Back to back       |
+| belches could be really bad. If you are only at level 20, it may take several|
+| tries until you get lucky enough to kill him. Use Midheal every time you dip |
+| below 95 HP. He should go down after only a few tries.                       |
+|                                                                              |
+| Victory!                                                                     |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+
+<<-----------------------------------ENDING----------------------------------->>
+
+
+
+Zoom to Tantegel Castle to watch the ending. There are two possible endings.
+Whichever one you get depends on if you saved Princess Gwaelin or not. The
+credits start to roll.
+
+Final victory at last!
