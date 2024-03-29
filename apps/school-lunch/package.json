@@ -4,10 +4,10 @@
   "description": "",
   "license": "",
   "scripts": {
-    "build": "nx exec -- remix build",
+    "build": "nx exec -- nx build",
     "dev": "nx exec -- remix dev",
     "start": "nx exec -- remix-serve build",
-    "typecheck": "nx exec -- tsc"
+    "typecheck": "nx exec -- nx typecheck"
   },
   "dependencies": {
     "@remix-run/node": "^1.15.0",
@@ -28,5 +28,11 @@
   "engines": {
     "node": ">=14"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "nx": {
+    "includedScripts": [
+      "dev",
+      "start"
+    ]
+  }
 }

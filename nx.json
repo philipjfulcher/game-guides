@@ -1,7 +1,4 @@
 {
-  "affected": {
-    "defaultBase": "main"
-  },
   "generators": {
     "@nx/react": {
       "application": {
@@ -46,5 +43,16 @@
       "!{projectRoot}/src/test-setup.[jt]s"
     ]
   },
-  "nxCloudAccessToken": "ZmNiYjE2YjUtOTUyOC00YjgwLThjYzctNTYyZjlmYTkyODY1fHJlYWQtd3JpdGU="
+  "defaultBase": "main",
+  "plugins": [
+    {
+      "plugin": "@nx/remix/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "startTargetName": "start",
+        "typecheckTargetName": "typecheck"
+      }
+    }
+  ]
 }
