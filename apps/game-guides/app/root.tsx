@@ -5,12 +5,11 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  useCatch,
   useLoaderData,
 } from '@remix-run/react';
 
 import styles from './tailwind.css';
-import {json, LoaderArgs, MetaFunction, V2_MetaFunction} from '@remix-run/node';
+import {json, MetaFunction} from '@remix-run/node';
 import { createBrowserClient } from '@supabase/auth-helpers-remix';
 import { useState } from 'react';
 import Shell from './layout/Shell';
@@ -20,7 +19,7 @@ export function links() {
   return [{ rel: 'stylesheet', href: styles }];
 }
 
-export const loader = ({}: LoaderArgs) => {
+export const loader = ({}) => {
   const env = {
     SUPABASE_URL: process.env.SUPABASE_URL!,
     SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY!,
@@ -30,7 +29,7 @@ export const loader = ({}: LoaderArgs) => {
   return json({ env });
 };
 
-export let meta: V2_MetaFunction = () => {
+export let meta: MetaFunction = () => {
   return [{
     title: 'Game Guides',
     description: 'Game guides with built-in progress tracking',
@@ -39,7 +38,7 @@ export let meta: V2_MetaFunction = () => {
 
 
 export default function App() {
-  const { env } = useLoaderData();
+  const { env } = useLoaderData<typeof loader>();
   const [supabase] = useState(() =>
     createBrowserClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY)
   );

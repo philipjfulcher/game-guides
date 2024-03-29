@@ -5,8 +5,7 @@
   "projectType": "library",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "executor": "@nx/eslint:lint",
       "options": {
         "lintFilePatterns": ["apps/game-guides/data/**/*.ts"]
       }
@@ -15,8 +14,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/libs/data-access"],
       "options": {
-        "jestConfig": "apps/game-guides/data/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "apps/game-guides/data/jest.config.ts"
       }
     }
   },

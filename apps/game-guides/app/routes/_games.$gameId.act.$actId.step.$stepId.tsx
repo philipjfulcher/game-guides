@@ -1,9 +1,8 @@
-import { json, redirect, Response } from '@remix-run/node';
+import { json, redirect } from '@remix-run/node';
 import {
   Form,
-  useLoaderData,
+  useLoaderData, useNavigation,
   useParams,
-  useTransition,
 } from '@remix-run/react';
 import {
   type ActionFunction,
@@ -109,8 +108,8 @@ export let action: ActionFunction = async ({ request }) => {
 
 export default function () {
   let step = useLoaderData<Step>();
-  const transition = useTransition();
-  const isCreating = Boolean(transition.submission);
+  const transition = useNavigation();
+  const isCreating = Boolean(transition);
   const { gameId } = useParams();
 
   return (
