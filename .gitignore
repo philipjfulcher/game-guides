@@ -48,3 +48,4 @@ apps/**/.cache
 .netlify
 
 .nx/cache
+.nx/workspace-data
