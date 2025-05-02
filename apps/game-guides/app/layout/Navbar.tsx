@@ -27,6 +27,10 @@ const menuItems: SelectMenuItem[] = [
     id: 'dq1',
     label: 'Dragon Quest 1',
   },
+  {
+    id: 'dq2',
+    label: 'Dragon Quest 2',
+  },
 ];
 
 export function Navbar({

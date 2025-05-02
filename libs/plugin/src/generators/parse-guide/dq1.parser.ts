@@ -19,7 +19,7 @@ const sectionTitles = [
   'Act 6',
 ];
 
-export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
+export default async function (tree: Tree, options: ParseGuideGeneratorSchema, markdownDir: string) {
   const rl = createInterface({
     input: createReadStream(join(workspaceRoot, options.file)),
   });
@@ -33,7 +33,8 @@ export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
     // console.log(line);
 
     if (line.startsWith('<<')) {
-      const cleanLine = line.replace(/(<<[-]+)/, '').replace(/([-]+>>)/, '');
+      let cleanLine = line.match(/^<<[-]+[ivxl]+. (.*) \[/)[1];
+      cleanLine = cleanLine.replaceAll(':','').replaceAll(' (OPTIONAL)','');
       if (!currentSection || currentSubSection.title.startsWith('GRIND')) {
         console.log(`Starting section ${sectionTitles[sections.length]}`);
         if (currentSection !== undefined) {
@@ -77,7 +78,7 @@ export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
         safeSectionName = `${sectionIndex}-${safeSectionName}`;
         console.log(`Creating ${safeSectionName}`)
         const sectionIndexFileName = joinPathFragments(
-          'apps/game-guides/app/data/markdown/dq1/',
+          `apps/game-guides/app/data/markdown/${markdownDir}/`,
           safeSectionName,
           '/index.md'
         );
@@ -100,7 +101,7 @@ subtitle:
             .replaceAll('”', '')
             .replaceAll('!', '');
           const subsectionFileName = joinPathFragments(
-            'apps/game-guides/app/data/markdown/dq1/',
+            `apps/game-guides/app/data/markdown/${markdownDir}/`,
             safeSectionName,
             '/steps',
             `${safeSubSectionName}.md`

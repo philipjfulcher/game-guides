@@ -21,7 +21,10 @@ export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
       return KHBBSParser(tree, options);
 
     case 'guides/dragon-quest-1.txt':
-      return DQ1Parser(tree, options);
+      return DQ1Parser(tree, options, 'dq1');
+
+    case 'guides/dragon-quest-2.txt':
+      return DQ1Parser(tree, options, 'dq2');
 
     default:
       throw Error('Could not find parser for file');
