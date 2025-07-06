@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "school-lunch",
+  "name": "@monophilament/school-lunch",
   "description": "",
   "license": "",
   "scripts": {
