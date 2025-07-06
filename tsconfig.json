@@ -22,5 +22,6 @@
       "@game-guides/plugin": ["libs/plugin/src/index.ts"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "references": []
 }

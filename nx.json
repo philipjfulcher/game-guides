@@ -9,18 +9,31 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["production", "^production"],
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ],
       "cache": true
     },
     "@nx/eslint:lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json"
+      ],
       "cache": true
     }
   },
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "sharedGlobals": ["{workspaceRoot}/babel.config.json"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "sharedGlobals": [
+      "{workspaceRoot}/babel.config.json"
+    ],
     "production": [
       "default",
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
@@ -39,6 +52,26 @@
         "devTargetName": "dev",
         "startTargetName": "start",
         "typecheckTargetName": "typecheck"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "tsc:typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
       }
     }
   ],
