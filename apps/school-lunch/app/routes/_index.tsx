@@ -1,5 +1,5 @@
-import {json} from "@remix-run/node";
-import {useLoaderData} from "@remix-run/react";
+import { json } from '@remix-run/node';
+import { useLoaderData } from '@remix-run/react';
 import {
   eachDayOfInterval,
   endOfMonth,
@@ -22,11 +22,11 @@ interface Day {
 }
 
 const filterList = [
-  " on Whole Wheat Bread",
-  " on a Whole Wheat Bun",
+  ' on Whole Wheat Bread',
+  ' on a Whole Wheat Bun',
   "Domino's ",
-  "(K-5)",
-  "(6-12)"
+  '(K-5)',
+  '(6-12)',
 ];
 
 function filterOption(option: string) {
@@ -35,48 +35,70 @@ function filterOption(option: string) {
 
 export const loader = async () => {
   const today = new Date();
-  console.log({today})
   const startOfThisMonth = startOfMonth(today);
-  const startDate = isMonday(startOfThisMonth) ? startOfThisMonth : nextMonday(startOfThisMonth);
+  const startDate = isMonday(startOfThisMonth)
+    ? startOfThisMonth
+    : nextMonday(startOfThisMonth);
   const endDate = endOfWeek(endOfMonth(today));
+  const buildingId = 'cf92837d-dcb4-eb11-a2c3-bb7f12070043';
+  const districtId = 'cb621126-efb1-eb11-a2cc-d41c38442056';
   const response = await fetch(
-    `https://api.linqconnect.com/api/FamilyMenu?buildingId=aa89dd11-6685-ea11-bd65-d80baa2f8012&districtId=db9540ca-d880-ea11-bd63-ffff13125edb&startDate=${lightFormat(startDate, "M-d-yyyy")}&endDate=${lightFormat(endDate, "M-d-yyyy")}`,
+    `https://api.linqconnect.com/api/FamilyMenu?buildingId=${buildingId}&districtId=${districtId}&startDate=${lightFormat(
+      startDate,
+      'M-d-yyyy'
+    )}&endDate=${lightFormat(endDate, 'M-d-yyyy')}`,
     {
-      headers: {accepts: "application/json"}
+      headers: { accepts: 'application/json' },
     }
   );
 
   const body = await response.json();
 
-  console.log({body})
+  const lunches = body.FamilyMenuSessions.find(
+    (session: any) => session.ServingSession === 'Lunch'
+  );
 
-  const lunches = body.FamilyMenuSessions.find((session: any) => session.ServingSession === 'Lunch');
+  if (!lunches) {
+    return json({ currentMonth: format(today, 'MMMM yyyy'), days: [] });
+  }
+
   const days: Day[] = lunches.MenuPlans[0].Days.map((day: any) => ({
     dateAsString: day.Date,
-    options: [...new Set(day.MenuMeals[0].RecipeCategories.find((category: any) => category.CategoryName === "Main Entree")?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName)))] ?? []
+    options:
+      [
+        ...new Set(
+          day.MenuMeals[0].RecipeCategories.find(
+            (category: any) => category.CategoryName === 'Main Entree'
+          )?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName))
+        ),
+      ] ?? [],
   }));
-  console.log(days);
 
-  const actualDays: (null | Day)[] = eachDayOfInterval({start: startDate, end: endDate}).map(date => {
-
-    if (isWeekend(date)) {
-      return null;
-    } else {
-      console.log(lightFormat(date, "M-d-yyyy"))
-      return days.find(day => day.dateAsString === lightFormat(date, "M/d/yyyy")) ?? {
-        dateAsString: lightFormat(date, "M/d/yyyy"),
-        options: []
+  const actualDays: (null | Day)[] = eachDayOfInterval({
+    start: startDate,
+    end: endDate,
+  })
+    .map((date) => {
+      if (isWeekend(date)) {
+        return null;
+      } else {
+        return (
+          days.find(
+            (day) => day.dateAsString === lightFormat(date, 'M/d/yyyy')
+          ) ?? {
+            dateAsString: lightFormat(date, 'M/d/yyyy'),
+            options: [],
+          }
+        );
       }
-    }
-  }).filter(day => day !== null)
+    })
+    .filter((day) => day !== null);
 
-  return json(
-    {currentMonth: format(today, "MMMM yyyy"), days: actualDays}
-  )
-}
+  return json({ currentMonth: format(today, 'MMMM yyyy'), days: actualDays });
+};
 
 export default function Calendar() {
-  const {days, currentMonth} = useLoaderData<typeof loader>();
+  const { days, currentMonth } = useLoaderData<typeof loader>();
 
   return (
     <div className={'flex p-1'}>
@@ -89,8 +111,7 @@ export default function Calendar() {
           <div>T</div>
           <div>F</div>
         </div>
-        <div
-          className="isolate mt-2 grid grid-cols-5 gap-px rounded-lg bg-gray-500 text-xs shadow ring-1 ring-gray-500">
+        <div className="isolate mt-2 grid grid-cols-5 gap-px rounded-lg bg-gray-500 text-xs shadow ring-1 ring-gray-500">
           {days.map((day, dayIdx) => {
             return (
               <div
@@ -99,12 +120,8 @@ export default function Calendar() {
                   'bg-white text-gray-900',
                   dayIdx === 0 ? 'rounded-tl-lg' : null,
                   dayIdx === 4 ? 'rounded-tr-lg' : null,
-                  dayIdx === days.length - 5
-                    ? 'rounded-bl-lg'
-                    : null,
-                  dayIdx === days.length - 1
-                    ? 'rounded-br-lg'
-                    : null,
+                  dayIdx === days.length - 5 ? 'rounded-bl-lg' : null,
+                  dayIdx === days.length - 1 ? 'rounded-br-lg' : null,
                   'p-1 min-h-[125px] hover:bg-gray-100 focus:z-10 relative no-underline'
                 )}
               >
@@ -117,14 +134,14 @@ export default function Calendar() {
                   {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
                 </time>
 
-                {day?.options.map(option => <p className={"mb-0.5"}>{option}</p>)}
+                {day?.options.map((option) => (
+                  <p className={'mb-0.5'}>{option}</p>
+                ))}
               </div>
             );
           })}
         </div>
       </section>
-
     </div>
-
   );
 }
