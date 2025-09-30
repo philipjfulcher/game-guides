@@ -1,50 +1,128 @@
 ---
-import { classNames } from '@monophilament/util';
+
 ---
 
-<div class='flex p-1'>
-      <section class="text-center">
-        <h2 class="font-semibold text-gray-900 text-2xl">{currentMonth}</h2>
-        <div class="mt-1 grid grid-cols-5 text-xs leading-6 text-gray-500">
-          <div>M</div>
-          <div>T</div>
-          <div>W</div>
-          <div>T</div>
-          <div>F</div>
-        </div>
-        <div
-          class="isolate mt-2 grid grid-cols-5 gap-px rounded-lg bg-gray-500 text-xs shadow ring-1 ring-gray-500">
-          {days.map((day, dayIdx) => {
-            return (
-              <div
-                key={day?.dateAsString}
-                class={classNames(
-                  'bg-white text-gray-900',
-                  dayIdx === 0 ? 'rounded-tl-lg' : null,
-                  dayIdx === 4 ? 'rounded-tr-lg' : null,
-                  dayIdx === days.length - 5
-                    ? 'rounded-bl-lg'
-                    : null,
-                  dayIdx === days.length - 1
-                    ? 'rounded-br-lg'
-                    : null,
-                  'p-1 min-h-[125px] hover:bg-gray-100 focus:z-10 relative no-underline'
-                )}
-              >
-                <time
-                  dateTime={day?.dateAsString}
-                  class={
-                    'mx-auto font-bold flex h-7 w-7 items-center justify-center rounded-full bg-purple-500 text-white'
-                  }
-                >
-                  {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
-                </time>
+<div class="calendar">
+  <div class="header">Sun</div>
+  <div class="header">Mon</div>
+  <div class="header">Tue</div>
+  <div class="header">Wed</div>
+  <div class="header">Thu</div>
+  <div class="header">Fri</div>
+  <div class="header">Sat</div>
 
-                {day?.options.map(option => <p class={"mb-0.5"}>{option}</p>)}
-              </div>
-            );
-          })}
-        </div>
-      </section>
+  <div class="placeholder"></div>
+  <div class="placeholder"></div>
+  <div class="placeholder"></div>
 
-    </div>
+  <div class="day first-quarter">1</div>
+  <div class="day">2</div>
+  <div class="day">3</div>
+  <div class="day">4</div>
+  <div class="day">5</div>
+  <div class="day">6</div>
+  <div class="day">7</div>
+  <div class="day">8</div>
+  <div class="day full-moon">9</div>
+  <div class="day">10</div>
+  <div class="day">11</div>
+  <div class="day">12</div>
+  <div class="day">13</div>
+  <div class="day">14</div>
+  <div class="day">15</div>
+  <div class="day">16</div>
+  <div class="day">17</div>
+  <div class="day last-quarter">18</div>
+  <div class="day">19</div>
+  <div class="day">20</div>
+  <div class="day today">21</div>
+  <div class="day">22</div>
+  <div class="day">23</div>
+  <div class="day">24</div>
+  <div class="day new-moon">25</div>
+  <div class="day">26</div>
+  <div class="day">27</div>
+  <div class="day">28</div>
+  <div class="day">29</div>
+  <div class="day">30</div>
+  <div class="placeholder"></div>
+  <div class="placeholder"></div>
+</div>
+
+<style>
+
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 500px;
+    gap: 4px; z-index: -2;
+    background-color: lightblue;
+  }
+
+  .calendar :nth-child(7n + 1) {
+    color: red;
+  }
+
+  .calendar :nth-child(7n) {
+    color: blue;
+  }
+
+  .header {
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .day {
+    display: grid;
+    aspect-ratio: 1/1;
+    place-content: center;
+    color: gray;
+  }
+
+  .today {
+    color: black;
+    background-color: pink;
+    clip-path: polygon(60% 0%, 100% 80%, 0% 100%);
+  }
+
+  .today ~ * {
+    color: white;
+  }
+/* 
+  .today::before {
+
+    width: 68px;
+    height: 68px;
+    content: '';
+    z-index: -1;
+  } */
+
+  .today::after {
+    content: 'TODAY';
+    position: absolute;
+  }
+
+  .new-moon {
+    border: 1px solid yellow;
+    border-radius: 50%;
+  }
+
+  .full-moon {
+    background-color: gray;
+    border-radius: 50%;
+  }
+
+  .first-quarter {
+    background: linear-gradient(to left, #333333 50%, #eeeeee 50%);
+    border-radius: 50%;
+    border: solid 2px black;
+  }
+
+  .last-quarter {
+    background: linear-gradient(to right, #333333 50%, #eeeeee 50%);
+    border-radius: 50%;
+    border: solid 2px black;
+  }
+</style>
