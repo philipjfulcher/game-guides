@@ -1,5 +1,23 @@
 ---
+import {
+  startOfWeek,
+  differenceInCalendarDays,
+  getDay,
+  getDaysInMonth,
+  startOfMonth,
+} from 'date-fns';
 
+const currentYear = '2009';
+const currentMonth = '04';
+const firstDay = startOfMonth(new Date(`${currentYear}-${currentMonth}-10`));
+
+const placeholders = new Array(getDay(firstDay)).fill('');
+const days = new Array(getDaysInMonth(firstDay)).fill('');
+const firstQuarter = 1;
+const full = 9;
+const lastQuarter = 18;
+const today = 21;
+const newMoon = 25;
 ---
 
 <div class="calendar">
@@ -10,43 +28,35 @@
   <div class="header">Thu</div>
   <div class="header">Fri</div>
   <div class="header">Sat</div>
+  {placeholders.map(() => <div class="placeholder" />)}
+  {
+    days.map((_, index) => {
+      const day = index + 1;
+      const classes = ['day'];
 
-  <div class="placeholder"></div>
-  <div class="placeholder"></div>
-  <div class="placeholder"></div>
+      if (day === firstQuarter) {
+        classes.push('first-quarter');
+      }
 
-  <div class="day first-quarter">1</div>
-  <div class="day">2</div>
-  <div class="day">3</div>
-  <div class="day">4</div>
-  <div class="day">5</div>
-  <div class="day">6</div>
-  <div class="day">7</div>
-  <div class="day">8</div>
-  <div class="day full-moon">9</div>
-  <div class="day">10</div>
-  <div class="day">11</div>
-  <div class="day">12</div>
-  <div class="day">13</div>
-  <div class="day">14</div>
-  <div class="day">15</div>
-  <div class="day">16</div>
-  <div class="day">17</div>
-  <div class="day last-quarter">18</div>
-  <div class="day">19</div>
-  <div class="day">20</div>
-  <div class="day today"><a href="#">21</a></div>
-  <div class="day">22</div>
-  <div class="day">23</div>
-  <div class="day">24</div>
-  <div class="day new-moon">25</div>
-  <div class="day">26</div>
-  <div class="day">27</div>
-  <div class="day">28</div>
-  <div class="day">29</div>
-  <div class="day">30</div>
-  <div class="placeholder"></div>
-  <div class="placeholder"></div>
+      if (day === full) {
+        classes.push('full-moon');
+      }
+
+      if (day === lastQuarter) {
+        classes.push('last-quarter');
+      }
+
+      if (day === today) {
+        classes.push('today');
+      }
+
+      if (day === newMoon) {
+        classes.push('new-moon');
+      }
+
+      return <div class={classes.join(' ')}>{day}</div>;
+    })
+  }
 </div>
 
 <style>
