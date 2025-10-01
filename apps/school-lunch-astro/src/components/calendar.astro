@@ -35,7 +35,7 @@
   <div class="day last-quarter">18</div>
   <div class="day">19</div>
   <div class="day">20</div>
-  <div class="day today">21</div>
+  <div class="day today"><a href="#">21</a></div>
   <div class="day">22</div>
   <div class="day">23</div>
   <div class="day">24</div>
@@ -50,21 +50,36 @@
 </div>
 
 <style>
+  :root {
+    --background-blue: rgb(14, 55, 156);
+    --red: rgb(231, 0, 43);
+    --aqua: rgb(55, 255, 248);
+    --gray: rgb(129, 139, 183);
+    --white: rgb(255, 255, 255);
+    --pink: rgb(246, 26, 219);
+    --black: rgb(0, 0, 0);
+    --moon-overlay: rgb(49, 109, 215);
+    --yellow: rgb(111, 123, 77);
+
+    --moon-border-width: 3px;
+  }
 
   .calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     width: 500px;
-    gap: 4px; z-index: -2;
-    background-color: lightblue;
+    gap: 4px;
+    background-color: var(--background-blue);
+    font-family: 'Orbitron', sans-serif;
+    font-optical-sizing: auto;
   }
 
-  .calendar :nth-child(7n + 1) {
-    color: red;
+  .calendar > :nth-child(7n + 1) {
+    color: var(--red);
   }
 
-  .calendar :nth-child(7n) {
-    color: blue;
+  .calendar > :nth-child(7n) {
+    color: var(--aqua);
   }
 
   .header {
@@ -72,57 +87,66 @@
     place-content: center;
     font-weight: bold;
     text-transform: uppercase;
+    color: var(--white);
   }
 
   .day {
     display: grid;
     aspect-ratio: 1/1;
     place-content: center;
-    color: gray;
+    color: var(--gray);
   }
 
-  .today {
-    color: black;
-    background-color: pink;
+  .today a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: var(--black);
+    width: 68px;
+    height: 68px;
+    background-color: var(--pink);
     clip-path: polygon(60% 0%, 100% 80%, 0% 100%);
+    flex-wrap: wrap;
+    text-decoration: none;
   }
 
   .today ~ * {
-    color: white;
+    color: var(--white);
   }
-/* 
-  .today::before {
-
-    width: 68px;
-    height: 68px;
-    content: '';
-    z-index: -1;
-  } */
 
   .today::after {
     content: 'TODAY';
     position: absolute;
+    color: var(--white);
   }
 
   .new-moon {
-    border: 1px solid yellow;
+    border: var(--moon-border-width) solid var(--yellow);
     border-radius: 50%;
   }
 
   .full-moon {
-    background-color: gray;
+    background-color: var(--moon-overlay);
     border-radius: 50%;
   }
 
   .first-quarter {
-    background: linear-gradient(to left, #333333 50%, #eeeeee 50%);
+    background: linear-gradient(
+      to left,
+      var(--moon-overlay) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
     border-radius: 50%;
-    border: solid 2px black;
+    border: solid var(--moon-border-width) var(--moon-overlay);
   }
 
   .last-quarter {
-    background: linear-gradient(to right, #333333 50%, #eeeeee 50%);
+    background: linear-gradient(
+      to right,
+      var(--moon-overlay) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
     border-radius: 50%;
-    border: solid 2px black;
+    border: solid var(--moon-border-width) var(--moon-overlay);
   }
 </style>
