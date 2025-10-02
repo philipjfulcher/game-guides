@@ -1,0 +1,173 @@
+---
+import { getDay, getDaysInMonth, startOfMonth } from 'date-fns';
+import {
+  eachDayOfInterval,
+  endOfMonth,
+  endOfWeek,
+  format,
+  isMonday,
+  isWeekend,
+  lightFormat,
+  nextMonday,
+} from 'date-fns';
+
+interface Day {
+  dateAsString: string;
+  options: string[];
+}
+
+const filterList = [
+  ' on Whole Wheat Bread',
+  ' on a Whole Wheat Bun',
+  "Domino's ",
+  '(K-5)',
+  '(6-12)',
+];
+
+const everyDayItems = ['Grilled Cheese Sandwich', 'Peanut Butter & Jelly Sandwich (2 oz)']
+
+function filterOption(option: string) {
+  return filterList.reduce((acc, cur) => acc.replace(cur, ''), option).trim();
+}
+
+const today = new Date();
+const startOfThisMonth = startOfMonth(today);
+const startDate = isMonday(startOfThisMonth)
+  ? startOfThisMonth
+  : nextMonday(startOfThisMonth);
+const endDate = endOfWeek(endOfMonth(today));
+const buildingId = 'cf92837d-dcb4-eb11-a2c3-bb7f12070043';
+const districtId = 'cb621126-efb1-eb11-a2cc-d41c38442056';
+const response = await fetch(
+  `https://api.linqconnect.com/api/FamilyMenu?buildingId=${buildingId}&districtId=${districtId}&startDate=${lightFormat(
+    startDate,
+    'M-d-yyyy',
+  )}&endDate=${lightFormat(endDate, 'M-d-yyyy')}`,
+  {
+    headers: { accepts: 'application/json' },
+  },
+);
+
+const body = await response.json();
+
+const lunches = body.FamilyMenuSessions.find(
+  (session: any) => session.ServingSession === 'Lunch',
+);
+
+if (!lunches) {
+  return json({ currentMonth: format(today, 'MMMM yyyy'), days: [] });
+}
+
+const days: Day[] = lunches.MenuPlans[0].Days.map((day: any) => ({
+  dateAsString: day.Date,
+  options:
+    [
+      ...new Set(
+        day.MenuMeals[0].RecipeCategories.find(
+          (category: any) => category.CategoryName === 'Main Entree',
+        )?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName)).filter(recipeName => !everyDayItems.includes(recipeName)),
+      ),
+    ] ?? [],
+}));
+
+const actualDays: (null | Day)[] = eachDayOfInterval({
+  start: startDate,
+  end: endDate,
+})
+  .map((date) => {
+    if (isWeekend(date)) {
+      return null;
+    } else {
+      return (
+        days.find(
+          (day) => day.dateAsString === lightFormat(date, 'M/d/yyyy'),
+        ) ?? {
+          dateAsString: lightFormat(date, 'M/d/yyyy'),
+          options: [],
+        }
+      );
+    }
+  })
+  .filter((day) => day !== null);
+
+const data = { currentMonth: format(today, 'MMMM yyyy'), days: actualDays };
+---
+<div class="calendar">
+
+<h2>{data.currentMonth}</h2>
+<div class="calendar-grid">
+  <div class="header">Mon</div>
+  <div class="header">Tue</div>
+  <div class="header">Wed</div>
+  <div class="header">Thu</div>
+  <div class="header">Fri</div>
+
+  {
+    data.days.map((day, index) => {
+      return (
+        <div class="day">
+          <time datetime={day?.dateAsString}>
+            {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
+          </time>
+
+          {day?.options.map((option) => (
+            <p>{option}</p>
+          ))}
+        </div>
+      );
+    })
+  }
+</div>
+</div>
+
+<style>
+  :root {
+    --background-blue: rgb(14, 55, 156);
+    --red: rgb(231, 0, 43);
+    --aqua: rgb(55, 255, 248);
+    --gray: rgb(129, 139, 183);
+    --white: rgb(255, 255, 255);
+    --pink: rgb(246, 26, 219);
+    --black: rgb(0, 0, 0);
+    --moon-overlay: rgb(49, 109, 215);
+    --yellow: rgb(111, 123, 77);
+
+    --moon-border-width: 3px;
+  }
+
+  .calendar {
+    text-align: center;
+        font-family: 'Orbitron', sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+
+    border: solid 1px var(--gray);
+    border-radius: 0.25rem;
+    padding: 1rem;
+  }
+
+  .header {
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+  }
+
+  .day {
+    min-height: 125px;
+  }
+
+  .day time {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: var(--gray);
+    color: var(--white);
+  }
+</style>

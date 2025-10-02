@@ -1,7 +1,5 @@
 ---
 import {
-  startOfWeek,
-  differenceInCalendarDays,
   getDay,
   getDaysInMonth,
   startOfMonth,
@@ -32,29 +30,21 @@ const newMoon = 25;
   {
     days.map((_, index) => {
       const day = index + 1;
-      const classes = ['day'];
 
-      if (day === firstQuarter) {
-        classes.push('first-quarter');
-      }
-
-      if (day === full) {
-        classes.push('full-moon');
-      }
-
-      if (day === lastQuarter) {
-        classes.push('last-quarter');
-      }
-
-      if (day === today) {
-        classes.push('today');
-      }
-
-      if (day === newMoon) {
-        classes.push('new-moon');
-      }
-
-      return <div class={classes.join(' ')}>{day}</div>;
+      return (
+        <div
+          class:list={[
+            'day',
+            { 'first-quarter': day === firstQuarter },
+            { 'last-quarter': day === lastQuarter },
+            { 'today': day === today },
+            { 'full-moon': day === full },
+            { 'new-moon': day === newMoon },
+          ]}
+        >
+          <a href="#">{day}</a>
+        </div>
+      );
     })
   }
 </div>
@@ -104,6 +94,10 @@ const newMoon = 25;
     display: grid;
     aspect-ratio: 1/1;
     place-content: center;
+  }
+
+  .day a {
+    text-decoration: none;
     color: var(--gray);
   }
 
@@ -117,10 +111,9 @@ const newMoon = 25;
     background-color: var(--pink);
     clip-path: polygon(60% 0%, 100% 80%, 0% 100%);
     flex-wrap: wrap;
-    text-decoration: none;
   }
 
-  .today ~ * {
+  .today ~ * a {
     color: var(--white);
   }
 
