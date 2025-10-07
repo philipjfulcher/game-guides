@@ -24,7 +24,10 @@ const filterList = [
   '(6-12)',
 ];
 
-const everyDayItems = ['Grilled Cheese Sandwich', 'Peanut Butter & Jelly Sandwich (2 oz)']
+const everyDayItems = [
+  'Grilled Cheese Sandwich',
+  'Peanut Butter & Jelly Sandwich (2 oz)',
+];
 
 function filterOption(option: string) {
   return filterList.reduce((acc, cur) => acc.replace(cur, ''), option).trim();
@@ -65,7 +68,9 @@ const days: Day[] = lunches.MenuPlans[0].Days.map((day: any) => ({
       ...new Set(
         day.MenuMeals[0].RecipeCategories.find(
           (category: any) => category.CategoryName === 'Main Entree',
-        )?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName)).filter(recipeName => !everyDayItems.includes(recipeName)),
+        )
+          ?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName))
+          .filter((recipeName) => !everyDayItems.includes(recipeName)),
       ),
     ] ?? [],
 }));
@@ -92,32 +97,35 @@ const actualDays: (null | Day)[] = eachDayOfInterval({
 
 const data = { currentMonth: format(today, 'MMMM yyyy'), days: actualDays };
 ---
+
 <div class="calendar">
+  <div class="title">
+    <h2>{data.currentMonth}</h2>
+    <span><strong>Offered every day:</strong> {everyDayItems.join(', ')}</span>
+  </div>
+  <div class="calendar-grid">
+    <div class="header">Mon</div>
+    <div class="header">Tue</div>
+    <div class="header">Wed</div>
+    <div class="header">Thu</div>
+    <div class="header">Fri</div>
 
-<h2>{data.currentMonth}</h2>
-<div class="calendar-grid">
-  <div class="header">Mon</div>
-  <div class="header">Tue</div>
-  <div class="header">Wed</div>
-  <div class="header">Thu</div>
-  <div class="header">Fri</div>
+    {
+      data.days.map((day, index) => {
+        return (
+          <div class="day">
+            <time datetime={day?.dateAsString}>
+              {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
+            </time>
 
-  {
-    data.days.map((day, index) => {
-      return (
-        <div class="day">
-          <time datetime={day?.dateAsString}>
-            {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
-          </time>
-
-          {day?.options.map((option) => (
-            <p>{option}</p>
-          ))}
-        </div>
-      );
-    })
-  }
-</div>
+            {day?.options.map((option) => (
+              <p>{option}</p>
+            ))}
+          </div>
+        );
+      })
+    }
+  </div>
 </div>
 
 <style>
@@ -135,9 +143,22 @@ const data = { currentMonth: format(today, 'MMMM yyyy'), days: actualDays };
     --moon-border-width: 3px;
   }
 
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title span {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
   .calendar {
     text-align: center;
-        font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-optical-sizing: auto;
   }
 
