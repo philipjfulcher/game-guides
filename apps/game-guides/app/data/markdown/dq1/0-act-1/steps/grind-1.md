@@ -3,9 +3,6 @@ title: GRIND 1
 order: 2
 ---
 
-
-
-
 Walk around a bit making sure you stay close to the castle. In this area are
 Slimes and She-Slimes. Fight them until you get to level 2. You can stay here to
 reach level 3, but once I'm level 2 I like to go to the hills southwest of the
@@ -46,7 +43,3 @@ You should now be equipped as listed below.
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
-
-
-

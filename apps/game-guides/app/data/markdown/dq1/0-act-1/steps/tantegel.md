@@ -3,9 +3,6 @@ title: TANTEGEL
 order: 1
 ---
 
-
-
-
 You will start with a talk between the Hero and the King. Your mission is to
 retrieve the Sphere of Light from the Dragonlord and restore light to the dark
 land of Alefgard... once more? Apparently this is not the first time Alefgard
@@ -58,7 +55,6 @@ pressing X. Go east to the Town of Tantegel.
 \______________________________________________________________________________/
 ```
 
-
 Just north of where you enter is an equipment shop. Buy a Leather Suit for 70G,
 then go south to the Inn. The drawer in the southeast room of the Inn has a
 CHIMAERA WING. Next to that room is the Vault. Talk to the lady and she will
@@ -72,6 +68,3 @@ straight for 180G so I can buy a Copper Sword.
 Notice the building with the locked door. This is the Holy Water Shop.
 Unfortunately you do not have access to this building right now, but remember it
 for later.
-
-
-

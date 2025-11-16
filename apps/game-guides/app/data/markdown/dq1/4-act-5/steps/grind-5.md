@@ -3,9 +3,6 @@ title: GRIND 5
 order: 4
 ---
 
-
-
-
 On your run to Cantlin, you passed by some new monsters. Just south and west of
 Damdara, you have Death Scorpions, Knight Errants who can cast Fizzle, Skeleton
 Soldiers who can cast Heal, and Dark Skeletons that dodge a lot.
@@ -23,6 +20,3 @@ well as Heal.
 Near Cantlin are the same monsters you already met at Damdara.
 
 At level 17 you will learn Midheal, an absolute necessity for beating the game.
-
-
-

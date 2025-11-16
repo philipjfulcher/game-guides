@@ -3,9 +3,6 @@ title: LEGENDARY ARMOUR
 order: 3
 ---
 
-
-
-
 Remember Damdara, the town in the southern desert that was destroyed by
 monsters? Remember that guy in Cantlin who was talking about a shop he used to
 run there? It's time to enter that town.
@@ -52,12 +49,8 @@ this treasure, a Knight Aberrant.
 \______________________________________________________________________________/
 ```
 
-
 For your troubles you get the mighty ERDRICK'S ARMOUR, the ultimate armour of
 the game. Its defense is higher than all other armours. It lowers the damage of
 Sizz, Sizzle and Fire attacks by 25%. It makes you invulnerable to the poisonous
 swamp and damage tiles. On top of that, it heals 1 HP per step. This armour is
 obscene.
-
-
-

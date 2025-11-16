@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@game-guides/components": ["apps/game-guides/app/components/index.ts"],
+      "@game-guides/data-access": ["apps/game-guides/app/data/index.ts"],
+      "@game-guides/layout": ["apps/game-guides/app/layout/index.ts"],
+      "@game-guides/models": ["apps/game-guides/app/models/index.ts"],
+      "@game-guides/plugin": ["libs/plugin/src/index.ts"],
+      "@monophilament/ui": ["libs/ui/src/index.ts"],
+      "@monophilament/ui/*": ["libs/ui/src/lib/*"],
+      "@monophilament/util": ["libs/util/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"],
+  "references": []
+}

@@ -1,0 +1,2698 @@
+<<----------------------------i. PRE-JOURNEY [WK01]--------------------------->>
+
+
+An option to load a Quick Save will be there if you have already done that.
+Otherwise, Venture Forth!
+
+Create a new adventure log and select the file you want to save at. Make a name
+for the Hero that is eight characters or less, select your message speed, volume
+levels and confirm.
+
+Note : If you try to put in "Jesus" or "Christ" as the Hero's name, you will
+       get a message saying you cannot choose that name. Shoot me an e-mail if
+       you discover any more names that cannot be used and I will list them.
+
+
+You get a little backstory concerning the events of Dragon Quest and what
+happened after the Dragonlord's defeat. Then you get some cutscenes. Hargon's
+monsters sack Moonbrooke Castle, killing the guards and the King. However, a
+lone guard manages to escape. What becomes of the Princess is unknown.
+
+
+
+<<---------------------------ii. MIDENHALL 1 [WK02]--------------------------->>
+
+
+The guard manages to get to Midenhall and delivers the bad news to the King
+before dying. So Hargon is the main villain of this game. Now it's up to you,
+son of the King of Midenhall and descendant of both Erdrick and the Hero/Gwaelin
+from the original Dragon Quest, to defeat this self-styled "High Priest" to save
+the rest of the world from his wrath.
+
+We play as Mega Man this time? Last time, it was Mario! Why do these Heroes look
+like protagonists from Nintendo games?
+
+Follow the King down the stairs. He will tell you to seek out your companions
+who are also of Erdrick's line, making them your relatives. Probably cousins.
+Anyway, the King will give names for your relatives before asking you to
+confirm. If you say "No," you can choose your own names for them.
+
+Note : If you try to put in "Jesus" or "Christ" as a party member's name, you
+       will get a message saying you cannot choose that name. Shoot me an e-mail
+       if you discover any more names that cannot be used and I will list them
+       in a future version.
+
+Once their names are set, finish talking to the King, then open the Treasure
+Chest next to you for a COPPER SWORD and 50G. You can use either the Item Menu
+or the Misc. Menu to equip your new weapon.
+
+To save with the King, simply walk out of the Castle through the southern exit
+and re-enter.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| MIDENHALL                                                                    |
+|                                                                              |
+| ITEM SHOP                                 INN:           3G per member       |
+| -------------------------------                                              |
+| Medicinal Herb              8G            Save Point                         |
+| Antidotal Herb             10G                                               |
+| Leather Shield             90G                                               |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+<<--------------------------iii. GRIND 1 [WK03]------------------------------->>
+
+
+Ok, it is time to do a short grind. I recommend doing it in the hills just north
+of Midenhall. Make sure you stay on the southern few rows of hills because
+further north are tougher monsters. There are only two monsters here, Slimes and
+Mauluscs, both of which are quite weak. If you run into anything else, you are
+too far north.
+
+The goal is to get to level 3 and buy the Leather Shield for 90G. I recommend
+also grabbing a Medicinal Herb and an Antidotal Herb. Medicinal Herbs heal some
+HP and Antidotal Herbs cure Poison.
+
+A person in Midenhall mentioned a town to the west called Leftwyne. Rest at the
+Inn, then start travelling west. Once you pass some sand you will run into a few
+more monsters. Because you got the Leather Shield, the Iron Ants and Drackies
+should be no match for you.
+
+Either go north around the impassible mountains or go through the northern part
+of the Poisonous Swamp. You should be able to see a town now. Enter the town.
+
+
+
+<<---------------------------iv. LEFTWYNE [WK04]------------------------------>>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| LEFTWYNE                                                                     |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Oaken Club                 60G            Medicinal Herb            8G       |
+| Copper Sword              100G            Antidotal Herb           10G       |
+| Divine Dagger             200G            Chimaera Wing            25G       |
+| Chain Sickle              330G                                               |
+| Chain Mail                390G                                               |
+| Leather Shield             90G            INN:           4G per member       |
+|                                                                              |
+| House of Worship                          Tombola                            |
+| Vault                                                                        |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Welcome to Leftwyne! Go to the Equipment Shop to the northwest and go up the
+stairs. Position yourself south of the lady and talk to her. Wait for her to
+move, then search the drawer for a TOMBOLA TICKET. Unfortunately, the Tombola
+game in Leftwyne is behind a locked door, and you don't have any keys yet. I
+recommend putting it in the Vault for later. Talk to the lady in the Item Shop
+to gain access to the Vault.
+
+An old guy in town says he cannot make the journey north to Cannock. We were
+told earlier by the King of Midenhall to seek the Prince of Cannock out. So
+let's go there. Cannock Castle is straight north. You can't miss it.
+
+
+
+<<-----------------------------v. CANNOCK [WK05]------------------------------>>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| CANNOCK                                                                      |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Copper Sword              100G            Medicinal Herb            8G       |
+| Divine Dagger             200G            Antidotal Herb           10G       |
+| Chain Sickle              330G            Holy Water               20G       |
+| Leather Shield             90G            Chimaera Wing            25G       |
+| Chain Mail                390G                                               |
+|                                                                              |
+| House of Worship                          INN:           5G per member       |
+| Save Point                                                                   |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Welcome to Cannock! The guy south of the room with the Treasure Chest serves as
+Cannock's Equipment Shop, but you probably can't afford anything yet.
+
+Talk to the King to find out the Prince of Cannock is at the Wellspring of the
+Hero. This is your next destination.
+
+Note : If you do not talk to the King, you will not be able to trigger the next
+       event, so be sure that you do.
+
+Rest at the Inn and make sure you have 2 Medicinal Herbs and 2 Antidotal Herbs
+in your inventory before you leave. You may not need them, but they are there
+for insurance. Better to have it and not need it than need it and not have it.
+
+Start walking east, making sure you stay north of the impassable mountains.
+Cross some sand and a bridge. Eventually you should be able to see Wellspring
+Cave. Do not go east of the cave because you may run into a Magus which are too
+tough for you right now. Enter the cave.
+
+
+
+<<--------------------------vi. WELLSPRING CAVE [WK06]------------------------>>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 4                                                  |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Copper Sword (Midenhall Treasure Chest)                              |
+| Armour: Leather Armour (Start with it)                                       |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+The Wellspring Cave has the same monsters you met before along with a new
+monster called a Cobra King. Be careful as they have a chance of poisoning you.
+
+Head north and east to some water. Get the Chest south of you which contains a
+MEDICINAL HERB. Now take the eastern path south, then west to find a chest with
+~84G. Head back to the water. The eastern path in the darkness leads to some
+stairs. Downstairs is a guy who talks about the Wellspring, but there's no
+treasure here, so skip it if you want. Take the northern path and follow it
+east, west and southwest to a Treasure Chest containing an ANTIDOTAL HERB.
+
+Head north to the Wellspring of the Hero. Talk to the guy and he will heal your
+HP up to full for you. Answer "Yes" to his question to learn that the Prince is
+in Midenhall looking for you.
+
+Note : If he does not mention the Prince, it means you did not talk to the King
+       of Cannock, which means you will have to backtrack to see him.
+
+Head back to the water, then head west and south to the exit.
+
+
+
+<<------------------------vii. PRINCE OF CANNOCK [WK07]----------------------->>
+
+
+From Wellspring Cave, head southwest, ignoring the bridge. When you see a
+Poisonous Swamp to your east, go to the southern part. Keep an eye on your HP as
+you go through the swamp. Head south through the hills and you should be able to
+see Midenhall.
+
+Have a talk with your father the King to learn that the Prince, having not found
+you here, is on his way back to Cannock. Leave Midenhall and head west like you
+are going back to Cannock. But make a pit stop at Leftwyne first.
+
+Talk to the guy at the Inn. It's the Prince of Cannock! He will join your party
+at level 1, but he has a Heal spell which will really come in handy and costs 2
+MP. I suggest you get a Leather Shield for the Prince. Also get the Chain Sickle
+for the Prince when you can afford it. Bring 2-3 Antidotal Herbs with you before
+you leave.
+
+Note : Inn prices will be double what they were before.
+
+
+
+<<----------------------------viii. GRIND 2 [WK08]---------------------------->>
+
+
+Since the Prince starts at level 1, we need to grind for a bit. Stay around
+Cannock until the Prince reaches level 3 and has the Chain Sickle. At level 3
+the Prince learns Sizz, which deals some damage to all enemies in a group at a
+cost of 2 MP.
+
+Once the Prince is level 3 my suggestion is to grind west of Cannock near the
+cave. Go west of Cannock and cross the bridge. Continue west through the narrow
+forested passage between the mountains and you should see a cave. Grind in the
+hills until the Hero is at least level 7 and the Prince is at least level 6. Use
+Cannock if you need to rest, restock or save.
+
+In the territory near the cave are Cobra Kings who have a chance to poison your
+Party with every hit. Army Ants can call other Army Ants in battle. Healslimes
+can Heal, as their name suggests. Magus can cast Sizz which will deal damage to
+all party members. Fat Rats have no special ability.
+
+At level 6 the Prince learns Squelch, which removes the Poison status from your
+party member at a cost of 3 MP.
+
+Go back to Cannock and get a Chain Sickle for the Hero and sell his Copper
+Sword. Make sure you have 2-3 Antidotal Herbs, a couple Medicinal Herbs and a
+Chimaera Wing for the upcoming cave, just in case the Prince runs out of MP.
+
+The next part is optional but I strongly recommend it. Head for the cave west of
+Cannock.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 7                                                  |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Chain Sickle (Leftwyne, Cannock)                                     |
+| Armour: Leather Armour (Start with it)                                       |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 6                                                |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Chain Sickle (Leftwyne, Cannock)                                     |
+| Armour: Leather Armour (Start with it)                                       |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+<<----------------------ix. LAKE CAVE (OPTIONAL) [WK09]----------------------->>
+
+
+Welcome to the Lake Cave! The main item you are looking for here is not required
+to beat the game but it will definitely help. You will need it if you want to
+talk to everybody or play Tombola in some towns. Without this item, it will be
+more difficult to locate an item which helps you find other items. Also, it will
+be more difficult to get an excellent piece of armour and the best weapon for
+the Princess later in the game. I highly recommend you do this part. Plus, it is
+relatively short walk.
+
+
+
+Floor B1
+
+
+On this floor are Fat Rats, Healslimes, Cobra Kings and a new monster, Somnol
+Ants. Somnol Ants have the spell Snooze which has a 50% chance of putting a
+party member to sleep. A single cast hits all party members.
+
+Go south and open the Treasure Chest to get a SEED OF AGILITY. I suggest saving
+it for the Princess. Head west and south past the water. Enter the darkened area
+to find a Treasure Chest containing a TOMBOLA TICKET. Exit this room and head
+west and south to the stairs.
+
+
+
+Floor B2
+
+
+Head west and south. Enter the dark room to the east to a Chest with a SEED OF
+LIFE. I suggest either wait for the Princess or use it on the Prince. Continue
+south and get the ANTIDOTAL HERB in the western room. Go south to the fork and
+take the western path, leading to a room that has a CHIMAERA WING and ~194G. Now
+go back to the fork and take the path east and south. At the end of this path
+you will find the SILVER KEY, which opens up all doors lined with silver.
+
+Now that you have found the main item of the dungeon, we can exit. Head north as
+far as you can, then head east to the stairs.
+
+
+
+Floor B1
+
+
+Follow the path north and east to the water. Head eastward north of the water,
+then head north to the stairs. If you still have Herbs or MP left and you do not
+have at least 564G yet, grind next to the stairs or outside in the hills south
+of the Lake Cave until you have the gold.
+
+
+
+<<--------------------------x. GWAELIN'S GATE [WK10]-------------------------->>
+
+
+Use a Chimaera Wing to get back to Cannock quickly. Sell both Leather Armours
+for 113G apiece, earning you 226G. You should now have 790G, which is enough to
+get 2 Chain Mails for your Hero and your Prince as well as a stay at the Inn.
+
+With your new Key, you can access a drawer in northwestern Midenhall. It
+contains a TOMBOLA TICKET. You can also access a Jail to the northeast if you
+want to check that out, though you cannot do anything there at the moment.
+
+In Leftwyne, using your Silver Key on the door in the Equipment Shop gives you
+access to the Tombola game. For the cost of a Tombola Ticket, you can play a
+slot-machine type game. Check out the Tombola section of this walkthrough to
+learn more.
+
+When you are ready, head west and a bit south of Cannock to a Shrine, called
+Gwaelin's Gate. The guy in here will ask you if you've been to the Shrine south
+of Midenhall, which I will call the Midenhall Shrine. You can check that Shrine
+out if you want, but there is nothing you can do or get there right now, except
+talk to one guy. He mentions getting both the Silver Key and the Gold Key.
+Nothing major.
+
+Talk to the guards and they will let you pass. Go down the stairs. I call this
+tunnel Cannock Tunnel. Anyway, follow the eastern tunnel south, then west to the
+next stairs. The western tunnel leads to a dead-end island.
+
+Head south past the trees and hills. Eventually you will see a town. Enter it.
+
+
+
+<<----------------------------xi. MOONAHAN [WK11]----------------------------->>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| MOONAHAN                                                                     |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Chain Sickle              330G            Medicinal Herb            8G       |
+| Iron Lance                770G            Antidotal Herb           10G       |
+| Steel Broadsword         1500G            Holy Water               20G       |
+| Chain Mail                390G            Chimaera Wing            25G       |
+| Full Plate Armour        1200G            Leather Shield           90G       |
+| Steel Shield             2000G            Divine Dagger           200G       |
+|                                                                              |
+| House of Worship                          INN:           8G per member       |
+| Save Point                                                                   |
+| Tombola                                   Vault                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Welcome to Moonahan! The Equipment and Item Shops are to the southeast. North of
+them is the Tombola game, and north of that is the House of Worship. The lady to
+the right in the House of Worship serves as the Vault. The guy to the west will
+save your game.
+
+If you talk to the dog, it will follow you around while you are in town.
+
+You probably do not have enough money to buy anything new here yet. However,
+there is no need to worry about that because the next walk is fairly short and
+the monsters are not terribly difficult. Buy a Chimaera Wing if you do not have
+one. Also bring a couple Medicinal Herbs and a couple Antidotal Herbs just in
+case. Leave the town.
+
+
+
+<<----------------------------xii. RA'S MIRROR [WK12]------------------------->>
+
+
+From Moonahan, step on the bridge. From the bridge, take 3 steps east, 3 steps
+south and head west to get out of Badboon territory. These monsters are pretty
+tough right now. Keep heading west through the forest. Do not go south until you
+hit sand because there are more Badboons and Dragonfries there.
+
+Once you hit the sand, go south and you should see a Castle surrounded by a
+Poisonous Swamp. This is Moonbrooke Castle, the Castle that was sacked when the
+game began. You could check this place out now, but I do not suggest it.
+
+Instead, head back east, but this time stay south of the water. You should see a
+couple bridges followed by a sparkle on a Poisonous Swamp. Search the sparkle
+for RA'S MIRROR. Use your Chimaera Wing and return to Moonahan.
+
+Find the dog in this town and approach it. Press Y to bring up the Menu and use
+Ra's Mirror. The Mirror will be destroyed and the curse on the dog will be
+lifted.
+
+The dog transforms into the Princess of Moonbrooke. So THAT is what happened to
+her. She will join you, which will complete your party line-up. She starts at
+level 1 with the Midheal spell. Be sure to buy her a Divine Dagger. If you saved
+the Seed of Agility and the Seed of Life for her, use them on her now.
+
+Note : Inn prices will now be 3 times what it was when the Hero was alone, and
+       1.5 times what it was before the Princess joined.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 9                                                  |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Chain Sickle (Leftwyne, Cannock, Moonahan)                           |
+| Armour: Chain Mail (Leftwyne, Cannock, Moonahan)                             |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 8                                                |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Chain Sickle (Leftwyne, Cannock, Moonahan)                           |
+| Armour: Chain Mail (Leftwyne, Cannock, Moonahan)                             |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+|                                                                              |
+|                                                                              |
+| PRINCESS - RECOMMENDED LEVEL: 1                                              |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Divine Dagger (Leftwyne, Cannock, Moonahan)                          |
+| Armour: Plain Clothes (Start with it)                                        |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+<<----------------------------xiii. GRIND 3 [WK13]---------------------------->>
+
+
+Your Princess is weak. She needs some levels. I recommend grinding around the
+bridge just a few steps south of Moonahan. You may want to defend often with
+her. Use Moonahan to rest, restock and save.
+
+The area east of Moonahan has some new monsters. Badboons have high attack
+power. Dragonfries can cast Sizz. Both types of monsters can easily kill a party
+member if they gain up on one or if they get the jump on you. Be careful and
+keep your HP high. If anybody dies, return to Moonahan immediately. Also, Smogs
+can cast Fizzle on your party, but they are no big deal.
+
+At level 8 the Prince learns Fizzle. Fizzle has a chance of preventing a group
+of monsters from casting spells and costs 3 MP.
+
+At level 2 the Princess learns Snooze, which has a chance of putting a group of
+monsters to sleep and costs 2 MP. I strongly recommend using Snooze if you meet
+up with 2 or 3 Badboons in a battle.
+
+At level 4 the Princess learns Woosh. Woosh hits a group of monsters and is
+generally stronger than Sizz, but it costs 4 MP to use. Since you are next to
+Moonahan anyway, feel free to abuse this new spell.
+
+Once the Princess is level 5 and you've earned 1302G, return to Moonahan and
+sell the Hero's Chain Sickle for 247G. You should have 1549G, enough for a Steel
+Broadsword, a Chimaera Wing (if you need one) and a stay at the Inn. Equip your
+new weapon on the Hero.
+
+
+
+<<----------------------xiv. MOONBROOKE (OPTIONAL) [WK14]--------------------->>
+
+
+Visiting Moonbrooke is entirely optional and has no treasure. Like Erdrick's
+Cave in the original Dragon Quest, Moonbrooke is there to add to the story.
+Also, if you are new to the game, you can get some useful information on what to
+do and where to go next.
+
+Make sure you have a Chimaera Wing in your inventory, then cross the bridge
+south of Moonahan and head west to Moonbrooke.
+
+The monsters here are the same ones you met up with before. Corpse Corporals can
+cast Dazzle on your party, which makes your physical attacks inaccurate. You
+could have met up with one south of Moonahan but they are much more common here.
+
+Go north and talk to the flame. I am guessing it is the spirit of the former
+King and the Princess's father. This is how you were supposed to know the
+Princess was the dog.
+
+The Treasure Chests here contain nothing.
+
+To get to the inner courtyard and the stairs, go just outside the perimeter in
+the northwestern part of the Castle and head south, hugging the Castle wall.
+When you get to the southwestern corner, head northeast to the courtyeard and
+head down the stairs.
+
+Talk to the fallen guard and he will turn into a flame. Talk to him again and
+the flame will disappear. Yeah, this was the clue as to what to do with Ra's
+Mirror.
+
+This is all you can do here. Leave Moonbrooke and either walk or use a Chimaera
+Wing to return to Moonahan.
+
+
+
+<<-------------------------xv. PILLAR OF WINDS [WK15]------------------------->>
+
+
+At level 10 the Prince learns Zoom. At a cost of 1 MP, it will teleport you to
+any town you have already been in. In the NES version, the spell Return would
+return you to the place you last saved. But in the Switch/Mobile versions, you
+can select your town of choice.
+
+Rest at the Inn and make sure you have a Chimaera Wing and a few Medicinal or
+Antidotal Herbs. If you cannot afford an Iron Lance for the Prince, do not
+worry. The upcoming tower is the first real dungeon of the game, but it is not
+that difficult.
+
+I suggest you save your Sizz and Woosh spells for groups of 3 or more monsters
+during the next journey.
+
+Head northwest of Moonahan through the forest. Ignore the first bridge and
+continue north. Cross the next bridge and start heading south along the coast.
+When you get to a river, cross the first bridge you see and continue south.
+Cross three more bridges and head west to the Pillar of Winds.
+
+
+
+Floor 1F
+
+
+You will come across a new monster in this tower. Dirty Rats can call other
+Dirty Rats to battle.
+
+Head south past the stairs until you see a Treasure Chest. Open it for a
+MEDICINAL HERB. Return to the stairs and this time head east and north to more
+stairs.
+
+
+
+Floor 2F
+
+
+Be very careful. If you fall off the tower, you will have to start over from
+Floor 1F. Quick Save is useful at a time like this.
+
+Talk to the soldier if you want, then head west to go up another flight of
+stairs.
+
+
+
+Floor 3F
+
+
+Head south and get the Treasure Chest. It contains ~321G. Head up the stairs to
+the south.
+
+
+
+Floor 4F
+
+
+On this floor and the floors above you can run into Killipedes. They have good
+resilience and can hit you with a grievous attack, the monster version of a
+critical hit.
+
+I suggest tapping on the directional pad to keep yourself from falling off. Take
+2 steps south, then head east and ascend the first stairs you see.
+
+
+
+Floor 5F
+
+
+Head west and north, being very careful as you turn the corner. Head down the
+stairs.
+
+
+
+Floor 4F
+
+
+Head down the stairs next to you.
+
+
+
+Floor 3F
+
+
+Head down the stairs next to you.
+
+
+
+Floor 2F
+
+
+Press A next to the item to receive a WINDBRAKER. This accessory will move you
+an extra two squares if you fall off a tower. The direction you move depends on
+which direction you fall off. Now go back to the southern part of Floor 4F.
+
+
+
+Floor 4F
+
+
+Head east and up the stairs.
+
+
+
+Floor 5F
+
+
+Tap the directional pad once to go east 1 square, then head north to the stairs.
+
+
+
+Floor 6F
+
+
+Head to the northwestern stairs.
+
+
+
+Floor 7F
+
+
+Take the stairs next to you.
+
+
+
+Floor 8F
+
+
+Open the Chest to receive a PRAYER RING. It restores your MP but breaks after a
+few uses. I recommend putting it in a Vault to save it for the end of the game.
+If you still have HP and MP left, you can grind for a bit on the top floor. Once
+you are completely drained, go back down the steps.
+
+
+
+Floor 7F
+
+
+Go north one step to fall off the tower. You are done with the Pillar of Winds.
+
+
+
+<<-------------------------xvi. DRAGON'S HORN [WK16]-------------------------->>
+
+
+Walk, Zoom or use a Chimaera Wing to get back to Moonahan to rest, restock and
+save. Grab the Iron Lance for the Prince from the Equipment Shop and sell his
+Chain Sickle if you have not already done so. Buy the Full Plate Armour and
+Steel Shield for the Hero and sell his Chain Mail and Leather Shield. If you do
+not have the gold, go to the hills south of Moonahan and grind there until you
+do.
+
+At level 8 the Princess learns Holy Protection. It works like a Holy Water,
+removing weak encounters for a number of steps.
+
+The next journey is a bit long but you should be fine. Make sure you bring your
+Windbraker along.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 15                                                 |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Steel Broadsword (Moonahan)                                          |
+| Armour: Full Plate Armour (Moonahan)                                         |
+| Shield: Steel Shield (Moonahan)                                              |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 13                                               |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Iron Lance (Moonahan)                                                |
+| Armour: Chain Mail (Leftwyne, Cannock, Moonahan)                             |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+|                                                                              |
+|                                                                              |
+| PRINCESS - RECOMMENDED LEVEL: 9                                              |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Divine Dagger (Leftwyne, Cannock, Moonahan)                          |
+| Armour: Plain Clothes (Start with it)                                        |
+| Accessory: Windbraker                                                        |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+From Moonahan, cross the bridge and head west towards Moonbrooke. Cross the
+bridge west of Moonbrooke and enter the Shrine, which I'll call the Moonbrooke
+Shrine.
+
+In the Moonbrooke Shrine is a House of Worship. As you cross the bridge a "!"
+will appear above your head. That is because there is a hidden door in the
+blackness. Unfortunately you do not have the right key. Exit via the western
+stairs.
+
+In this area you can run into Chewlips. Watch out for their Sickly-Sweet Breath
+which can put your party to sleep. Since that move is an ability and not a
+spell, they can use it an unlimited amount of times.
+
+The Prince learns Evac at level 14 and the Princess learns Kasap at level 10. If
+you are in a dungeon or tower, you can warp to the entrance using Evac at a cost
+of 6 MP. Kasap lowers the defense of a group of monsters at a cost of 2 MP.
+
+Continue west until you see a desert. Cross northwest through the desert past an
+oasis and you should see hills. Continue northwest past the hills and you should
+eventually see two towers. These towers are known as the Dragon's Horns. Enter
+the south tower.
+
+
+
+DRAGON'S HORNS (SOUTH TOWER)
+
+
+Note : During my playthrough, I was on a floor. I walked to the hole in the
+       middle. As I stepped on the hole, I got a battle encounter. The battle
+       screen appeared, faded, then re-appeared. I finished the battle like
+       normal. When it was over, I was back on the first floor. It's just a
+       weird thing that happened that I thought I should mention.
+
+This tower is easy to navigate. Just keep circling the tower and don't fall in
+the hole in the middle.
+
+On Floor 4 and the floors above you can meet a couple of new monsters. Madusae
+can cast Snooze and Kasap. Shamans can Fizzle your party.
+
+Once you get to Floor 7, talk to the soldier if you want. Make sure someone in
+your party has the Windbraker. Fall off the tower in the northern direction. Be
+careful not to fall off on the western side.
+
+If you did it right, you should be on the north side of the river between the
+Horns.
+
+
+
+<<--------------------------xvii. RIPPLEPORT [WK17]--------------------------->>
+
+
+Head north and east to a town. Welcome to Rippleport!
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| RIPPLEPORT                                                                   |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Wizard's Staff           4000G            Medicinal Herb           8G        |
+| Divine Dagger             200G            Antidotal Herb          10G        |
+| Steel Broadsword         1500G            Holy Water              20G        |
+| Cloak of Evasion         1800G            Chimaera Wing           25G        |
+| Full Plate Armour        1200G            Banishing Bell         640G        |
+| Steel Shield             2000G                                               |
+|                                           House of Worship                   |
+|                                           Save Point                         |
+| INN:            20G per member            Tombola                            |
+|                                           Vault                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Head northwest where the Equipment Shop and Item Shop is. You should be able to
+see two monsters next to a lady. Don't go west of the Shops' entrances. Instead,
+go south to the Item Shop and buy Banishing Bells for everybody. Banishing Bells
+gives your party members more resistance to Snooze and Fizzle. Equip them.
+
+If you have 1508G left, sell the Prince's Chain Mail and buy him a Cloak of
+Evasion. If not, do not worry about it right now.
+
+Quick Save. Now approach the monsters for a battle.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| GREMLIN x 2 - 59 HP - 4 MP - Can cast Heal, Snooze and breathe fire          |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| This battle should not be hard. Gremlins can cast Heal and Snooze. If you    |
+| equipped Banishing Bells on everyone, your party members will be more        |
+| resistant to Snooze. Watch out for their Fire Breath attack, which damages   |
+| all party members. Keep everyone's HP above 30 and take them out with your   |
+| physical attacks or your spells.                                             |
+|                                                                              |
+| For defeating the Gremlins, you gain access to a Ship! Victory!              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Once the battle is over, you will be taken to see her grandfather. As a token of
+gratitude he will let you borrow his Ship. Also, he suggests you visit Tantegel
+to the east. Get in the Ship.
+
+If you have the Silver Key, open the door to the south. The guy there will give
+you a reward if you find his Sunken Treasure. Now head north and east along the
+narrow waterway here and you will find yourself outside of Rippleport with the
+Ship.
+
+In the sea you will find Man o' Wars, Merluscs and Hawk Men. Man o' War has a
+chance of putting someone to sleep with its attacks. Merluscs can use
+Sickly-Sweet breath an unlimited number of times to potentially put your party
+to sleep. Hawk Men hit hard with their attacks and can Heal, so be sure to keep
+your HP high.
+
+
+
+<<---------------------------xviii. TANTEGEL [WK18]--------------------------->>
+
+
+The land to the east of Rippleport is Alefgard, the country from the first game.
+You can disembark on Alefgard and walk east to Tantegel if you want. However, I
+suggest you stay in the sea because the monsters there give better amounts of
+gold.
+
+Follow the coast of Alefgard south, then east. Pass the bridge to your north,
+then follow the water north where it goes inland. When you get to a fork in the
+water, go northwest. The southern castle is the Dragonlord's Castle and the
+northern castle is Tantegel.
+
+Anyway, enter Tantegel.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| TANTEGEL                                                                     |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Wizard's Staff           4000G            Medicinal Herb           8G        |
+| Steel Broadsword         1500G            Antidotal Herb          10G        |
+| Sledgehammer             4000G            Holy Water              20G        |
+| Cloak of Evasion         1800G            Chimaera Wing           25G        |
+| Full Plate Armour        1200G            Banishing Bell         640G        |
+| Iron Helmet              3150G                                               |
+|                                           House of Worship                   |
+| INN:             2G per member            Save Point                         |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Note : You must have the Silver Key to access the Draper's Shop.
+
+Welcome to Tantegel. See the green guy to the west? Talk to that guy and he will
+ask you about the Sunken Treasure. Answer "Yes" to his question. Talk to him
+again and this time answer "No." This trigger should make a sparkle appear north
+of Rippleport, showing you the location of the Sunken Treasure.
+
+There is an old man next to a pot. Talk to this guy if you are Cursed and he
+will remove it. Search the pot for a HOLY WATER.
+
+If you have the Silver Key, enter the shop to the north. This is the Draper's
+Shop. The lady here will ask if you are looking for the Celestial Skein, an item
+which you need to make an excellent armour. She suggests that you look in the
+North Tower of the Dragon's Horns. This trigger should make a sparkle appear in
+the North Tower so you can easily find it.
+
+Leave Tantegel and Zoom to Rippleport.
+
+
+<<----------------------xix. ECHO FLUTE (OPTIONAL) [WK19]--------------------->>
+
+
+Note: You need the Silver Key to do this part.
+
+Enter the town and talk to the grandfather again to get the Ship.
+
+Sail directly north of Rippleport. After a while you should see a sparkle in the
+water. Search the spot to get the SUNKEN TREASURE. You can Zoom back to
+Rippleport but I prefer sailing back for the EXP and gold.
+
+Enter Rippleport and go to where the Grimlins were. Search the northwestern spot
+here for a SEED OF STRENGTH. Once you have used it, talk to the grandfather
+again. Head south with the Ship and use the Silver Key on the door. Give the guy
+the Sunken Treasure and he will give you the ECHO FLUTE. Use the Echo Flute in a
+particular location, and there will be an echo if there is a certain type of
+item nearby.
+
+If you know this game or if you are following this walkthrough, you do not need
+the Echo Flute. I suggest you put the Windbraker and the Echo Flute in the Vault
+to get a couple more spaces for items.
+
+
+
+<<--------------------xx. CELESTIAL SKEIN (OPTIONAL) [WK20]------------------->>
+
+
+Exit Rippleport with the Ship. Head south and west to the Dragon's Horns. Enter
+the North Tower.
+
+Go up two flights of stairs and you should see a sparkle. Examine it to find the
+CELESTIAL SKEIN. Walk or Evac out.
+
+
+
+<<-----------------xxi. DRAGONLORD'S CASTLE (OPTIONAL) [WK21]----------------->>
+
+
+Zoom or sail to Tantegel. If you have 1783G, sell the Princess's Plain Clothes
+and buy a Cloak of Evasion for her, leaving you enough gold for a stay at the
+Inn. If not, sail around Tantegel or grind in the hills north of Rippleport
+until you have it. Grab a few Medicinal Herbs from the Item Shop if you wish.
+Bring your Silver Key if you have it.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 18                                                 |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Steel Broadsword (Moonahan)                                          |
+| Armour: Full Plate Armour (Moonahan)                                         |
+| Shield: Steel Shield (Moonahan)                                              |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 16                                               |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Iron Lance (Moonahan)                                                |
+| Armour: Cloak of Evasion (Rippleport, Tantegel)                              |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|                                                                              |
+| PRINCESS - RECOMMENDED LEVEL: 12                                             |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Divine Dagger (Leftwyne, Cannock, Moonahan)                          |
+| Armour: Cloak of Evasion (Rippleport, Tantegel)                              |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Use the Ship and cross the water to get to the southern castle. This is the
+Dragonlord's Castle, the final area of the first game.
+
+Enter the Dragonlord's Castle. Head north and down the stairs.
+
+
+
+Floor B1
+
+
+On this floor are some new monsters. Sabrecats have low HP but have a chance of
+attacking twice. Dragonflies can breathe fire on your party. Goregons have high
+resilience and can cast Dazzle on your party. Cobra Kaisers have a chance of
+poisoning you with their attacks. Mummy Boys do not do much other than attack,
+and you have already met the Gremlins.
+
+Follow the linear path to the stairs.
+
+
+
+Floor B2
+
+
+Follow another linear path to the stairs.
+
+
+
+Floor B3
+
+
+Walk counter-clockwise and go down either stairs you want. Both paths lead to
+Floor B4.
+
+
+
+Floor B4
+
+
+Go up the ascending stairs in the middle of the room. Go up two more flights of
+stairs and down a flight.
+
+
+
+Floor B3
+
+
+
+You should be in the centre of this room next to a Chest. Open it to get
+ERDRICK'S SWORD. Give it to either the Hero or the Prince. My suggestion would
+be the Prince.
+
+If you are running low on HP, MP and supplies, you can Evac out now and go to
+Tantegel to rest and restock. You are going to need some MP for healing in the
+next part coming up and a few Medicinal Herbs could be useful. Either way, find
+your way back to floor B4.
+
+
+
+Floor B4
+
+
+This time, go down the descending stairs in the middle of the room.
+
+
+
+Floor B5
+
+
+Follow the path south, west, then north to more stairs.
+
+
+
+Floor B6
+
+
+Head east and down the stairs.
+
+
+
+Floor B7
+
+
+There are no encounters on this floor.
+
+Head north, west, then follow the narrow path north, east, south and finally
+west. Talk to the Dragonlord.
+
+Oh. It is the great, great grandson. Answer "Yes" to his question. He tells you
+that you need to collect five Sigils and take them to an island south of where
+Cantlin used to be.
+
+Note : You must have the Silver Key to do the next part.
+
+Head back towards the entrance of this room. Make sure you have Medicinal Herbs
+and MP for healing. See those diagonally-striped blue-and-white squares? These
+are what I call Damage Tiles. Each party member will lose 14 HP a step if they
+step on these tiles.
+
+Head north from the entrance into the Damage Tiles. Heal your party every two
+steps you take. When you get to the northern side, use your Silver Key on the
+door. Open the Treasure Chests for ~156G, ~983G, SEED OF STRENGTH, and some FULL
+PLATE ARMOUR. Evac out and return to Tantegel.
+
+
+
+<<--------------------------xxii. SHIP SAILING [WK22]------------------------->>
+
+
+Sell the Full Plate Armour if you did the Dragonlord's Castle. Also, if you gave
+the Erdrick's Sword to the Prince as suggested, sell his Iron Lance.
+
+If you can afford it, buy a Wizard's Staff for 4000G, give it to the Princess
+and sell her Divine Dagger. The Wizard's Staff, if used as an item in battle,
+can shoot flames dealing damage to a group of monsters. It does about the same
+damage as a Sizz spell, but costs no MP to use and can be used even when
+Fizzled. Abuse it as much as you want.
+
+The next part includes quite a bit of sailing, so make sure you are healed up to
+full and bring some Medicinal Herbs just in case.
+
+Zoom to Midenhall and start sailing southwest. You might meet a new monster.
+Gargoyles can cast Fizzle and have a strong physical attack, but give good
+experience.
+
+Follow the coast south until the coast turns east. Press X to access your map.
+See that flashing square directly south of you? This is the Shrine of Rubiss.
+But you do not need to go there until you have all the Sigils. Instead, head to
+the island southeast of this Shrine.
+
+From the Shrine of Rubiss, head south until you get to the island. Take the
+river into the interior of the island and enter the Castle. This is the Castle
+of Dirkandor. Once you enter, immediately exit the Castle and return to the
+Ship. Now that you have entered the town once, you can Zoom back here anytime
+you want.
+
+Press X to view your map. The square southwest of you is a cave you cannot enter
+yet. Ignore it for now and continue south to another square. This is the Fire
+Shrine.
+
+Enter the Fire Shrine and you should see a sparkle to the northeast. Search the
+sparkle to get the SUN SIGIL. One down, four to go. Exit the Fire Shrine.
+
+Note : The Sun Sigil is not in your item list. Instead, a symbol representing
+       the Sigil appears on every characters' status screens.
+
+From the Fire Shrine, sail west and a bit south to find an island with some
+trees in the middle, which I will call Yggdrasil Island. Search the trees to
+find a YGGDRASIL LEAF. This leaf can be used to revive a dead party member to
+maximum HP. However, note that you can only hold one at a time.
+
+West of this island is a peninsula. Follow the southern coast west until you
+come across a town. Enter and exit. Now you have the Zoom point for Burrowell.
+
+Note : If you use your Yggdrasil Leaf, Zoom to Burrowell, sail east to Yggdrasil
+       Island and grab another.
+
+Sail east and a bit south until you are south of Yggdrasil Island. Go about 10
+steps south of the island, then sail directly east. You should soon find a
+couple of islands with a town next to a Shrine. Enter the town.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| ZAHAN                                                                        |
+|                                                                              |
+| ITEM SHOP                                                                    |
+| -------------------------------           INN:          30G per member       |
+| Medicinal Herb              8G                                               |
+| Holy Water                 20G                                               |
+| Chimaera Wing              25G                                               |
+| Banishing Bell            640G                                               |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Head northeast and talk to the dog. He moves and a sparkle appears. Search the
+sparkle to get the GOLD KEY. Leave town and Zoom to Burrowell.
+
+
+
+<<----------------------------xxiii. BURROWELL [WK23]------------------------->>
+
+
+Use your Gold Key on the door in Burrowell and head down the stairs to find the
+rest of the town.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| BURROWELL                                                                    |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOPS                         |
+| -------------------------------           ----------------------------       |
+| Sledgehammer             4000G            Medicinal Herb           8G        |
+| Dragonsbane              8000G            Antidotal Herb          10G        |
+| Aurora Blade            16000G            Chimaera Wing           25G        |
+| Mink Mantle             65000G            Banishing Bell         640G        |
+| Power Shield            21500G            ???                                |
+| Iron Helmet              3150G                                               |
+|                                           INN:         40G per member        |
+|                                                                              |
+| House of Worship                          Vault                              |
+| Tombola                                                                      |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Make sure you have at least 2000G, then head to the western Item Shop. Select
+the ???. The merchant will ask if you can pay for it. Choose "Yes" and 2000G
+will be deducted from your gold. Check your Items. You should have the JAILOR'S
+KEY in your possession.
+
+Next, head to the house directly north of the western Item Shop. Talk to the guy
+to learn about Don Calico, a master weaver who lives in a town called Slewse. He
+can make an excellent armour for you if you give him the proper materials.
+
+Last, go to the building north of the House of Worship. You can enter it if you
+go east as if you are going through a wall. Talk to the soldier to learn that
+Roge Fastfinger, a thief, seems to have escaped his Jail cell. Talk to the guy
+in the western cell to learn that Hargon lies beyond a territory called
+Rendarak.
+
+Open the eastern cell door. From the northeasternmost square, go south 1 step,
+then east 1 step. You will find Roge Fastfinger. Talk to him and he will give
+you the FLOODGATE KEY.
+
+Forget about buying an Iron Helmet. You get a better one coming up soon. The
+rest of the equipment here is probably too expensive for you right now. Once you
+are ready, Zoom back to Midenhall.
+
+
+
+<<---------------------xxiv. MIDENHALL 2 (OPTIONAL) [WK24]-------------------->>
+
+
+Enter the room to the east, then head south to the Treasure Chests. They contain
+SEED OF LIFE, MEDICINAL HERB, ~1146G, SEED OF STRENGTH, SEED OF MAGIC and the
+MARK OF ERDRICK. The Mark of Erdrick can be used to obtain a helmet later in the
+game.
+
+Note : You need the Silver Key for the next part.
+
+Go back into the building but this time, use your Silver Key on the door and
+head north to the Jail.
+
+Unlock the northern cell and the guy will tell you the King of Alefgard has the
+Soul Sigil. Unlock the door to the south. Make sure you are fully healed on HP
+and MP. Go south 2 steps, unlock the southern cell door and walk all the way
+west. Each party member will receive 28 damage, so heal them back up. Look south
+and press A to find a SEED OF AGILITY. Press Y to use the Menu instead of A
+because you don't want to talk to the guy until you use your Seed.
+
+Once you use it, make sure the Hero has some Medicinal Herbs on him. Quick Save
+and talk to the guy. Oh wait... it's a monster!
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| WRECKTOR - 165 HP - 48 MP - Can cast Kasap, Kabuff, Kaboom and Kazing        |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| This battle may take several tries. Attack with the Hero, defend with the    |
+| Prince and cast Dazzle with the Princess on the first turn. I would not use  |
+| the Fizzle spell on him. The reason is because he has a buff and a debuff    |
+| spell which do no damage to your party. In this battle, you need this monster|
+| to waste turns casting these spells. If the Wrecktor is Fizzled, it will stop|
+| trying to cast these spells and start using physical attacks, which hit hard.|
+|                                                                              |
+| During the next few turns, have the Hero attack, the Prince healing or       |
+| defending and the Princess healing or defending. The Hero may have to use    |
+| some Medicinal Herbs if the monster uses Kaboom. If you can get away with    |
+| casting a Kasap, go for it. Keep trying, and with a combination of strategy  |
+| and dumb luck, it should eventually go down.                                 |
+|                                                                              |
+| For your troubles you get 968 EXP, 170G and a LIGHTNING STAFF. Victory!      |
+|                                                                              |
+| Note : As there are no other monsters aiding the Wrecktor, he will not cast  |
+|        Kazing.                                                               |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+If used as an item in battle, the Lightning Staff is generally more powerful
+than the Wizard's Staff. It hits a group of monsters. I suggest equipping the
+Lightning Staff on the Princess and giving the Wizard's Staff to the Prince.
+Keep Erdrick's Sword equipped on the Prince if you chose to do so earlier; in
+that situation, the Wizard's Staff is to be used only as an item in battle. If
+the Hero has Erdrick's Sword, equip the Wizard's Staff on the Prince.
+
+Heal up, then walk through the damage tiles and up the stairs. Rest at the Inn
+if you want, then leave town.
+
+
+
+<<--------------------------xxv. ODDS AND ENDS [WK25]------------------------->>
+
+
+Zoom to Cannock and enter. Open the gold-rimmed door with your Gold Key and open
+the Treasure Chest to receive ERDRICK'S SHIELD. Only the Hero can equip it, so
+go ahead and do that. Sell the Steel Shield.
+
+Zoom to Moonahan and enter. Find a small building with a gold-rimmed door just
+southwest of the House of Worship. Use your Gold Key on the door and go
+downstairs.
+
+Down here, Quick Save, then use your Jailor's Key on the door and walk north for
+a battle with 2 Grimlins. They can cast Midheal, Fizzle, Sizzle and Call other
+Grimlins. Just use your physical attacks and they will go down.
+
+Once you have defeated the Grimlins, a sparkle will appear in the northeast
+corner. Search it to get the WATER SIGIL. Two down, three to go.
+
+Zoom to Tantegel and enter. Head west to the Equipment Shop and head upstairs.
+Use your Gold Key on the door and talk to the King. He will give you the SOUL
+SIGIL. Three down, two to go.
+
+Make sure you have on you the Mark of Erdrick. Sail south of Tantegel, then
+follow the water southeast and south. You should see a Shrine to the east. This
+is the Holy Sanctum from the original game. Enter.
+
+Talk to the guy while holding the Mark of Erdrick and he will recognize your
+party as Erdrick's descendants. He will step to the side, allowing you to grab
+ERDRICK'S HELM. Only the Hero can equip it, so go ahead and do that.
+
+Zoom to Zahan. Make sure everybody is fully healed. Step into the damage tiles
+while keeping an eye on your HP. You want to head to the Jail door to the west.
+Open the door with your Jailor's Key and open the Treasure Chest to receive the
+SUBTLE SHUTTLE. Now you have the two items that Don Calico needs. However we
+still need to find his hometown, Slewse.
+
+Rest up at the Inn. Now go into the Damage Tiles again, this time going to the
+eastern room. Open the Jail door to access a Chest that contains a PRAYER RING.
+
+Zoom to Burrowell and get into your Ship. Follow the coast northwest past the
+impassable mountains. Once you are past that, ignore the first river you see.
+Take the next river (the one close to a bridge) north to the northwest tip.
+
+Around this area you will encounter some new monsters that may be a little
+difficult for your levels and current equipment. Headhunters have decent attack.
+Magic Marionettes can lower your MP. Brainy Badboons can cast Dazzle and Kasap.
+Miasmas can cast Snooze and Dazzle.
+
+Head west and north past the small Poisonous Swamp. Head east through the hills
+and you should soon see a town. Go around the mountains and enter the town.
+
+
+
+<<----------------------------xxvi. SLEWSE [WK26]----------------------------->>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| SLEWSE                                                                       |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Wizard's Staff           4000G            Holy Water              20G        |
+| Dragonsbane              8000G            Chimaera                25G        |
+| Falcon Blade            25000G            Banishing Bell         640G        |
+| Magic Armour             6000G                                               |
+| Power Shield            21500G                                               |
+| Iron Helmet              3150G            INN:         40G per member        |
+|                                                                              |
+| House of Worship                          Don Calico                         |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Welcome to Slewse! Make sure you have the Celestial Skein and the Subtle Shuttle
+on you. Head northwest to a building with a gold-rimmed door. Use your Gold Key
+on the door and head down the stairs. Talk to the guy. You have found Don
+Calico! Since you already have the items he is looking for, he will take them
+off your hands.
+
+Note : Without the Silver Key, you cannot trigger the sparkle in the Dragon's
+       Horn North Tower, which makes the Celestial Skein difficult to locate.
+
+Now you must save normally, reset the game and go back into your file. Slewse
+does not have a Save Point, so you need to Zoom to a town that does. Once you
+have reloaded your file, Zoom back to Slewse and head back to Don Calico. Your
+new armour should be ready. For your efforts, you receive a FLOWING DRESS. I
+suggest equipping it on the Princess, but the Hero and the Prince are also able
+to wear it.
+
+If you have at least 3300G, sell the Prince's Cloak of Evasion as well as the
+one the Princess was wearing (if you equipped her with the Flowing Dress) for
+2700G and buy a Magic Armour for the Prince. It lowers any Magic damage you
+receive by 25%. You can get a free Magic Armour for the Hero a little later. If
+you don't have the gold, try grinding outside of Slewse. If the monsters around
+there are too difficult, Zoom to Tantegel and grind in the water or inside the
+Dragonlord's Castle.
+
+Head to the Item shop east of the Inn. Hug the wall of the Item Shop as you head
+north, then head west until you are northwest of the Inn. Use your Jailor's Key
+on the door to the building here and head downstairs.
+
+Take 1 step east and use your Floodgate Key. You have to go into your Item Menu
+in order to use it. With that, the Floodgates are opened, giving you better
+access to Slewse from the sea. Also, you now have access to the Tower of the
+Moon to the south of Slewse. I recommend you take care of other business first
+as the Tower is difficult at your current levels and with your current
+equipment.
+
+Instead, Zoom to Dirkandor.
+
+
+
+<<---------------------------xxvii. DIRKANDOR [WK27]-------------------------->>
+
+
+Around Dirkandor you can find Hawk Men, Metal Slimes, Sorcerers, Walking
+Corpses, Miasmas and Treevils. Treevils can lower your MP and cast Fizzle,
+Sorcerers can cast Fizzle, Kabuff and Sizzle, Miasmas can Snooze and Dazzle you.
+Metal Slimes have 100% resistance to all spells and have a high resilience, but
+they give you plenty of experience if you are lucky enough to kill one.
+
+Go north, ignoring the first past west. Follow the second path west and south.
+Use your Gold Key on the door. Open the Treasure Chests next to the Equipment
+Shop merchant to receive a TECTONIC PLATE and a DIVINE DAGGER. Equip the
+Tectonic Plate. Backtrack to where you ignored the first path going west. Go
+that way. Talk to the King between the two bunny girls. Answer "Yes" to his
+question. After the talk, walk south to the centre of the Coliseum.
+
+You will face off against a Striking Sabrecat. I don't consider this monster a
+mini-boss. I suggest using physical attacks with the Hero and the Prince and
+have the Princess use Kasap on the first turn. The Striking Sabrecat should go
+down during the second turn.
+
+Talk to the King again to receive the MOON SIGIL. Four down, only one to go. The
+King becomes a Save Point. Now you can explore the rest of the town.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| DIRKANDOR                                                                    |
+|                                                                              |
+| EQUIPMENT SHOP                            INN:          25G per member       |
+| -------------------------------                                              |
+| Steel Braodsword         1500G                                               |
+| Sledgehammer             4000G            House of Worship                   |
+| Dragonsbane              8000G            Save Point                         |
+| Cloak of Evaasion        1800G            Vault                              |
+| Magic Armour             6000G                                               |
+| Iron Helmet              3150G                                               |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Sell the Divine Dagger and the Full Plate Armour. Store the Mark of Erdrick and
+the Floodgate Key in the Vault. This is all we can do here, so leave town and
+Zoom to Tantegel.
+
+
+
+<<---------------------------xxviii. LIGHTHOUSE [WK28]------------------------>>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 22                                                 |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Steel Broadsword (Moonahan)                                          |
+| Armour: Tectonic Plate (Dirkandor)                                           |
+| Shield: Erdrick's Shield (Cannock)                                           |
+| Helmet: Erdrick's Helm (Holy Sanctum)                                        |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 20                                               |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Erdrick's Sword (Dragonlord's Castle)                                |
+| Armour: Magic Armour (Slewse, Dirkandor)                                     |
+| Shield: Leather Shield (Midenhall, Leftwyne, Cannock)                        |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+| Extra Item: Wizard's Staff (Rippleport, Tantegel, Slewse, Tombola)           |
+|                                                                              |
+|                                                                              |
+| PRINCESS - RECOMMENDED LEVEL: 15                                             |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Lightning Staff (Midenhall)                                          |
+| Armour: Flowing Dress (Slewse)                                               |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+After all that, it's time to do another Tower and gain some gold and experience.
+The Lighthouse is on an island south of Tantegel. With your new equipment, the
+Lighthouse should be easy. Use your map to locate it. When you are ready, start
+sailing south to the island and enter the Lighthouse.
+
+Talk to the guard if you want, then head up the stairs and inside the Tower.
+
+
+
+Floor 1F
+
+
+In this Tower are a couple of new monsters. Deadnauts do nothing special. Orc
+Chieftains can cast Heal. Nothing you cannot handle.
+
+Head east and north. Ignore the first path leading west and take the second.
+Head north through the opening in the wall and continue west to the northwestern
+corner, ignoring another path south. From the corner, head south, ignoring all
+paths east until you reach the southwestern corner.
+
+See that building to the northeast? Walk to the east side of the building and go
+north until you are about 5 steps away from the northeast corner of the
+building. Walk west into the side of the building. Exit through the northern
+side to a Treasure Chest that contains ~560G.
+
+From here head south past a room with stairs to another room with stairs. Take
+these stairs up to the next level.
+
+
+
+Floor 2F
+
+
+Head south and ascend a flight of stairs.
+
+
+
+Floor 3F
+
+
+Head east and ascend another flight of stairs.
+
+
+
+Floor 4F
+
+
+Head north and ascend yet another flight of stairs.
+
+
+
+Floor 5F
+
+
+Grab the Treasure Chest here. It contains a CHAIN SICKLE. Backtrack to Floor 1F.
+
+
+
+Floor 1F
+
+
+From here, head 1 room west and ascend the stairs.
+
+
+
+Floor 2F
+
+
+Follow the path west and south to the stairs.
+
+
+
+Floor 3F
+
+
+Passing by the stairs, head into the wall to the north to ascend five flights of
+stairs.
+
+
+
+Floor 8F
+
+
+Talk to the soldier to learn more about Rendarak. Other than that, there is
+nothing here. Backtrack to Floor 3F.
+
+
+
+Floor 3F
+
+
+Head south and west to ascend the stairs you passed earlier.
+
+
+
+Floor 4F
+
+
+Head south into the wall and grab the Treasure Chest. It contains ~706G. Head up
+the nearby stairs.
+
+
+
+Floor 5F
+
+
+Head east into the wall and up the stairs.
+
+
+
+Floor 6F
+
+
+Head north and descend the next stairs.
+
+
+
+Floor 5F
+
+
+Finally, head west to a Treasure Chest to receive a SEED OF LIFE. Backtrack to
+Floor 4F.
+
+
+
+Floor 4F
+
+
+Head east and north. Ignore the eastern stairs. Instead, take the western
+stairs. Be careful not to fall off the Tower. Use Quick Save if you wish.
+
+
+
+Floor 5F
+
+
+Head east to the stairs. You can walk over the rock.
+
+
+
+Floor 6F
+
+
+Use your Gold Key on the door, then go to the northwestern stairs.
+
+
+
+Floor 7F
+
+
+Head east. You should see a Gremlin going south into the wall. Do that now. Talk
+to the old man. Follow him wherever he goes. Quick Save often and be careful
+about falling off the Tower. The old man will lead you down five flights of
+stairs.
+
+
+
+Floor 2F
+
+
+Talk to the old man, then attempt to open the Treasure Chest. There is nothing
+inside... wait a second. It's a trap!
+
+Four Gremlins will attack you, but they should be easy at this point.
+
+For defeating them, you get the STAR SIGIL. That should be all five. However,
+there is one more item you need to open the Cave to Rendarak. Actually, it's two
+items because you need one to get the other one. Now you can cast Evac to get
+out of here.
+
+
+
+<<------------------------------xxix. GRIND 4 [WK29]-------------------------->>
+
+
+The Tower of the Moon is the next area you need to go to, but it is difficult
+for your current levels. I recommend you do a grinding session here. If you
+choose to grind near Dirkandor, you can fight Metal Slimes. Or you can Zoom to
+Slewse and fight some tougher monsters around town or the first floor of the
+Tower of the Moon south of town. My recommendation is that you do the latter, as
+you need gold.
+
+Earn 16000G. Zoom to Burrowell and buy an Aurora Blade for the Hero. If you
+choose to use it as an item in battle, it will cast Dazzle on a group of
+monsters. Up until now, in my playthrough, my Hero had been using the Steel
+Broadsword I got WAY back in Moonahan.
+
+Now earn 21500G and Zoom to Slewse or Burrowell to buy a Power Shield for the
+Prince. Equip it and sell his Leather Shield. If you use the Power Shield in
+battle, it will cast Midheal on the party member that has it, giving you a free
+heal. Eventually you may want to get Power Shields for everybody.
+
+I recommend getting the Hero to level 28, the Prince to level 26 and the
+Princess to level 21. At level 25 the Prince learns Kabuff which raises the
+party's physical defense. At level 21 the Princess learns Kaboom, which hits all
+monsters on the screen regardless of grouping for a nice amount of damage at a
+cost of 8 MP.
+
+If you can afford it, get a second Power Shield and give it to the Hero but do
+not equip it, as Erdrick's Shield has more defense. Instead, use it in battle to
+restore your HP. If you cannot afford it yet, do not worry about it.
+
+You should be good enough to do the next area of the game, the Tower of the
+Moon. From Slewse, head south and use the Ship to cross the river to the Tower.
+
+
+
+<<------------------------xxx. TOWER OF THE MOON [WK30]----------------------->>
+
+
+The Tower of the Moon has some of the toughest monsters you have seen yet.
+Heyedras. Terrordactyls have a chance of attacking twice. Watch out for
+Whackolytes that can cast Kasap, Kabuff and Sizzle.
+
+
+
+Floor 1F
+
+
+Head west to the Treasure Chest to receive a SEED OF STRENGTH. Ascend the nearby
+stairs.
+
+
+
+Floor 2F
+
+
+Make your way to the Treasure Chest to your east. It contains a SEED OF MAGIC.
+Ascend the western stairs.
+
+
+
+Floor 3F
+
+
+Open the Treasure Chest for ~1278G. Head back down the stairs.
+
+
+
+Floor 2F
+
+
+Go southeast and down the stairs you see here.
+
+
+
+Floor 1F
+
+
+Open the Treasure Chest for a SEED OF RESILIENCE. Go back upstairs.
+
+
+
+Floor 2F
+
+
+Head northwest and ascend the stairs in the middle here.
+
+
+
+Floor 3F
+
+
+Head north and go up the stairs.
+
+
+
+Floor 4F
+
+
+Head south to the Treasure Chests where you will get ~243G and another SEED OF
+RESILIENCE. Head northeast to the stairs.
+
+
+
+Floor 5F
+
+
+Ascend the stairs directly to the southwest.
+
+
+
+Floor 6F
+
+
+Head to the next stairs. Be careful not to fall off the edge.
+
+
+
+Floor 7F
+
+
+Collect the PRAYER RING from the Treasure Chest, then backtrack to Floor 5F
+where you saw the doors.
+
+
+
+Floor 5F
+
+
+Open one of the doors and head down four flights of stairs.
+
+
+
+Floor 1F
+
+
+Talk to the guy if you want, then open the Chest to receive the MOONSHARD, the
+main item you are looking for in this Tower. Evac out or stay for a bit if you
+want to grind some experience and gold.
+
+
+
+<<---------------------------xxxi. SEA CAVE [WK31]---------------------------->>
+
+
+If you can afford it, Zoom to Burrowell or Slewse and get the second Power
+Shield for the Hero so he can heal in battle. In any case, Zoom to Dirkandor and
+rest at the Inn.
+
+Leave Dirkandor and press X to view your map. The Sea Cave is the next dungeon.
+It's the purple flashing square just to your southwest. Sail there and head to
+the southern side. Position yourself 3 squares south of the entrance. Use the
+Moonshard in this spot. The shoals surrounding the cave will disappear. Enter
+the cave.
+
+
+
+Floor B1
+
+
+Holy lava! Stepping on the lava will damage you by 1 HP per step. Use Safe
+Passage so that the lava does not damage you.
+
+Head west and north through the lava. Head east and pick up the ~1188G in the
+Chest. Return to the dungeon entrance.
+
+This time, head south and take the first path you see going west. Ignore the
+darkened room and continue west and north to a Chest. It contains a SEED OF
+MAGIC.
+
+Head south and to the stairs.
+
+
+
+Floor B2
+
+
+The dark room to the south contains a Chest. IT'S A TRAP! Upon opening this
+Chest, the Hero will be poisoned, so ignore this Chest.
+
+Instead, start heading west of this room. Head south through the opening, then
+head west where you should see a lava-filled path heading north. Head south from
+this path and make your way to the darkened room to the southeast. Head north to
+the Chest to receive a PRAYER RING.
+
+Backtrack to the lava-filled path heading north and follow it to the stairs.
+
+
+
+Floor B3
+
+
+Use your Gold Key to open the door. As you head west, ignore the first Chest you
+see (it's a trap) and open the next one. You get a SEED OF STRENGTH.
+
+Head south into the darkness. Circle around the wall to get to the Chest. It
+contains a MAGIC ARMOUR. I suggest you equip it on the Hero. Although it has 5
+less defense than the Tectonic Plate, the Magic Armour lowers any magic damage
+the Hero may take.
+
+South of this Chest you should see some stairs in a corner. 4 squares east of
+these stairs are the stairs you want to take.
+
+
+
+Floor B4
+
+
+Cast Safe Passage and head northwest through the lava to some stairs.
+
+
+
+Floor B5
+
+
+Head south and east. You should be able to see a monster. Heal up to max, then
+talk to the monster for a battle. Actually, two of them. Oh, they are
+Whackolytes. No problem. A quick Kaboom will take care of them. Continue north
+and grab the FALSE IDOL.
+
+If you do not have the 21500G yet for the second Power Shield (for the Hero), I
+suggest grinding on this floor until you do. Also, I recommend you get the Hero
+to level 30, the Prince to level 28 and the Princess to level 23.
+
+Once you are done, you can Evac out of the Sea Cave.
+
+
+
+<<------------------------xxxii. SHRINE OF RUBISS [WK32]---------------------->>
+
+
+You should now have the False Idol and all five Sigils. Your next destination is
+the Shrine of Rubiss, northwest of Dirkandor. Sail or Zoom to Dirkandor. From
+the mouth of the river, sail directly north to the Shrine.
+
+In here, go down six flights of stairs to the bottom floor. Walk 4 steps north
+to trigger a message. Read the dialogue, then check your Items. The Eye of
+Rubiss should be in your possession. Leave the Shrine.
+
+
+
+<<---------------------------xxxiii. BERAN [WK33]----------------------------->>
+
+
+Note : You need a Yggdrasil Leaf for the next part. To get one, Zoom to
+       Burrowell, sail east to Yggdrasil Island and search the trees in the
+       middle. Be aware that you can only hold 1 at a time.
+
+If you have been following this walkthrough, there should be one town that you
+have yet to explore. You can choose to get there by land or by sea. Both routes
+take roughly the same time.
+
+
+
+Land Route
+
+
+Zoom to Cannock and start walking west to Gwaelin's Gate. Use your Gold Key on
+the door here and take the Teleportal to another Shrine, which I will call the
+Beran Shrine. Ignore the other two Teleportals and leave this Shrine.
+
+Start heading southeast. When you get to the water, continue east through the
+hills. Cross the bridge, then cross another bridge to the south. From the
+bridge, head southwest until you find the town. Enter the town.
+
+
+
+
+Sea Route
+
+
+Zoom to Zahan and start sailing east. Keep an eye on your map. After a while,
+you should appear at the southwestern corner of the map. The town you are
+looking for is the flashing orange square northeast of you. Head there. Dock on
+the coast and enter the town.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| BERAN                                                                        |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           ----------------------------       |
+| Wizard's Staff           4000G            Medicinal Herb           8G        |
+| Sledgehammer             4000G            Antidotal Herb          10G        |
+| Dragonsbane              8000G            Holy Water              20G        |
+| Steel Shield             2000G            Chimaera Wing           25G        |
+| Power Shield            21500G                                               |
+| Iron Helmet              3150G            INN:         30G per member        |
+|                                                                              |
+| House of Worship                          Tombola                            |
+| Save Point                                Vault                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Welcome to Beran! If you have not already done so, buy the second Power Shield
+and give it to the Hero (but keep Erdrick's Shield equipped). Store the Tectonic
+Plate and the Moonshard in the Vault.
+
+Make sure you have your Yggdrasil Leaf, then rest at the Inn.
+
+When you wake up, the Prince will be sick. He will tell you to leave him behind
+and continue on to Hargon. Screw that. Stand 1 step north of the Prince in the
+bed, face south, then press Y to access the Menu. Use the Yggdrasil Leaf and
+select the Prince to administer the cure. He will rejoin your party. This is the
+only Inn rest in the game where you have to do this. Leave town.
+
+Zoom to Burrowell and sail east to Yggdrasil Island to grab another Yggdrasil
+Leaf.
+
+
+
+<<-----------------------xxxiv. ROAD TO RENDARAK [WK34]----------------------->>
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 30                                                 |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Aurora Blade (Burrowell)                                             |
+| Armour: Magic Armour (Sea Cave, Slewse, Dirkandor)                           |
+| Shield: Erdrick's Shield (Cannock)                                           |
+| Helmet: Erdrick's Helm (Holy Sanctum)                                        |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+| Extra Item: Power Shield (Burrowell, Slewse, Beran)                          |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 28                                               |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Erdrick's Sword (Dragonlord's Castle)                                |
+| Armour: Magic Armour (Slewse, Dirkandor)                                     |
+| Shield: Power Shield (Burrowell, Slewse, Beran)                              |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+| Extra Item: Wizard's Staff (Rippleport, Tantegel, Slewse, Beran, Tombola)    |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+| PRINCESS - RECOMMENDED LEVEL: 23                                             |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Lightning Staff (Midenhall)                                          |
+| Armour: Flowing Dress (Slewse)                                               |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Make sure you are equipped as listed above. The next dungeon is the most
+difficult in the game but you should be able to handle it now. Also, if you have
+any Prayer Rings in your Vault, now is the time to bring them and, if necessary,
+use them.
+
+From the Inn in Beran, head northeast. Use your Jailor's Key on the door, cast
+Safe Passage and walk north through the Teleportal. Head upstairs to talk to the
+guy if you want. Go one square south of the Teleportal, then head south to exit
+the place. The Gremlin to the northwest has nothing important to say.
+
+Head west a bit and talk to the flame. If you do not have the Eye of Rubiss, the
+flame will not let you through. But since you do, it will disappear, giving you
+partial access to the Cave to Rendarak, but you have to do one more thing.
+
+Head to the northern part of the Poisonous Swamp. Go 4 steps west into the
+Swamp. Now face north. Use the False Idol in this spot and the Cave to Rendarak
+will open up for you. Enter the cave.
+
+
+
+<<-----------------------xxxv. CAVE TO RENDARAK 1 [WK35]---------------------->>
+
+
+Quick Save. There are collapsible floors in this cave. If you fall to the next
+floor by accident, reset and reload your Quick Save.
+
+
+
+Floor 1F
+
+
+Make your way to the stairs just to the east of you.
+
+
+
+Floor B1
+
+
+Grab the SEED OF STRENGTH to the southeast. Now head north to a different flight
+of stairs.
+
+
+
+Floor 1F
+
+
+Go directly east to the wall, then south to ascend the stairs.
+
+
+
+Floor 2F
+
+
+Start heading east. Ignore the first two intersections. At the third
+intersection, head north and climb the stairs.
+
+
+
+Floor 3F
+
+
+Start heading southeast and ignore the dark room to the west. The Chest you see
+here contains a TOMBOLA TICKET. Continue east to the stairs.
+
+
+
+Floor 4F
+
+
+WARNING : Heal up to max and Quick Save here. Green Dragons roam Floor 5F. If
+          you get jumped by 4 of them and they all use Fire Breath, you could be
+          in BIG trouble. However, if you manage to defeat them, they give
+          really good experience.
+
+Head up the stairs and hold your breath.
+
+
+
+Floor 5F
+
+
+Open the Treasure Chest. The Chest contains ERDRICK'S ARMOUR. Equip it on the
+Hero. Now backtrack to Floor 3F.
+
+
+
+Floor 3F
+
+
+Backtrack until you reach the stairs you originally took to get on this floor.
+Head west to the dark room and continue walking until you reach the stairs.
+
+
+
+Floor 4F
+
+
+Heal to max and Quick Save in case of heavy Green Dragon fire. Head upstairs.
+
+
+
+Floor 5F
+
+
+Head east to a Treasure Chest. It contains the MAD CAP. Equip it on either the
+Prince or the Princess. If you equip it on the Princess, the cost of Kaboom will
+be reduced to 6MP, so that is something to think about. Backtrack to Floor 3F.
+
+
+
+Floor 3F
+
+
+Head east back towards where you ascended to this floor. This time, take the
+northwest path and get the Treasure Chest, which contains ~1450G. Follow the
+path north until you hit the northern wall. You should be at a fork in the road.
+Start heading west. Follow this path to the end and go up the stairs.
+
+
+
+Floor 4F
+
+
+Another Green Dragon warning. Heal and Quick Save. Climb the stairs.
+
+
+
+Floor 5F
+
+
+Head south, then west to the Treasure Chests. Inside them are a THANATOS' SHIELD
+and ~592G. Do not equip this shield as it is Cursed. Backtrack to Floor 3F.
+
+
+
+Floor 3F
+
+
+Head east until you are back at the fork in the path. This time, take the
+eastern path and go up the stairs.
+
+
+
+Floor 4F
+
+
+You know the drill. Heal and Quick Save before you climb the stairs.
+
+
+
+Floor 5F
+
+
+Take 3 steps north and 1 step west to fall into a pit.
+
+
+
+Floor 4F
+
+
+Head to the corner in the southwest of this room. From the corner, head 1 step
+east and 1 step north to fall into a pit.
+
+
+
+Floor 3F
+
+
+Collect the THUNDERBOLT BLADE. Give it to the Hero and equip it. You can use it
+as an item to cast lightning on multiple monsters in a group. Hand your Aurora
+Blade to the Prince so he can equip it.
+
+Note : Hargonauts have a chance to drop a second Thunderbolt Blade. Although
+       only the Hero can equip the weapon, it can be used as an item in battle
+       by another party member.
+
+This is an opportune time to Evac out and Zoom to Beran to rest up. If you are
+running low on MP, the entrance to the Cave to Rendarak is a short walk away
+from here. Head east to the dead end to fall into a pit, then head directly
+north to fall into another pit. You should be back at the beginning of the cave.
+
+
+
+<<-----------------------xxxvi. CAVE TO RENDARAK 2 [WK36]--------------------->>
+
+
+After you have rested up, head back to the Cave to Rendarak via the Teleportal
+in Beran.
+
+
+
+Floor 1F
+
+
+There is a trap floor 5 steps east and 5 steps north of the stairs to the east
+of where you start. Avoid that spot and make your way northeast to the eastern
+stairs.
+
+
+
+Floor 2F
+
+
+Walk east and take the third path going north to the stairs.
+
+
+
+Floor 3F
+
+
+Walk as far north as you can, then take the path going east to the stairs.
+
+
+
+Floor 4F
+
+
+Final Green Dragon warning. From here on out, you will be going through their
+territory. Quick Save often and stay healthy. Do not worry about using MP
+because you saved your Prayer Rings for this. Climb the stairs.
+
+
+
+Floor 5F
+
+
+From the stairs, head 2 steps north, 4 steps west, 2 steps south, 3 steps west,
+3 steps south and 1 step east. Now walk south to the wall, east to the wall and
+north 1 step to go up the stairs.
+
+
+
+Floor 6F
+
+
+On this floor you will be presented with many branches of paths. Taking the
+wrong ones will bring you back to where you are now.
+
+Start by heading east.
+
+At the first fork, go west.
+
+At the second fork, go east.
+
+Cross this room via the southernmost path and take the eastern way out of the
+room.
+
+At this fork, take the northeast path.
+
+Take the northwestern path.
+
+Take the northern path.
+
+Take the eastern path. Continue east until you reach the stairs.
+
+
+
+<<-------------------------xxxvii. RENDARAK [WK37]---------------------------->>
+
+
+Welcome to the snowy plateau of Rendarak! Some of the monsters here have instant
+death spells that can hit your entire party, so be sure to Heal and Quick Save
+after each battle.
+
+Here we have some new monsters. Cyclops can do a grievous hit. Frostburns can
+cast Kasap, Kabuff and Thwack. The chance of Thwack killing a party member is
+low but there nonetheless. Also, there are Silvapithecus that can put your party
+to sleep with its Sickly-Sweet Breath and can also cast Sizzle.
+
+From the cave exit, head east, then northeast through the snow. After a bit of a
+walk you should be able to spot a Shrine next to four bridges. Enter the Shrine.
+Congratulations! You have just made it through the most difficult part in the
+game! Well, apart from the final boss, that is.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| RENDARAK SHRINE                                                              |
+|                                                                              |
+| Healing/Revive Point                      Save Point                         |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Now you should have all Zoom points in the game.
+
+Talk to the Priest to get your HP and MP filled. You can use the Teleportal to
+get back to Beran if you wish but it is more convenient to use Zoom.
+
+North and west of the Shrine you can run into some new monsters. The Gigantes
+can do a grievous hit on you. They can drop Swords of Ruin which sell for 11250G
+a pop. Archdemons can hit your party with a fiery Torrent of Flames or they can
+Kaboom your party. Back to back Kabooms can be dangerous. They can drop Prayer
+Rings.
+
+Oh boy. The Batmandrills. They were called Gold Batboons in the NES version and
+were a source of frustration to many Dragon Warrior II players. They have Poison
+Breath, Fire Breath and they can attack twice. They can cast Sizzle. But they
+also have another spell: Kamikazee. There is a chance that they can use
+Kamikazee if they are low on HP. Called Sacrifice in the NES game, this spell is
+guaranteed to kill everybody in your party. Half your gold gone instantly. I
+remind you that there is no Vault in the NES game. I hope you saved, because if
+you did not, you are going to have to do all that grinding AGAIN. Fortunately,
+this version has Quick Save, so be sure to make full use of it. Also,
+Batmandrills have a chance of dropping Wailer's Mail which you can sell for
+4800G a pop.
+
+
+
+<<----------------xxxviii. HARGON'S CASTLE 1 (OPTIONAL) [WK38]---------------->>
+
+
+You are not ready for the final boss yet, but there are a couple of items you
+can pick up in Hargon's Castle on the first floor. Both items are cursed, but
+you can sell them for gold. Make sure you Quick Save often in case of multiple
+Kabooms, Thwack or Kamikazee on the way. Also, bring the Eye of Rubiss with you.
+
+From Rendarak Shrine, head west across the bridges. Keep heading west until you
+see a narrow forested path to the northwest. Enter this passage and follow it
+south. Once you hit the water, you should be able to barely see a Castle to the
+south. This is your final destination. Either head southwest through the forest
+or southeast through the hills until you see a hilly path south of Hargon's
+Castle. Head north through this path to the Castle.
+
+Welcome to... Midenhall? What is going on? The King of Midenhall has joined with
+Hargon in the name of justice? WHAT? Why is everybody praising this guy? He
+KILLED the King of Moonbrooke and many of his guards! How could everybody forget
+that? How convenient. Something is very wrong here.
+
+Try using the Eye of Rubiss. Oh. Well, there you go. Welcome to the REAL
+Hargon's Castle!
+
+
+
+Floor 1F
+
+
+There are no random encounters on this floor. However, if you talk to the flames
+next to the Throne, you will fight 2 Batmandrills, each one in their own
+grouping.
+
+Stand directly west of the Throne. Go 1 step north, 1 step west, then cast Safe
+Passage. Go north 1 step into a damage tile and a "!" should appear above your
+head. Use your Gold Key or cast Click (if you have it) to open the door. Step
+into the blackness. Head northwest harmlessly to a Chest which contains a
+DEVIL'S TAIL.
+
+From this Chest, go 1 step east into the blackness and cast Safe Passage again.
+Now head to the northeast room to a Chest which contains a WAILER'S MAIL.
+
+The middle room leads upstairs to the rest of the Castle. However, you are not
+yet ready for that. Instead, get out of here. If you try to cast Evac, it will
+not work. However, casting Zoom does. Zoom back to Rendarak Shrine. Find a town
+and sell the cursed items you just collected.
+
+
+
+<<-------------------------xxxix. FINAL GRIND [WK39]-------------------------->>
+
+
+This is the last grind you will have to do, and it will be your longest grinding
+session in the game by far. I suggest grinding in the hills west of Rendarak
+Shrine because the item drops from these monsters are well worth it.
+
+I recommend you get the Hero to level 43, the Prince to level 42 and the
+Princess to level 40. This means you are going to be here for a little while.
+Hargon's Castle is easy but the final boss is not. Plus, you will need gold for
+some new equipment that will be helpful against the final bosses.
+
+Quick Save after every couple of battles. You WILL be wiped out every so often
+during this grind. Feel free to abuse the hell out of Kaboom.
+
+As soon as you can afford to, Zoom to Burrowell or Slewse, buy a third Power
+Shield for 21500G and give it to the Princess. Now every party member can heal
+themselves for free during battle.
+
+If you manage to earn 65000G, Zoom to Burrowell and buy the Mink Mantle. You can
+equip it on either the Prince or the Princess. If you choose to equip it on the
+Princess, equip the Flowing Dress on the Prince.
+
+If you manage to earn another 25000G, Zoom to Slewse and buy the Falcon Blade
+and give it to the Hero. You get 2 attacks with this weapon. If both hits land,
+it will deal more or less the same damage as your Thunderbolt Blade does with
+one hit, depending on the monsters' resilience. However, if you defeat a monster
+with the first attack, you will immediately attack another monster with the
+second hit. Therefore, you have the potential to hit two monsters in one turn
+with this weapon. Do not get rid of the Thunderbolt Blade, as it is still useful
+against monsters with high resilience.
+
+If you manage to earn yet another 25000G, you can buy a Falcon Blade for the
+Prince if you want. However, his Aurora Blade already does a decent amount of
+damage. I do not recommend doing any extra grinding for it. But if you have the
+money anyway, you may as well grab it.
+
+At the end of your grind, your party should look like the following below:
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HERO - RECOMMENDED LEVEL: 43                                                 |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Thunderbolt Blade (Cave to Rendarak)                                 |
+|      OR Falcon Blade (Slewse)                                                |
+| Armour: Erdrick's Armour (Cave to Rendarak)                                  |
+| Shield: Erdrick's Shield (Cannock)                                           |
+| Helmet: Erdrick's Helm (Holy Sanctum)                                        |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+| Extra Item: Power Shield (Burrowell, Slewse, Beran)                          |
+|                                                                              |
+|                                                                              |
+| PRINCE - RECOMMENDED LEVEL: 42                                               |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Aurora Blade (Burrowell)                                             |
+|      OR Falcon Blade (Slewse)                                                |
+| Armour: Flowing Dress* (Slewse)                                              |
+|      OR Mink Mantle (Burrowell)                                              |
+| Shield: Power Shield (Burrowell, Slewse, Beran)                              |
+| Helmet: Mad Cap** (Cave to Rendarak)                                         |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|                                                                              |
+| PRINCESS - RECOMMENDED LEVEL: 40                                             |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+| Weapon: Lightning Staff (Midenhall)                                          |
+| Armour: Flowing Dress* (Slewse)                                              |
+|      OR Mink Mantle (Burrowell)                                              |
+| Helmet: Mad Cap** (Cave to Rendarak)                                         |
+| Accessory: Banishing Bell (Rippleport, Tantegel)                             |
+|                                                                              |
+|                                                                              |
+|  * There is only one Flowing Dress. I recommend equipping it on the Prince   |
+|    and equipping the Mink Mantle on the Princess.                            |
+|                                                                              |
+| ** There is only one Mad Cap. I recommend equipping it on the Princess.      |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Now, walk back to Hargon's Castle, making sure you have the Eye of Rubiss and
+the False Idol with you. If you decided to go all the way to level 50, Holy
+Protection will work here.
+
+
+
+<<-------------------------xl. HARGON'S CASTLE 2 [WK40]----------------------->>
+
+
+Use the Eye of Rubiss to dispel the illusion.
+
+
+
+Floor 1F
+
+
+
+Head north until you are 1 step north and 2 steps west of the Throne. As before,
+cast Safe Passage, head north 1 step and either use your Gold Key or cast Click
+to unlock the hidden door. This time, head to the middle room and use your Gold
+Key or Click it open. Walk north to the centre of the cross. Use the False Idol
+in this spot.
+
+
+
+Floor 2F
+
+
+You can run into Dancing Flames on this floor and the next floor above. They can
+use fire attacks and call other Dancing Flames. Their HP is low so you should be
+able to make quick work of them no problem.
+
+Head up the stairs to the northeast.
+
+
+
+Floor 3F
+
+
+On this floor you can run into Wrecktors. You have met this monster before at
+Midenhall when you picked up your Lightning Staff earlier in the game. If you
+recall, he has Kasap, Kabuff and Kaboom. But because he has help this time, he
+can make use of his Kazing spell which revives a random monster to full HP and
+is guaranteed to succeed. Kill these monsters first if you see them.
+
+Follow the winding path to the stairs.
+
+
+
+Floor 4F
+
+
+On this floor and the floors above, there are no more random encounters. Make
+your way to the stairs but stop a few steps before you reach the square next to
+them. Heal up to max and Quick Save. Now take a few steps east for a battle.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| ATLAS - 225 HP - Attacks twice                                               |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| This guy is easy. Use Kabuff and Kasap on the first turn. On the second turn,|
+| attack with the Hero and Prince. You can cast another Kasap, Defend or use a |
+| Power Shield with the Princess to heal up. On the third turn, attack with the|
+| Hero and Prince once again, and Fullheal with the Princess on anyone who     |
+| needs it. If he is still not dead, wail on him until he is. Casting Hocus    |
+| Pocus has a chance of an instant kill.                                       |
+|                                                                              |
+| For defeating Atlas you get 3300 EXP and some pocket change. Victory!        |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Head up the stairs.
+
+
+
+Floor 5F
+
+
+Stand outside the entrance of the northwestern room on this floor. Heal to max
+and Quick Save. Head north into the room for a battle.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| PAZUZU - 225 HP - 50 MP - Can cast Snooze, Fizzle, Sizzle, Fullheal, Thwack  |
+|                           and Kaboom. At low HP, he can also cast Kamikazee. |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| This guy is easy if you are lucky enough to avoid Kamikazee. Attack with the |
+| Hero and the Prince and use Kasap with the Princess on the first turn. On the|
+| second turn, he should go down unless he uses Fullheal or Kamikazee. If not, |
+| keep attacking until he does. If he uses Kamikazee, reset and reload your    |
+| Quick Save.                                                                  |
+|                                                                              |
+| Hocus Pocus has a 25% chance of either making Pazuzu flee from battle or     |
+| killing him instantly.                                                       |
+|                                                                              |
+| Unless you made him flee, for defeating Pazuzu you get 4400 EXP and some     |
+| gold. Victory!                                                               |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Head up the stairs.
+
+
+
+Floor 6F
+
+
+Head east across the bridge, making sure not to fall off. Heal to max and Quick
+Save before you get to the pillars. Continue east for a battle.
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| BELIAL - 325 HP - 240 MP - Can cast Fullheal and Kaboom. Also, he can use    |
+|                            Torrent of Flames and attack twice.               |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| This guy is not hard, but can be annoying if he keeps using Fullheal. Also,  |
+| Kasap will not work on this guy. Attack with the Hero and Prince. You can use|
+| Fullheal or Defend with the Princess if you want. However, if you try casting|
+| Hocus Pocus, you can kill him instantly. Either way, keep at it and he should|
+| go down soon enough.                                                         |
+|                                                                              |
+| For defeating him, you get 6270 EXP and some gold. Victory!                  |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Head up the stairs to the final floor.
+
+
+
+Floor 7F
+
+
+Cast Safe Passage before you move anywhere. Head west and north up to Hargon.
+Heal to max and Quick Save. Make sure the Hero is holding the Yggdrasil Leaf.
+Talk to Hargon. It does not matter if you answer "Yes" or "No" to his question.
+Either way, prepare for the final battle!
+
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| HARGON - 450 HP - 999+ MP -  Can cast Midheal and Kaboom. Also, he has       |
+|                              Torrent of Flames, a Sickly-Sweet breath attack |
+|                              and he can attack twice.                        |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| Kasap does not work on Hargon. Also, unlike the previous bosses, he cannot be|
+| killed with Hocus Pocus. Attack with the Hero and Prince, and either Defend  |
+| or Fullheal with the Princess. Use your Power Shields if necessary. After a  |
+| few turns Hargon will go down.                                               |
+|                                                                              |
+| Congratulations! You have just beaten the main villain of the game! Victory! |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Hurrah! Hargon is dead! With his dying breath, Hargon mumbles something about
+Malroth. Who is Malroth? It is probably not important. Cast Evac and... oh, Evac
+is not working. Okay, cast Zoom and... ow, your aching heads. I guess you will
+have to walk out of here.
+
+Go south and... what the...? Okay, try going west, and... wait! What's going on
+here? Heal to max, use any Prayer Rings you have and Quick Save. Try going east
+now and... IT'S A TRAP!
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| MALROTH - 1750 HP - 240+ MP - Can cast Kasap and Kabuff. He can also use     |
+|                               Blistering Flames and has a chance of attacking|
+|                               twice.                                         |
+\                                                                              /
+ >----------------------------------------------------------------------------<
+/                                                                              \
+| Malroth cannot be killed by Hocus Pocus. Fortunately, he is unable to heal   |
+| himself. Attack with the Hero and cast Kabuff and Kasap on the first turn.   |
+| In the subsequent turns, Kabuff when he uses Kasap and Kasap when he uses    |
+| Kabuff. His Blistering Flames can pack a wallop, especially to the party     |
+| member with the Flowing Dress. Heal anybody who goes below 120 HP. Kazing    |
+| anyone who dies.                                                             |
+|                                                                              |
+| I do not recommend going all out with Malroth. Although it will take a little|
+| time, this battle is more easily won if you take a defensive approach. Stay  |
+| healed and defend when necassary. Use the Power Shields after every flame    |
+| attack. Make sure you are Kabuffed to max and Malroth is Kasapped to max.    |
+|                                                                              |
+| After perhaps a dozen turns, Malroth will go down. Victory! This means the   |
+| game is over now, right? RIGHT?                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Actually, you really did just beat the game. Hurray! Watch as Hargon's Castle
+crumbles.
+
+Zoom to Midenhall and go see the King to watch the end-game cutscenes and the
+credits will start to roll. Final Victory!

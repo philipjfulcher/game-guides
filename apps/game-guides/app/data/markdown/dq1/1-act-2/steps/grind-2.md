@@ -3,9 +3,6 @@ title: GRIND 2
 order: 2
 ---
 
-
-
-
 Once you are at level 5, head south to the hills just past the bridge. Here you
 will want to grind 560G for the Iron Axe and 300G for the Chain Mail. You should
 not purchase the Iron Shield because you can get a free one later. If you run
@@ -33,6 +30,3 @@ South of these hills is the Craggy Cave. You probably saw it before as you were
 grinding near Tantegel. You could bring a torch and 6 herbs and go here now as
 the cave is not very difficult, if you are feeling brave or have played the game
 before. But in this walkthrough I'm going to guide you to another village first.
-
-
-

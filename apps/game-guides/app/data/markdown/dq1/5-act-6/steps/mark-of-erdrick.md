@@ -3,9 +3,6 @@ title: MARK OF ERDRICK
 order: 0
 ---
 
-
-
-
 Once you get to level 17, go back to Cantlin. Notice the building in the centre
 of the town. If you go inside the building (just walk into the side of it) and
 exit south, you will see two doors followed by a pathway lined with damage
@@ -25,6 +22,3 @@ bridge you see and head southeast to a huge poisonous swamp. Go to the east side
 of the swamp and keep using Princess's Pledge to find the MARK OF ERDRICK. A "!"
 will appear above the Hero's head once he's found the right spot. That's three
 out of three. Zoom back to Tantegel, rest up at the Inn and save with the King.
-
-
-

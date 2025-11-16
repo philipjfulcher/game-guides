@@ -1,0 +1,50 @@
+---
+import { classNames } from '@monophilament/util';
+---
+
+<div class='flex p-1'>
+      <section class="text-center">
+        <h2 class="font-semibold text-gray-900 text-2xl">{currentMonth}</h2>
+        <div class="mt-1 grid grid-cols-5 text-xs leading-6 text-gray-500">
+          <div>M</div>
+          <div>T</div>
+          <div>W</div>
+          <div>T</div>
+          <div>F</div>
+        </div>
+        <div
+          class="isolate mt-2 grid grid-cols-5 gap-px rounded-lg bg-gray-500 text-xs shadow ring-1 ring-gray-500">
+          {days.map((day, dayIdx) => {
+            return (
+              <div
+                key={day?.dateAsString}
+                class={classNames(
+                  'bg-white text-gray-900',
+                  dayIdx === 0 ? 'rounded-tl-lg' : null,
+                  dayIdx === 4 ? 'rounded-tr-lg' : null,
+                  dayIdx === days.length - 5
+                    ? 'rounded-bl-lg'
+                    : null,
+                  dayIdx === days.length - 1
+                    ? 'rounded-br-lg'
+                    : null,
+                  'p-1 min-h-[125px] hover:bg-gray-100 focus:z-10 relative no-underline'
+                )}
+              >
+                <time
+                  dateTime={day?.dateAsString}
+                  class={
+                    'mx-auto font-bold flex h-7 w-7 items-center justify-center rounded-full bg-purple-500 text-white'
+                  }
+                >
+                  {day?.dateAsString.split('/')[1]?.replace(/^0/, '')}
+                </time>
+
+                {day?.options.map(option => <p class={"mb-0.5"}>{option}</p>)}
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+    </div>

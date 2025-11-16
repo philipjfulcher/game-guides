@@ -3,9 +3,6 @@ title: PRE-JOURNEY
 order: 0
 ---
 
-
-
-
 If you have already Quick Saved in the game, the option to load it will be
 available. Otherwise, let us Venture Forth!
 
@@ -17,6 +14,3 @@ affects battle speed), select your volume levels, and you are all set to go!
 
 Note: Message speed and volume levels can be changed by selecting the Misc.
 option in your Main Menu and then selecting Settings.
-
-
-

@@ -1,0 +1,155 @@
+---
+import {
+  getDay,
+  getDaysInMonth,
+  startOfMonth,
+} from 'date-fns';
+
+const currentYear = '2009';
+const currentMonth = '04';
+const firstDay = startOfMonth(new Date(`${currentYear}-${currentMonth}-10`));
+
+const placeholders = new Array(getDay(firstDay)).fill('');
+const days = new Array(getDaysInMonth(firstDay)).fill('');
+const firstQuarter = 1;
+const full = 9;
+const lastQuarter = 18;
+const today = 21;
+const newMoon = 25;
+---
+
+<div class="calendar">
+  <div class="header">Sun</div>
+  <div class="header">Mon</div>
+  <div class="header">Tue</div>
+  <div class="header">Wed</div>
+  <div class="header">Thu</div>
+  <div class="header">Fri</div>
+  <div class="header">Sat</div>
+  {placeholders.map(() => <div class="placeholder" />)}
+  {
+    days.map((_, index) => {
+      const day = index + 1;
+
+      return (
+        <div
+          class:list={[
+            'day',
+            { 'first-quarter': day === firstQuarter },
+            { 'last-quarter': day === lastQuarter },
+            { 'today': day === today },
+            { 'full-moon': day === full },
+            { 'new-moon': day === newMoon },
+          ]}
+        >
+          <a href="#">{day}</a>
+        </div>
+      );
+    })
+  }
+</div>
+
+<style>
+  :root {
+    --background-blue: rgb(14, 55, 156);
+    --red: rgb(231, 0, 43);
+    --aqua: rgb(55, 255, 248);
+    --gray: rgb(129, 139, 183);
+    --white: rgb(255, 255, 255);
+    --pink: rgb(246, 26, 219);
+    --black: rgb(0, 0, 0);
+    --moon-overlay: rgb(49, 109, 215);
+    --yellow: rgb(111, 123, 77);
+
+    --moon-border-width: 3px;
+  }
+
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 500px;
+    gap: 4px;
+    background-color: var(--background-blue);
+    font-family: 'Orbitron', sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .calendar > :nth-child(7n + 1) {
+    color: var(--red);
+  }
+
+  .calendar > :nth-child(7n) {
+    color: var(--aqua);
+  }
+
+  .header {
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+
+  .day {
+    display: grid;
+    aspect-ratio: 1/1;
+    place-content: center;
+  }
+
+  .day a {
+    text-decoration: none;
+    color: var(--gray);
+  }
+
+  .today a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: var(--black);
+    width: 68px;
+    height: 68px;
+    background-color: var(--pink);
+    clip-path: polygon(60% 0%, 100% 80%, 0% 100%);
+    flex-wrap: wrap;
+  }
+
+  .today ~ * a {
+    color: var(--white);
+  }
+
+  .today::after {
+    content: 'TODAY';
+    position: absolute;
+    color: var(--white);
+  }
+
+  .new-moon {
+    border: var(--moon-border-width) solid var(--yellow);
+    border-radius: 50%;
+  }
+
+  .full-moon {
+    background-color: var(--moon-overlay);
+    border-radius: 50%;
+  }
+
+  .first-quarter {
+    background: linear-gradient(
+      to left,
+      var(--moon-overlay) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+    border-radius: 50%;
+    border: solid var(--moon-border-width) var(--moon-overlay);
+  }
+
+  .last-quarter {
+    background: linear-gradient(
+      to right,
+      var(--moon-overlay) 50%,
+      rgba(0, 0, 0, 0) 50%
+    );
+    border-radius: 50%;
+    border: solid var(--moon-border-width) var(--moon-overlay);
+  }
+</style>

@@ -1,7 +1,8 @@
 import { json, redirect } from '@remix-run/node';
 import {
   Form,
-  useLoaderData, useNavigation,
+  useLoaderData,
+  useNavigation,
   useParams,
 } from '@remix-run/react';
 import {
@@ -153,8 +154,7 @@ export default function () {
                     completed={substep.completed}
                     creating={
                       isCreating &&
-                      transition.formData?.get('stepId') ===
-                        substep.id
+                      transition.formData?.get('stepId') === substep.id
                     }
                   ></CompleteButton>
                 </Form>

@@ -3,13 +3,9 @@ title: GALENHOLM
 order: 1
 ---
 
-
-
-
 After leaving Erdrick's Cave, head northwest to a settlement called Galenholm.
 There is nothing to do in this town other than rest at the Inn and max out your
 stock of Medicinal Herbs.
-
 
 ```
  ______________________________________________________________________________
@@ -33,7 +29,3 @@ stock of Medicinal Herbs.
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
-
-
-

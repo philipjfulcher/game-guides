@@ -3,9 +3,6 @@ title: RAINBOW DROP
 order: 1
 ---
 
-
-
-
 Head over to the Vault, deposit your Faerie Flute and Princess's Pledge.
 Withdraw the Sunstone and the Staff of Rain. Also, make sure you have the Mark
 of Erdrick. Now you need to walk to the Holy Sanctum south of Rimuldar. Cast
@@ -20,6 +17,3 @@ very tip of the peninsula and use the Rainbow Drop to make a bridge appear. Now
 you have access to the Dragonlord's Castle. Return to Rimuldar if you need to
 rest at the Inn or stock up on Medicinal Herbs and Magic Keys. Otherwise,
 continue to the Dragonlord's Castle.
-
-
-

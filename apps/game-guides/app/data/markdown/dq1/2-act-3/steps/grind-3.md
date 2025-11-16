@@ -3,9 +3,6 @@ title: GRIND 3
 order: 4
 ---
 
-
-
-
 At this point I recommend doing another grinding session to earn 3000G, which
 you will need for the Full Plate Armour. Forget about the Magic Armor... it's
 really not worth it. Both armours have the exact same defense. The difference is
@@ -41,7 +38,6 @@ you are now powerful enough to get through the next dungeon. Use Zoom or a
 Chimaera Wing to get back to Tantegel fast and save yourself time from all
 the weak encounters.
 
-
 ```
  ______________________________________________________________________________
 /                                                                              \
@@ -62,7 +58,3 @@ the weak encounters.
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
-
-
-

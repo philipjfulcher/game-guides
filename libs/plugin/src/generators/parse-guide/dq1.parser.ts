@@ -1,8 +1,8 @@
-import {Tree, workspaceRoot, names, joinPathFragments} from '@nx/devkit';
-import {join} from 'path';
-import {ParseGuideGeneratorSchema} from './schema';
-import {createInterface} from 'readline';
-import {createReadStream} from 'fs';
+import { Tree, workspaceRoot, names, joinPathFragments } from '@nx/devkit';
+import { join } from 'path';
+import { ParseGuideGeneratorSchema } from './schema';
+import { createInterface } from 'readline';
+import { createReadStream } from 'fs';
 
 interface Section {
   title: string;
@@ -10,16 +10,13 @@ interface Section {
   subsections?: Section[];
 }
 
-const sectionTitles = [
-  'Act 1',
-  'Act 2',
-  'Act 3',
-  'Act 4',
-  'Act 5',
-  'Act 6',
-];
+const sectionTitles = ['Act 1', 'Act 2', 'Act 3', 'Act 4', 'Act 5', 'Act 6'];
 
-export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
+export default async function (
+  tree: Tree,
+  options: ParseGuideGeneratorSchema,
+  markdownDir: string
+) {
   const rl = createInterface({
     input: createReadStream(join(workspaceRoot, options.file)),
   });
@@ -33,7 +30,8 @@ export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
     // console.log(line);
 
     if (line.startsWith('<<')) {
-      const cleanLine = line.replace(/(<<[-]+)/, '').replace(/([-]+>>)/, '');
+      let cleanLine = line.match(/^<<[-]+[ivxl]+. (.*) \[/)[1];
+      cleanLine = cleanLine.replaceAll(':', '').replaceAll(' (OPTIONAL)', '');
       if (!currentSection || currentSubSection.title.startsWith('GRIND')) {
         console.log(`Starting section ${sectionTitles[sections.length]}`);
         if (currentSection !== undefined) {
@@ -48,7 +46,7 @@ export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
           subsections: [],
         };
 
-        currentSubSection = {title: cleanLine, content: []};
+        currentSubSection = { title: cleanLine, content: [] };
       } else {
         console.log(`Starting subsection ${cleanLine}`);
         if (currentSubSection !== undefined) {
@@ -65,19 +63,17 @@ export default async function (tree: Tree, options: ParseGuideGeneratorSchema) {
     }
   });
 
-
-
   return new Promise<void>((resolve, reject) => {
     rl.on('close', () => {
       currentSection.subsections.push(currentSubSection);
-      sections.push(currentSection)
+      sections.push(currentSection);
 
       sections.forEach((section, sectionIndex) => {
         let safeSectionName = names(section.title).fileName.replaceAll('.', '');
         safeSectionName = `${sectionIndex}-${safeSectionName}`;
-        console.log(`Creating ${safeSectionName}`)
+        console.log(`Creating ${safeSectionName}`);
         const sectionIndexFileName = joinPathFragments(
-          'apps/game-guides/app/data/markdown/dq1/',
+          `apps/game-guides/app/data/markdown/${markdownDir}/`,
           safeSectionName,
           '/index.md'
         );
@@ -100,7 +96,7 @@ subtitle:
             .replaceAll('”', '')
             .replaceAll('!', '');
           const subsectionFileName = joinPathFragments(
-            'apps/game-guides/app/data/markdown/dq1/',
+            `apps/game-guides/app/data/markdown/${markdownDir}/`,
             safeSectionName,
             '/steps',
             `${safeSubSectionName}.md`
@@ -111,18 +107,18 @@ order: ${index}
 ---
 
 ${subsection.content
-            .map((line) => {
-              if (line.startsWith(' _')) {
-                return `\`\`\`\n${line}`;
-              } else if (line.startsWith('\\_')) {
-                return `${line}\n\`\`\``;
-              } else if(line.startsWith('Floor ')) {
-                return `**${line}**`
-              } else {
-                return line;
-              }
-            })
-            .join('\n')}
+  .map((line) => {
+    if (line.startsWith(' _')) {
+      return `\`\`\`\n${line}`;
+    } else if (line.startsWith('\\_')) {
+      return `${line}\n\`\`\``;
+    } else if (line.startsWith('Floor ')) {
+      return `**${line}**`;
+    } else {
+      return line;
+    }
+  })
+  .join('\n')}
 `;
 
           tree.write(subsectionFileName, subSectionContent);
