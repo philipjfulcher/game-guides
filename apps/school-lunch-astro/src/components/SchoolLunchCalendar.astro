@@ -63,16 +63,15 @@ if (!lunches) {
 
 const days: Day[] = lunches.MenuPlans[0].Days.map((day: any) => ({
   dateAsString: day.Date,
-  options:
-    [
-      ...new Set(
-        day.MenuMeals[0].RecipeCategories.find(
-          (category: any) => category.CategoryName === 'Main Entree',
-        )
-          ?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName))
-          .filter((recipeName) => !everyDayItems.includes(recipeName)),
-      ),
-    ] ?? [],
+  options: [
+    ...new Set(
+      day.MenuMeals[0].RecipeCategories.find(
+        (category: any) => category.CategoryName === 'Main Entree',
+      )
+        ?.Recipes.map((recipe: any) => filterOption(recipe.RecipeName))
+        .filter((recipeName: string) => !everyDayItems.includes(recipeName)),
+    ),
+  ],
 }));
 
 const actualDays: (null | Day)[] = eachDayOfInterval({
@@ -95,13 +94,26 @@ const actualDays: (null | Day)[] = eachDayOfInterval({
   })
   .filter((day) => day !== null);
 
-const data = { currentMonth: format(today, 'MMMM yyyy'), days: actualDays };
+const percentPizza = Math.round(
+  (actualDays.filter((day) =>
+    day?.options.some((option) => option.toLowerCase().includes('pizza')),
+  ).length /
+    actualDays.filter((day) => day?.options.length > 0).length) *
+    100,
+);
+
+const data = {
+  currentMonth: format(today, 'MMMM yyyy'),
+  days: actualDays,
+  percentPizza,
+};
 ---
 
 <div class="calendar">
   <div class="title">
     <h2>{data.currentMonth}</h2>
     <span><strong>Offered every day:</strong> {everyDayItems.join(', ')}</span>
+    <span>This month is <strong>{data.percentPizza}%</strong> pizza!</span>
   </div>
   <div class="calendar-grid">
     <div class="header">Mon</div>
