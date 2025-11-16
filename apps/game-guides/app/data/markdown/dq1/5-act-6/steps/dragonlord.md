@@ -3,15 +3,11 @@ title: DRAGONLORD
 order: 5
 ---
 
-
-
-
 Talk to the Dragonlord. He will give you an opportunity to rule the world
 alongside him. The catch is that he will get the Living half while you get the
 Dead half. Clever Dragonlord. Anyway, if you accept his proposal twice, you will
 be returned to the Inn at Rimuldar. So decline his offer twice and prepare for
 the final battle!
-
 
 ```
  ______________________________________________________________________________
@@ -33,10 +29,7 @@ the final battle!
 \______________________________________________________________________________/
 ```
 
-
-
 Crap. True form! The real final battle begins!
-
 
 ```
  ______________________________________________________________________________
@@ -61,7 +54,3 @@ Crap. True form! The real final battle begins!
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
-
-
-

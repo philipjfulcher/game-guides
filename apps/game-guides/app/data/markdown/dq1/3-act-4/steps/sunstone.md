@@ -3,9 +3,6 @@ title: SUNSTONE
 order: 0
 ---
 
-
-
-
 On the northeast side of the Town of Tantegel, there is a shop behind a locked
 door... doesn't seem like a great way to do business, if their front door is
 always locked... anyway, they sell you Holy Water for 12G a pop. Holy Water
@@ -24,7 +21,3 @@ to the stairs.
 
 In the drawers to the right are a MEDICINAL HERB and a SEED OF LIFE. And in the
 chest you get the SUNSTONE. Alright! One artefact found, two more to go.
-
-
-
-

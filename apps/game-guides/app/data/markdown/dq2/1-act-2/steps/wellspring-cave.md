@@ -3,8 +3,6 @@ title: WELLSPRING CAVE
 order: 2
 ---
 
-
-
 ```
  ______________________________________________________________________________
 /                                                                              \
@@ -22,7 +20,6 @@ order: 2
 \______________________________________________________________________________/
 ```
 
-
 The Wellspring Cave has the same monsters you met before along with a new
 monster called a Cobra King. Be careful as they have a chance of poisoning you.
 
@@ -38,9 +35,6 @@ HP up to full for you. Answer "Yes" to his question to learn that the Prince is
 in Midenhall looking for you.
 
 Note : If he does not mention the Prince, it means you did not talk to the King
-       of Cannock, which means you will have to backtrack to see him.
+of Cannock, which means you will have to backtrack to see him.
 
 Head back to the water, then head west and south to the exit.
-
-
-

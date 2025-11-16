@@ -3,9 +3,6 @@ title: CANTLIN
 order: 1
 ---
 
-
-
-
 Enter the town. Welcome to Cantlin! The Equipment Shop is south of the
 northeastern stairs. There are two other equipment shops that sell equipment you
 could have gotten in other towns. You need a key to access the shop as well as
@@ -39,7 +36,6 @@ Note that you cannot buy Medicinal Herbs or Torches here.
 \______________________________________________________________________________/
 ```
 
-
 If you chose to grind 14800G and wait for the ultimate weapon, buy the Silver
 Shield. If you chose to grind 24600G, get the Fire Blade as well. You can use
 the Fire Blade as an item during battle to shoot flames at monsters. I really
@@ -52,6 +48,3 @@ desert that you passed by earlier. Go south to a narrow hallway leading to the
 eastern part of the town, then go north a bit to find a drawer with a SEED OF
 MAGIC inside. That should be it for Cantlin. Zoom back to Tantegel, heal at the
 Inn and save with the King.
-
-
-

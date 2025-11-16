@@ -3,8 +3,6 @@ title: RIPPLEPORT
 order: 3
 ---
 
-
-
 Head north and east to a town. Welcome to Rippleport!
 
 ```
@@ -30,7 +28,6 @@ Head north and east to a town. Welcome to Rippleport!
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
 
 Head northwest where the Equipment Shop and Item Shop is. You should be able to
 see two monsters next to a lady. Don't go west of the Shops' entrances. Instead,
@@ -63,7 +60,6 @@ Quick Save. Now approach the monsters for a battle.
 \______________________________________________________________________________/
 ```
 
-
 Once the battle is over, you will be taken to see her grandfather. As a token of
 gratitude he will let you borrow his Ship. Also, he suggests you visit Tantegel
 to the east. Get in the Ship.
@@ -78,6 +74,3 @@ chance of putting someone to sleep with its attacks. Merluscs can use
 Sickly-Sweet breath an unlimited number of times to potentially put your party
 to sleep. Hawk Men hit hard with their attacks and can Heal, so be sure to keep
 your HP high.
-
-
-

@@ -3,15 +3,9 @@ title: HARGON'S CASTLE 2
 order: 10
 ---
 
-
-
 Use the Eye of Rubiss to dispel the illusion.
 
-
-
 **Floor 1F**
-
-
 
 Head north until you are 1 step north and 2 steps west of the Throne. As before,
 cast Safe Passage, head north 1 step and either use your Gold Key or cast Click
@@ -19,10 +13,7 @@ to unlock the hidden door. This time, head to the middle room and use your Gold
 Key or Click it open. Walk north to the centre of the cross. Use the False Idol
 in this spot.
 
-
-
 **Floor 2F**
-
 
 You can run into Dancing Flames on this floor and the next floor above. They can
 use fire attacks and call other Dancing Flames. Their HP is low so you should be
@@ -30,10 +21,7 @@ able to make quick work of them no problem.
 
 Head up the stairs to the northeast.
 
-
-
 **Floor 3F**
-
 
 On this floor you can run into Wrecktors. You have met this monster before at
 Midenhall when you picked up your Lightning Staff earlier in the game. If you
@@ -43,10 +31,7 @@ is guaranteed to succeed. Kill these monsters first if you see them.
 
 Follow the winding path to the stairs.
 
-
-
 **Floor 4F**
-
 
 On this floor and the floors above, there are no more random encounters. Make
 your way to the stairs but stop a few steps before you reach the square next to
@@ -74,13 +59,9 @@ them. Heal up to max and Quick Save. Now take a few steps east for a battle.
 \______________________________________________________________________________/
 ```
 
-
 Head up the stairs.
 
-
-
 **Floor 5F**
-
 
 Stand outside the entrance of the northwestern room on this floor. Heal to max
 and Quick Save. Head north into the room for a battle.
@@ -111,17 +92,12 @@ and Quick Save. Head north into the room for a battle.
 \______________________________________________________________________________/
 ```
 
-
 Head up the stairs.
-
-
 
 **Floor 6F**
 
-
 Head east across the bridge, making sure not to fall off. Heal to max and Quick
 Save before you get to the pillars. Continue east for a battle.
-
 
 ```
  ______________________________________________________________________________
@@ -145,19 +121,14 @@ Save before you get to the pillars. Continue east for a battle.
 \______________________________________________________________________________/
 ```
 
-
 Head up the stairs to the final floor.
 
-
-
 **Floor 7F**
-
 
 Cast Safe Passage before you move anywhere. Head west and north up to Hargon.
 Heal to max and Quick Save. Make sure the Hero is holding the Yggdrasil Leaf.
 Talk to Hargon. It does not matter if you answer "Yes" or "No" to his question.
 Either way, prepare for the final battle!
-
 
 ```
  ______________________________________________________________________________
@@ -180,7 +151,6 @@ Either way, prepare for the final battle!
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
 
 Hurrah! Hargon is dead! With his dying breath, Hargon mumbles something about
 Malroth. Who is Malroth? It is probably not important. Cast Evac and... oh, Evac
@@ -220,7 +190,6 @@ now and... IT'S A TRAP!
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
 
 Actually, you really did just beat the game. Hurray! Watch as Hargon's Castle
 crumbles.

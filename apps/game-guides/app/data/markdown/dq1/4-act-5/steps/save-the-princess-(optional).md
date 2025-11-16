@@ -3,9 +3,6 @@ title: SAVE THE PRINCESS (OPTIONAL)
 order: 2
 ---
 
-
-
-
 Now it is time to save Princess Gwaelin… if you want. Yup, this quest is
 entirely optional. You do not have to save her to beat the game! Leave her to
 rot for all the game cares; as long as you defeat the Dragonlord, you will get
@@ -40,7 +37,6 @@ Quick Save here, then talk to the dragon for a battle.
 \______________________________________________________________________________/
 ```
 
-
 Unfortunately, in the Switch version of the game there is no "But thou must."
 Got to go back to the good old NES for that one. Oh well. I'm just a tad
 disappointed I guess, that they would change an iconic line like that. Similar
@@ -53,6 +49,3 @@ if you want. Talk to the King and Gwaelin will give you the PRINCESS'S PLEDGE.
 It tells you how many steps north, south, east or west Tantegel Castle is to
 you, like a medieval GPS. Also, it tells you how much experience you need to get
 to the next level.
-
-
-

@@ -3,14 +3,10 @@ title: KOL
 order: 0
 ---
 
-
-
-
 Starting from Galenholm, walk east. Instead of walking south to Tantegel,
 continue walking east. Cross the bridge, head southeast and cross another
 bridge. From here, head north until you see a village. This is the village of
 Kol.
-
 
 ```
  ______________________________________________________________________________
@@ -37,8 +33,6 @@ Kol.
 \______________________________________________________________________________/
 ```
 
-
-
 Head northwest in this town and you should see a sparkle about four steps south
 of a square of water. Walk over to it and press A to search the area. You will
 find the FAERIE FLUTE. Search the drawers north of there to find PLAIN CLOTHES
@@ -62,6 +56,3 @@ that it brightens a wider area than a Torch. The downsides are that the spell
 wears off after so many steps and it costs MP. After 132 steps, the amount of
 light you have will be reduced, and after another 132 steps, the effect of Glow
 will be completely gone.
-
-
-

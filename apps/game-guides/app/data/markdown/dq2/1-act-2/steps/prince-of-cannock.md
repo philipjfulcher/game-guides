@@ -3,8 +3,6 @@ title: PRINCE OF CANNOCK
 order: 3
 ---
 
-
-
 From Wellspring Cave, head southwest, ignoring the bridge. When you see a
 Poisonous Swamp to your east, go to the southern part. Keep an eye on your HP as
 you go through the swamp. Head south through the hills and you should be able to
@@ -21,6 +19,3 @@ for the Prince when you can afford it. Bring 2-3 Antidotal Herbs with you before
 you leave.
 
 Note : Inn prices will be double what they were before.
-
-
-

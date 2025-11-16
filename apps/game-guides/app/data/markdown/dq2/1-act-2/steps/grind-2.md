@@ -3,8 +3,6 @@ title: GRIND 2
 order: 4
 ---
 
-
-
 Since the Prince starts at level 1, we need to grind for a bit. Stay around
 Cannock until the Prince reaches level 3 and has the Chain Sickle. At level 3
 the Prince learns Sizz, which deals some damage to all enemies in a group at a
@@ -56,6 +54,3 @@ Cannock.
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
-
-

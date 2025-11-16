@@ -3,8 +3,6 @@ title: MIDENHALL 2
 order: 10
 ---
 
-
-
 Enter the room to the east, then head south to the Treasure Chests. They contain
 SEED OF LIFE, MEDICINAL HERB, ~1146G, SEED OF STRENGTH, SEED OF MAGIC and the
 MARK OF ERDRICK. The Mark of Erdrick can be used to obtain a helmet later in the
@@ -24,7 +22,6 @@ because you don't want to talk to the guy until you use your Seed.
 
 Once you use it, make sure the Hero has some Medicinal Herbs on him. Quick Save
 and talk to the guy. Oh wait... it's a monster!
-
 
 ```
  ______________________________________________________________________________
@@ -57,7 +54,6 @@ and talk to the guy. Oh wait... it's a monster!
 \______________________________________________________________________________/
 ```
 
-
 If used as an item in battle, the Lightning Staff is generally more powerful
 than the Wizard's Staff. It hits a group of monsters. I suggest equipping the
 Lightning Staff on the Princess and giving the Wizard's Staff to the Prince.
@@ -67,6 +63,3 @@ the Hero has Erdrick's Sword, equip the Wizard's Staff on the Prince.
 
 Heal up, then walk through the damage tiles and up the stairs. Rest at the Inn
 if you want, then leave town.
-
-
-

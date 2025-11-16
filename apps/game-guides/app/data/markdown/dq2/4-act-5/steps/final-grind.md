@@ -3,8 +3,6 @@ title: FINAL GRIND
 order: 9
 ---
 
-
-
 This is the last grind you will have to do, and it will be your longest grinding
 session in the game by far. I suggest grinding in the hills west of Rendarak
 Shrine because the item drops from these monsters are well worth it.
@@ -92,10 +90,6 @@ At the end of your grind, your party should look like the following below:
 \______________________________________________________________________________/
 ```
 
-
 Now, walk back to Hargon's Castle, making sure you have the Eye of Rubiss and
 the False Idol with you. If you decided to go all the way to level 50, Holy
 Protection will work here.
-
-
-

@@ -3,8 +3,6 @@ title: GRIND 4
 order: 15
 ---
 
-
-
 The Tower of the Moon is the next area you need to go to, but it is difficult
 for your current levels. I recommend you do a grinding session here. If you
 choose to grind near Dirkandor, you can fight Metal Slimes. Or you can Zoom to
@@ -34,6 +32,3 @@ restore your HP. If you cannot afford it yet, do not worry about it.
 
 You should be good enough to do the next area of the game, the Tower of the
 Moon. From Slewse, head south and use the Ship to cross the river to the Tower.
-
-
-

@@ -3,9 +3,6 @@ title: ROAD TO CANTLIN
 order: 0
 ---
 
-
-
-
 Once you have earned your gold, make sure you sleep at the Inn and have the
 Faerie Flute with you along with maximum Medicinal Herbs and Magic Keys. Deposit
 all your gold at the Vault and save with the King of Tantegel. This is going to
@@ -47,10 +44,6 @@ Save your game. Now try to go into the town. It's mini-boss time!
 \______________________________________________________________________________/
 ```
 
-
 At this point you should be at least close to getting level 15, at which you
 will learn the Holy Protection spell. It wipes weak encounters off the map for
 64 steps but does not work in dungeons. It is the same as using a Holy Water.
-
-
-

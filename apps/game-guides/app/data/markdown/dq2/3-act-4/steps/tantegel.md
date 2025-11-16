@@ -3,8 +3,6 @@ title: TANTEGEL
 order: 4
 ---
 
-
-
 The land to the east of Rippleport is Alefgard, the country from the first game.
 You can disembark on Alefgard and walk east to Tantegel if you want. However, I
 suggest you stay in the sea because the monsters there give better amounts of
@@ -39,7 +37,6 @@ Anyway, enter Tantegel.
 \______________________________________________________________________________/
 ```
 
-
 Note : You must have the Silver Key to access the Draper's Shop.
 
 Welcome to Tantegel. See the green guy to the west? Talk to that guy and he will
@@ -57,5 +54,3 @@ North Tower of the Dragon's Horns. This trigger should make a sparkle appear in
 the North Tower so you can easily find it.
 
 Leave Tantegel and Zoom to Rippleport.
-
-

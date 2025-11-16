@@ -3,8 +3,6 @@ title: BURROWELL
 order: 9
 ---
 
-
-
 Use your Gold Key on the door in Burrowell and head down the stairs to find the
 rest of the town.
 
@@ -32,7 +30,6 @@ rest of the town.
 \______________________________________________________________________________/
 ```
 
-
 Make sure you have at least 2000G, then head to the western Item Shop. Select
 the ???. The merchant will ask if you can pay for it. Choose "Yes" and 2000G
 will be deducted from your gold. Check your Items. You should have the JAILOR'S
@@ -55,6 +52,3 @@ you the FLOODGATE KEY.
 Forget about buying an Iron Helmet. You get a better one coming up soon. The
 rest of the equipment here is probably too expensive for you right now. Once you
 are ready, Zoom back to Midenhall.
-
-
-

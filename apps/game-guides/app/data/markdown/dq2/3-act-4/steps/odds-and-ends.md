@@ -3,8 +3,6 @@ title: ODDS AND ENDS
 order: 11
 ---
 
-
-
 Zoom to Cannock and enter. Open the gold-rimmed door with your Gold Key and open
 the Treasure Chest to receive ERDRICK'S SHIELD. Only the Hero can equip it, so
 go ahead and do that. Sell the Steel Shield.
@@ -52,6 +50,3 @@ Miasmas can cast Snooze and Dazzle.
 
 Head west and north past the small Poisonous Swamp. Head east through the hills
 and you should soon see a town. Go around the mountains and enter the town.
-
-
-

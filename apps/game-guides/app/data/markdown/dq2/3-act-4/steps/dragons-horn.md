@@ -3,8 +3,6 @@ title: DRAGON'S HORN
 order: 2
 ---
 
-
-
 Walk, Zoom or use a Chimaera Wing to get back to Moonahan to rest, restock and
 save. Grab the Iron Lance for the Prince from the Equipment Shop and sell his
 Chain Sickle if you have not already done so. Buy the Full Plate Armour and
@@ -53,7 +51,6 @@ Windbraker along.
 \______________________________________________________________________________/
 ```
 
-
 From Moonahan, cross the bridge and head west towards Moonbrooke. Cross the
 bridge west of Moonbrooke and enter the Shrine, which I'll call the Moonbrooke
 Shrine.
@@ -76,16 +73,13 @@ oasis and you should see hills. Continue northwest past the hills and you should
 eventually see two towers. These towers are known as the Dragon's Horns. Enter
 the south tower.
 
-
-
 DRAGON'S HORNS (SOUTH TOWER)
 
-
 Note : During my playthrough, I was on a floor. I walked to the hole in the
-       middle. As I stepped on the hole, I got a battle encounter. The battle
-       screen appeared, faded, then re-appeared. I finished the battle like
-       normal. When it was over, I was back on the first floor. It's just a
-       weird thing that happened that I thought I should mention.
+middle. As I stepped on the hole, I got a battle encounter. The battle
+screen appeared, faded, then re-appeared. I finished the battle like
+normal. When it was over, I was back on the first floor. It's just a
+weird thing that happened that I thought I should mention.
 
 This tower is easy to navigate. Just keep circling the tower and don't fall in
 the hole in the middle.
@@ -99,6 +93,3 @@ careful not to fall off on the western side.
 
 If you did it right, you should be on the north side of the river between the
 Horns.
-
-
-

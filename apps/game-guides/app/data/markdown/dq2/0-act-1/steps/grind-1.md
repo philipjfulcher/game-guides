@@ -3,8 +3,6 @@ title: GRIND 1
 order: 2
 ---
 
-
-
 Ok, it is time to do a short grind. I recommend doing it in the hills just north
 of Midenhall. Make sure you stay on the southern few rows of hills because
 further north are tougher monsters. There are only two monsters here, Slimes and
@@ -22,6 +20,3 @@ should be no match for you.
 
 Either go north around the impassible mountains or go through the northern part
 of the Poisonous Swamp. You should be able to see a town now. Enter the town.
-
-
-

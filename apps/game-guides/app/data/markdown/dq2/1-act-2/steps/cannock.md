@@ -3,8 +3,6 @@ title: CANNOCK
 order: 1
 ---
 
-
-
 ```
  ______________________________________________________________________________
 /                                                                              \
@@ -27,7 +25,6 @@ order: 1
 \______________________________________________________________________________/
 ```
 
-
 Welcome to Cannock! The guy south of the room with the Treasure Chest serves as
 Cannock's Equipment Shop, but you probably can't afford anything yet.
 
@@ -35,7 +32,7 @@ Talk to the King to find out the Prince of Cannock is at the Wellspring of the
 Hero. This is your next destination.
 
 Note : If you do not talk to the King, you will not be able to trigger the next
-       event, so be sure that you do.
+event, so be sure that you do.
 
 Rest at the Inn and make sure you have 2 Medicinal Herbs and 2 Antidotal Herbs
 in your inventory before you leave. You may not need them, but they are there
@@ -45,6 +42,3 @@ Start walking east, making sure you stay north of the impassable mountains.
 Cross some sand and a bridge. Eventually you should be able to see Wellspring
 Cave. Do not go east of the cave because you may run into a Magus which are too
 tough for you right now. Enter the cave.
-
-
-

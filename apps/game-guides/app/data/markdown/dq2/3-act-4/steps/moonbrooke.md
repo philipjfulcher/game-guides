@@ -3,8 +3,6 @@ title: MOONBROOKE
 order: 0
 ---
 
-
-
 Visiting Moonbrooke is entirely optional and has no treasure. Like Erdrick's
 Cave in the original Dragon Quest, Moonbrooke is there to add to the story.
 Also, if you are new to the game, you can get some useful information on what to
@@ -34,6 +32,3 @@ Mirror.
 
 This is all you can do here. Leave Moonbrooke and either walk or use a Chimaera
 Wing to return to Moonahan.
-
-
-

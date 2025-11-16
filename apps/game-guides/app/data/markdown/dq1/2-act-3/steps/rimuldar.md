@@ -3,9 +3,6 @@ title: RIMULDAR
 order: 3
 ---
 
-
-
-
 You are now in the southeastern area of Alefgard. Roaming south of the cave are
 Skeletons, Legerdemen, and two new monsters, the Iron Scorpion (good Resilience)
 and the Bewarewolf. Iron Scorpions may use their turn to defend, which means you
@@ -14,7 +11,6 @@ do half the damage with your weapon or your spells that turn.
 Keep heading south along the east coast until you see a town to the west. Walk
 south around the impassable mountains to get there. Do not go further south
 because there are tougher monsters down there. Welcome to the town of Rimuldar!
-
 
 ```
  ______________________________________________________________________________
@@ -44,8 +40,6 @@ because there are tougher monsters down there. Welcome to the town of Rimuldar!
 \______________________________________________________________________________/
 ```
 
-
-
 Go to the Equipment Shop and buy the Steel Broadsword for 1500G. Also, you can
 buy an Iron Armour if you do not have one yet. Personally, I skip the Iron
 Armour and go straight for the Full Plate Armour. Do not worry if you cannot
@@ -62,6 +56,3 @@ In the Magic Key Shop, search the pots for ~120G and a SEED OF RESILIENCE. Buy 6
 Keys from the shop owner, then leave and re-enter the town. Inside the Inn is a
 chest that's blocked by two doors. Open both doors to get a SEED OF LIFE. Buy 2
 more Magic Keys, then leave town.
-
-
-

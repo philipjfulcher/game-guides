@@ -3,8 +3,6 @@ title: GWAELIN'S GATE
 order: 1
 ---
 
-
-
 Use a Chimaera Wing to get back to Cannock quickly. Sell both Leather Armours
 for 113G apiece, earning you 226G. You should now have 790G, which is enough to
 get 2 Chain Mails for your Hero and your Prince as well as a stay at the Inn.
@@ -30,6 +28,3 @@ tunnel Cannock Tunnel. Anyway, follow the eastern tunnel south, then west to the
 next stairs. The western tunnel leads to a dead-end island.
 
 Head south past the trees and hills. Eventually you will see a town. Enter it.
-
-
-

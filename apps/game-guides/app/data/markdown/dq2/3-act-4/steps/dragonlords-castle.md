@@ -3,8 +3,6 @@ title: DRAGONLORD'S CASTLE
 order: 7
 ---
 
-
-
 Zoom or sail to Tantegel. If you have 1783G, sell the Princess's Plain Clothes
 and buy a Cloak of Evasion for her, leaving you enough gold for a stay at the
 Inn. If not, sail around Tantegel or grind in the hills north of Rippleport
@@ -48,16 +46,12 @@ Bring your Silver Key if you have it.
 \______________________________________________________________________________/
 ```
 
-
 Use the Ship and cross the water to get to the southern castle. This is the
 Dragonlord's Castle, the final area of the first game.
 
 Enter the Dragonlord's Castle. Head north and down the stairs.
 
-
-
 **Floor B1**
-
 
 On this floor are some new monsters. Sabrecats have low HP but have a chance of
 attacking twice. Dragonflies can breathe fire on your party. Goregons have high
@@ -67,34 +61,21 @@ and you have already met the Gremlins.
 
 Follow the linear path to the stairs.
 
-
-
 **Floor B2**
-
 
 Follow another linear path to the stairs.
 
-
-
 **Floor B3**
-
 
 Walk counter-clockwise and go down either stairs you want. Both paths lead to
 **Floor B4.**
 
-
-
 **Floor B4**
-
 
 Go up the ascending stairs in the middle of the room. Go up two more flights of
 stairs and down a flight.
 
-
-
 **Floor B3**
-
-
 
 You should be in the centre of this room next to a Chest. Open it to get
 ERDRICK'S SWORD. Give it to either the Hero or the Prince. My suggestion would
@@ -105,31 +86,19 @@ Tantegel to rest and restock. You are going to need some MP for healing in the
 next part coming up and a few Medicinal Herbs could be useful. Either way, find
 your way back to floor B4.
 
-
-
 **Floor B4**
-
 
 This time, go down the descending stairs in the middle of the room.
 
-
-
 **Floor B5**
-
 
 Follow the path south, west, then north to more stairs.
 
-
-
 **Floor B6**
-
 
 Head east and down the stairs.
 
-
-
 **Floor B7**
-
 
 There are no encounters on this floor.
 
@@ -151,6 +120,3 @@ Head north from the entrance into the Damage Tiles. Heal your party every two
 steps you take. When you get to the northern side, use your Silver Key on the
 door. Open the Treasure Chests for ~156G, ~983G, SEED OF STRENGTH, and some FULL
 PLATE ARMOUR. Evac out and return to Tantegel.
-
-
-

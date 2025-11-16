@@ -10,7 +10,7 @@ export const gameIds = [
   'metroid-prime-remastered',
   'persona-3',
   'dq1',
-  'dq2'
+  'dq2',
 ];
 export function validGameId(gameId: string | null | undefined) {
   return gameId && gameIds.includes(gameId);

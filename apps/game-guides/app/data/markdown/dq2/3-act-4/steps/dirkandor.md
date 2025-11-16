@@ -3,8 +3,6 @@ title: DIRKANDOR
 order: 13
 ---
 
-
-
 Around Dirkandor you can find Hawk Men, Metal Slimes, Sorcerers, Walking
 Corpses, Miasmas and Treevils. Treevils can lower your MP and cast Fizzle,
 Sorcerers can cast Fizzle, Kabuff and Sizzle, Miasmas can Snooze and Dazzle you.
@@ -46,10 +44,6 @@ King becomes a Save Point. Now you can explore the rest of the town.
 \______________________________________________________________________________/
 ```
 
-
 Sell the Divine Dagger and the Full Plate Armour. Store the Mark of Erdrick and
 the Floodgate Key in the Vault. This is all we can do here, so leave town and
 Zoom to Tantegel.
-
-
-

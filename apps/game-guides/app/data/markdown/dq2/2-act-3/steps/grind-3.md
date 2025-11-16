@@ -3,8 +3,6 @@ title: GRIND 3
 order: 4
 ---
 
-
-
 Your Princess is weak. She needs some levels. I recommend grinding around the
 bridge just a few steps south of Moonahan. You may want to defend often with
 her. Use Moonahan to rest, restock and save.
@@ -30,6 +28,3 @@ Once the Princess is level 5 and you've earned 1302G, return to Moonahan and
 sell the Hero's Chain Sickle for 247G. You should have 1549G, enough for a Steel
 Broadsword, a Chimaera Wing (if you need one) and a stay at the Inn. Equip your
 new weapon on the Hero.
-
-
-

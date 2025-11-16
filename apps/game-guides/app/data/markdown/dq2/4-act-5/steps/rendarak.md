@@ -3,8 +3,6 @@ title: RENDARAK
 order: 7
 ---
 
-
-
 Welcome to the snowy plateau of Rendarak! Some of the monsters here have instant
 death spells that can hit your entire party, so be sure to Heal and Quick Save
 after each battle.
@@ -32,7 +30,6 @@ game! Well, apart from the final boss, that is.
 \______________________________________________________________________________/
 ```
 
-
 Now you should have all Zoom points in the game.
 
 Talk to the Priest to get your HP and MP filled. You can use the Teleportal to
@@ -55,6 +52,3 @@ you did not, you are going to have to do all that grinding AGAIN. Fortunately,
 this version has Quick Save, so be sure to make full use of it. Also,
 Batmandrills have a chance of dropping Wailer's Mail which you can sell for
 4800G a pop.
-
-
-

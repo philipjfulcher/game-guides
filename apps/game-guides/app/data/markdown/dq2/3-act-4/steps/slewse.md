@@ -3,8 +3,6 @@ title: SLEWSE
 order: 12
 ---
 
-
-
 ```
  ______________________________________________________________________________
 /                                                                              \
@@ -27,7 +25,6 @@ order: 12
 \______________________________________________________________________________/
 ```
 
-
 Welcome to Slewse! Make sure you have the Celestial Skein and the Subtle Shuttle
 on you. Head northwest to a building with a gold-rimmed door. Use your Gold Key
 on the door and head down the stairs. Talk to the guy. You have found Don
@@ -35,7 +32,7 @@ Calico! Since you already have the items he is looking for, he will take them
 off your hands.
 
 Note : Without the Silver Key, you cannot trigger the sparkle in the Dragon's
-       Horn North Tower, which makes the Celestial Skein difficult to locate.
+Horn North Tower, which makes the Celestial Skein difficult to locate.
 
 Now you must save normally, reset the game and go back into your file. Slewse
 does not have a Save Point, so you need to Zoom to a town that does. Once you
@@ -64,6 +61,3 @@ as the Tower is difficult at your current levels and with your current
 equipment.
 
 Instead, Zoom to Dirkandor.
-
-
-

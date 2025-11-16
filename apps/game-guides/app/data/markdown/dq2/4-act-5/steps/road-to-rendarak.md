@@ -3,8 +3,6 @@ title: ROAD TO RENDARAK
 order: 4
 ---
 
-
-
 ```
  ______________________________________________________________________________
 /                                                                              \
@@ -46,7 +44,6 @@ order: 4
 \______________________________________________________________________________/
 ```
 
-
 Make sure you are equipped as listed above. The next dungeon is the most
 difficult in the game but you should be able to handle it now. Also, if you have
 any Prayer Rings in your Vault, now is the time to bring them and, if necessary,
@@ -64,6 +61,3 @@ partial access to the Cave to Rendarak, but you have to do one more thing.
 Head to the northern part of the Poisonous Swamp. Go 4 steps west into the
 Swamp. Now face north. Use the False Idol in this spot and the Cave to Rendarak
 will open up for you. Enter the cave.
-
-
-

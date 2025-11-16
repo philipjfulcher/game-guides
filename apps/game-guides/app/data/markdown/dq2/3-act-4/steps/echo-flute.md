@@ -3,8 +3,6 @@ title: ECHO FLUTE
 order: 5
 ---
 
-
-
 Note: You need the Silver Key to do this part.
 
 Enter the town and talk to the grandfather again to get the Ship.
@@ -23,6 +21,3 @@ item nearby.
 If you know this game or if you are following this walkthrough, you do not need
 the Echo Flute. I suggest you put the Windbraker and the Echo Flute in the Vault
 to get a couple more spaces for items.
-
-
-

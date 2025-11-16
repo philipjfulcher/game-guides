@@ -3,8 +3,6 @@ title: RA'S MIRROR
 order: 3
 ---
 
-
-
 From Moonahan, step on the bridge. From the bridge, take 3 steps east, 3 steps
 south and head west to get out of Badboon territory. These monsters are pretty
 tough right now. Keep heading west through the forest. Do not go south until you
@@ -28,7 +26,7 @@ level 1 with the Midheal spell. Be sure to buy her a Divine Dagger. If you saved
 the Seed of Agility and the Seed of Life for her, use them on her now.
 
 Note : Inn prices will now be 3 times what it was when the Hero was alone, and
-       1.5 times what it was before the Princess joined.
+1.5 times what it was before the Princess joined.
 
 ```
  ______________________________________________________________________________
@@ -63,6 +61,3 @@ Note : Inn prices will now be 3 times what it was when the Hero was alone, and
 |------------------------------------------------------------------------------|
 \______________________________________________________________________________/
 ```
-
-
-

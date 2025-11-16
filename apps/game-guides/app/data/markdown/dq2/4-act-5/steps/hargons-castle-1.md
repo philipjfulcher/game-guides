@@ -3,8 +3,6 @@ title: HARGON'S CASTLE 1
 order: 8
 ---
 
-
-
 You are not ready for the final boss yet, but there are a couple of items you
 can pick up in Hargon's Castle on the first floor. Both items are cursed, but
 you can sell them for gold. Make sure you Quick Save often in case of multiple
@@ -25,10 +23,7 @@ that? How convenient. Something is very wrong here.
 Try using the Eye of Rubiss. Oh. Well, there you go. Welcome to the REAL
 Hargon's Castle!
 
-
-
 **Floor 1F**
-
 
 There are no random encounters on this floor. However, if you talk to the flames
 next to the Throne, you will fight 2 Batmandrills, each one in their own
@@ -47,6 +42,3 @@ The middle room leads upstairs to the rest of the Castle. However, you are not
 yet ready for that. Instead, get out of here. If you try to cast Evac, it will
 not work. However, casting Zoom does. Zoom back to Rendarak Shrine. Find a town
 and sell the cursed items you just collected.
-
-
-
