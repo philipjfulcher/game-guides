@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GameLayout from '../../layouts/GameLayout.astro';
+
+export async function getStaticPaths() {
+  const acts = await getCollection('games', ({ id, filePath }) =>
+    filePath?.endsWith('index.md'),
+  );
+
+  return acts.map((act) => {
+    const [gameId, actId] = act.id.split('/') || ['', ''];
+    return { params: { gameId } };
+  });
+}
+
+
+const { gameId } = Astro.params;
+const acts = (await getCollection(
+  'games',
+  ({ id, filePath }) => id.startsWith(gameId) && filePath?.endsWith('index.md'),
+)).sort( (a,b) => a.filePath?.localeCompare(b.filePath || '') ?? 0);
+
+---
+<GameLayout gameId={gameId} acts={acts}></GameLayout>
+

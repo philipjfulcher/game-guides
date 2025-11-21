@@ -1,0 +1,18 @@
+{
+  "date": "10/20/2009",
+  "dayOfWeek": "Tue",
+  "notes": "Quest: Visit the staff room. If you got 10th or above in the exam, talk to Mitsuru today for reward. If you missed her today, she will be available on Tue, Thu, Sat. Remember to claim the award before the next exam or it'll be gone.",
+  "dayTime": {
+    "activity": "Fortune 07",
+    "bestAnswers": "1",
+    "pointsForNextRank": "15",
+    "pointsGotToday": "15/22/34"
+  },
+  "nightTime": {
+    "activity": "Walk",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

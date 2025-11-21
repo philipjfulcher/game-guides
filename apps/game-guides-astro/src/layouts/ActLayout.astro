@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import GameLayout from './GameLayout.astro';
+
+const { gameId, actId } = Astro.props;
+
+const steps = (
+  await getCollection('games', ({ id, filePath, data }) => {
+    if (!filePath?.includes('steps') || data.hasOwnProperty('parent')) return false;
+
+    const [stepGameId, stepActId] = id.split('/');
+    return stepGameId === gameId && stepActId === actId;
+  })
+).sort((a, b) => Number.parseInt(a.data.order,10) - Number.parseInt(b.data.order,10));
+
+---
+
+<GameLayout gameId={gameId}>
+
+  <ol>
+    {
+      steps.map((step) => (
+        <li>
+          <a href={`/${gameId}/${actId}/${step.id.split('/').at(-1)}`}>
+            {step.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+
+    <slot />
+
+</GameLayout>

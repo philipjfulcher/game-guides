@@ -1,0 +1,18 @@
+{
+  "date": "5/28/2009",
+  "dayOfWeek": "Thu",
+  "notes": "Moon flag: Talk to Kenji and he will tell you about the Moon social link.",
+  "dayTime": {
+    "activity": "Magician 04",
+    "bestAnswers": "A>1",
+    "pointsForNextRank": "15",
+    "pointsGotToday": "15/22/34"
+  },
+  "nightTime": {
+    "activity": "Arcade: Photo sticker",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

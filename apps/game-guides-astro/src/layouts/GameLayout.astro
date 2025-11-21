@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  gameId: string;
+}
+
+const { gameId } = Astro.props;
+
+const acts = (await getCollection(
+  'games',
+  ({ id, filePath }) => id.startsWith(gameId) && filePath?.endsWith('index.md'),
+)).sort( (a,b) => a.filePath?.localeCompare(b.filePath || '') ?? 0);
+---
+
+<BaseLayout>
+  <h1>{gameId}</h1>
+  <ol>
+    {
+      acts.map((act) => (
+        <li>
+          <a href={`/${gameId}/${act.id.split('/').at(-1)}`}>
+            {act.data.title}{' '}
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+  <slot />
+</BaseLayout>

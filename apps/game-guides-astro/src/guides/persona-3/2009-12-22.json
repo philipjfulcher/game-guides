@@ -1,0 +1,18 @@
+{
+  "date": "12/22/2009",
+  "dayOfWeek": "Tue",
+  "notes": "If you got 10th or above in the exam, talk to Mitsuru today for the reward.",
+  "dayTime": {
+    "activity": "Empress 05",
+    "bestAnswers": "2>1>2",
+    "pointsForNextRank": "22",
+    "pointsGotToday": "45/66/102"
+  },
+  "nightTime": {
+    "activity": "Walk",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": "Ans: 1"
+}

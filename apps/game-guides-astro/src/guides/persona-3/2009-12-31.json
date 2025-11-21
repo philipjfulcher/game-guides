@@ -1,0 +1,18 @@
+{
+  "date": "12/31/2009",
+  "dayOfWeek": "Thu",
+  "notes": "",
+  "dayTime": {
+    "activity": "Free time",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "nightTime": {
+    "activity": "Important story-related decision",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

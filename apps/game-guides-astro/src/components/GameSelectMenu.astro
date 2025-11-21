@@ -1,0 +1,55 @@
+---
+export interface SelectMenuItem {
+  id: number | string;
+  label: string;
+}
+
+export interface Props {
+  items: SelectMenuItem[];
+  selectedItemId: number | string;
+}
+
+
+const items: SelectMenuItem[] = [
+  {
+    id: 'mass-effect-2',
+    label: 'Mass Effect 2',
+  },
+  {
+    id: 'kh-bbs',
+    label: 'Kingdom Hearts: Birth by Sleep',
+  },
+  {
+    id: 'metroid-prime-remastered',
+    label: 'Metroid Prime Remastered',
+  },
+  {
+    id: 'persona-3',
+    label: 'Persona 3',
+  },
+  {
+    id: 'dq1',
+    label: 'Dragon Quest 1',
+  },
+  {
+    id: 'dq2',
+    label: 'Dragon Quest 2',
+  },
+];
+
+const { selectedItemId } = Astro.props;
+
+---
+
+<select id="game-select-menu">
+  {items.map(item => <option selected={item.id === selectedItemId} value={item.id}>{item.label}</option>)}
+</select>
+
+<script>
+    const menu = document.getElementById('game-select-menu') as HTMLSelectElement;
+
+    menu?.addEventListener('change', () => {
+      const selectedGame = menu.value;
+      window.location.href = `/${selectedGame}`;
+    });
+  </script>
