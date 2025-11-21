@@ -23,7 +23,6 @@ const substeps = await getCollection('games', ({data}) => {
     return data.parent === stepId
 });
 
-console.log(substeps);
 const { step } = Astro.props;
 const { Content } = await render(step);
 const subStepContents = await Promise.all(substeps.map(substep => render(substep)));

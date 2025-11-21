@@ -5,10 +5,8 @@ export interface SelectMenuItem {
 }
 
 export interface Props {
-  items: SelectMenuItem[];
   selectedItemId: number | string;
 }
-
 
 const items: SelectMenuItem[] = [
   {
@@ -38,18 +36,23 @@ const items: SelectMenuItem[] = [
 ];
 
 const { selectedItemId } = Astro.props;
-
 ---
 
 <select id="game-select-menu">
-  {items.map(item => <option selected={item.id === selectedItemId} value={item.id}>{item.label}</option>)}
+  {
+    items.map((item) => (
+      <option selected={item.id === selectedItemId} value={item.id}>
+        {item.label}
+      </option>
+    ))
+  }
 </select>
 
 <script>
-    const menu = document.getElementById('game-select-menu') as HTMLSelectElement;
+  const menu = document.getElementById('game-select-menu') as HTMLSelectElement;
 
-    menu?.addEventListener('change', () => {
-      const selectedGame = menu.value;
-      window.location.href = `/${selectedGame}`;
-    });
-  </script>
+  menu?.addEventListener('change', () => {
+    const selectedGame = menu.value;
+    window.location.href = `/${selectedGame}`;
+  });
+</script>

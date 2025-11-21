@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@catppuccin/palette": "^1.7.1",
     "astro": "^5.15.8"
   }
 }
