@@ -497,8 +497,8 @@ major world.
 
 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
-**********\_\_\_\_**********| Collections |**********\_\_\_\_**********
-\\************\_************// [2000]
+\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***| Collections |\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***
+\\\***\*\*\*\*\*\*\***\_\***\*\*\*\*\*\*\***// [2000]
 
 The Reports section of the game is a way of tracking your completion of the
 game. Having 100% completion for all three characters is a requirement for a

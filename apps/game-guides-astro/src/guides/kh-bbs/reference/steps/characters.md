@@ -422,8 +422,8 @@ and a gifted mage.
 |-----------------------------------------------------------------------------|
 ```
 
-**********\_\_\_\_**********| Walkthrough |**********\_\_\_\_**********
-\\************\_************//
+\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***| Walkthrough |\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***
+\\\***\*\*\*\*\*\*\***\_\***\*\*\*\*\*\*\***//
 
 The default order to play in is Terra, Ventus, then Aqua and the guide will
 cover their stories in that order. The guide is written for the Critical

@@ -11,4 +11,4 @@ completion of the game. If you have played other Kingdom Hearts games then you
 would surely like this one. If you haven't then you still will enjoy this game
 with its grand story and gameplay.
 
-**********\_\_\_\_**********| Basics |**********\_\_\_\_**********
+\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***| Basics |\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***

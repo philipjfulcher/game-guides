@@ -618,4 +618,4 @@ and score a ton of points.
 The first time you win you will receive [SONIC BLADE], consecutive wins result
 in a [PANACEA].
 
-**********\_\_\_\_**********| Mirage Arena |**********\_\_\_\_**********
+\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***| Mirage Arena |\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***
