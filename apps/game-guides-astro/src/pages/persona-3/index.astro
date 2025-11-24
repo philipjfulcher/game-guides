@@ -1,0 +1,24 @@
+---
+import Calendar from '../../components/calendar.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout>
+  <div class="calendar-container">
+    <Calendar />
+    <Calendar />
+    <Calendar />
+    <Calendar />
+    <Calendar />
+    <Calendar />
+  </div>
+</BaseLayout>
+
+<style>
+  .calendar-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+</style>

@@ -7,6 +7,11 @@
       "factory": "./src/generators/parse-guide/generator",
       "schema": "./src/generators/parse-guide/schema.json",
       "description": "parse-guide generator"
+    },
+    "convert-from-url": {
+      "factory": "./src/generators/convert-from-url/generator",
+      "schema": "./src/generators/convert-from-url/schema.json",
+      "description": "convert-from-url generator"
     }
   }
 }
