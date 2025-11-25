@@ -1,13 +1,14 @@
 ---
-import {
-  getDay,
-  getDaysInMonth,
-  startOfMonth,
-} from 'date-fns';
+import { getDay, getDaysInMonth, startOfMonth } from 'date-fns';
 
-const currentYear = '2009';
-const currentMonth = '04';
-const firstDay = startOfMonth(new Date(`${currentYear}-${currentMonth}-10`));
+export interface Props {
+  year: string;
+  month: string;
+}
+
+const { year, month } = Astro.props;
+
+const firstDay = startOfMonth(new Date(`${year}-${month}-10`));
 
 const placeholders = new Array(getDay(firstDay)).fill('');
 const days = new Array(getDaysInMonth(firstDay)).fill('');
@@ -18,35 +19,42 @@ const today = 21;
 const newMoon = 25;
 ---
 
-<div class="calendar">
-  <div class="header">Sun</div>
-  <div class="header">Mon</div>
-  <div class="header">Tue</div>
-  <div class="header">Wed</div>
-  <div class="header">Thu</div>
-  <div class="header">Fri</div>
-  <div class="header">Sat</div>
-  {placeholders.map(() => <div class="placeholder" />)}
-  {
-    days.map((_, index) => {
-      const day = index + 1;
+<div class="calendar-container">
+  <h2>{month} {year}</h2>
+  <div class="calendar">
+    <div class="header">Sun</div>
+    <div class="header">Mon</div>
+    <div class="header">Tue</div>
+    <div class="header">Wed</div>
+    <div class="header">Thu</div>
+    <div class="header">Fri</div>
+    <div class="header">Sat</div>
+    {placeholders.map(() => <div class="placeholder" />)}
+    {
+      days.map((_, index) => {
+        const day = index + 1;
 
-      return (
-        <div
-          class:list={[
-            'day',
-            { 'first-quarter': day === firstQuarter },
-            { 'last-quarter': day === lastQuarter },
-            { 'today': day === today },
-            { 'full-moon': day === full },
-            { 'new-moon': day === newMoon },
-          ]}
-        >
-          <a href="#">{day}</a>
-        </div>
-      );
-    })
-  }
+        return (
+          <div
+            class:list={[
+              'day',
+              { 'first-quarter': day === firstQuarter },
+              { 'last-quarter': day === lastQuarter },
+              { today: day === today },
+              { 'full-moon': day === full },
+              { 'new-moon': day === newMoon },
+            ]}
+          >
+            <a
+              href={`persona-3/${year}-${month}-${day.toString().length === 1 ? `0${day}` : day}`}
+            >
+              {day}
+            </a>
+          </div>
+        );
+      })
+    }
+  </div>
 </div>
 
 <style>
