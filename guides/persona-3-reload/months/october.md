@@ -1,9 +1,4 @@
-Main Game
----------
-
-### October
-
-#### **10/1 Thursday**
+**10/1 Thursday**
 
 **  
 Morning**
@@ -16,12 +11,12 @@ Stay Awake (Academics +1)
 
 Spend Time with Yukari
 
-* Look around
-* Go look for her
-* Any
-* Any
-* (Lovers Rank 5)
-* I’m sorry (+3)
+- Look around
+- Go look for her
+- Any
+- Any
+- (Lovers Rank 5)
+- I’m sorry (+3)
 
 **Evening**
 
@@ -33,37 +28,37 @@ Speak to Fuuka and head to Tartarus.
 
 **Dark Hour**
 
-> **Important! Important!  
-> **Even though you've been doing all search and rescues, make sure you don’t miss any tonight. You will permanently lock yourself out of a social link if you do.
+> **Important! Important!**
+> Even though you've been doing all search and rescues, make sure you don’t miss any tonight. You will permanently lock yourself out of a social link if you do.
 
 You now have access to the 3 best Major Arcana Cards, Lovers, Justice, and Devil. Lovers will boost the fusion bonus of your social links, while Justice allows you to choose 2 cards from every shuffle time, and the Devil will double the number of items you get from breaking objects and enemy drops. While none of these are essential, they can save you a lot of time in levelling personas and in farming for skill cards, yen, exp, etc.
 
-> **Important! Important!  
-> **If you've been following the fusion guide, make sure Ose has learned Life Aid and Hanuman has learned Endure, before doing the next batch of fusions. Ose should have reached a high enough level to learn Life Aid, if you had the Lovers Arcana active when you fused him.
-> 
+> **Important! Important!**
+> If you've been following the fusion guide, make sure Ose has learned Life Aid and Hanuman has learned Endure, before doing the next batch of fusions. Ose should have reached a high enough level to learn Life Aid, if you had the Lovers Arcana active when you fused him.
+>
 > Hanuman cards are in shuffle times in this next section, so it should be easy to get the exp needed for him. You can also teach him Growth 2; I'd replace Fatal End.
-> 
+>
 > Rank 8 skill cards start dropping tonight, which means you can start getting Resist skill cards, these are great as they can turn an elemental weakness into a strength on a persona. These have a very low drop rate though, and you'll be able to get them from the Antiques shop later on in the game, so I wouldn't go out of your way to farm them, just grab any that appear in shuffle times.
-> 
+>
 > Resist Dark and Resist Light don't appear in the antiques shop, if you want these cards you will have to farm them, highly optional.
 
 > You'll get introduced to the Dark Zone tonight. It's an area that's completely pitch black, forcing you to use the mini map to navigate. It's harder for you to see shadows, but it's also harder for them to see you. The main feature of these floors is that all breakable objects are Twighlight Fragment statues. If you have the Devil Arcana active you can collect a decent amount of Twighlight Fragments each time you come across a Dark Zone.
-> 
+>
 > Outside of the tutorial one, they are random spawns. Unfortunately, the tutorial one doesn't count for the achievement, but the next time you encounter it, you will unlock:
-> 
-> * Achievement/Trophy: The Horror of the Shade (33/48)
-> 
+>
+> - Achievement/Trophy: The Horror of the Shade (33/48)
+>
 > You should also at some point today unlock:
-> 
-> * Achievement/Trophy: Glimpse of the Depths (34/48) (Conquer 10 Monad doors)
+>
+> - Achievement/Trophy: Glimpse of the Depths (34/48) (Conquer 10 Monad doors)
 
 Return to the 117F and continue climbing Tartarus until you reach the 125F, for your next back-to-back gatekeeper fights. Defeat them, then open the chests, equip Makoto with the Ballistic Vest and Ken with the Warding Shoes.
 
 > In the next section you'll get introduced to a new type of shadow, the Greedy Shadow. They go around stealing all the loot on the floor and you end up in a mini game, trying to chase them down. You have 3x choices of either left or right, if you guess right all three times, then you catch it and get to fight it. They give a lot of exp and loot when defeated. Normally it's luck of the draw if you guess the right direction or not, but the tutorial one seems like it's guaranteed.
-> 
+>
 > You'll hit much higher numbers against Greedy Shadows so you should be able to do over 999 damage against them. They're weak to strike, any strong strike attack like Herculean Strike will easily do this.
-> 
-> * Achievement/Trophy: Get a Load of Those Numbers (35/48)
+>
+> - Achievement/Trophy: Get a Load of Those Numbers (35/48)
 
 Continue climbing Tartarus until you reach the 132F for the next gatekeeper, after defeating it, open the chests. I'd only give Shinjiro, Gaea's Grave, if you don't already have Charun's Hammer. The Auto Rebellion on Charun's Hammer is better than the slightly higher attack stat on Gaea's Grace.
 
@@ -87,57 +82,57 @@ You'll want to farm until you have 360k, Ose has learned Life Aid and Hanuman ha
 
 When you're ready, save your game, enter the Velvet room, register your personas and fuse:
 
-| **Fusion Recipe** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
-| Baphomet and Eligor Result: Anubis | Auto Tarukaja, Auto Rakukaja Auto Sukukaja and Eiga | Doesn't max out skill list |
-| Ose and Hanuman Result: Samael | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Maeiga, Megido Masukunda and Dekunda |
-| Samael and Kushi Mitama Result: Kaiwan | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Eerie Sound, Evil Smile, Virus Breath and Spirit Drain |
-| Sarasvati and Kaiwan Result: Naga Raja | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Mazionga, Cruel Attack, Null Pierce and Revolution |
-| Thoth and Naga Raja Result: White Rider | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Arrow Rain, Poison Arrow, Pierce Boost and Null Fear |
-| Thoth and White Rider Result: Lachesis | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Magarula, Masukukaja, Mediarama and Soul Chain |
-| Anubis and Lachesis Result: Quetzalcoatl | Auto Tarukaja, Life Aid Endure and Magarula | Doesn't Max out its skills |
-| Seiryu and Clotho Result: Cu Chulainn | Auto Tarukaja, Auto Rakukaja, Matarunda, and Invigorate 2 | Torrent Shot, Matarukaja Dekaja and Charge |
+| **Fusion Recipe**                        | **Skills to Pass On**                                     | **Skills to Keep**                                     |
+| ---------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------ |
+| Baphomet and Eligor Result: Anubis       | Auto Tarukaja, Auto Rakukaja Auto Sukukaja and Eiga       | Doesn't max out skill list                             |
+| Ose and Hanuman Result: Samael           | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure         | Maeiga, Megido Masukunda and Dekunda                   |
+| Samael and Kushi Mitama Result: Kaiwan   | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure         | Eerie Sound, Evil Smile, Virus Breath and Spirit Drain |
+| Sarasvati and Kaiwan Result: Naga Raja   | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure         | Mazionga, Cruel Attack, Null Pierce and Revolution     |
+| Thoth and Naga Raja Result: White Rider  | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure         | Arrow Rain, Poison Arrow, Pierce Boost and Null Fear   |
+| Thoth and White Rider Result: Lachesis   | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure         | Magarula, Masukukaja, Mediarama and Soul Chain         |
+| Anubis and Lachesis Result: Quetzalcoatl | Auto Tarukaja, Life Aid Endure and Magarula               | Doesn't Max out its skills                             |
+| Seiryu and Clotho Result: Cu Chulainn    | Auto Tarukaja, Auto Rakukaja, Matarunda, and Invigorate 2 | Torrent Shot, Matarukaja Dekaja and Charge             |
 
 Leave and re-enter the velvet room, you'll get another discount on summoning personas for having 50% of the compendium.
 
-| **Fusion Recipe** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
-| Hanuman and Kaiwan Result: Ganga | Auto Tarukaja, Auto Rakukaja, Life Aid, and Endure | Neuro Slash, Diarama, Tentarafoo and Confuse Boost |
-| Naga Raja and Queen Medb Result: Shiki-Ouji | Auto Tarukaja, Auto Rakukaja Life Aid and Endure | Kouga, Torrent Shot Dekaja and Matarukaja |
-| Dakini and Shiki-Ouji Result: Titania | Matarukaja, Auto Tarukaja, Life Aid and Endure | Bufudyne, Mabufula Concentrate and Freeze Boost |
-| Anubis and White Rider Result: Succubs | Auto Tarukaja, Auto Rakukaja Life Aid and Endure | Maeiga, Maragion, Spirit Drain and Drain Abillity |
-| Naga Raja and Thunderbird Result: Okuninushi | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Agidyne, Maragion, Getsu-ei and Deathbound |
-| Quetzalcoatl and Ganga Result: Mishaguji | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Ziodyne, Mazionga Vile Assault and Deathbound |
-| Seiryu and Mishaguji Result: Kurama Tengu | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure | Garudyne, Magarula, Masukunda and Null Dizzy |
-| Fuse Parvati From the Special Fusion | Auto Tarukaja, Auto Rakuaja, Auto Sukukaja, Anti-Fire Master and Inviograte 2 | Diarama, Mediarama, Mabaisudi and Divinge Grace (Replace Auto Sukukaja with Divine Grace) |
+| **Fusion Recipe**                            | **Skills to Pass On**                                                         | **Skills to Keep**                                                                        |
+| -------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Hanuman and Kaiwan Result: Ganga             | Auto Tarukaja, Auto Rakukaja, Life Aid, and Endure                            | Neuro Slash, Diarama, Tentarafoo and Confuse Boost                                        |
+| Naga Raja and Queen Medb Result: Shiki-Ouji  | Auto Tarukaja, Auto Rakukaja Life Aid and Endure                              | Kouga, Torrent Shot Dekaja and Matarukaja                                                 |
+| Dakini and Shiki-Ouji Result: Titania        | Matarukaja, Auto Tarukaja, Life Aid and Endure                                | Bufudyne, Mabufula Concentrate and Freeze Boost                                           |
+| Anubis and White Rider Result: Succubs       | Auto Tarukaja, Auto Rakukaja Life Aid and Endure                              | Maeiga, Maragion, Spirit Drain and Drain Abillity                                         |
+| Naga Raja and Thunderbird Result: Okuninushi | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure                             | Agidyne, Maragion, Getsu-ei and Deathbound                                                |
+| Quetzalcoatl and Ganga Result: Mishaguji     | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure                             | Ziodyne, Mazionga Vile Assault and Deathbound                                             |
+| Seiryu and Mishaguji Result: Kurama Tengu    | Auto Tarukaja, Auto Rakukaja, Life Aid and Endure                             | Garudyne, Magarula, Masukunda and Null Dizzy                                              |
+| Fuse Parvati From the Special Fusion         | Auto Tarukaja, Auto Rakuaja, Auto Sukukaja, Anti-Fire Master and Inviograte 2 | Diarama, Mediarama, Mabaisudi and Divinge Grace (Replace Auto Sukukaja with Divine Grace) |
 
 You should have every fused persona up to level 46 now.
 
 Hand in quest 62 to Elizabeth, which unlocks:
 
-* Fusion Series #6: Strength, Siegried
+- Fusion Series #6: Strength, Siegried
 
 The personas you should have on are **Titania, White Rider, Dominion, Mishaguji, Succubus, Kurama Tengu, Okuninushi, Lachesis, Cu Chulainn, Kaiwan, Grimekhala,** and **Parvati**
 
-* Teach Succubus Growth 2, replace Maragion. Replace Growth 2 with Eigaon when Succubus learns it
-* Teach Growth 2 to Lachesis, replace Mediarama
-* Teach Cu Chulainn Growth 2, replace Torrent Shot
-* Teach Growth 2 to Titania, replace Matarukaja.
+- Teach Succubus Growth 2, replace Maragion. Replace Growth 2 with Eigaon when Succubus learns it
+- Teach Growth 2 to Lachesis, replace Mediarama
+- Teach Cu Chulainn Growth 2, replace Torrent Shot
+- Teach Growth 2 to Titania, replace Matarukaja.
 
 > As you can see, you've replaced Invigorate 2 with Life Aid, it restores 8% SP/HP after every fight, it's a nice upgrade over Invigorate 2 and because it's % based, it gets better the more you level up. You've also replaced Auto Sukukaja with Endure. Endure is just a great skill to have in case you get one tapped by an insta-kill skill, or you get smacked down on your weakness and can save you from a game over screen. You'll also soon be getting some gear that has Auto Sukukaja on it.
 
 You'll want at least **150k** after selling all your loot. You'll also get 100k reward from a rescued person tomorrow.
 
-> **Important! Important!  
-> **Make sure you have personas from the following arcana’s for the next batch of social links before leaving: **Lovers, Strength, Justice, Hierophant, Priestess, Temperence, Fortune, Tower, Star,** and **Moon,** these are going to be the social links that you'll be working on. You will want at least **150k** after selling your loot.
-> 
+> **Important! Important!**
+> Make sure you have personas from the following arcana’s for the next batch of social links before leaving: **Lovers, Strength, Justice, Hierophant, Priestess, Temperence, Fortune, Tower, Star,** and **Moon,** these are going to be the social links that you'll be working on. You will want at least **150k** after selling your loot.
+>
 > If you want to buy all shopping channel items, you will need at least 200k.
-> 
+>
 > If you want to work out what your loot is worth before you leave, then you can use [Loot and Breakable Objects Tziah Block 1](loot-and-breakable-objects#tziah-block-1-119f-144fbreakable-objects), which has the name and sale values of everything.
-> 
-> **If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.**
+>
+> If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.\*\*
 
-* * *
+---
 
 #### **10/2 Friday**
 
@@ -149,21 +144,21 @@ Spend time with Elizabeth, then hand in quest 80.
 
 Spend time with Fuuka
 
-* Any
-* Any
-* That’s messed up (+1)
-* (Priestess Rank 7)
-* Is that the only reason? (Romance Flag)
+- Any
+- Any
+- That’s messed up (+1)
+- (Priestess Rank 7)
+- Is that the only reason? (Romance Flag)
 
 > A romance flag is a response that you need to choose in order to have the option to romance a character at a later date. Most romance flags are usually also the responses that give the most points, this one is one of the few that's not the case.
-> 
+>
 > Even if you don't plan on romancing Fuuka, I'd recommend picking the romance flag. Your dialogue options will change to what's in the guide if you don't.
 
 **Evening**
 
 Watch a DVD with Ken (Courage +1)
 
-* * *
+---
 
 **10/3 Saturday**
 
@@ -175,24 +170,24 @@ Stay Awake (Academics +1)
 
 Spend time with Yuko
 
-* Any
-* Are you relieved (+1)
-* Let’s do it (+3)
-* (Strength Rank 7)
+- Any
+- Are you relieved (+1)
+- Let’s do it (+3)
+- (Strength Rank 7)
 
 **Evening**
 
-> **Important! Important!  
-> **Fuuka will warn you that it’s a full moon tomorrow, if you’re not following the fusion guide, make sure you have your battle personas equipped before doing tonight's activity.
+> **Important! Important!**
+> Fuuka will warn you that it’s a full moon tomorrow, if you’re not following the fusion guide, make sure you have your battle personas equipped before doing tonight's activity.
 
 Harvest the Rooftop Garden, then plant Soul Spinach Sprout.
 
 Watch a DVD with Akihiko (Courage +1)
 
-* Characteristics Unlocked: Buff Amp, Greatly Increases the Effect of Buffs on Self  
-    (Increases the effects of buffs on self by 30%)
+- Characteristics Unlocked: Buff Amp, Greatly Increases the Effect of Buffs on Self  
+   (Increases the effects of buffs on self by 30%)
 
-* * *
+---
 
 **10/4 Sunday**
 
@@ -200,9 +195,9 @@ Watch a DVD with Akihiko (Courage +1)
 
 It’s time for the next Major Arcana Boss. Neither Shinjiro nor Ken are available for this boss battle, build your team from the remaining members and defeat the boss.
 
-* Achievement/Trophy: A Twist of Fate (36/48)
+- Achievement/Trophy: A Twist of Fate (36/48)
 
-* * *
+---
 
 **10/5 Monday**
 
@@ -218,9 +213,9 @@ Enter Shinjiro’s room, exam the desk and open it.
 
 Take Koromaru for a walk
 
-* Aigis comes tonight
+- Aigis comes tonight
 
-* * *
+---
 
 **10/6 Tuesday**
 
@@ -228,11 +223,11 @@ Take Koromaru for a walk
 
 Elizabeth’s quests update today, accept:
 
-* 70\. Retrieve the seventh old document
-* 73\. Bring me a Mikazuki Munechika
-* 74\. I’d like to try sushi
-* 75\. Bring me a Sengoku-era helm
-* 76\. Bring me a glasses wipe
+- 70\. Retrieve the seventh old document
+- 73\. Bring me a Mikazuki Munechika
+- 74\. I’d like to try sushi
+- 75\. Bring me a Sengoku-era helm
+- 76\. Bring me a glasses wipe
 
 Head to the shrine and speak to Inari (Requires Academics Rank Unknown)
 
@@ -242,9 +237,9 @@ Head to the Nurse’s Office (Supplemental Lesson 1 of 3)
 
 Spend time at Bookworms
 
-* Please don’t fight (+3)
-* Any
-* (Hierophant Rank 6)
+- Please don’t fight (+3)
+- Any
+- (Hierophant Rank 6)
 
 **Evening**
 
@@ -256,21 +251,21 @@ The Luxury Shopkeeper in Club Escapade now has most gemstones for sale, you can 
 
 Heat to the antiques shop and upgrade your gear.
 
-|     | **Weapon** | **Armor** | **Footwear** | **Acessory** |
-| --- | --- | --- | --- | --- |
-| **Makoto** | Outenta Mitsuyo | Tigerhide Belt | Silent Sandals | Mega Master Band |
-| **Yukari** | Bow of Affection | Rangda Robe | Silent Sandals | Yellow Shawl or Vayu Bracers |
-| **Junpei** | Mikazuki Munechika | Samue of the Tengu | Silent Sandals | Power Enhancer |
-| **Akihiko** | Kaiser Knuckes | Tigerhide Belt | Silent Sandals | Blue Shawl or Indra Bracers |
-| **Mitsuru** | Ice Saber | Rangda Robe | Silent Sandals | Red Shawl or Varna Bracers |
-| **Aigis** | Blast Magnum | Achilles Guard | Ergotite Legs | Yellow Bracers or Pierce Bracers |
-| **Koromaru** | Elementary Mask | Powered Dog Suit | Bare Paws | Dark Bracers |
-| **Ken** | Ote-gine | Tigerhide Belt | Silent Sandals | Light Bracers |
+|              | **Weapon**         | **Armor**          | **Footwear**   | **Acessory**                     |
+| ------------ | ------------------ | ------------------ | -------------- | -------------------------------- |
+| **Makoto**   | Outenta Mitsuyo    | Tigerhide Belt     | Silent Sandals | Mega Master Band                 |
+| **Yukari**   | Bow of Affection   | Rangda Robe        | Silent Sandals | Yellow Shawl or Vayu Bracers     |
+| **Junpei**   | Mikazuki Munechika | Samue of the Tengu | Silent Sandals | Power Enhancer                   |
+| **Akihiko**  | Kaiser Knuckes     | Tigerhide Belt     | Silent Sandals | Blue Shawl or Indra Bracers      |
+| **Mitsuru**  | Ice Saber          | Rangda Robe        | Silent Sandals | Red Shawl or Varna Bracers       |
+| **Aigis**    | Blast Magnum       | Achilles Guard     | Ergotite Legs  | Yellow Bracers or Pierce Bracers |
+| **Koromaru** | Elementary Mask    | Powered Dog Suit   | Bare Paws      | Dark Bracers                     |
+| **Ken**      | Ote-gine           | Tigerhide Belt     | Silent Sandals | Light Bracers                    |
 
 For some allies you can choose between protecting their weakness or going for damage. I prefer protecting their weaknesses, I find it makes certain fights easier than raw damage, but either approach can work.
 
 > If you have the gemstones spare, grab the Growth 3 card. Don't stress if you don't though, you can keep using Growth 2 instead. Make 5x copies of whichever one you are using. You can buy Emeralds in Club Escapade, they are 10k each though.
-> 
+>
 > If you have some spare Amethyst gems it might be worth trading for some Dekaja Gems and Dekunda Gems, they can be useful against enemies that buff or de-buff a lot. 3 to 5 of each should be plenty, you can also buy Amethyst from Club Escapade for 5k.
 
 Use Sage Brain Training on the Shared Computer (Academics +2)
@@ -279,7 +274,7 @@ Use Sage Brain Training on the Shared Computer (Academics +2)
 
 (Death Rank 8)
 
-* * *
+---
 
 **10/7 Wednesday**
 
@@ -295,9 +290,9 @@ Head to the Nurse’s Office (Supplemental Lesson 2 of 3)
 
 Spend time with Mamoru
 
-* Sounds like a lot of pressure (+1)
-* Myself (+3)
-* (Star Rank 2)
+- Sounds like a lot of pressure (+1)
+- Myself (+3)
+- (Star Rank 2)
 
 **Evening**
 
@@ -308,7 +303,7 @@ Check the command console for a new video.
 Use Veggie Farmer Sim on the Shared Computer  
 (Increases the amount you can harvest from the Rooftop Garden)
 
-* * *
+---
 
 **10/8 Thursday**
 
@@ -320,16 +315,16 @@ Head to the Nurse’s Office (Supplemental Lesson 3 of 3)
 
 Spend time at Bookworms
 
-* What happened? (+1)
-* That’s great (+1)
-* What are you talking about? (+1)
-* (Hierophant Rank 7)
+- What happened? (+1)
+- That’s great (+1)
+- What are you talking about? (+1)
+- (Hierophant Rank 7)
 
 **Evening**
 
 Study with Mitsuru and Akhiiko (Academics +2)
 
-* * *
+---
 
 **10/9 Friday**
 
@@ -343,15 +338,15 @@ Head to the Faculty Office (Academics +1)
 
 Spend time with Mamoru
 
-* Who’s “them”? (+1)
-* Sounds like fun (+1)
-* (Star Rank 3)
+- Who’s “them”? (+1)
+- Sounds like fun (+1)
+- (Star Rank 3)
 
 **Evening**
 
 Study with Fuuka (Academics +2)
 
-* * *
+---
 
 **10/10 Saturday**
 
@@ -365,10 +360,10 @@ Head to the Faculty Office (Academics +1)
 
 Spend time at Bookworms
 
-* A fan of yours (+1)
-* Any
-* Right now? (+3)
-* (Hierophant Rank 8)
+- A fan of yours (+1)
+- Any
+- Right now? (+3)
+- (Hierophant Rank 8)
 
 **Evening**
 
@@ -376,9 +371,9 @@ Check the command console for a new video.
 
 Take Koromaru for a walk
 
-* Ken comes tonight
+- Ken comes tonight
 
-* * *
+---
 
 **10/11 Sunday**
 
@@ -390,15 +385,15 @@ Shopping Channel: Juicy Seasonal Gift Set, 1x Paring Knife and 2x Candy Hosui Pe
 
 Spend time with Akinari
 
-* Really? (+1)
-* You have a point (+1)
-* (Sun Rank 2)
+- Really? (+1)
+- You have a point (+1)
+- (Sun Rank 2)
 
 **Evening**
 
 Study with Aigis (Academics +2)
 
-* * *
+---
 
 **10/12 Monday**
 
@@ -406,14 +401,14 @@ Study with Aigis (Academics +2)
 
 Spend time with Nozomi
 
-* Are you sick? (+3)
-* (Moon Rank 6)
+- Are you sick? (+3)
+- (Moon Rank 6)
 
 **Evening**
 
 Study with everyone (Academics +3)
 
-* * *
+---
 
 **10/13 Tuesday**
 
@@ -421,7 +416,7 @@ Study with everyone (Academics +3)
 
 Answer: Addiction
 
-* * *
+---
 
 **10/14 Wednesday**
 
@@ -429,7 +424,7 @@ Answer: Addiction
 
 Answer: Pythagoras
 
-* * *
+---
 
 **10/15 Thursday**
 
@@ -437,7 +432,7 @@ Answer: Pythagoras
 
 Answer: Super Conductivity
 
-* * *
+---
 
 **10/16 Friday**
 
@@ -445,7 +440,7 @@ Answer: Super Conductivity
 
 Answer: To reveal a secret
 
-* * *
+---
 
 **10/17 Saturday**
 
@@ -457,10 +452,10 @@ Automatic answer
 
 Spend time with Yuko
 
-* Any
-* I do
-* A girl (+1)
-* (Strength Rank 8)
+- Any
+- I do
+- A girl (+1)
+- (Strength Rank 8)
 
 **Evening**
 
@@ -470,9 +465,9 @@ Check the command console for a new video.
 
 Take Koromaru for a walk
 
-* Kenji (+3)
+- Kenji (+3)
 
-* * *
+---
 
 **10/18 Sunday**
 
@@ -484,17 +479,17 @@ Shopping Channel: Assortment of Instant Food, 5x Instant Curry and 10x Instant R
 
 Spend time with Akinari
 
-* I couldn’t say (+1)
-* Try not to talk too much (+1)
-* (Sun Rank 3)
+- I couldn’t say (+1)
+- Try not to talk too much (+1)
+- (Sun Rank 3)
 
 **Evening**
 
 Take Koromaru for a walk
 
-* (Yuko +3)
+- (Yuko +3)
 
-* * *
+---
 
 **10/19 Monday**
 
@@ -510,19 +505,19 @@ Answer: India (Charm +1)
 
 Speak to Mitsuru for exam rewards
 
-* 1x Power Incense III
-* 1x Guard Incense III
-* 1x Magic Incense III
-* 1x Speed Incense III
-* 1x Pendant of Unity
+- 1x Power Incense III
+- 1x Guard Incense III
+- 1x Magic Incense III
+- 1x Speed Incense III
+- 1x Pendant of Unity
 
 Head to the Faculty Office (Academics +1)
 
 Spend time with Yukari
 
-* Anytime (+3)
-* (Lovers Rank 6)
-* I wouldn’t mind (+1)
+- Anytime (+3)
+- (Lovers Rank 6)
+- I wouldn’t mind (+1)
 
 **Evening**
 
@@ -530,7 +525,7 @@ Spend time with Akihiko (Charm +1)
 
 (Akihiko Linked Episode 3)
 
-* * *
+---
 
 **10/20 Tuesday**
 
@@ -540,9 +535,9 @@ Head to the Faculty Office (Academics +1)
 
 Spend time with Keisuke
 
-* You’ve got talent (+3)
-* (Fortune Rank 3)
-* Will he be okay?
+- You’ve got talent (+3)
+- (Fortune Rank 3)
+- Will he be okay?
 
 **Evening**
 
@@ -550,10 +545,10 @@ Check the command console for a new video.
 
 Tend to the Garden with Aigis
 
-* Characteristics Unlocked: Physical Amp, Greatly Strengthens Physical Skills  
-    (Strengthens physical skills by 20%)
+- Characteristics Unlocked: Physical Amp, Greatly Strengthens Physical Skills  
+   (Strengthens physical skills by 20%)
 
-* * *
+---
 
 **10/21 Wednesday**
 
@@ -563,9 +558,9 @@ Head to the Faculty Office (Academics +1)
 
 Spend time with Bebe
 
-* Are you all right? (+3)
-* Any
-* (Temperence Rank 4)
+- Are you all right? (+3)
+- Any
+- (Temperence Rank 4)
 
 **Evening**
 
@@ -573,7 +568,7 @@ Hand in quest 75 to Elizabeth.
 
 Play You're the Answer at Game Parade (Academics +2)
 
-* * *
+---
 
 **10/22 Thursday**
 
@@ -585,18 +580,18 @@ Answer: Venus (Charm +1)
 
 Spend time with Keisuke
 
-* You’re pulling out of the contest? (+1)
-* Complaining to me won't help you (+3)
-* (Fortune Rank 4)
+- You’re pulling out of the contest? (+1)
+- Complaining to me won't help you (+3)
+- (Fortune Rank 4)
 
 **Evening**
 
 Brush Koromaru
 
-* Characteristics Unlocked: Auto Masukunda  
-    (Lowers Accuracy/Evasion of all foes for 3 turns when a battle starts)
+- Characteristics Unlocked: Auto Masukunda  
+   (Lowers Accuracy/Evasion of all foes for 3 turns when a battle starts)
 
-* * *
+---
 
 **10/23 Friday**
 
@@ -606,24 +601,24 @@ Stay Awake (Academics +1)
 
 (Academics Rank 6)
 
-* Achievement/Trophy: Peak Performance (37/48)
+- Achievement/Trophy: Peak Performance (37/48)
 
 **After School**
 
 Spend time with Bebe
 
-* Sure (+1)
-* Just stay in Japan! (+1)
-* (Temperence Rank 5)
+- Sure (+1)
+- Just stay in Japan! (+1)
+- (Temperence Rank 5)
 
 **Evening**
 
 Watch a DVD with Ken (Courage +1)
 
-* Characteristics Unlocked: Spirit Refresh  
-    (Automatically recover 5 SP each turn in battle)
+- Characteristics Unlocked: Spirit Refresh  
+   (Automatically recover 5 SP each turn in battle)
 
-* * *
+---
 
 **10/24 Saturday**
 
@@ -633,17 +628,17 @@ Grab a Lukewarm Taiyaki from the School Shop.
 
 Spend time with Chihiro
 
-* That’s all a misunderstanding
-* I know you’re innocent (+1)
-* (Justice Rank 8)
+- That’s all a misunderstanding
+- I know you’re innocent (+1)
+- (Justice Rank 8)
 
 **Evening**
 
 Take Koromaru for a walk
 
-* Keisuke (+3)
+- Keisuke (+3)
 
-* * *
+---
 
 **10/25 Sunday**
 
@@ -657,15 +652,15 @@ Put your Lukewarm Taiyaki in the fridge.
 
 Accept Chihiro’s Invite
 
-* I’m happy to help (+3)
+- I’m happy to help (+3)
 
 **Evening**
 
 Take Koromaru for a walk
 
-* Mamoru (+3)
+- Mamoru (+3)
 
-* * *
+---
 
 **10/26 Monday**
 
@@ -685,10 +680,10 @@ Check the fridge (1x Doctor in Jelly)
 
 Have tea with Mitsuru.
 
-* Characteristics Unlocked: Ailment Surge, Greatly Raises Critical Rate on Foes with Ailments  
-    (Raises party's critical rate by 15% on foes with ailments)
+- Characteristics Unlocked: Ailment Surge, Greatly Raises Critical Rate on Foes with Ailments  
+   (Raises party's critical rate by 15% on foes with ailments)
 
-* * *
+---
 
 **10/27 Tuesday**
 
@@ -696,17 +691,17 @@ Have tea with Mitsuru.
 
 Spend time with Keisuke
 
-* You should tell your dad! (+3)
-* (Fortune Rank 5)
+- You should tell your dad! (+3)
+- (Fortune Rank 5)
 
 **Evening**
 
 Tend to the garden with Fuuka (Social Link +1)
 
-* Characteristics Unlocked: Weakness Mitigator, Greatly Reduces Damage Taken When an Ally's Weakness is Struck  
-    (Reduces damage taken by 15% when an ally's weakness is struck)
+- Characteristics Unlocked: Weakness Mitigator, Greatly Reduces Damage Taken When an Ally's Weakness is Struck  
+   (Reduces damage taken by 15% when an ally's weakness is struck)
 
-* * *
+---
 
 **10/28 Wednesday**
 
@@ -714,17 +709,17 @@ Tend to the garden with Fuuka (Social Link +1)
 
 Spend time with Bebe
 
-* Why not take a break? (+1)
-* Let’s do it (+1)
-* I have your back! (+3)
-* (Temperence Rank 6)
+- Why not take a break? (+1)
+- Let’s do it (+1)
+- I have your back! (+3)
+- (Temperence Rank 6)
 
 **Evening**
 
 Use Assassin Site Note on the Shared Computer  
 (Will always inflict Distress when attacking an enemy from behind with Ambush)
 
-* * *
+---
 
 **10/29 Thursday**
 
@@ -738,9 +733,9 @@ Either.
 
 Spend time with Keisuke
 
-* Any
-* It’s your choice now (+3)
-* (Fortune Rank 6)
+- Any
+- It’s your choice now (+3)
+- (Fortune Rank 6)
 
 **Evening**
 
@@ -750,10 +745,10 @@ Buy Veggie Blog Note from the Suspicious Man in Escapade.
 
 Spend time with Mutatsu
 
-* I don't have any friends (+3)
-* (Tower Rank 3)
+- I don't have any friends (+3)
+- (Tower Rank 3)
 
-* * *
+---
 
 **10/30 Friday**
 
@@ -765,8 +760,8 @@ Answer: Beta-amylase (Charm +1)
 
 Spend time with Bebe
 
-* That’s a great idea (+3)
-* (Temperance Rank 7)
+- That’s a great idea (+3)
+- (Temperance Rank 7)
 
 **Evening**
 
@@ -776,16 +771,16 @@ Talk to Fuuka and head to Tartarus.
 
 **Dark Hour**
 
-> **Important! Important!  
-> **Don’t miss the search and rescues today, if you do, you'll be permanently locked out of a social link.
+> **Important! Important!**
+> Don’t miss the search and rescues today, if you do, you'll be permanently locked out of a social link.
 
 Before starting today, fuse Hecatoncheires, and level him to level 53 for Auto Maraku, before doing any other fusions.
 
-| **Fusion Recipe** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
+| **Fusion Recipe**                                  | **Skills to Pass On**                        | **Skills to Keep**                              |
+| -------------------------------------------------- | -------------------------------------------- | ----------------------------------------------- |
 | White Rider and Cu Chulainn Result: Hecatoncheires | Charge, Auto Tarukaja, Life Aid and Growth 2 | Vile Assault, Heatwave, Regenerate 2 and Endure |
 
-* Replace Growth 2, with Growth 3 if you have it. Replace Growth 2/3 with Auto Maraku when it reaches level 53
+- Replace Growth 2, with Growth 3 if you have it. Replace Growth 2/3 with Auto Maraku when it reaches level 53
 
 As usual I'd recommend getting the Lovers, Justice and Devil cards if you can.
 
@@ -809,46 +804,46 @@ You'll want to farm until you have 500k, are at least level 56 and Hectoncheires
 
 When you're ready, save your game, enter the velvet room, register your personas and fuse:
 
-| **Fusion Recipes** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
-| Lachesis and Cu Chulainn Result: Nidhoggr | Matarukaja, Masukukaja, Marakunda and Dekaja | Doesn't max out its skills |
-| Hecatoncheires and Kaiwan Result: Hariti | Auto Tarukaja, Auto Maraku, Life aid and Endure | Doesn't max out its skills |
-| Hariti and Dominion Result: Belphegor | Auto Tarukaja, Auto Maraku, Life aid and Endure | Mabufula, Maeigaon, Stagnant Air and Endure Light |
-| Belphegor and Baphomet Result: Dionysus | Auto Tarukaja, Auto Maraku, Life aid and Endure | Ziodyne, Mazionga, Heatwave and Resist Slash |
-| Dionysys and Mishaguji Result: Rangda | Auto Tarukaja, Auto Maraku, Life aid and Endure | Agidyne, Maeiga, Myriad Arrows and High Counter |
-| Rangda and Titania Result: Koumokuten | Auto Tarukaja, Auto Maraku, Life aid and High Counter | Gigantic Fist, Herculean Strike, Vile Assault and Enduring Soul |
-| Koumokuten and Okuninushi Result: Nebrios | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Evil Smile, Ghastly Wail, Fear Boost and Resist Ailments |
-| Nebiros and Quetzalcoatl Result: Ganesha | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Charge, Revolution, Gigantic Fist and Deathbound |
-| Ganesha and Girimekhala Result: Jatayu | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Garudyne, Magarula, Evade Pierce, Growth 3 |
+| **Fusion Recipes**                        | **Skills to Pass On**                                  | **Skills to Keep**                                              |
+| ----------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- |
+| Lachesis and Cu Chulainn Result: Nidhoggr | Matarukaja, Masukukaja, Marakunda and Dekaja           | Doesn't max out its skills                                      |
+| Hecatoncheires and Kaiwan Result: Hariti  | Auto Tarukaja, Auto Maraku, Life aid and Endure        | Doesn't max out its skills                                      |
+| Hariti and Dominion Result: Belphegor     | Auto Tarukaja, Auto Maraku, Life aid and Endure        | Mabufula, Maeigaon, Stagnant Air and Endure Light               |
+| Belphegor and Baphomet Result: Dionysus   | Auto Tarukaja, Auto Maraku, Life aid and Endure        | Ziodyne, Mazionga, Heatwave and Resist Slash                    |
+| Dionysys and Mishaguji Result: Rangda     | Auto Tarukaja, Auto Maraku, Life aid and Endure        | Agidyne, Maeiga, Myriad Arrows and High Counter                 |
+| Rangda and Titania Result: Koumokuten     | Auto Tarukaja, Auto Maraku, Life aid and High Counter  | Gigantic Fist, Herculean Strike, Vile Assault and Enduring Soul |
+| Koumokuten and Okuninushi Result: Nebrios | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Evil Smile, Ghastly Wail, Fear Boost and Resist Ailments        |
+| Nebiros and Quetzalcoatl Result: Ganesha  | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Charge, Revolution, Gigantic Fist and Deathbound                |
+| Ganesha and Girimekhala Result: Jatayu    | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Garudyne, Magarula, Evade Pierce, Growth 3                      |
 
 Summon Rangda and leave the velvet room
 
-* Characteristics Unlocked: Weakness Amp, for hitting 60% compendium  
-    (Increases damage by 20% when hitting an enemy's weakness)
+- Characteristics Unlocked: Weakness Amp, for hitting 60% compendium  
+   (Increases damage by 20% when hitting an enemy's weakness)
 
 Hand in quest 63, which unlocks:
 
-* 72\. Fusion Series #7: Hierophant, Daisoujou
+- 72\. Fusion Series #7: Hierophant, Daisoujou
 
 Save your game, then fuse:
 
-| **Fusion Recipe** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
-| Lachesis and Nebrios Result: Throne | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Kougan, Mahamaon, Hama Boost and Samarecarm |
+| **Fusion Recipe**                          | **Skills to Pass On**                                            | **Skills to Keep**                                                                      |
+| ------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Lachesis and Nebrios Result: Throne        | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul           | Kougan, Mahamaon, Hama Boost and Samarecarm                                             |
 | Kurama Tengu and Parvati Result: Siegfried | Auto Tarukaja, Auto Rakukaja Life aid and **Endure (Important)** | Brave Blade, Deathbound, Charge Crit Rate Amp and Auto Rebellion (Delete Auto Rakukaja) |
-| White Rider and Koumokuten Result: Suzaku | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Agidyne, Maragion, Diarahan and Samarecarm |
-| Mishaguji and Throne Result: Decarabia | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Agidyne, Megidola, Tetrakarn and Invigorate 2 |
-| Suzaku and Siegfried Result: Chernobog | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul | Eigaon, Maeiga, Shift Amp and Poision Mist |
-| Mishaguji and Samael Result: Atropos | Auto Tarukaja, Life aid, Mazionga and Endue | Ziodyne, Garudyne, Magarula and Dekunda |
+| White Rider and Koumokuten Result: Suzaku  | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul           | Agidyne, Maragion, Diarahan and Samarecarm                                              |
+| Mishaguji and Throne Result: Decarabia     | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul           | Agidyne, Megidola, Tetrakarn and Invigorate 2                                           |
+| Suzaku and Siegfried Result: Chernobog     | Auto Tarukaja, Auto Maraku, Life aid and Enduring Soul           | Eigaon, Maeiga, Shift Amp and Poision Mist                                              |
+| Mishaguji and Samael Result: Atropos       | Auto Tarukaja, Life aid, Mazionga and Endue                      | Ziodyne, Garudyne, Magarula and Dekunda                                                 |
 
 > Most of the personas will now have Auto Maraku which increases defence for the entire party for the first 3 turns, and Enduring Soul. Enduring Soul is like Endure but will also fully restore your hp when activated.
 
 You just unlocked two new Theurgies:
 
-* Best Friends, which gives Concentrate and Charge  
-    (From having Decarabia and Forneus)
-* Scarlot Havoc  
-    (From having Siegfried and Mithras)
+- Best Friends, which gives Concentrate and Charge  
+   (From having Decarabia and Forneus)
+- Scarlot Havoc  
+   (From having Siegfried and Mithras)
 
 Dismiss Succubus, Rangda and Decarabia
 
@@ -856,38 +851,38 @@ The persona's that you want to have on you are **Parvati, Titania, Throne, Atrop
 
 Hand in quest 71 to Elizabeth
 
-* Teach Growth 2/3 to Chernobog, replace Poision Mist
-* Teach Growth 2/3 to Atropos, replace Dekunda
-* Teach Growth 2/3 to Suzaku replace Diarahan, replace Growth with Fire amp at level 61
+- Teach Growth 2/3 to Chernobog, replace Poision Mist
+- Teach Growth 2/3 to Atropos, replace Dekunda
+- Teach Growth 2/3 to Suzaku replace Diarahan, replace Growth with Fire amp at level 61
 
 > Nidhoggr will be your buff and de-buff persona for the rest of the game. It has nearly every buff and debuff on it, you're just missing Marakukaja and Masukunda. They are both rank 9 skill cards, but are optional, only farm them if you want to complete the set. If you want a perfect buff and de-buff persona you can also teach him Dekaja and Dekunda.
 
 > Mahamaon with Hama Boost on shadows that are weak to light, has a very good to chance to one shot them. If it misses any in a group, you can use Kougan on any stragglers.
 
 > Siegfried is one of the best physical personas in the game, which is why he is more specialized for crit rate and damage. Make sure to use his Charge ability before you use the new Scarlet Havoc Theurgy and have Siegfried as the active persona when using Scarlet Havoc.
-> 
+>
 > I'd replace Brave Blade with either Slash Boost or Multi-Target Boost. Slash boost gives 25% damage bonus but needs to be farmed, whereas Multi-Target Boost is a 15% damage bonus, but you get it from Elizabeth. Both works well so go with whatever you have.
-> 
+>
 > If you farmed an Apt pupil earlier, I'd replace Auto Rebellion for it. Both give extra crit, the only difference is Apt Pupil is an unconditional crit boost, whereas Auto Rebellion requires Siegfried to be the starting persona. Again, both work well so go with whatever you have.
-> 
+>
 > I'd replace Life Aid with Growth 2/3, then replace Growth with Slash Amp when it hits level 61.
-> 
+>
 > The reason for these changes is because the Scarlet Havoc Theurgy with Slash Amp, Slash Boost/Multi-Target Boost and Charge can nearly one-shot any enemy in the game, even gatekeepers and Monad Bosses on Merciless. All those skills work on Deathbound too, so even though we actually deleted a stronger skill in Brave Blade, the extra damage from Slash Boost/Multi-Target Boost on both Deathbound and Scarlet Havoc easily make up for it.
 
 Return to the 171F and enter the Nomad Passage, defeat the first shadow and give the Whirlwind Bow to Yukari. Defeat the second and third shadows, then open the chests to get the Star Major Arcana.
 
 You'll want to have at least **275k** yen after selling all your loot.
 
-> **Important! Important!  
-> **Make sure you have personas from the following arcana's **Strength, Star, Temperence, Lovers, Moon, Justice, Fortune, Priestess,** and **Tower,** these are going to be the social links that you'll be working on. You will want to have at least **275k** after selling your loot
-> 
+> **Important! Important!**
+> Make sure you have personas from the following arcana's **Strength, Star, Temperence, Lovers, Moon, Justice, Fortune, Priestess,** and **Tower,** these are going to be the social links that you'll be working on. You will want to have at least **275k** after selling your loot
+>
 > If you want to buy all shopping channel items, you will need at least 370k.
-> 
+>
 > If you want to work out what your loot is worth before you leave, then you can use [Loot and Breakable Objects Tziah Block 2](loot-and-breakable-objects#tziah-block-2-145f-172fbreakable-objects), which has the name and sale values of everything.
-> 
-> **If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.**
+>
+> If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.\*\*
 
-* * *
+---
 
 #### **10/31 Saturday**
 
@@ -895,24 +890,24 @@ You'll want to have at least **275k** yen after selling all your loot.
 
 Sell your loot and collect your rewards.
 
-> **Important! Important!  
-> **You're about to do your first rank up where you must choose whether you want to stay friends or commit to a relationship. If you want to have the option to see the Christmas Eve date scene for that character, then you must be in a relationship with them.
+> **Important! Important!**
+> You're about to do your first rank up where you must choose whether you want to stay friends or commit to a relationship. If you want to have the option to see the Christmas Eve date scene for that character, then you must be in a relationship with them.
 
 Spend time with Chihiro
 
-* Don't worry, she'll help us (+1)
-* You need to tell her yourself (+1)
-* Any
-* What's gotten into you? (+1)
-* (Justice Rank 9)
-* **Platonic:** I like working with you, but...
-* Any
-* **Relationship:** I feel the same, Chihiro.
-* Any
+- Don't worry, she'll help us (+1)
+- You need to tell her yourself (+1)
+- Any
+- What's gotten into you? (+1)
+- (Justice Rank 9)
+- **Platonic:** I like working with you, but...
+- Any
+- **Relationship:** I feel the same, Chihiro.
+- Any
 
 If you choose to get into a relationship here, you will unlock:
 
-* Achievement/Trophy: That Special Someone (38/48)
+- Achievement/Trophy: That Special Someone (38/48)
 
 > You don’t have to get into a relationship with Chihiro for this achievement, but you will need to enter a relationship with someone before the end of the game. If you want the achievement now but don’t want to be in a relationship with Chihiro, choose the relationship route, then use the rewind feature to go back to after school.
 
@@ -920,290 +915,289 @@ If you choose to get into a relationship here, you will unlock:
 
 Take Koromaru for a walk
 
-* Ken comes tonight
-
-* * *
+- Ken comes tonight
 
 **End of Month Checklist**
 
-| Social Stats |   |
-| --- | --- |
-| Charm | Rank 6 (Popular) |
-| Academics | Rank 6 (Genius) |
-| Courage | Rank 6 (Badass) |
+| Social Stats |                  |
+| ------------ | ---------------- |
+| Charm        | Rank 6 (Popular) |
+| Academics    | Rank 6 (Genius)  |
+| Courage      | Rank 6 (Badass)  |
 
-| Social Links |   |
-| --- | --- |
-| Fool | Rank 5 |
-| Magician | Rank 9 |
-| Priestess | Rank 7 |
-| Emperor | Max Rank |
-| Hierophant | Rank 8 |
-| Lovers | Rank 6 |
-| Chariot | Max Rank |
-| Justice | Rank 9 |
-| Hermit | Max Rank |
-| Fortune | Rank 6 |
-| Strength | Rank 8 |
-| Hanged | Rank 7 |
-| Death | Rank 8 |
-| Temperance | Rank 7 |
-| Devil | Rank 4 |
-| Tower | Rank 3 |
-| Star | Rank 3 |
-| Moon | Rank 6 |
-| Sun | Rank 3 |
+| Social Links |          |
+| ------------ | -------- |
+| Fool         | Rank 5   |
+| Magician     | Rank 9   |
+| Priestess    | Rank 7   |
+| Emperor      | Max Rank |
+| Hierophant   | Rank 8   |
+| Lovers       | Rank 6   |
+| Chariot      | Max Rank |
+| Justice      | Rank 9   |
+| Hermit       | Max Rank |
+| Fortune      | Rank 6   |
+| Strength     | Rank 8   |
+| Hanged       | Rank 7   |
+| Death        | Rank 8   |
+| Temperance   | Rank 7   |
+| Devil        | Rank 4   |
+| Tower        | Rank 3   |
+| Star         | Rank 3   |
+| Moon         | Rank 6   |
+| Sun          | Rank 3   |
 
-| **Achievements/Trophies** |
-| --- |
-| Awakened Power |
-| SEES the Day |
-| The First of Many |
-| There’s no “I” in “Team” |
-| The Thrill of the Hunt |
-| The Power of Choice |
-| Shrouded Assassin |
-| Making the Dream Work |
-| Back on Track |
-| Gourmand |
-| Briefcase Burglar |
-| Eagle Eye |
-| Empowered Protector |
-| In High Deman |
-| Birthday Present |
-| Fusion Artisan |
-| The Fool’s Journey |
-| Dorm Life |
-| Eat Your Veggies, Peas |
-| Specialist |
-| Through Thick and Thin |
-| Unbreakable Link |
-| Shattered Plumes |
-| Extracurricular Excellence |
+| **Achievements/Trophies**          |
+| ---------------------------------- |
+| Awakened Power                     |
+| SEES the Day                       |
+| The First of Many                  |
+| There’s no “I” in “Team”           |
+| The Thrill of the Hunt             |
+| The Power of Choice                |
+| Shrouded Assassin                  |
+| Making the Dream Work              |
+| Back on Track                      |
+| Gourmand                           |
+| Briefcase Burglar                  |
+| Eagle Eye                          |
+| Empowered Protector                |
+| In High Deman                      |
+| Birthday Present                   |
+| Fusion Artisan                     |
+| The Fool’s Journey                 |
+| Dorm Life                          |
+| Eat Your Veggies, Peas             |
+| Specialist                         |
+| Through Thick and Thin             |
+| Unbreakable Link                   |
+| Shattered Plumes                   |
+| Extracurricular Excellence         |
 | Never Toy with Matter of the Heart |
-| Benevolent Purr-tector |
-| Top of the Class |
-| Beyond the Darkness |
-| Armor Disarmed |
-| The Strength of Our Hearts |
-| Get a Load of Those Numbers! |
-| Tempting Fate |
-| Dodging Lightning |
-| Glimpse of the Depths |
-| Twist of Fate |
-| That Special Someone |
-| Peak Performance |
-| The Horror of the Shade |
+| Benevolent Purr-tector             |
+| Top of the Class                   |
+| Beyond the Darkness                |
+| Armor Disarmed                     |
+| The Strength of Our Hearts         |
+| Get a Load of Those Numbers!       |
+| Tempting Fate                      |
+| Dodging Lightning                  |
+| Glimpse of the Depths              |
+| Twist of Fate                      |
+| That Special Someone               |
+| Peak Performance                   |
+| The Horror of the Shade            |
 
-| Persona Compendium |   |
-| --- | --- |
-| Fool | Decarabia |
-| Fool | Ose |
-| Fool | Black Frost |
-| Fool | Legion |
-| Fool | Slime |
-| Fool | Orpheus |
-| Magician | Rangda |
-| Magician | Orobas |
-| Magician | Sati |
-| Magician | Hua Po |
-| Magician | Jack-o'-Lantern |
-| Magician | Jack Frost |
-| Magician | Nekomata |
-| Priestess | Parvati |
-| Priestess | Ganga |
-| Priestess | Sarasvati |
-| Priestess | High Pixie |
-| Priestess | Unicorn |
-| Priestess | Apsaras |
-| Empress | Hariti |
-| Empress | Yakshini |
-| Empress | Leanan Sidhe |
-| Emperor | Belphegor |
-| Emperor | Naga Raja |
-| Emperor | King Frost |
-| Emperor | Take-Mikazuchi |
-| Emperor | Oberon |
-| Emperor | Forneus |
-| Hierophant | Mishaguji |
-| Hierophant | Thoth |
-| Hierophant | Flauros |
-| Hierophant | Shiisaa |
-| Hierophant | Berith |
-| Hierophant | Omoikane |
-| Lovers | Titania |
-| Lovers | Saki Mitama |
-| Lovers | Quuen Medb |
-| Lovers | Narcissus |
-| Lovers | Tam Lin |
-| Lovers | Silky |
-| Lovers | Pixie |
-| Chariot | Koumokuten |
-| Chariot | Shiki-Ouji |
-| Chariot | Oni |
-| Chariot | Mithras |
-| Chariot | Zouchouten |
-| Chariot | Chimera |
-| Chariot | Ara Mitama |
-| Justice | Throne |
-| Justice | Dominion |
-| Justice | Virtue |
-| Justice | Power |
-| Justice | Principality |
-| Justice | Archangel |
-| Justice | Angel |
-| Hermit | Nebiros |
-| Hermit | Kurama Tengu |
-| Hermit | Dakini |
-| Hermit | Mothman |
-| Hermit | Lamia |
-| Hermit | Naga |
-| Hermit | Onmoraki |
-| Fortune | Atropos |
-| Fortune | Lachesis |
-| Fortune | Clotho |
-| Fortune | Kushi Mitama |
-| Fortune | Sandman |
-| Fortune | Fortuna |
-| Strength | Siegfried |
-| Strength | White Rider |
-| Strength | Hanuman |
-| Strength | Jikokuten |
-| Strength | Matador |
-| Strength | Rakshasa |
-| Strength | Valkyrie |
-| Hanged | Hecatoncheires |
-| Hanged | Vasuki |
-| Hanged | Orthrus |
-| Hanged | Take-Minakata |
-| Hanged | Inugami |
-| Death | Samael |
-| Death | Loa |
-| Death | Pisaca |
-| Temperance | Suzaku |
-| Temperance | Okuninushi |
-| Temperance | Seiryu |
-| Temperance | Genbu |
-| Temperance | Mitra |
-| Temperance | Nigi Mitama |
-| Devil | Succubus |
-| Devil | Incubus |
-| Devil | Baphomet |
-| Devil | Mokoi |
-| Devil | Lilim |
-| Tower | Cu Chulainn |
-| Tower | Eligor |
-| Star | Ganesha |
-| Star | Kaiwan |
-| Star | Setanta |
-| Star | Neko Shogun |
-| Moon | Chernobog |
-| Moon | Dionysus |
-| Moon | Girimekhala |
-| Moon | Yamata-no-Orochi |
-| Moon | Gurulu |
-| Sun | Jatayu |
-| Sun | Quetzalcoatl |
-| Sun | Thunderbird |
-| Sun | Yatagarasu |
-| Judgement | Anubis |
-| Aeon | Nidhoggr |
+| Persona Compendium |                  |
+| ------------------ | ---------------- |
+| Fool               | Decarabia        |
+| Fool               | Ose              |
+| Fool               | Black Frost      |
+| Fool               | Legion           |
+| Fool               | Slime            |
+| Fool               | Orpheus          |
+| Magician           | Rangda           |
+| Magician           | Orobas           |
+| Magician           | Sati             |
+| Magician           | Hua Po           |
+| Magician           | Jack-o'-Lantern  |
+| Magician           | Jack Frost       |
+| Magician           | Nekomata         |
+| Priestess          | Parvati          |
+| Priestess          | Ganga            |
+| Priestess          | Sarasvati        |
+| Priestess          | High Pixie       |
+| Priestess          | Unicorn          |
+| Priestess          | Apsaras          |
+| Empress            | Hariti           |
+| Empress            | Yakshini         |
+| Empress            | Leanan Sidhe     |
+| Emperor            | Belphegor        |
+| Emperor            | Naga Raja        |
+| Emperor            | King Frost       |
+| Emperor            | Take-Mikazuchi   |
+| Emperor            | Oberon           |
+| Emperor            | Forneus          |
+| Hierophant         | Mishaguji        |
+| Hierophant         | Thoth            |
+| Hierophant         | Flauros          |
+| Hierophant         | Shiisaa          |
+| Hierophant         | Berith           |
+| Hierophant         | Omoikane         |
+| Lovers             | Titania          |
+| Lovers             | Saki Mitama      |
+| Lovers             | Quuen Medb       |
+| Lovers             | Narcissus        |
+| Lovers             | Tam Lin          |
+| Lovers             | Silky            |
+| Lovers             | Pixie            |
+| Chariot            | Koumokuten       |
+| Chariot            | Shiki-Ouji       |
+| Chariot            | Oni              |
+| Chariot            | Mithras          |
+| Chariot            | Zouchouten       |
+| Chariot            | Chimera          |
+| Chariot            | Ara Mitama       |
+| Justice            | Throne           |
+| Justice            | Dominion         |
+| Justice            | Virtue           |
+| Justice            | Power            |
+| Justice            | Principality     |
+| Justice            | Archangel        |
+| Justice            | Angel            |
+| Hermit             | Nebiros          |
+| Hermit             | Kurama Tengu     |
+| Hermit             | Dakini           |
+| Hermit             | Mothman          |
+| Hermit             | Lamia            |
+| Hermit             | Naga             |
+| Hermit             | Onmoraki         |
+| Fortune            | Atropos          |
+| Fortune            | Lachesis         |
+| Fortune            | Clotho           |
+| Fortune            | Kushi Mitama     |
+| Fortune            | Sandman          |
+| Fortune            | Fortuna          |
+| Strength           | Siegfried        |
+| Strength           | White Rider      |
+| Strength           | Hanuman          |
+| Strength           | Jikokuten        |
+| Strength           | Matador          |
+| Strength           | Rakshasa         |
+| Strength           | Valkyrie         |
+| Hanged             | Hecatoncheires   |
+| Hanged             | Vasuki           |
+| Hanged             | Orthrus          |
+| Hanged             | Take-Minakata    |
+| Hanged             | Inugami          |
+| Death              | Samael           |
+| Death              | Loa              |
+| Death              | Pisaca           |
+| Temperance         | Suzaku           |
+| Temperance         | Okuninushi       |
+| Temperance         | Seiryu           |
+| Temperance         | Genbu            |
+| Temperance         | Mitra            |
+| Temperance         | Nigi Mitama      |
+| Devil              | Succubus         |
+| Devil              | Incubus          |
+| Devil              | Baphomet         |
+| Devil              | Mokoi            |
+| Devil              | Lilim            |
+| Tower              | Cu Chulainn      |
+| Tower              | Eligor           |
+| Star               | Ganesha          |
+| Star               | Kaiwan           |
+| Star               | Setanta          |
+| Star               | Neko Shogun      |
+| Moon               | Chernobog        |
+| Moon               | Dionysus         |
+| Moon               | Girimekhala      |
+| Moon               | Yamata-no-Orochi |
+| Moon               | Gurulu           |
+| Sun                | Jatayu           |
+| Sun                | Quetzalcoatl     |
+| Sun                | Thunderbird      |
+| Sun                | Yatagarasu       |
+| Judgement          | Anubis           |
+| Aeon               | Nidhoggr         |
 
-| DLC Personas |   |
-| --- | --- |
-| Fool | Izanagi |
-| Magician | Zorro |
-| Priestess | Anat |
-| Priestess | Johanna |
-| Empress | Astarte |
-| Empress | Milady |
-| Emperor | Goemon |
-| Lovers | Carmen |
-| Chariot | Captain Kid |
-| Justice | Robin Hood |
-| Star | Vanadis |
-| Star | Cendrillon |
-| Moon | Kaguya |
+| DLC Personas |             |
+| ------------ | ----------- |
+| Fool         | Izanagi     |
+| Magician     | Zorro       |
+| Priestess    | Anat        |
+| Priestess    | Johanna     |
+| Empress      | Astarte     |
+| Empress      | Milady      |
+| Emperor      | Goemon      |
+| Lovers       | Carmen      |
+| Chariot      | Captain Kid |
+| Justice      | Robin Hood  |
+| Star         | Vanadis     |
+| Star         | Cendrillon  |
+| Moon         | Kaguya      |
 
-| Elizabeth's Requests | Status |
-| --- | --- |
-| 1\\. Bring me a Muscle Drink | Done |
-| 2\\. Retrieve the first old document | Done |
-| 3\\. Shadow Hunting Milestone | Done |
-| 4\\. Treasure Hunting Milestone | Done |
-| 5\\. Create a Persona that’s level 13 or above | Done |
-| 6\\. Create a Persona with Kouha | Done |
-| 7\\. Bring me a Juzumaru | Done |
-| 8\\. Experiment with fortune telling | Done |
-| 9\\. I’d like to try all kinds of drinks | Done |
-| 10\\. I’d like to try a beef bowl | Done |
-| 11\\. Please prevail in the Big Eater Challenge | Done |
-| 12\\. Bring me a pine resin | Done |
-| 13\\. Bring me a handheld game console | Done |
-| 14\\. Retrieve the second old document | Done |
-| 15\\. Shadow Hunting Milestone #2 | Done |
-| 16\\. Treasure Hunting Milestone #2 | Done |
-| 17\\. Fusion Series #1: Emperor, Oberon | Done |
-| 18\\. I’d like to be gifted a bouquet of flowers | Done |
-| 19\\. I want Jack Frost Dolls | Done |
-| 20\\. Bring me some potent medicine | Done |
-| 21.Retrieve the third old document | Done |
-| 22\\. Shadow Hunting Milestone #3 | Done |
-| 23\\. Persona Fusion Milestone | Done |
-| 24\\. Create a Persona that’s level 23 or above | Done |
-| 25\\. Fusion Series #2: Chariot, Mithras | Done |
-| 26\\. Bring me an Onimaru Kunitsuna | Done |
-| 27\\. Bring me a triangular sword | Done |
-| 28\\. Bring me a protein not for pros | Done |
-| 29\\. I want to look fashionable | Done |
-| 30\\. Retrieve the fourth old document | Done |
-| 31\\. Shadow Hunting Milestone #4 | Done |
-| 32\\. Treasure Hunting Milestone #3 | Done |
-| 33\\. Persona Fusion Milestone #2 | Done |
-| 34\\. Create a Persona with Torrent Shot | Done |
-| 35\\. Fusion Series #3: Hermit, Mothman | Done |
-| 36\\. Defeat a rare shadow #1 | Done |
-| 37\\. Traverse the Monad Passage | Done |
-| 38\\. I want to eat some chilled taiyaki | Done |
-| 39\\. Let me hear music unique to Gekkoukan | Done |
-| 40\\. I'd like to see a pai of Max Safety Shoes | Done |
-| 41\\. Bring me the mysterious person's autograph | Done |
-| 42\\. Please feed the cat | Done |
-| 43\\. Bring me a Christmas star | Done |
-| 44\\. I wish to feel the ocean | Done |
-| 45\\. Retrieve the old fifth document | Done |
-| 46\\. Shadow Hunting Milestone #5 | Done |
-| 47\\. Treasure Hunting Milestone #4 | Done |
-| 48\\. Persona Fusion Milestone #3 | Done |
-| 49\\. Create a Persona that’s level 38 or above | Done |
-| 50\\. Perform King and I | Done |
-| 51\\. Bring me an Outenta Mitsuyo | Done |
-| 52\\. I’d like to try a home-cooked meal | Done |
-| 53\\. I’d like to see a mysterious potato | Done |
-| 54\\. Attempt a hundred shrine visits | Done |
-| 55\\. I’d like to see proof of a bond | Done |
-| 56\\. Look for the drink with my name | Done |
-| 57\\. I’d like to try Aojiru | Done |
-| 58\\. I wish to become a straw millionaire | Done |
-| 59\\. Retrieve the sixth old document | Done |
-| 60\\. Shadow Hunting Milestone #6 | Done |
-| 61\\. Create a Persona that’s level 46 or above | Done |
-| 62\\. Fusion Series #4: Lovers, Titania | Done |
-| 63\\. Fusion Series #5: Magician, Rangda | Done |
-| 64\\. Defeat a rare Shadow #2 | Done |
-| 65\\. Bring me an Ote-Gine | Done |
-| 66\\. Bring me a giant, creepy doll | Done |
-| 67\\. Find me a beautiful tile | Done |
-| 68\\. Bring me a fruit knife | Done |
-| 69\\. Bring me oil | Done |
-| 70\\. Retrieve the seventh old document | Done |
-| 71\\. Fusion Series #6: Strength, Siegfried | Done |
-| 74\\. I'd like to try sushi | Done |
-| 75\\. Bring me a Sengoku-era helm | Done |
-| 76\\. Bring me a glasses wipe | Done |
-| 77\\. I’d like to walk around Paulownia Mall | Done |
-| 78\\. I’d like to visit Iwatodai Station | Done |
-| 79\\. I’d like to visit Naganaki Shrine | Done |
-| 80\\. I’d like to visit Gekkoukan High | Done |
-| 72\\. Fusion Series #7: Hierophant, Daisoujou | In Progress |
-| 73\\. Bring me a Mikazuki Munechika | In Progress |
+| Elizabeth's Requests                             | Status      |
+| ------------------------------------------------ | ----------- |
+| 1\\. Bring me a Muscle Drink                     | Done        |
+| 2\\. Retrieve the first old document             | Done        |
+| 3\\. Shadow Hunting Milestone                    | Done        |
+| 4\\. Treasure Hunting Milestone                  | Done        |
+| 5\\. Create a Persona that’s level 13 or above   | Done        |
+| 6\\. Create a Persona with Kouha                 | Done        |
+| 7\\. Bring me a Juzumaru                         | Done        |
+| 8\\. Experiment with fortune telling             | Done        |
+| 9\\. I’d like to try all kinds of drinks         | Done        |
+| 10\\. I’d like to try a beef bowl                | Done        |
+| 11\\. Please prevail in the Big Eater Challenge  | Done        |
+| 12\\. Bring me a pine resin                      | Done        |
+| 13\\. Bring me a handheld game console           | Done        |
+| 14\\. Retrieve the second old document           | Done        |
+| 15\\. Shadow Hunting Milestone #2                | Done        |
+| 16\\. Treasure Hunting Milestone #2              | Done        |
+| 17\\. Fusion Series #1: Emperor, Oberon          | Done        |
+| 18\\. I’d like to be gifted a bouquet of flowers | Done        |
+| 19\\. I want Jack Frost Dolls                    | Done        |
+| 20\\. Bring me some potent medicine              | Done        |
+| 21.Retrieve the third old document               | Done        |
+| 22\\. Shadow Hunting Milestone #3                | Done        |
+| 23\\. Persona Fusion Milestone                   | Done        |
+| 24\\. Create a Persona that’s level 23 or above  | Done        |
+| 25\\. Fusion Series #2: Chariot, Mithras         | Done        |
+| 26\\. Bring me an Onimaru Kunitsuna              | Done        |
+| 27\\. Bring me a triangular sword                | Done        |
+| 28\\. Bring me a protein not for pros            | Done        |
+| 29\\. I want to look fashionable                 | Done        |
+| 30\\. Retrieve the fourth old document           | Done        |
+| 31\\. Shadow Hunting Milestone #4                | Done        |
+| 32\\. Treasure Hunting Milestone #3              | Done        |
+| 33\\. Persona Fusion Milestone #2                | Done        |
+| 34\\. Create a Persona with Torrent Shot         | Done        |
+| 35\\. Fusion Series #3: Hermit, Mothman          | Done        |
+| 36\\. Defeat a rare shadow #1                    | Done        |
+| 37\\. Traverse the Monad Passage                 | Done        |
+| 38\\. I want to eat some chilled taiyaki         | Done        |
+| 39\\. Let me hear music unique to Gekkoukan      | Done        |
+| 40\\. I'd like to see a pai of Max Safety Shoes  | Done        |
+| 41\\. Bring me the mysterious person's autograph | Done        |
+| 42\\. Please feed the cat                        | Done        |
+| 43\\. Bring me a Christmas star                  | Done        |
+| 44\\. I wish to feel the ocean                   | Done        |
+| 45\\. Retrieve the old fifth document            | Done        |
+| 46\\. Shadow Hunting Milestone #5                | Done        |
+| 47\\. Treasure Hunting Milestone #4              | Done        |
+| 48\\. Persona Fusion Milestone #3                | Done        |
+| 49\\. Create a Persona that’s level 38 or above  | Done        |
+| 50\\. Perform King and I                         | Done        |
+| 51\\. Bring me an Outenta Mitsuyo                | Done        |
+| 52\\. I’d like to try a home-cooked meal         | Done        |
+| 53\\. I’d like to see a mysterious potato        | Done        |
+| 54\\. Attempt a hundred shrine visits            | Done        |
+| 55\\. I’d like to see proof of a bond            | Done        |
+| 56\\. Look for the drink with my name            | Done        |
+| 57\\. I’d like to try Aojiru                     | Done        |
+| 58\\. I wish to become a straw millionaire       | Done        |
+| 59\\. Retrieve the sixth old document            | Done        |
+| 60\\. Shadow Hunting Milestone #6                | Done        |
+| 61\\. Create a Persona that’s level 46 or above  | Done        |
+| 62\\. Fusion Series #4: Lovers, Titania          | Done        |
+| 63\\. Fusion Series #5: Magician, Rangda         | Done        |
+| 64\\. Defeat a rare Shadow #2                    | Done        |
+| 65\\. Bring me an Ote-Gine                       | Done        |
+| 66\\. Bring me a giant, creepy doll              | Done        |
+| 67\\. Find me a beautiful tile                   | Done        |
+| 68\\. Bring me a fruit knife                     | Done        |
+| 69\\. Bring me oil                               | Done        |
+| 70\\. Retrieve the seventh old document          | Done        |
+| 71\\. Fusion Series #6: Strength, Siegfried      | Done        |
+| 74\\. I'd like to try sushi                      | Done        |
+| 75\\. Bring me a Sengoku-era helm                | Done        |
+| 76\\. Bring me a glasses wipe                    | Done        |
+| 77\\. I’d like to walk around Paulownia Mall     | Done        |
+| 78\\. I’d like to visit Iwatodai Station         | Done        |
+| 79\\. I’d like to visit Naganaki Shrine          | Done        |
+| 80\\. I’d like to visit Gekkoukan High           | Done        |
+| 72\\. Fusion Series #7: Hierophant, Daisoujou    | In Progress |
+| 73\\. Bring me a Mikazuki Munechika              | In Progress |
+---

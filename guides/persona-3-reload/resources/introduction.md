@@ -1,50 +1,49 @@
-Introduction
-------------
+## Introduction
 
 #### **Persona 3 Reload 100% Walkthrough**
 
 Welcome to my 100% walkthrough of P3R, a fantastic jrpg made by Atlus and published by Sega. This guide has been designed so you can experience as much of the game as possible in a single playthrough, along with making the most of various gameplay mechanics. During the course of your playthrough you will:
 
-* Get every Achievement/Trophy
-* Max every social link
-* View all of the linked episodes
-* View all of the evening dorm hangouts
-* View all of the evening study sessions
-* Take Korumaru on all his walks
-* See 14 different days off invites
-* See all 15 of the summer film festival hangouts
-* Get top marks on every exam
-* Do every activity at least once (study in library, sing karaoke etc)
-* Be able to romance whoever you want, and take whoever you want to the date scenes
-* View the optional scene on 1/21
-* Use all of the computer software
-* Get all of the fridge items
-* View all the command console scenes
-* Complete all of Elizabeth’s quests
-* Complete all the search and rescues
+- Get every Achievement/Trophy
+- Max every social link
+- View all of the linked episodes
+- View all of the evening dorm hangouts
+- View all of the evening study sessions
+- Take Korumaru on all his walks
+- See 14 different days off invites
+- See all 15 of the summer film festival hangouts
+- Get top marks on every exam
+- Do every activity at least once (study in library, sing karaoke etc)
+- Be able to romance whoever you want, and take whoever you want to the date scenes
+- View the optional scene on 1/21
+- Use all of the computer software
+- Get all of the fridge items
+- View all the command console scenes
+- Complete all of Elizabeth’s quests
+- Complete all the search and rescues
 
 This guide also includes:
 
-* End of month checklist to help you stay on track
-* Social activities breakdown, so you can see when a social activity takes place in this guide
-* Guide for persona fusions including, recommend skills to pass on and recommend skills to keep
-* 100% compendium with a fusion guide for both DLC and Non DLC Personas
-* In depth breakdown on how to beat the secret boss, even on merciless
-* Gearing recommendations throughout the game, and how to make the best gear in the game
-* General gameplay tips and recommendations to help you get the most out of your playthrough
-* Going to Tartarus only on days when all your party members are available
-* Spoiler free walkthrough
+- End of month checklist to help you stay on track
+- Social activities breakdown, so you can see when a social activity takes place in this guide
+- Guide for persona fusions including, recommend skills to pass on and recommend skills to keep
+- 100% compendium with a fusion guide for both DLC and Non DLC Personas
+- In depth breakdown on how to beat the secret boss, even on merciless
+- Gearing recommendations throughout the game, and how to make the best gear in the game
+- General gameplay tips and recommendations to help you get the most out of your playthrough
+- Going to Tartarus only on days when all your party members are available
+- Spoiler free walkthrough
 
 #### **Episode Aigis**
 
-* Two separate guides for Episode Aigis, depending on what difficulty you want to play on, Peaceful to Hard, or Heartless
-* Complete all of Elizabeth's Quests
-* Allows you to carry over the DLC or Non DLC Persona guides (Peaceful to Hard), with suggested personas and fusions for both guides
-* Recommended gearing throughout the DLC
-* General gameplay tips
-* In depth breakdown on how to beat the secret boss on difficulties Peaceful to Hard
-* A new 100% fusion guide for Heartless difficulty, requires DLC Personas
-* In depth breakdown on how to beat the secret boss on Heartless (coming in a future update)
+- Two separate guides for Episode Aigis, depending on what difficulty you want to play on, Peaceful to Hard, or Heartless
+- Complete all of Elizabeth's Quests
+- Allows you to carry over the DLC or Non DLC Persona guides (Peaceful to Hard), with suggested personas and fusions for both guides
+- Recommended gearing throughout the DLC
+- General gameplay tips
+- In depth breakdown on how to beat the secret boss on difficulties Peaceful to Hard
+- A new 100% fusion guide for Heartless difficulty, requires DLC Personas
+- In depth breakdown on how to beat the secret boss on Heartless (coming in a future update)
 
 **Pre-game information**
 

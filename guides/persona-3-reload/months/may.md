@@ -1,9 +1,4 @@
-Main Game
----------
-
-### May
-
-#### **5/1 Friday**
+**5/1 Friday**
 
 **After school**
 
@@ -17,7 +12,7 @@ Use Digital Cram School on the Shared Computer (Academics +2)
 
 (Academics Rank 2)
 
-* * *
+---
 
 **5/2 Saturday**
 
@@ -29,10 +24,10 @@ Buy a Lukewarm Taiyaki from the School Store (Lobby area)
 
 Hang out with Yuko
 
-* What happened (+3)
-* It wasn’t your fault (+1)
-* That’s true (+3)
-* (Strength Rank 2)
+- What happened (+3)
+- It wasn’t your fault (+1)
+- That’s true (+3)
+- (Strength Rank 2)
 
 **Evening**
 
@@ -44,16 +39,16 @@ Play You're the Answer at Game Parade (Academics +2)
 
 Story Event
 
-* * *
+---
 
 **5/3 Sunday**
 
 **Daytime**
 
 > From today onwards Tanaka's Amazing Commodities airs every Sunday during the day, you can access it from the tv in your room or from the tv in the lounge. The shopping channel has some great items, but I do recommend skipping some though as buying every single item can get pricy.
-> 
+>
 > If you want to collect every single item from the shopping channel, I've included recommended amounts of yen you'll need at the end of each Tartarus visit.
-> 
+>
 > If you want to see the full list of every item you can get, click [Tanaka's Amazing Commodities](tanakas-amazing-commodities).
 
 Shopping Channel: Mother’s Day gift set, 1x Rose Bouquet, 2x Luxury Chocolate SP item for 2,980 Yen. Buy!
@@ -62,15 +57,15 @@ Vending machines refill today.
 
 Play Innocent Sin Online
 
-* Of course (+3)
-* Sunshine is overrated (+1)
-* (Hermit Rank 2)
+- Of course (+3)
+- Sunshine is overrated (+1)
+- (Hermit Rank 2)
 
 **Evening**
 
 Use Language Made Easy on the Shared Computer (Academics +2)
 
-* * *
+---
 
 **5/4 Monday**
 
@@ -78,13 +73,13 @@ Use Language Made Easy on the Shared Computer (Academics +2)
 
 Accept Kazushi’s invite
 
-* Are you on a diet? (+3)
+- Are you on a diet? (+3)
 
 **Evening**
 
 Use Animal Othello on the Shared Computer (Courage +2)
 
-* * *
+---
 
 **5/5 Tuesday**
 
@@ -94,15 +89,15 @@ Use Animal Othello on the Shared Computer (Courage +2)
 
 Play Innocent Sin Online
 
-* Oh really? o_O (+1)
-* You don’t like your job? (+3)
-* (Hermit Rank 3)
+- Oh really? o_O (+1)
+- You don’t like your job? (+3)
+- (Hermit Rank 3)
 
 **Evening**
 
 Use Typing Ghoul on the Shared Computer (Courage +2)
 
-* * *
+---
 
 **5/6 Wednesday**
 
@@ -118,21 +113,21 @@ Answer: A pantograph (Charm +1)
 
 Hang out with Yuko
 
-* Any
-* Don’t worry about it (+1)
-* I’m honoured (+1)
-* (Strength Rank 3)
+- Any
+- Don’t worry about it (+1)
+- I’m honoured (+1)
+- (Strength Rank 3)
 
 **Evening**
 
 Check the Fridge.
 
-> **Important! Important!  
-> **Hold onto the Chilled Taiyaki, you'll need if for a quest later.
+> **Important! Important!**
+> Hold onto the Chilled Taiyaki, you'll need if for a quest later.
 
 Use Iwatodai Forum Note on the Shared Computer (Unlocks new drinks at the Iwatodai Vending Machine)
 
-* * *
+---
 
 **5/7 Thursday**
 
@@ -150,7 +145,7 @@ Talk to Chihiro, choose “Let’s walk home together”
 
 Run Lessons in Etiquette on the Shared Computer (Charm +2)
 
-* * *
+---
 
 **5/8 Friday**
 
@@ -158,18 +153,18 @@ Run Lessons in Etiquette on the Shared Computer (Charm +2)
 
 Hang out with Kenji
 
-* That’s a secret (+1)
-* I’m into older women, too (+1)
-* (Magician Rank 2)
+- That’s a secret (+1)
+- I’m into older women, too (+1)
+- (Magician Rank 2)
 
 **Evening**
 
-> **Important! Important!  
-> **The game will warn you about an upcoming ordeal, if you’ve been following the fusion guide, you're all set. If you’re fusing your own personas, make sure you have your battle personas equipped before doing tonight’s activity.
+> **Important! Important!**
+> The game will warn you about an upcoming ordeal, if you’ve been following the fusion guide, you're all set. If you’re fusing your own personas, make sure you have your battle personas equipped before doing tonight’s activity.
 
 Play House of the Deceased at Game Parade (Courage +2)
 
-* * *
+---
 
 **5/9 Saturday**
 
@@ -180,11 +175,11 @@ You'll face your first Major Arcana boss tonight. This is a very linear section,
 
 > Valkyrie is very handy against the boss.
 
-* Achievement/Trophy: Back on Track (9/48)
+- Achievement/Trophy: Back on Track (9/48)
 
 (Fool Rank 3)
 
-* * *
+---
 
 **5/10 Sunday**
 
@@ -192,41 +187,41 @@ You'll face your first Major Arcana boss tonight. This is a very linear section,
 
 Vending machines refill today. While you're at the vending machines, buy 1 of each unique drink, you'll need them for a quest later. Don’t forget to buy all the usual SP drinks too.
 
-* Cielo Mist, SoBay and Mad Bull (2F Dorm)
-* Starvicks, Cylon Tea and Aguafeena (3F Dorm)
-* Nastea, BauerBar, and Fountain Dew (3F Strip Mall)
-* Definitely Lemonade, Happiness Water and 4biotic (Iwatodai Station)
-* Dr. Salt, Moonkist and 1 Up (Port Island Station)
+- Cielo Mist, SoBay and Mad Bull (2F Dorm)
+- Starvicks, Cylon Tea and Aguafeena (3F Dorm)
+- Nastea, BauerBar, and Fountain Dew (3F Strip Mall)
+- Definitely Lemonade, Happiness Water and 4biotic (Iwatodai Station)
+- Dr. Salt, Moonkist and 1 Up (Port Island Station)
 
 The Shopping channel has a Jelly Tasting Set: Includs 1x Antibiotic Gel and 5x Sappy Jelly for 3,980 Yen. Skip!
 
 Play Innocent Sin Online
 
-* Let’s plan our wedding, then (+3)
-* (Hermit Rank 4) (Devil Flag)
+- Let’s plan our wedding, then (+3)
+- (Hermit Rank 4) (Devil Flag)
 
 **Evening**
 
 > Elizabeth’s quests unlock tonight. They give some amazing items, yen, personas and are also one of your main sources of Twighlight Fragments. The other main source of Twighlight Fragments comes from levelling up social links.
-> 
+>
 > **Important! Important!**  
 > You'll need to do Elizabeth's quests in order to follow this guide. Some of them give social stat points, which this guide uses. If you start skipping quests, you may find yourself not having access to quests at the correct time and not getting a social rank up when needed.
 
 Go see Elizabeth to start her quests, she’s at the back of Paulownia Mall, and accept:
 
-* 1\. Bring me a Muscle Drink
-* 2\. Retrieve the first old document
-* 3\. Shadow Hunting Milestone
-* 4\. Treasure Hunting Milestone
-* 5\. Create a Persona that’s level 13 or above
-* 8\. Experiment with fortune telling
-* 12\. Bring me pine resin
+- 1\. Bring me a Muscle Drink
+- 2\. Retrieve the first old document
+- 3\. Shadow Hunting Milestone
+- 4\. Treasure Hunting Milestone
+- 5\. Create a Persona that’s level 13 or above
+- 8\. Experiment with fortune telling
+- 12\. Bring me pine resin
 
 You should be able to turn in quest 2 and 3, which unlocks:
 
-* 7\. Bring me a Juzunaru
-* 14\. Retrieve the second old document
-* 15\. Shadow Hunting Milestone #2
+- 7\. Bring me a Juzunaru
+- 14\. Retrieve the second old document
+- 15\. Shadow Hunting Milestone #2
 
 Accept these ones too. Elizabeth will then inform you that a change has happened within Tartarus, which means the next block of Tartarus is now available, you won’t be going back to Tartarus for a little bit though.
 
@@ -236,27 +231,27 @@ Accept these ones too. Elizabeth will then inform you that a change has happened
 
 Go to Aohige Pharmacy at Paulownia Mall and buy a Muscle Drink. Return to the dorm and speak to Yukari, then return to Elizabeth and hand in both quests. Afterwards you'll receive 3 more quests.
 
-* 9\. I’d like to try all kinds of drinks
-* 10\. I’d like to try a beef bowl
-* 13\. Bring me a handheld game console
+- 9\. I’d like to try all kinds of drinks
+- 10\. I’d like to try a beef bowl
+- 13\. Bring me a handheld game console
 
 Accept all of these and return to the dorm and speak to Junpei. Return to Elizabeth and hand in quests 9 and 13. You'll need to select “Hand over the drinks” command to complete quest 13. You'll receive one more additional quest:
 
-* 11\. Please prevail in the Big Eater Challenge
+- 11\. Please prevail in the Big Eater Challenge
 
 Accept the quest. Equip Pixel Vest on Makoto, then give Yukari, the Hothead Shirt and the Toy Bow.
 
 Take on the Big Eater Challenge at Wilduck at the Strip Mall
 
-* Look away from the burgers
-* Eat without stopping
-* Imagine something sour
+- Look away from the burgers
+- Eat without stopping
+- Imagine something sour
 
 (Academics, Charm and Courage +2)
 
 (Courage Rank 3)
 
-* * *
+---
 
 **5/11 Monday**
 
@@ -276,7 +271,7 @@ Mitsuru will inform you that the equipment in the command room is malfunctioning
 
 Use Umiushi Fan Book on the Shared Computer (Can now buy items at Umiushi Beef Bowl)
 
-* * *
+---
 
 **5/12 Tuesday**
 
@@ -298,9 +293,9 @@ Hand in quests 10 and 11 to Elizabeth
 
 Work at Chagall Cafe in Paulownia Mall (Charm, Courage +1 and 2,500 yen)
 
-* Achievement/Trophy: The Grindset Mindset (7,500/50,000)
+- Achievement/Trophy: The Grindset Mindset (7,500/50,000)
 
-* * *
+---
 
 **5/13 Wednesday**
 
@@ -314,18 +309,18 @@ Answer: The Pendulum (Charm +1)
 
 Spend time with Maiko
 
-* Sure, Let’s go (+3)
-* Any
-* Any
-* (Hanged Rank 2)
+- Sure, Let’s go (+3)
+- Any
+- Any
+- (Hanged Rank 2)
 
 **Evening**
 
 Work at Chagall Cafe (Charm, Courage +1, and 2,500 yen)
 
-* Achievement/Trophy: The Grindset Mindset (10,000/50,000)
+- Achievement/Trophy: The Grindset Mindset (10,000/50,000)
 
-* * *
+---
 
 **5/14 Thursday**
 
@@ -333,13 +328,13 @@ Work at Chagall Cafe (Charm, Courage +1, and 2,500 yen)
 
 Spend time at Bookworms
 
-* Looking for something? (+1)
-* Can I help? (+3)
-* Any
-* Any
-* Any
-* Any
-* (Hierophant Rank 3) (Temperence Flag)
+- Looking for something? (+1)
+- Can I help? (+3)
+- Any
+- Any
+- Any
+- Any
+- (Hierophant Rank 3) (Temperence Flag)
 
 **Evening**
 
@@ -347,11 +342,11 @@ Eat the “Seafood Full Course” at Wakatsu Kitchen (Academics +2)
 
 (Requires Charm Rank 3)
 
-* Achievement/Trophy: Gourmand (10/48)
+- Achievement/Trophy: Gourmand (10/48)
 
 > The secret menu at each of the restaurants, will give more points to your social stats compared to the standard menu. This is despite the game saying they're both 2 note activities.
 
-* * *
+---
 
 **5/15 Friday**
 
@@ -363,16 +358,16 @@ Answer: May Blues (Charm +1)
 
 Spend time at Bookworms
 
-* I’ll wait here (+3)
-* Any
-* I’m worried (+1)
-* (Hierophant Rank 4)
+- I’ll wait here (+3)
+- Any
+- I’m worried (+1)
+- (Hierophant Rank 4)
 
 **Evening**
 
 Study with Mitsuru and Sanada (Academics +2)
 
-* * *
+---
 
 **5/16 Saturday**
 
@@ -384,15 +379,15 @@ Stay awake (Academics +1)
 
 Spend time with Maiko
 
-* Any
-* Don’t worry, he’ll be there (+3)
-* (Hanged Rank 3) (Sun Flag)
+- Any
+- Don’t worry, he’ll be there (+3)
+- (Hanged Rank 3) (Sun Flag)
 
 **Evening**
 
 Study with Yukari and Junpei (Academics +2)
 
-* * *
+---
 
 **5/17 Sunday**
 
@@ -402,9 +397,9 @@ Vending machines refill today.
 
 Play Innocent Sin Online
 
-* Do you mean S.O.B.? (+1)
-* Are you a teacher? (+1)
-* (Hermit Rank 5)
+- Do you mean S.O.B.? (+1)
+- Are you a teacher? (+1)
+- (Hermit Rank 5)
 
 **Evening**
 
@@ -412,37 +407,37 @@ Study with Teammates (Academics +3)
 
 (Academics Rank 3)
 
-* * *
+---
 
 **5/18 Monday**
 
 Automatic question
 
-* * *
+---
 
 **5/19 Tuesday**
 
 Answer: May Blues
 
-* * *
+---
 
 **5/20 Wednesday**
 
 Answer: A Pendulum
 
-* * *
+---
 
 **5/21 Thursday**
 
 Answer: Electricity
 
-* * *
+---
 
 **5/22 Friday**
 
 Answer: Jomon
 
-* * *
+---
 
 **5/23 Saturday**
 
@@ -456,18 +451,18 @@ Head to the velvet room and summon Archangel.
 
 Spend time with Chihiro
 
-* Don’t worry about it (+3)
-* I read manga (+1)
-* I’m having fun (+1)
-* Any
-* Any
-* (Justice Rank 2)
+- Don’t worry about it (+3)
+- I read manga (+1)
+- I’m having fun (+1)
+- Any
+- Any
+- (Justice Rank 2)
 
 **Evening**
 
 Use Virtual Diet on the Shared Computer (Charm +2)
 
-* * *
+---
 
 **5/24 Sunday**
 
@@ -479,7 +474,7 @@ Vending machine refills today.
 
 Accept Kenji’s invite
 
-* I’m pretty picky (+3)
+- I’m pretty picky (+3)
 
 **Evening**
 
@@ -489,20 +484,20 @@ Talk to Mitsuru to go to Tartarus.
 
 **Dark Hour**
 
-> **Important! Important!  
-> **If you’re playing the game on a higher difficulty and want to keep the difficulty up, be very careful farming golden hands and getting exp cards from shuffle times, from this point onwards. Both of these can make it very easy to over-level and remove any difficulty from the game, if you don’t care about over levelling then farm away.
-> 
+> **Important! Important!**
+> If you’re playing the game on a higher difficulty and want to keep the difficulty up, be very careful farming golden hands and getting exp cards from shuffle times, from this point onwards. Both of these can make it very easy to over-level and remove any difficulty from the game, if you don’t care about over levelling then farm away.
+>
 > Akihiko is back, so you now have a party of 4. Between having a 4th member and being at a much higher level than the last time you went to Tartarus, you'll have a lot more SP. If you’ve been keeping up with the vending machines and quests, then you should also have a decent amount of SP restorative items too. The enemies are stronger this time, so you'll still need to manage your SP. I’d recommend the same tactics as before; remember there’s always the grand clock at the start if you run out of SP restorative items.
-> 
+>
 > Since the game first game out, Atlus has released an update that increases the amount of Twilight Fragments you get from your initial social links. You can use your Twilight Fragments more freely now.
 
 > From tonight onwards, you don't want to be collecting personas from shuffle times unless I specifically say. This is because the personas you get from shuffle times only have a few skills on them, meaning you won't be able to pass on the same number of skills as in the guide.
-> 
+>
 > You also run the risk of overwriting that persona in the compendium when you go to register your personas, deleting all the skills you've passed to it and potentially messing up the fusion guide.
 
 Some of the locked chests can contain some nice pieces of gear, unfortunately the drops are random. Any pieces you do get, I’d recommend giving it to whoever has the weakest gear at the time. Somewhere along the line you should unlock:
 
-* Achievement/Trophy: Briefcase Burglar (opened 50 chests) (11/48)
+- Achievement/Trophy: Briefcase Burglar (opened 50 chests) (11/48)
 
 > Archangel has Kouha for light weak enemies.
 
@@ -514,22 +509,22 @@ Take on the gatekeeper, after defeating it continue working your way up Tartarus
 
 Save your game, have at least 15k then return to the velvet room, register your personas and fuse:
 
-| **Fusion Recipe** | **Skills to Pass On** |
-| --- | --- |
-| Inugami and Archangel Result: Unicorn | Bufu, Garu, Agi and Zio |
-| Onmoraki and Inugami Result: Nigi Mitama | Bufu, Poisma and Tarunda |
-| Omoikane amd Archangel Result: Slime | Single Shot, Kouha, Bufu and Agi |
-| Jack Frost and Slime Result: Berith | Pulinpa, Evil Touch and Bash |
-| Unicorn and Berith Result: Tam Lin | Agi, Kouha, Bufu and Single Shot |
+| **Fusion Recipe**                        | **Skills to Pass On**            |
+| ---------------------------------------- | -------------------------------- |
+| Inugami and Archangel Result: Unicorn    | Bufu, Garu, Agi and Zio          |
+| Onmoraki and Inugami Result: Nigi Mitama | Bufu, Poisma and Tarunda         |
+| Omoikane amd Archangel Result: Slime     | Single Shot, Kouha, Bufu and Agi |
+| Jack Frost and Slime Result: Berith      | Pulinpa, Evil Touch and Bash     |
+| Unicorn and Berith Result: Tam Lin       | Agi, Kouha, Bufu and Single Shot |
 
 Summon back Berith.
 
 Afterwards hand in quests 4, 5, 8 and 15, which unlocks four more:
 
-* 6\. Create a Persona with Kouha
-* 16\. Treasure Hunting Milestone #2
-* 17\. Fusion Series #1: Emperor, Oberon
-* 22\. Shadow Hunting Milestone #3
+- 6\. Create a Persona with Kouha
+- 16\. Treasure Hunting Milestone #2
+- 17\. Fusion Series #1: Emperor, Oberon
+- 22\. Shadow Hunting Milestone #3
 
 You should be able to hand in number 6 straight away, then accept the rest.
 
@@ -538,7 +533,7 @@ Return to the 34F and take on the next gatekeeper, which turns out to be your fi
 Make your way up to the 42F and face the final gatekeeper of this block. Recommend saving beforehand, this gatekeeper is by far the strongest you've faced so far. If you want help defeating this shadow, highlight the following box.
 
 > This fight can be a nightmare if you don't have a proper strategy for it. It identifies everyone's weakness and goes after them relentlessly. On merciless it can easily one shot any party member from full health, get a one more and wipe the entire party out in quick succession.
-> 
+>
 > To defeat this gatekeeper, you'll want to use Akihiko's Tarunda to keep its attack down, and use Poisma on Nigi Mitama, it might take a few tries but keep going till it lands. Junpei and Yukari will guard every single turn, and Akihiko will guard every turn he's not using Tarunda. Once you've got Poisma to land, guard with Makoto as well, the poison will rapidly deplete the shadows hp, while guarding and Tarunda will massively reduce the damage it does to your party. Poison can't kill a shadow though, so once its hp is nearly depleted, hit it with any attack to finish it off.
 
 Afterwards make your way to the 44F and grab “Old Document 2” from the chest, then return to the entrance to hand in quests 7 and 14.
@@ -547,41 +542,41 @@ You'll likely need to do more farming for yen, as you have another batch of pers
 
 You'll want about 70k before doing the next batch of fusions. Once you've farmed it, save your game, register your personas and fuse:
 
-| **Fusion Recipe** | **Skills to Pass on** |
-| --- | --- |
-| Nigi Mitama and Slime Result: Zouchouten | Single Shot, Media, Baisudi, and Tarunda. Replace Bash with Assault Dive |
-| Archangel and Zouchouten Result: Jack-o'-Lantern | Auto Tarukaja, Zio, Kouha and Media |
-| Valkyrie and Jack-o'-Lantern Result: Oberon | Auto Tarukaja, Kouha, Agi and Maragi |
-| Berith and Oberon Result: Rakahasa | Auro Tarukaja, Power Slash, Bash and Single Shot |
-| Nigi Mitama and Rakshasa Result: Gurulu | Auto Tarukaja, Bufu, Garu and Poisma |
-| Unicorn and Gurulu Result: Neko Shogun | Auto Tarukaja, Kouha, Eiha and Poisma |
-| Tam Lin and Rakshasa Result: Naga | Auto Tarukaja, Fatal End Bash and Vaccum Slash |
-| Jack-o'-Lantern and Nigi Mitama Result: Principality | Auto Tarukaja, Media, Agi and Maragi |
-| Oberon and Inugami Result: Pisaca | Auto Tarukaja, Foul Breath Bufu and Poisma |
+| **Fusion Recipe**                                    | **Skills to Pass on**                                                    |
+| ---------------------------------------------------- | ------------------------------------------------------------------------ |
+| Nigi Mitama and Slime Result: Zouchouten             | Single Shot, Media, Baisudi, and Tarunda. Replace Bash with Assault Dive |
+| Archangel and Zouchouten Result: Jack-o'-Lantern     | Auto Tarukaja, Zio, Kouha and Media                                      |
+| Valkyrie and Jack-o'-Lantern Result: Oberon          | Auto Tarukaja, Kouha, Agi and Maragi                                     |
+| Berith and Oberon Result: Rakahasa                   | Auro Tarukaja, Power Slash, Bash and Single Shot                         |
+| Nigi Mitama and Rakshasa Result: Gurulu              | Auto Tarukaja, Bufu, Garu and Poisma                                     |
+| Unicorn and Gurulu Result: Neko Shogun               | Auto Tarukaja, Kouha, Eiha and Poisma                                    |
+| Tam Lin and Rakshasa Result: Naga                    | Auto Tarukaja, Fatal End Bash and Vaccum Slash                           |
+| Jack-o'-Lantern and Nigi Mitama Result: Principality | Auto Tarukaja, Media, Agi and Maragi                                     |
+| Oberon and Inugami Result: Pisaca                    | Auto Tarukaja, Foul Breath Bufu and Poisma                               |
 
 > Auto Tarukaja is the first of the main skills you'll be focusing on in this guide. It gives attack up for the first 3 turns in every fight, as long as it's on the starting persona.
 
 You should now have fused every persona up to level 17 in the compendium, except Fortuna from the Special Fusion section. Fill your stock with **Oberon, Zouchouten, Naga, Principality, Jack-o'-Lantern, Nigi Mitama, Inugami** and **Rakshasa,** you'll need to dismiss Neko Shogun, Pisaca and Chimera. You can now hand in quests 17 and 22 to Elizabeth now, unlocking two more:
 
-* 25\. Fusion Series #2: Chariot, Mithras
-* 31\. Shadow Hunting Milestone #4
+- 25\. Fusion Series #2: Chariot, Mithras
+- 31\. Shadow Hunting Milestone #4
 
 You have completed enough quests that Elizabeth will ask you to show her around Paulownia Mall, you'll need to speak to her again to trigger it.
 
-* 77\. I’d Like to walk around Paulownia Mall
+- 77\. I’d Like to walk around Paulownia Mall
 
 You'll need at least 60k after selling your loot, you'll likely need around 10-20K on you, save your game before leaving Tartarus. Sell your loot the next day, and if you have less than 60k, then you'll need to reload and farm some more, remember you can sell items and old gear if you're a little short. You can also drop the difficulty to peaceful to increase the value of your loot.
 
-> **Important! Important!  
-> **Make sure you have personas from the following arcana's before leaving Tartarus tonight. **Emperor, Chariot, Hermit, Justice, Magician, Temperence, Hanged and Strength,** these are the social links you're going to be working on. You'll also need at least **60****k** after selling all your loot.
-> 
+> **Important! Important!**
+> Make sure you have personas from the following arcana's before leaving Tartarus tonight. **Emperor, Chariot, Hermit, Justice, Magician, Temperence, Hanged and Strength,** these are the social links you're going to be working on. You'll also need at least **60\*\***k\*\* after selling all your loot.
+>
 > If you want to buy all the shopping channel items, you'll need at least 75k
-> 
+>
 > If you want to work out what your loot is worth before you leave, then you can use [Loot and Breakable Objects Arqa Block 1](loot-and-breakable-objects#arqa-block-1-23f-42f), which has the name and sale values of everything. The value of your loot depends on the difficulty you're playing on, values are listed for each difficulty.
-> 
-> **If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.**
+>
+> If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.\*\*
 
-* * *
+---
 
 **5/25 Monday**
 
@@ -589,7 +584,7 @@ You'll need at least 60k after selling your loot, you'll likely need around 10-2
 
 Exam Result: Top of the class (Charm +2)
 
-* Achievement/Trophy: Top of the Class (12/48)
+- Achievement/Trophy: Top of the Class (12/48)
 
 > You'll also gain another 1.51x multiplier on your social link responses for getting top of the class.
 
@@ -601,32 +596,32 @@ Stay Awake (Academics +1)
 
 Talk to Mitsuru and receive:
 
-* 1x Power Incense I
-* 1x Guard Incense I
-* 1x Magic Incense I
-* 1x Speed Incense I
-* 1x Proto-Choker (Equip on Makoto)
+- 1x Power Incense I
+- 1x Guard Incense I
+- 1x Magic Incense I
+- 1x Speed Incense I
+- 1x Proto-Choker (Equip on Makoto)
 
 > Incense can be used on your personas or party members’ personas. I wouldn’t use them on your personas at this stage in the game, you're going to be changing personas regularly, so they will just end up being wasted. I would also hold off on using them on your party members. Incenses are rare atm, and you've still got plenty of party members to join. I’d recommend waiting until you get every party member, then decide who your favourite ones are, then use your incenses on them.
 
 > If you check out the bulletin board by Mitsuru, you can see how your party members did on the exams.
 
-* Head to the nurse's office and drink the Strange Medicine (Courage +1)
+- Head to the nurse's office and drink the Strange Medicine (Courage +1)
 
 Sell your loot at the police station, you're still not buying any gear from the police station.
 
 Head to the shrine, pray to Inari and copy Makouha (Magic), you got it as a reward from one of Elizabeth's quests, then teach the copy to Principality.
 
 > From today, you can start making use of Inari, the red section of the shrine. Inari will allow you to copy any skill card you have, it’s free and takes up no time, but can only be done once a day. For this guide you'll mostly be focusing on making copies of certain single-target and multi-target elemental spells, plus a few passives.
-> 
+>
 > The only card that you need to make a copy of atm, is another copy of Makouha. Feel free to duplicate any other skill cards that you have on you.
 
 Spend time with Elizabeth, doesn’t take up any time, hand in quest 77.
 
 Head to the Student Council Room
 
-* Sounds like nonsense (+3)
-* (Emperor Rank 2)
+- Sounds like nonsense (+3)
+- (Emperor Rank 2)
 
 **Evening**
 
@@ -634,13 +629,13 @@ Rooftop Garden unlocks tonight. Plant Healthy Tomato Sprout.
 
 Grab the Twighlight Fragment in the top left corner
 
-* Achievement/Trophy: Eagle Eye (13/48)
+- Achievement/Trophy: Eagle Eye (13/48)
 
 Buy Muscle Boot Camp and Mindful Boot Camp from Manga Star (Net Cafe).
 
 Use Mindful Boot Camp on the Shared Computer (Increase SP by 5)
 
-* * *
+---
 
 **5/26 Tuesday**
 
@@ -659,9 +654,9 @@ You'll see a Man in a Suit at Paulownia Mall today; you can try talking to him, 
 
 Work at Chagall Cafe (Charm, Courage +1 and 3,500 yen)
 
-* Achievement/Trophy: The Grindset Mindset (13,500/50,000)
+- Achievement/Trophy: The Grindset Mindset (13,500/50,000)
 
-* * *
+---
 
 **5/27 Wednesday**
 
@@ -671,16 +666,16 @@ Head to Rafflesia in Port Island Station and buy a Buff Potato Sprout.
 
 Head to the Student Council Room
 
-* What happened? (+1)
-* (Emperor Rank 3)
+- What happened? (+1)
+- (Emperor Rank 3)
 
 **Evening**
 
 Work at Chagall Cafe (Charm, Courage +1 and 2,500 yen)
 
-* Achievement/Trophy: The Grindset Mindset (16,000/50,000)
+- Achievement/Trophy: The Grindset Mindset (16,000/50,000)
 
-* * *
+---
 
 **5/28 Thursday**
 
@@ -692,15 +687,15 @@ Stay Awake (Academics +1)
 
 Spend time with Kenji
 
-* What, of life? (+3)
-* Good luck! (+1)
-* (Magician Rank 3)
+- What, of life? (+3)
+- Good luck! (+1)
+- (Magician Rank 3)
 
 **Evening**
 
 Eat the Seafood Full Course at Wakatsu Kitchen (Academics +2)
 
-* * *
+---
 
 **5/29 Friday**
 
@@ -712,9 +707,9 @@ Stay Awake (Academics +1)
 
 Spend time with Kenji
 
-* Any
-* Good luck! (+3)
-* (Magician Rank 4) (Moon Flag)
+- Any
+- Good luck! (+3)
+- (Magician Rank 4) (Moon Flag)
 
 **Evening**
 
@@ -722,7 +717,7 @@ Check your mail to spend time with Akihiko
 
 (Akihiko Linked Episode 1)
 
-* * *
+---
 
 **5/30 Saturday**
 
@@ -732,18 +727,18 @@ Grab a Lukewarm Taiyaki from the School Store.
 
 Head to Paulownia Mall and speak to the “Chubby Student” (Charm Rank 3 Required)
 
-* What are you eating?
-* Pheromone Coffee
-* Red
-* Hagakure Bowl
-* Talk to him again to hand over the Odd Morsell
-* (Moon Rank 1)
+- What are you eating?
+- Pheromone Coffee
+- Red
+- Hagakure Bowl
+- Talk to him again to hand over the Odd Morsell
+- (Moon Rank 1)
 
 **Evening**
 
 Use Muscle Boot Camp on the Shared Computer (HP increased by 7)
 
-* * *
+---
 
 **5/31 Sunday**
 
@@ -759,105 +754,104 @@ Put the Lukewarm Taiyaki in the fridge (Don't ask how Makoto kept it warm since 
 
 Accept Yuko's invite
 
-* Let's just calm down first (+3)
+- Let's just calm down first (+3)
 
 **Evening**
 
 Eat the Weekend Wilduck Set at Wilduck (Courage +2)
 
-* * *
-
 **End of Month Checklist**
 
-| Social Stats |   |
-| --- | --- |
-| Charm | Rank 3 (Confidant) |
-| Academics | Rank 3 (Above Average) |
-| Courage | Rank 3 (Determined) |
+| Social Stats |                        |
+| ------------ | ---------------------- |
+| Charm        | Rank 3 (Confidant)     |
+| Academics    | Rank 3 (Above Average) |
+| Courage      | Rank 3 (Determined)    |
 
-| Social Links |   |
-| --- | --- |
-| Fool | Rank 3 |
-| Magician | Rank 4 |
-| Emperor | Rank 3 |
-| Hierophant | Rank 4 |
-| Chariot | Rank 3 |
-| Justice | Rank 2 |
-| Hermit | Rank 5 |
-| Strength | Rank 3 |
-| Hanged | Rank 3 |
-| Temperance | Rank 1 |
-| Moon | Rank 1 |
+| Social Links |        |
+| ------------ | ------ |
+| Fool         | Rank 3 |
+| Magician     | Rank 4 |
+| Emperor      | Rank 3 |
+| Hierophant   | Rank 4 |
+| Chariot      | Rank 3 |
+| Justice      | Rank 2 |
+| Hermit       | Rank 5 |
+| Strength     | Rank 3 |
+| Hanged       | Rank 3 |
+| Temperance   | Rank 1 |
+| Moon         | Rank 1 |
 
 | **Achievements/Trophies** |
-| --- |
-| Awakened Power |
-| SEES the Day |
-| The First of Many |
-| There’s no “I” in “Team” |
-| The Thrill of the Hunt |
-| The Power of Choice |
-| Shrouded Assassin |
-| Making the Dream Work |
-| Back on Track |
-| Gourmand |
-| Briefcase Burglar |
-| Top of the Class |
-| Eagle Eye |
+| ------------------------- |
+| Awakened Power            |
+| SEES the Day              |
+| The First of Many         |
+| There’s no “I” in “Team”  |
+| The Thrill of the Hunt    |
+| The Power of Choice       |
+| Shrouded Assassin         |
+| Making the Dream Work     |
+| Back on Track             |
+| Gourmand                  |
+| Briefcase Burglar         |
+| Top of the Class          |
+| Eagle Eye                 |
 
-| Persona Compendium |   |
-| --- | --- |
-| Fool | Slime |
-| Fool | Orpheus |
-| Magician | Jack-o'-Lantern |
-| Magician | Jack Frost |
-| Magician | Nekomata |
-| Priestess | Unicorn |
-| Priestess | Apsaras |
-| Emperor | Oberon |
-| Emperor | Forneus |
-| Hierophant | Berith |
-| Hierophant | Omoikane |
-| Lovers | Tam Lin |
-| Lovers | Silky |
-| Lovers | Pixie |
-| Chariot | Zouchouten |
-| Chariot | Chimera |
-| Chariot | Ara Mitama |
-| Justice | Principality |
-| Justice | Archangel |
-| Justice | Angel |
-| Hermit | Naga |
-| Hermit | Onmoraki |
-| Strength | Rakshasa |
-| Strength | Valkyrie |
-| Hanged | Inugami |
-| Death | Pisaca |
-| Temperance | Nigi Mitama |
-| Devil | Lilim |
-| Star | Neko Shogun |
-| Moon | Gurulu |
+| Persona Compendium |                 |
+| ------------------ | --------------- |
+| Fool               | Slime           |
+| Fool               | Orpheus         |
+| Magician           | Jack-o'-Lantern |
+| Magician           | Jack Frost      |
+| Magician           | Nekomata        |
+| Priestess          | Unicorn         |
+| Priestess          | Apsaras         |
+| Emperor            | Oberon          |
+| Emperor            | Forneus         |
+| Hierophant         | Berith          |
+| Hierophant         | Omoikane        |
+| Lovers             | Tam Lin         |
+| Lovers             | Silky           |
+| Lovers             | Pixie           |
+| Chariot            | Zouchouten      |
+| Chariot            | Chimera         |
+| Chariot            | Ara Mitama      |
+| Justice            | Principality    |
+| Justice            | Archangel       |
+| Justice            | Angel           |
+| Hermit             | Naga            |
+| Hermit             | Onmoraki        |
+| Strength           | Rakshasa        |
+| Strength           | Valkyrie        |
+| Hanged             | Inugami         |
+| Death              | Pisaca          |
+| Temperance         | Nigi Mitama     |
+| Devil              | Lilim           |
+| Star               | Neko Shogun     |
+| Moon               | Gurulu          |
 
-| Elizabeth's Requests | Status |
-| --- | --- |
-| 1\\. Bring me a Muscle Drink | Done |
-| 2\\. Retrieve the first old document | Done |
-| 3\\. Shadow Hunting Milestone | Done |
-| 4\\. Treasure Hunting Milestone | Done |
-| 5\\. Create a Persona that’s level 13 or above | Done |
-| 6\\. Create a Persona with Kouha | Done |
-| 7\\. Bring me a Juzumaru | Done |
-| 8\\. Experiment with fortune telling | Done |
-| 9\\. I’d like to try all kinds of drinks | Done |
-| 10\\. I’d like to try a beef bowl | Done |
-| 11\\. Please prevail in the Big Eater Challenge | Done |
-| 12\\. Bring me a pine resin | Done |
-| 13\\. Bring me a handheld game console | Done |
-| 14\\. Retrieve the second old document | Done |
-| 15\\. Shadow Hunting Milestone #2 | Done |
-| 17\\. Fusion Series #1: Emperor, Oberon | Done |
-| 22\\. Shadow Hunting Milestone #3 | Done |
-| 77\\. I’d like to walk around Paulownia Mall | Done |
-| 16\\. Treasure Hunting Milestone #2 | In Progress |
-| 25\\. Fusion Series #2 Chariot, Mithras | In Progress |
-| 31\\. Shadow Hunting Milestone #4 | In Progress |
+| Elizabeth's Requests                            | Status      |
+| ----------------------------------------------- | ----------- |
+| 1\\. Bring me a Muscle Drink                    | Done        |
+| 2\\. Retrieve the first old document            | Done        |
+| 3\\. Shadow Hunting Milestone                   | Done        |
+| 4\\. Treasure Hunting Milestone                 | Done        |
+| 5\\. Create a Persona that’s level 13 or above  | Done        |
+| 6\\. Create a Persona with Kouha                | Done        |
+| 7\\. Bring me a Juzumaru                        | Done        |
+| 8\\. Experiment with fortune telling            | Done        |
+| 9\\. I’d like to try all kinds of drinks        | Done        |
+| 10\\. I’d like to try a beef bowl               | Done        |
+| 11\\. Please prevail in the Big Eater Challenge | Done        |
+| 12\\. Bring me a pine resin                     | Done        |
+| 13\\. Bring me a handheld game console          | Done        |
+| 14\\. Retrieve the second old document          | Done        |
+| 15\\. Shadow Hunting Milestone #2               | Done        |
+| 17\\. Fusion Series #1: Emperor, Oberon         | Done        |
+| 22\\. Shadow Hunting Milestone #3               | Done        |
+| 77\\. I’d like to walk around Paulownia Mall    | Done        |
+| 16\\. Treasure Hunting Milestone #2             | In Progress |
+| 25\\. Fusion Series #2 Chariot, Mithras         | In Progress |
+| 31\\. Shadow Hunting Milestone #4               | In Progress |
+---

@@ -1,7 +1,3 @@
-Main Game
----------
-
-### July
 
 **7/1 Wednesday**
 
@@ -13,7 +9,7 @@ Head to the Student Council Room
 
 (Emperor Rank 10)
 
-* Achievement/Trophy: Unbreakable Link (21/48)
+- Achievement/Trophy: Unbreakable Link (21/48)
 
 > It will be a while before you can use the personas you unlock from maxing social links, they are all very high levels and some of them can only be made through advanced special fusions, which you haven't unlocked yet.
 
@@ -21,7 +17,7 @@ Head to the Student Council Room
 
 Eat the Special Hagakure Bowl at Hagakure (Charm +2)
 
-* * *
+---
 
 **7/2 Thursday**
 
@@ -29,18 +25,18 @@ Eat the Special Hagakure Bowl at Hagakure (Charm +2)
 
 Spend time with Chihiro
 
-* I’m all ears. (+2)
-* Yeah, she’s in love (+3)
-* (Justice Rank 5)
-* Happy to help (+2)
-* Hold her hand (+3)
+- I’m all ears. (+2)
+- Yeah, she’s in love (+3)
+- (Justice Rank 5)
+- Happy to help (+2)
+- Hold her hand (+3)
 
 **Evening**
 
 Head to Club Escapade and speak to the Luxury Shopkeeper, then speak to Elizabeth.
 
 > Black Quartz drops from the “Formidable Shadows” in the block of Tartarus you're about to explore, you can also get them from chests.
-> 
+>
 > If you have a spare 16k you can buy the Platinum Brooch from the luxury shopkeeper, then return to Elizabeth and use the talk command, you'll receive 2x Master Incense's. Highly optional.
 
 Get a Fortune reading if you want to farm golden hands.
@@ -53,13 +49,13 @@ Talk To Fuuka to head to Tartarus.
 
 Dismiss Nigi Mitama, and summon Piscas from the compendium, you'll need its dark spells.
 
-> **Important! Important!  
-> **You'll want to get Naga to level 22 before doing the next batch of fusions, it's the level it learns Invigorate 1, you'll then be passing it onto other personas during fusions. Invigorate 1 can also drop as a rank 4 skill card, if you get one before Naga hits 22 you can just teach it to him instead. Rare shadows and gatekeepers give a lot of exp, having Naga equipped when you defeat these enemies will significantly reduce the farming you need to do.
-> 
+> **Important! Important!**
+> You'll want to get Naga to level 22 before doing the next batch of fusions, it's the level it learns Invigorate 1, you'll then be passing it onto other personas during fusions. Invigorate 1 can also drop as a rank 4 skill card, if you get one before Naga hits 22 you can just teach it to him instead. Rare shadows and gatekeepers give a lot of exp, having Naga equipped when you defeat these enemies will significantly reduce the farming you need to do.
+>
 > Rank 5 skill cards will start dropping today, which means you can get the boost skill cards. The boost cards (Fire, Ice, Wind boost etc) increase damage by 25%, which is quite nice. These are completely optional skill cards though, the fusion guide doesn't use them, only farm them if you want a bit of extra damage.
-> 
+>
 > If you want to take on the secret boss at the end of the game, then you may want to farm the Slash Boost skill card. If you have issues getting it to drop tonight you can return to these floors during future Tartarus visits, you'll have plenty of opportunities to farm the skill card before you need it.
-> 
+>
 > For a full breakdown of every skill card, what rank they drop at and a description of each one click [Skill Cards.](skill-cards)
 
 > As you climb Tartarus tonight, you'll come across the missing people, they are all in the block you're about to do. You'll get a little animation showing the person when you enter the right floor, fully explore the floor to find them. When you find them, you can request an escort and the spare party member will escort them back to the entrance, so you can continue exploring.
@@ -74,39 +70,39 @@ Continue climbing until you reach the 60F for the next gatekeeper. After defeati
 
 Keep working your way up to the 69F for the next border floor, open the chest for the Old Document 3. At some point tonight you should unlock:
 
-* Achievement/Trophy: Extracurricular Excellence (22/48)
-* Achievement/Trophy: The Fool’s Journey (23/48) (Get 10 Major Arcana from shuffle time)
-* Achievement/Trophy: Birthday Present (24/48) (Got mine from Jack-o-Lantern)
-* Achievement/Trophy: Shattered Plumes (25/48) (use 50 Twighlight Fragments)
+- Achievement/Trophy: Extracurricular Excellence (22/48)
+- Achievement/Trophy: The Fool’s Journey (23/48) (Get 10 Major Arcana from shuffle time)
+- Achievement/Trophy: Birthday Present (24/48) (Got mine from Jack-o-Lantern)
+- Achievement/Trophy: Shattered Plumes (25/48) (use 50 Twighlight Fragments)
 
 Return to the entrance and hand in quests 16, 21 and 26 to Elizabeth, which unlocks:
 
-* 32\. Treasure Hunting Milestone #3
+- 32\. Treasure Hunting Milestone #3
 
 > From this point onwards the fusion guide will diverge for DLC personas and non DLC personas. If you have DLC personas installed, click [DLC Fusion Guide July](dlc-fusion-guide-main-game#july)
-> 
+>
 > Make sure you don't swap fusion paths midway through from here on out. If you choose the non DLC path, you need to stay on it until the end of the game.
 
 Farm until Naga is level 22, and you have 125k. I'd recommend floors 60 to 68, as that's where the rank 5 skill cards are, so you can collect those at the same time.
 
 Once you're ready, save your game, enter the velvet room, register your personas and fuse:
 
-| **Fusion Recipe** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
-| Naga and Oberon Result: Shiisaa | Auto Tarukaja, Invigorate 1, Zio, and Mazio | Doesn't max out skill list |
-| Shissa and Slime Result: Take-Minakata | Auto Tarukaja, Invigorate 1, Mazio and Assault Dive | Zionga, Auto Rakukaja, Dekaja and Survive Dark |
-| Principality and Take-Minakata Result: High Pixie | Auto Tarukaja, Auto Rakukaja, Invigorate 1 and Dekaja | Doesn't max out skill list |
-| High Pixie and Nigi Mitama Result: Sandman | Auto Tarukaja, Auto Rakukaja, Invigorate 1 and Tarunda | Doesn't max out skill list |
+| **Fusion Recipe**                                 | **Skills to Pass On**                                  | **Skills to Keep**                             |
+| ------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
+| Naga and Oberon Result: Shiisaa                   | Auto Tarukaja, Invigorate 1, Zio, and Mazio            | Doesn't max out skill list                     |
+| Shissa and Slime Result: Take-Minakata            | Auto Tarukaja, Invigorate 1, Mazio and Assault Dive    | Zionga, Auto Rakukaja, Dekaja and Survive Dark |
+| Principality and Take-Minakata Result: High Pixie | Auto Tarukaja, Auto Rakukaja, Invigorate 1 and Dekaja  | Doesn't max out skill list                     |
+| High Pixie and Nigi Mitama Result: Sandman        | Auto Tarukaja, Auto Rakukaja, Invigorate 1 and Tarunda | Doesn't max out skill list                     |
 
-| **Fusion Recipe** | **Skills to Pass On** | **Skills to Keep** |
-| --- | --- | --- |
-| Fortuna and Take-Minakata Result: Hua Po | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Dekaja | Agilao, Maragi, Fire Boost and Resist Freeze |
-| Hua Po and Zouchouten Result: Mokoi | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Tarunda | Doesn't max out its skills |
-| Mokoi and Sandman Result: Leanan Sidhe | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Tarunda | Doesn't max out its skills |
-| Leanan Sidhe and High Pixie Result: Mitra | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Mabufu | Doesn't max out its skills |
-| Pisaca and Take-Minakata Result: Matador | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Eiha | Doesn't max out its skills |
-| Mokoi and Matador Result: Narcissus | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Auto Sukukaja | Doesnt max out its skills |
-| Principality and Narcissus Result: Take Mikazuchi | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Auto Sukukaja | Zionga, Mazionga, Getsu-ei, Fatal End |
+| **Fusion Recipe**                                 | **Skills to Pass On**                                        | **Skills to Keep**                           |
+| ------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------- |
+| Fortuna and Take-Minakata Result: Hua Po          | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Dekaja        | Agilao, Maragi, Fire Boost and Resist Freeze |
+| Hua Po and Zouchouten Result: Mokoi               | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Tarunda       | Doesn't max out its skills                   |
+| Mokoi and Sandman Result: Leanan Sidhe            | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Tarunda       | Doesn't max out its skills                   |
+| Leanan Sidhe and High Pixie Result: Mitra         | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Mabufu        | Doesn't max out its skills                   |
+| Pisaca and Take-Minakata Result: Matador          | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Eiha          | Doesn't max out its skills                   |
+| Mokoi and Matador Result: Narcissus               | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Auto Sukukaja | Doesnt max out its skills                    |
+| Principality and Narcissus Result: Take Mikazuchi | Invigorate 1, Auto Tarukaja, Auto Rakukaja and Auto Sukukaja | Zionga, Mazionga, Getsu-ei, Fatal End        |
 
 You should have fused every persona in the compendium up to level 23 now, excluding Pale Rider from the special fusion section.
 
@@ -114,28 +110,28 @@ You should have fused every persona in the compendium up to level 23 now, exclud
 
 You should be able to hand it quests 24, 33 and 46, which unlock:
 
-* 32\. Treasure Hunting Milestone #3
-* 48\. Personna Fusion Milestone #3
-* 60\. Shadow Hunting Milestone #6
+- 32\. Treasure Hunting Milestone #3
+- 48\. Personna Fusion Milestone #3
+- 60\. Shadow Hunting Milestone #6
 
 Elizabeth will now ask you to escort her to Iwatodai Station.
 
 Dismiss Jack-o-Lantern and Rakshasa.
 
-The personas you should have on you before leaving are **Mitra, Take-Mikazuchi, Shiisaa, Matador, Hua Po, High Pixie, Naga, Take-Minakata, Principality** and **Fortuna**. You'll want to have about **8****0k** after selling all your loot, you'll also get 40k reward from one the rescued people.
+The personas you should have on you before leaving are **Mitra, Take-Mikazuchi, Shiisaa, Matador, Hua Po, High Pixie, Naga, Take-Minakata, Principality** and **Fortuna**. You'll want to have about **8\*\***0k\*\* after selling all your loot, you'll also get 40k reward from one the rescued people.
 
 > You've already maxed the Emperor social link, but Take-Mikazuchi is there because he's going to be a very useful persona at the next full moon boss.
 
-> **Important! Important!  
-> **Make sure you have personas from the following arcana before leaving: **Temperence, Strength, Magician, Hierophant, Priestess, Hermit, Hanged, Justice** and **Fortune,** these are going to be the social links that you'll be working on. You'll also need about **8****0k** after selling your loot.
-> 
+> **Important! Important!**
+> Make sure you have personas from the following arcana before leaving: **Temperence, Strength, Magician, Hierophant, Priestess, Hermit, Hanged, Justice** and **Fortune,** these are going to be the social links that you'll be working on. You'll also need about **8\*\***0k\*\* after selling your loot.
+>
 > If you want to buy all shopping channel items, you will want 110k.
-> 
+>
 > If you want to work out what your loot is worth before you leave, then you can use [Loot and Breakable Objects Arqa Block 2](loot-and-breakable-objects#arqa-block-2-43f-68f), which has the name and sale values of everything.
-> 
-> **If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.**
+>
+> If you're not following the fusion guide, you may need to farm more yen, the amounts calculated here don't include any additional persona swapping that I don't specifically mention.\*\*
 
-* * *
+---
 
 #### **7/3 Friday**
 
@@ -153,10 +149,10 @@ Go to the nurse's office to get a potent medicine.
 
 Spend time with Fuuka
 
-* Sure (+3)
-* Any
-* (Priestess Rank 2)
-* Sure thing (+3)
+- Sure (+3)
+- Any
+- (Priestess Rank 2)
+- Sure thing (+3)
 
 **Evening**
 
@@ -166,7 +162,7 @@ Hand in quests 20 and 29 to Elizabeth.
 
 Eat the Seafood Full Course at Wakatsu (Academics +2)
 
-* * *
+---
 
 **7/4 Saturday**
 
@@ -178,28 +174,28 @@ Spend time with Elizabeth, then hand in quest 78.
 
 Spend time with Fuuka
 
-* Just a dash or two (+3)
-* Just take it slow (+3)
-* (Priestess Rank 3)
-* Any
+- Just a dash or two (+3)
+- Just take it slow (+3)
+- (Priestess Rank 3)
+- Any
 
 **Evening**
 
 Tend to the garden with Junpei
 
-* Characteristics Unlocked: Critical Amp, Greatly Increases Critical Rate and Critical Strength  
-    (Increases crit rate by 10% and critical hit damage by 40%)
+- Characteristics Unlocked: Critical Amp, Greatly Increases Critical Rate and Critical Strength  
+   (Increases crit rate by 10% and critical hit damage by 40%)
 
-* * *
+---
 
 **7/5 Sunday**
 
 **Daytime**
 
 > If you want to give yourself the best chance of landing crits in the upcoming Major Arcana boss fight, duplicate your Crit Rate Boost card, you got one as a reward for one of Elizabeth's quests. Then teach it to Take-Mikazuchi and replace Fatal End.
-> 
+>
 > If you're using DLC personas, I wouldn't bother replacing any of the skills on Captain Kidd.
-> 
+>
 > If you farmed any Boost cards during the last visit to Tartarus, it's worth making duplicates of them, and any other skill cards that interest you.
 
 Shopping Channel: Tasty Office Snack Set, 3x YABA Chocolate and 3x Doctor in Jelly, for 3,980 Yen. Skip!
@@ -210,13 +206,13 @@ Vending machines refill today.
 
 Accept Yuko’s invite
 
-* You’re very responsible (+3)
+- You’re very responsible (+3)
 
 **Evening**
 
 Read with Mitsuru (Academics +1)
 
-* * *
+---
 
 **7/6 Monday**
 
@@ -226,10 +222,10 @@ Buy 4x Ascetic Charms from the police station.
 
 Spend time with Fuuka
 
-* Any
-* You’re a hard worker (+1)
-* That’s not true (+3)
-* (Priestess Rank 4)
+- Any
+- You’re a hard worker (+1)
+- That’s not true (+3)
+- (Priestess Rank 4)
 
 **Evening**
 
@@ -239,7 +235,7 @@ Harvest the Rooftop Garden, then plant Buff Potato Sprout.
 
 Play High School of Youth at Game Parade (Charm +2)
 
-* * *
+---
 
 **7/7 Tuesday**
 
@@ -253,11 +249,11 @@ It’s time for your 4th Major Arcana boss. I’d highly recommend leaving Mitsu
 
 You will be running around for a little bit before you get to the boss, just follow the ! Point on the map.
 
-* Achievement/Trophy: Never Toy with Matters of the Heart (26/48)
+- Achievement/Trophy: Never Toy with Matters of the Heart (26/48)
 
 (Fool Rank 4)
 
-* * *
+---
 
 **7/8 Wednesday**
 
@@ -269,15 +265,15 @@ Answer: Between “time” and “it’s” (Charm +1)
 
 Spend time at Bookworms
 
-* I wouldn’t worry about it (+1)
-* It’ll be okay (+1)
-* (Hierophant Rank 5)
+- I wouldn’t worry about it (+1)
+- It’ll be okay (+1)
+- (Hierophant Rank 5)
 
 **Evening**
 
 Eat Special Hagakure Bowl at Hagakure (Charm +2)
 
-* * *
+---
 
 **7/9 Thursday**
 
@@ -291,13 +287,13 @@ Elizabeth’s quests updates today.
 
 You should be able to turn in quests 34 and 38 straight away, then accept:
 
-* 30\. Retrieve the fourth old document
-* 36\. Defeat a rare Shadow #1
-* 39\. Let me hear music unique to Gekkoukan
-* 40\. I’d like a pair of Max Safety Shoes
-* 42\. Please feed the cat
-* 43\. Bring me a Christmas star
-* 44\. I wish to feel the ocean
+- 30\. Retrieve the fourth old document
+- 36\. Defeat a rare Shadow #1
+- 39\. Let me hear music unique to Gekkoukan
+- 40\. I’d like a pair of Max Safety Shoes
+- 42\. Please feed the cat
+- 43\. Bring me a Christmas star
+- 44\. I wish to feel the ocean
 
 > Dismiss Principality and summon Gurulu.
 
@@ -317,7 +313,7 @@ Check the fridge (1x Chilled Taiyaki)
 
 Study with Akihiko and Mitsuru (Academics +2)
 
-* * *
+---
 
 **7/10 Friday**
 
@@ -331,14 +327,14 @@ Feed the cat.
 
 Spend time with Nozomi
 
-* (Moon Rank 2)
-* Sure, why not (+3)
+- (Moon Rank 2)
+- Sure, why not (+3)
 
 **Evening**
 
 Study with Yukari and Fuuka (Academics +2)
 
-* * *
+---
 
 **7/11 Saturday**
 
@@ -352,8 +348,8 @@ Feed the cat.
 
 Spend time with Nozomi
 
-* (Moon Rank 3)
-* The Gourmet King (+3)
+- (Moon Rank 3)
+- The Gourmet King (+3)
 
 **Evening**
 
@@ -363,7 +359,7 @@ Give the Main in a Suit another 10k and then decided to hear him out.
 
 (Devil Rank 1)
 
-* * *
+---
 
 **7/12 Sunday**
 
@@ -375,13 +371,13 @@ Vending machines refill today.
 
 Feed the cat, then hand in quest 42 to Elizabeth
 
-* Achievement/Trophy: Benevolent Purr-tector (27/48)
+- Achievement/Trophy: Benevolent Purr-tector (27/48)
 
 Play Innocent Sin Online
 
-* Well, yeah. (+3)
-* She, um...what? (+1)
-* (Hermit Rank 7)
+- Well, yeah. (+3)
+- She, um...what? (+1)
+- (Hermit Rank 7)
 
 **Evening**
 
@@ -393,7 +389,7 @@ Eat the Seafood Full Course at Wakatsu Kitchen (Academics +2)
 
 (Death Rank 3)
 
-* * *
+---
 
 **7/13 Monday**
 
@@ -405,9 +401,9 @@ Stay awake (Academics +1)
 
 Spend time with Maiko
 
-* That’s awful (+3)
-* They would never (+1)
-* (Hanged Rank 5)
+- That’s awful (+3)
+- They would never (+1)
+- (Hanged Rank 5)
 
 **Evening**
 
@@ -415,7 +411,7 @@ Give the Max Safety Shoes to Yukari and then give the Gallant Sneakers to Junpei
 
 Study with everyone (Academics +3)
 
-* * *
+---
 
 **7/14 Tuesday**
 
@@ -423,7 +419,7 @@ Study with everyone (Academics +3)
 
 Answer: Dowsing
 
-* * *
+---
 
 **7/15 Wednesday**
 
@@ -431,7 +427,7 @@ Answer: Dowsing
 
 Answer: An error in translation
 
-* * *
+---
 
 **7/16 Thursday**
 
@@ -439,7 +435,7 @@ Answer: An error in translation
 
 Answer: Taira No Masakado
 
-* * *
+---
 
 **7/17 Friday**
 
@@ -447,7 +443,7 @@ Answer: Taira No Masakado
 
 Answer: Comma splice
 
-* * *
+---
 
 **7/18 Saturday**
 
@@ -467,7 +463,7 @@ Enter the antiques shop, then exit the shop and go see Elizabeth.
 
 Hand in quest 40 to Elizabeth, which unlocks:
 
-* 41\. Bring me the mysterious person's autograph
+- 41\. Bring me the mysterious person's autograph
 
 You should be able to hand this in straight away.
 
@@ -477,11 +473,11 @@ Return to the antiques shop, there isn't a lot you can do here atm, but if you'v
 
 Spend time with President Tanaka
 
-* "Placebo” (+3)
-* Wow (+1)
-* (Devil Rank 2)
+- "Placebo” (+3)
+- Wow (+1)
+- (Devil Rank 2)
 
-* * *
+---
 
 **7/19 Sunday**
 
@@ -495,9 +491,9 @@ Harvest the Rooftop Garden, then plant Amronion Sprout.
 
 Play Innocent Sin Online
 
-* Hurry up and tell me (+3)
-* What is he like? (+1)
-* (Hermit Rank 8)
+- Hurry up and tell me (+3)
+- What is he like? (+1)
+- (Hermit Rank 8)
 
 **Evening**
 
@@ -505,7 +501,7 @@ Play Innocent Sin Online
 
 Eat the Seafood Full Course at Wakatsu Kitchen (Academics +2)
 
-* * *
+---
 
 **7/20 Monday**
 
@@ -519,7 +515,7 @@ Grab the Strange Seaweed and the Pretty Seashell that are by the pier. Grab the 
 
 Story Event
 
-* * *
+---
 
 **7/21 Tuesday**
 
@@ -531,7 +527,7 @@ You try and pick up some girls, when you're ready to progress to the next sectio
 
 Story Event
 
-* * *
+---
 
 **7/22 Wednesday**
 
@@ -541,7 +537,7 @@ Story Event
 
 (Fool Rank 5)
 
-* * *
+---
 
 **7/23 Thursday**
 
@@ -557,7 +553,7 @@ Use Security Site Note on the Shared Computer.
 
 > You unlock the ability to always ambush shadows as long as you're sprinting, even if the shadows notices you, and it works on all shadows. It does take a bit of a run up to activate, you will see blue streaks behind you and Makoto will leap up into the air when you attack. When you next go to Tartarus, test it out when there are no shadows around to get a feel for it, it will make moving around Tartarus much easier and quicker.
 
-* * *
+---
 
 **7/24 Friday**
 
@@ -573,24 +569,24 @@ Exam Results: Top of the class (Charm +2)
 
 Spend time with Kenji
 
-* Let me handle this! (+3)
-* (Magician Rank 9)
+- Let me handle this! (+3)
+- (Magician Rank 9)
 
 **Evening**
 
 Speak to Mitsuru to Receive:
 
-* 1x Power Incense II
-* 1x Guard Incense II
-* 1x Magic Incense II
-* 1x Speed Incense II
-* 1x Mega Master Band (Equip on Makoto)
+- 1x Power Incense II
+- 1x Guard Incense II
+- 1x Magic Incense II
+- 1x Speed Incense II
+- 1x Mega Master Band (Equip on Makoto)
 
 Accept Akihiko's invite
 
 (Akihiko Linked Episode 2) (Charm +1)
 
-* * *
+---
 
 **7/25 Saturday**
 
@@ -614,16 +610,16 @@ Head to Club Escapade and talk to Monk on the 2F (Requires Courage Rank 2)
 
 Speak to Bartender downstairs, then take the drinks order for the four customers
 
-* Upbeat Man: Oolong Tea
-* Active Woman: Screwdriver
-* Temperamental Woman: Bloody Mary
-* Unemotional Woman: Margarita
+- Upbeat Man: Oolong Tea
+- Active Woman: Screwdriver
+- Temperamental Woman: Bloody Mary
+- Unemotional Woman: Margarita
 
 Return to the Bartender, and give him the drinks order
 
 (Tower Rank 1)
 
-* * *
+---
 
 **7/26 Sunday**
 
@@ -637,14 +633,14 @@ Vending machines refill today.
 
 Spend time with Nozomi
 
-* Are you feeling sick? (+3)
-* (Moon Rank 4)
+- Are you feeling sick? (+3)
+- (Moon Rank 4)
 
 **Evening**
 
 Read with Mitsuru (Academics +1)
 
-* * *
+---
 
 **7/27 Monday**
 
@@ -656,7 +652,7 @@ Track and Field training.
 
 Tend to the garden with Aigis.
 
-* * *
+---
 
 **7/28 Tuesday**
 
@@ -670,7 +666,7 @@ Watch a DVD with Yukari (Charm and Social link +1)
 
 > Even though this activity gives social link points, you don't need a matching persona for it.
 
-* * *
+---
 
 **7/29 Wednesday**
 
@@ -686,7 +682,7 @@ Harvest the Rooftop Garden, then plant Buff Potato Sprout.
 
 Play You're the Answer at Game Parade (Academics +2)
 
-* * *
+---
 
 **7/30 Thursday**
 
@@ -700,7 +696,7 @@ Check the fridge (1x Chilled Taiyaki and 1x Umugi Water)
 
 Read with Fuuka (Academics and Social Link +1)
 
-* * *
+---
 
 **7/31 Friday**
 
@@ -712,163 +708,162 @@ Track and Field training.
 
 Cook with Yukari (+1)
 
-* * *
-
 **End of Month Checklist**
 
-| Social Stats |   |
-| --- | --- |
-| Charm | Rank 6 (Popular) |
-| Academics | Rank 4 (Above Average) |
-| Courage | Rank 6 (Badass) |
+| Social Stats |                        |
+| ------------ | ---------------------- |
+| Charm        | Rank 6 (Popular)       |
+| Academics    | Rank 4 (Above Average) |
+| Courage      | Rank 6 (Badass)        |
 
-| Social Links |   |
-| --- | --- |
-| Fool | Rank 5 |
-| Magician | Rank 9 |
-| Priestess | Rank 4 |
-| Emperor | Max Rank |
-| Hierophant | Rank 5 |
-| Lovers | Rank 1 |
-| Chariot | Rank 8 |
-| Justice | Rank 5 |
-| Hermit | Rank 8 |
-| Fortune | Rank 2 |
-| Strength | Rank 4 |
-| Hanged | Rank 5 |
-| Death | Rank 3 |
-| Temperance | Rank 3 |
-| Devil | Rank 2 |
-| Tower | Rank 1 |
-| Moon | Rank 4 |
+| Social Links |          |
+| ------------ | -------- |
+| Fool         | Rank 5   |
+| Magician     | Rank 9   |
+| Priestess    | Rank 4   |
+| Emperor      | Max Rank |
+| Hierophant   | Rank 5   |
+| Lovers       | Rank 1   |
+| Chariot      | Rank 8   |
+| Justice      | Rank 5   |
+| Hermit       | Rank 8   |
+| Fortune      | Rank 2   |
+| Strength     | Rank 4   |
+| Hanged       | Rank 5   |
+| Death        | Rank 3   |
+| Temperance   | Rank 3   |
+| Devil        | Rank 2   |
+| Tower        | Rank 1   |
+| Moon         | Rank 4   |
 
-| **Achievements/Trophies** |
-| --- |
-| Awakened Power |
-| SEES the Day |
-| The First of Many |
-| There’s no “I” in “Team” |
-| The Thrill of the Hunt |
-| The Power of Choice |
-| Shrouded Assassin |
-| Making the Dream Work |
-| Back on Track |
-| Gourmand |
-| Briefcase Burglar |
-| Eagle Eye |
-| Empowered Protector |
-| In High Deman |
-| Birthday Present |
-| Fusion Artisan |
-| The Fool’s Journey |
-| Dorm Life |
-| Eat Your Veggies, Peas |
-| Specialist |
-| Through Thick and Thin |
-| Unbreakable Link |
-| Shattered Plumes |
-| Extracurricular Excellence |
+| **Achievements/Trophies**          |
+| ---------------------------------- |
+| Awakened Power                     |
+| SEES the Day                       |
+| The First of Many                  |
+| There’s no “I” in “Team”           |
+| The Thrill of the Hunt             |
+| The Power of Choice                |
+| Shrouded Assassin                  |
+| Making the Dream Work              |
+| Back on Track                      |
+| Gourmand                           |
+| Briefcase Burglar                  |
+| Eagle Eye                          |
+| Empowered Protector                |
+| In High Deman                      |
+| Birthday Present                   |
+| Fusion Artisan                     |
+| The Fool’s Journey                 |
+| Dorm Life                          |
+| Eat Your Veggies, Peas             |
+| Specialist                         |
+| Through Thick and Thin             |
+| Unbreakable Link                   |
+| Shattered Plumes                   |
+| Extracurricular Excellence         |
 | Never Toy with Matter of the Heart |
-| Benevolent Purr-tector |
-| Top of the Class |
+| Benevolent Purr-tector             |
+| Top of the Class                   |
 
-| Persona Compendium |   |
-| --- | --- |
-| Fool | Slime |
-| Fool | Orpheus |
-| Magician | Hua Po |
-| Magician | Jack-o'-Lantern |
-| Magician | Jack Frost |
-| Magician | Nekomata |
-| Priestess | High Pixie |
-| Priestess | Unicorn |
-| Priestess | Apsaras |
-| Empress | Leanan Sidhe |
-| Emperor | Take-Mikazuchi |
-| Emperor | Oberon |
-| Emperor | Forneus |
-| Hierophant | Shiisaa |
-| Hierophant | Berith |
-| Hierophant | Omoikane |
-| Lovers | Narcissus |
-| Lovers | Tam Lin |
-| Lovers | Silky |
-| Lovers | Pixie |
-| Chariot | Zouchouten |
-| Chariot | Chimera |
-| Chariot | Ara Mitama |
-| Justice | Principality |
-| Justice | Archangel |
-| Justice | Angel |
-| Hermit | Naga |
-| Hermit | Onmoraki |
-| Fortune | Sandman |
-| Fortune | Fortuna |
-| Strength | Matador |
-| Strength | Rakshasa |
-| Strength | Valkyrie |
-| Hanged | Take-Minakata |
-| Hanged | Inugami |
-| Death | Pisaca |
-| Temperance | Mitra |
-| Temperance | Nigi Mitama |
-| Devil | Mokoi |
-| Devil | Lilim |
-| Star | Neko Shogun |
-| Moon | Gurulu |
+| Persona Compendium |                 |
+| ------------------ | --------------- |
+| Fool               | Slime           |
+| Fool               | Orpheus         |
+| Magician           | Hua Po          |
+| Magician           | Jack-o'-Lantern |
+| Magician           | Jack Frost      |
+| Magician           | Nekomata        |
+| Priestess          | High Pixie      |
+| Priestess          | Unicorn         |
+| Priestess          | Apsaras         |
+| Empress            | Leanan Sidhe    |
+| Emperor            | Take-Mikazuchi  |
+| Emperor            | Oberon          |
+| Emperor            | Forneus         |
+| Hierophant         | Shiisaa         |
+| Hierophant         | Berith          |
+| Hierophant         | Omoikane        |
+| Lovers             | Narcissus       |
+| Lovers             | Tam Lin         |
+| Lovers             | Silky           |
+| Lovers             | Pixie           |
+| Chariot            | Zouchouten      |
+| Chariot            | Chimera         |
+| Chariot            | Ara Mitama      |
+| Justice            | Principality    |
+| Justice            | Archangel       |
+| Justice            | Angel           |
+| Hermit             | Naga            |
+| Hermit             | Onmoraki        |
+| Fortune            | Sandman         |
+| Fortune            | Fortuna         |
+| Strength           | Matador         |
+| Strength           | Rakshasa        |
+| Strength           | Valkyrie        |
+| Hanged             | Take-Minakata   |
+| Hanged             | Inugami         |
+| Death              | Pisaca          |
+| Temperance         | Mitra           |
+| Temperance         | Nigi Mitama     |
+| Devil              | Mokoi           |
+| Devil              | Lilim           |
+| Star               | Neko Shogun     |
+| Moon               | Gurulu          |
 
-| DLC Personas |   |
-| --- | --- |
-| Magician | Zorro |
-| Lovers | Carmen |
-| Chariot | Captain Kid |
+| DLC Personas |             |
+| ------------ | ----------- |
+| Magician     | Zorro       |
+| Lovers       | Carmen      |
+| Chariot      | Captain Kid |
 
-| Elizabeth's Requests | Status |
-| --- | --- |
-| 1\\. Bring me a Muscle Drink | Done |
-| 2\\. Retrieve the first old document | Done |
-| 3\\. Shadow Hunting Milestone | Done |
-| 4\\. Treasure Hunting Milestone | Done |
-| 5\\. Create a Persona that’s level 13 or above | Done |
-| 6\\. Create a Persona with Kouha | Done |
-| 7\\. Bring me a Juzumaru | Done |
-| 8\\. Experiment with fortune telling | Done |
-| 9\\. I’d like to try all kinds of drinks | Done |
-| 10\\. I’d like to try a beef bowl | Done |
-| 11\\. Please prevail in the Big Eater Challenge | Done |
-| 12\\. Bring me a pine resin | Done |
-| 13\\. Bring me a handheld game console | Done |
-| 14\\. Retrieve the second old document | Done |
-| 15\\. Shadow Hunting Milestone #2 | Done |
-| 16\\. Treasure Hunting Milestone #2 | Done |
-| 17\\. Fusion Series #1: Emperor, Oberon | Done |
-| 18\\. I’d like to be gifted a bouquet of flowers | Done |
-| 19\\. I want Jack Frost Dolls | Done |
-| 20\\. Bring me some potent medicine | Done |
-| 21.Retrieve the third old document | Done |
-| 22\\. Shadow Hunting Milestone #3 | Done |
-| 23\\. Persona Fusion Milestone | Done |
-| 24\\. Create a Persona that’s level 23 or above | Done |
-| 26\\. Bring me an Onimaru Kunitsuna | Done |
-| 27\\. Bring me a triangular sword | Done |
-| 28\\. Bring me a protein not for pros | Done |
-| 29\\. I want to look fashionable | Done |
-| 31\\. Shadow Hunting Milestone #4 | Done |
-| 33\\. Persona Fusion Milestone #2 | Done |
-| 34\\. Create a Persona with Torrent Shot | Done |
-| 38\\. I want to eat some chilled taiyaki | Done |
-| 39\\. Let me hear music unique to Gekkoukan | Done |
-| 40\\. I'd like to see a pai of Max Safety Shoes | Done |
-| 41\\. Bring me the mysterious person's autograph | Done |
-| 42\\. Please feed the cat | Done |
-| 43\\. Bring me a Christmas star | Done |
-| 44\\. I wish to feel the ocean | Done |
-| 46\\. Shadow Hunting Milestone #5 | Done |
-| 77\\. I’d like to walk around Paulownia Mall | Done |
-| 78\\. I’d like to visit Iwatodai Station | Done |
-| 25\\. Fusion Series #2: Chariot, Mithras | In Progress |
-| 30\\. Retrieve the fourth old document | In Progress |
-| 32\\. Treasure Hunting Milestone #3 | In Progress |
-| 36\\. Defeat a rare Shadow #1 | In Progress |
-| 48\\. Persona Fusion Milestone #3 | In Progress |
-| 60\\. Shadow Hunting Milestone #6 | In Progress |
+| Elizabeth's Requests                             | Status      |
+| ------------------------------------------------ | ----------- |
+| 1\\. Bring me a Muscle Drink                     | Done        |
+| 2\\. Retrieve the first old document             | Done        |
+| 3\\. Shadow Hunting Milestone                    | Done        |
+| 4\\. Treasure Hunting Milestone                  | Done        |
+| 5\\. Create a Persona that’s level 13 or above   | Done        |
+| 6\\. Create a Persona with Kouha                 | Done        |
+| 7\\. Bring me a Juzumaru                         | Done        |
+| 8\\. Experiment with fortune telling             | Done        |
+| 9\\. I’d like to try all kinds of drinks         | Done        |
+| 10\\. I’d like to try a beef bowl                | Done        |
+| 11\\. Please prevail in the Big Eater Challenge  | Done        |
+| 12\\. Bring me a pine resin                      | Done        |
+| 13\\. Bring me a handheld game console           | Done        |
+| 14\\. Retrieve the second old document           | Done        |
+| 15\\. Shadow Hunting Milestone #2                | Done        |
+| 16\\. Treasure Hunting Milestone #2              | Done        |
+| 17\\. Fusion Series #1: Emperor, Oberon          | Done        |
+| 18\\. I’d like to be gifted a bouquet of flowers | Done        |
+| 19\\. I want Jack Frost Dolls                    | Done        |
+| 20\\. Bring me some potent medicine              | Done        |
+| 21.Retrieve the third old document               | Done        |
+| 22\\. Shadow Hunting Milestone #3                | Done        |
+| 23\\. Persona Fusion Milestone                   | Done        |
+| 24\\. Create a Persona that’s level 23 or above  | Done        |
+| 26\\. Bring me an Onimaru Kunitsuna              | Done        |
+| 27\\. Bring me a triangular sword                | Done        |
+| 28\\. Bring me a protein not for pros            | Done        |
+| 29\\. I want to look fashionable                 | Done        |
+| 31\\. Shadow Hunting Milestone #4                | Done        |
+| 33\\. Persona Fusion Milestone #2                | Done        |
+| 34\\. Create a Persona with Torrent Shot         | Done        |
+| 38\\. I want to eat some chilled taiyaki         | Done        |
+| 39\\. Let me hear music unique to Gekkoukan      | Done        |
+| 40\\. I'd like to see a pai of Max Safety Shoes  | Done        |
+| 41\\. Bring me the mysterious person's autograph | Done        |
+| 42\\. Please feed the cat                        | Done        |
+| 43\\. Bring me a Christmas star                  | Done        |
+| 44\\. I wish to feel the ocean                   | Done        |
+| 46\\. Shadow Hunting Milestone #5                | Done        |
+| 77\\. I’d like to walk around Paulownia Mall     | Done        |
+| 78\\. I’d like to visit Iwatodai Station         | Done        |
+| 25\\. Fusion Series #2: Chariot, Mithras         | In Progress |
+| 30\\. Retrieve the fourth old document           | In Progress |
+| 32\\. Treasure Hunting Milestone #3              | In Progress |
+| 36\\. Defeat a rare Shadow #1                    | In Progress |
+| 48\\. Persona Fusion Milestone #3                | In Progress |
+| 60\\. Shadow Hunting Milestone #6                | In Progress |
+---
