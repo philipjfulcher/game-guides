@@ -837,4 +837,5 @@ Watch a DVD with Koromaru (Academics +1)
 | 50\\. Perform King and I                         | In Progress |
 | 51\\. Bring me an Outenta Mitsuyo                | In Progress |
 | 57\\. I’d like to try Aojiru                     | In Progress |
+
 ---

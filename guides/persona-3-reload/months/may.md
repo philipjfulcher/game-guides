@@ -854,4 +854,5 @@ Eat the Weekend Wilduck Set at Wilduck (Courage +2)
 | 16\\. Treasure Hunting Milestone #2             | In Progress |
 | 25\\. Fusion Series #2 Chariot, Mithras         | In Progress |
 | 31\\. Shadow Hunting Milestone #4               | In Progress |
+
 ---

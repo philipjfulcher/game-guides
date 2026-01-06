@@ -1,4 +1,3 @@
-
 **6/1 Monday**
 
 **After School**
@@ -785,4 +784,5 @@ Eat the Special Hagakure Bowl at Hagakure (Charm +2)
 | 29\\. I want to look fashionable                 | In Progress |
 | 31\\. Shadow Hunting Milestone #4                | In Progress |
 | 33\\. Persona Fusion Milestone #2                | In Progress |
+
 ---

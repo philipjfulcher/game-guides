@@ -1,4 +1,3 @@
-
 **7/1 Wednesday**
 
 **After School**
@@ -866,4 +865,5 @@ Cook with Yukari (+1)
 | 36\\. Defeat a rare Shadow #1                    | In Progress |
 | 48\\. Persona Fusion Milestone #3                | In Progress |
 | 60\\. Shadow Hunting Milestone #6                | In Progress |
+
 ---

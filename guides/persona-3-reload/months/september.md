@@ -686,7 +686,6 @@ Read with Aigis (Charm +1)
 - Characteristics Unlocked: Physical Boost, Strengthens Physical Skills  
    (Strengths physical skills by 10%)
 
-
 **End of Month Checklist**
 
 | Social Stats |                      |
@@ -920,4 +919,5 @@ Read with Aigis (Charm +1)
 | 63\\. Fusion Series #5 Magician, Rangda          | In Progress |
 | 64\\. Defeat a rare Shadow #2                    | In Progress |
 | 65\\. Bring me an Ote-gine                       | In Progress |
+
 ---

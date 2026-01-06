@@ -1157,4 +1157,5 @@ It's time for your decision, what type of ending you get is determined by what y
 | 96\\. I'd like to try Oden Juice                 | Done        |
 | 97\\. Bring me my Christmas present              | Done        |
 | 98\\. Fusion Series #10: Tower, Masakado         | In Progress |
+
 ---

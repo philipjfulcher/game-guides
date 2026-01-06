@@ -941,4 +941,5 @@ You get one more preparation area, once you're ready, head for the final boss of
 Once all is said and done you will unlock:
 
 - Achievement/Trophy: The Great Seal (47/48)
+
 ---

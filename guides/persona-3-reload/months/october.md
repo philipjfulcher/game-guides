@@ -1200,4 +1200,5 @@ Take Koromaru for a walk
 | 80\\. I’d like to visit Gekkoukan High           | Done        |
 | 72\\. Fusion Series #7: Hierophant, Daisoujou    | In Progress |
 | 73\\. Bring me a Mikazuki Munechika              | In Progress |
+
 ---
