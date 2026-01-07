@@ -1,4 +1,18 @@
 packages:
-  # all packages in direct subdirs of packages/
-  - 'libs/*'
-  - 'apps/*'
+  - libs/*
+  - apps/*
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@prisma/engines'
+  - '@swc/core'
+  - better-sqlite3
+  - core-js
+  - core-js-pure
+  - esbuild
+  - nx
+  - prisma
+  - sharp
+  - sqlite3
+  - supabase
+  - unrs-resolver
