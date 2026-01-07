@@ -1,6 +1,6 @@
 import { Form, useLoaderData, useNavigation } from '@remix-run/react';
 import { createSupabaseServerClient, getDate } from '@game-guides/data-access';
-import { json, LoaderArgs, redirect, Response } from '@remix-run/node';
+import { json, redirect, LoaderFunctionArgs } from '@remix-run/node';
 import {
   BuildingOfficeIcon,
   MoonIcon,
@@ -11,7 +11,7 @@ import { createServerClient } from '@supabase/auth-helpers-remix';
 import { CompleteButton } from '@game-guides/components';
 import { addDays, format, parseISO } from 'date-fns';
 
-export const loader = async ({ request, params }: LoaderArgs) => {
+export const loader = async ({ request, params }: LoaderFunctionArgs) => {
   const date = `${params.year}-${params.month}-${params.day}`;
   const dateData = await getDate(date);
   const response = new Response();

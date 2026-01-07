@@ -1,0 +1,20 @@
+---
+import GameSelectMenu, { type SelectMenuItem } from './GameSelectMenu.astro';
+
+const { gameId } = Astro.props;
+const defaultGameId = 'metroid-prime-remastered';
+---
+
+<nav>
+  <GameSelectMenu selectedItemId={gameId || defaultGameId} />
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    background-color: var(--ctp-latte-mauve);
+  }
+</style>

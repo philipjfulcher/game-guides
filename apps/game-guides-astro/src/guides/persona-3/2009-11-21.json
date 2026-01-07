@@ -1,0 +1,18 @@
+{
+  "date": "11/21/2009",
+  "dayOfWeek": "Sat",
+  "notes": "Quest: Talk to Ken tonight for the quest item.",
+  "dayTime": {
+    "activity": "Empress 01",
+    "bestAnswers": "-",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "nightTime": {
+    "activity": "Free time",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

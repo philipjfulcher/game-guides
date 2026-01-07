@@ -1,0 +1,24 @@
+---
+import { render } from 'astro:content';
+import { getCollection } from 'astro:content';
+import ActLayout from '../../../layouts/ActLayout.astro';
+
+export async function getStaticPaths() {
+  const acts = await getCollection('games', ({ id, filePath }) =>
+    filePath?.endsWith('index.md'),
+  );
+
+  return acts.map((act) => {
+    const [gameId, actId] = act.id.split('/') || ['', ''];
+    return { params: { gameId, actId }, props: { act } };
+  });
+}
+
+const { gameId, actId } = Astro.params;
+const { act } = Astro.props;
+const { Content } = await render(act);
+---
+
+<ActLayout gameId={gameId} actId={actId}>
+  <Content />
+</GameLayout>

@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import Calendar from '../../components/calendar.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const days = await getCollection('games', ({ id }) =>
+  id.startsWith('persona-3-reload/months'),
+);
+
+const months = days.reduce((acc, { id }) => {
+  const parts = id.split('/')?.at(-1)?.split('-');
+  acc.add(`${parts?.[0]}-${parts?.[1]}`);
+  return acc;
+}, new Set());
+---
+
+<BaseLayout>
+  <div class="two-col">
+    <div class="calendar-container">
+      {
+        [...months].map((monthToDisplay) => {
+          const [year, month] = monthToDisplay.split('-');
+          return <Calendar month={month} year={year} />;
+        })
+      }
+    </div>
+    <div class="content-container"></div>
+  </div>
+</BaseLayout>
+
+<style>
+  .calendar-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    width: 66%;
+  }
+
+  .two-col {
+    display: flex;
+    flex: 0.33;
+  }
+</style>

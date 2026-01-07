@@ -1,0 +1,20 @@
+---
+import { render } from 'astro:content';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const days = await getCollection('games', ({ id }) =>
+    id.startsWith('persona-3-reload/months'),
+  );
+
+  return days.map((day) => {
+    return { params: { date: day.id.split('/').at(-1) }, props: { day } };
+  });
+}
+
+const { day } = Astro.props;
+const { Content } = await render(day);
+---
+
+<BaseLayout> <Content /></BaseLayout>

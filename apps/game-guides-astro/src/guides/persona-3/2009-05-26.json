@@ -1,0 +1,18 @@
+{
+  "date": "5/26/2009",
+  "dayOfWeek": "Tue",
+  "notes": "If you got 10th or above in the exam, talk to Mitsuru today for reward. If you missed her today, she will be available on Tue, Thu, Sat. Remember to claim the award before the next exam or it'll be gone. Quest: Talk to Mitsuru tonight for the quest item.",
+  "dayTime": {
+    "activity": "Justice 03",
+    "bestAnswers": "1>1",
+    "pointsForNextRank": "22",
+    "pointsGotToday": "10/14/22"
+  },
+  "nightTime": {
+    "activity": "Arcade: Virtual horror",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

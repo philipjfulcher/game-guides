@@ -1,0 +1,18 @@
+{
+  "date": "10/5/2009",
+  "dayOfWeek": "Mon",
+  "notes": "Quest: Get quest 61 and visit the staff room on eight different days.",
+  "dayTime": {
+    "activity": "No action allowed",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "nightTime": {
+    "activity": "Free time",
+    "bestAnswers": "",
+    "pointsForNextRank": "0",
+    "pointsGotToday": "0"
+  },
+  "morningClass": ""
+}

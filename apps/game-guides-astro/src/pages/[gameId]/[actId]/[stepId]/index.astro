@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import ActLayout from '../../../../layouts/ActLayout.astro';
+import { render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const steps = await getCollection('games', ({ id, data }) => id.includes('steps') && !data.hasOwnProperty('parent'));
+
+  return steps.map((step) => {
+    const [gameId, actId, _, stepId] = step.id.split('/') || [
+      '',
+      '',
+      'steps',
+      '',
+    ];
+    return { params: { gameId, actId, stepId }, props: { step } };
+  });
+}
+
+const { gameId, actId, stepId } = Astro.params;
+
+const substeps = await getCollection('games', ({data}) => {
+    return data.parent === stepId
+});
+
+const { step } = Astro.props;
+const { Content } = await render(step);
+const subStepContents = await Promise.all(substeps.map(substep => render(substep)));
+---
+
+<ActLayout gameId={gameId} actId={actId}>
+  <Content />
+  {subStepContents.map(substep => <substep.Content />)}
+</ActLayout>

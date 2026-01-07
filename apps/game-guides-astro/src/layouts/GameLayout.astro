@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  gameId: string;
+}
+
+const { gameId } = Astro.props;
+
+const acts = (
+  await getCollection(
+    'games',
+    ({ id, filePath }) =>
+      id.startsWith(gameId) && filePath?.endsWith('index.md'),
+  )
+).sort((a, b) => a.filePath?.localeCompare(b.filePath || '') ?? 0);
+---
+
+<BaseLayout>
+  <ol>
+    {
+      acts.map((act, index) => (
+        <li>
+          <span>{index+1}</span>
+          <a href={`/${gameId}/${act.id.split('/').at(-1)}`}>
+            {act.data.title}{' '}
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+  <slot />
+</BaseLayout>
+
+<style>
+  ol {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: solid 1px var(--ctp-latte-overlay0);
+    border-bottom: solid 1px var(--ctp-latte-overlay0);
+  }
+
+  li {
+    height: 4rem;
+    margin: -1px 0;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    padding-right: 3rem;
+    padding-left: 1rem;
+  }
+
+  li:not(:last-child) {
+    border-top: solid 1px var(--ctp-latte-overlay0);
+    border-bottom: solid 1px var(--ctp-latte-overlay0);
+    border-right: solid 1px var(--ctp-latte-overlay0);
+    corner-shape: square bevel bevel square;
+    border-radius: 16px 48px 48px 16px / 16px 50% 50% 16px;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  li span {
+    border: solid 2px var(--ctp-latte-overlay0);
+    border-radius: 50%;
+    display: flex;
+    width: 2rem;
+    height:2rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+</style>
