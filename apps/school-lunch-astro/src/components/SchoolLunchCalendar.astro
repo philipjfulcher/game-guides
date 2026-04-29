@@ -48,16 +48,6 @@ console.log(
   )}&endDate=${lightFormat(endDate, 'M-d-yyyy')}`,
 );
 
-// const response = await fetch(
-//   `https://api.linqconnect.com/api/FamilyMenu?buildingId=${buildingId}&districtId=${districtId}&startDate=${lightFormat(
-//     startDate,
-//     'M-d-yyyy',
-//   )}&endDate=${lightFormat(endDate, 'M-d-yyyy')}`,
-//   {
-//     headers: { accepts: 'application/json' },
-//   },
-// );
-
 const response = await fetch(
   'https://api.linqconnect.com/api/FamilyMenu?' +
     new URLSearchParams({
