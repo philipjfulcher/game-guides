@@ -41,13 +41,29 @@ const startDate = isMonday(startOfThisMonth)
 const endDate = endOfWeek(endOfMonth(today));
 const buildingId = 'cf92837d-dcb4-eb11-a2c3-bb7f12070043';
 const districtId = 'cb621126-efb1-eb11-a2cc-d41c38442056';
-const response = await fetch(
+console.log(
   `https://api.linqconnect.com/api/FamilyMenu?buildingId=${buildingId}&districtId=${districtId}&startDate=${lightFormat(
     startDate,
     'M-d-yyyy',
   )}&endDate=${lightFormat(endDate, 'M-d-yyyy')}`,
+);
+
+const response = await fetch(
+  'https://api.linqconnect.com/api/FamilyMenu?' +
+    new URLSearchParams({
+      buildingId: 'cf92837d-dcb4-eb11-a2c3-bb7f12070043',
+      districtId: 'cb621126-efb1-eb11-a2cc-d41c38442056',
+      startDate: '4-6-2026',
+      endDate: '5-2-2026',
+    }),
   {
-    headers: { accepts: 'application/json' },
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      Referer: 'https://linqconnect.com/',
+      Origin: 'https://linqconnect.com',
+    },
   },
 );
 
