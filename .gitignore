@@ -54,3 +54,6 @@ apps/**/.cache
 
 # Astro files
 apps/**/.astro
+
+# Local scratch / ad-hoc scripts
+.tmp/

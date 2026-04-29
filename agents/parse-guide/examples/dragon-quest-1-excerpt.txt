@@ -1,0 +1,141 @@
+<<---------------------------------PRE-JOURNEY-------------------------------->>
+
+
+
+If you have already Quick Saved in the game, the option to load it will be
+available. Otherwise, let us Venture Forth!
+
+Go ahead and create a new adventure log. Select which log you want, then make a
+name for yourself. In the NES version of the game, your stat growth differs
+depending on your name, but not so much on the Switch. So choose any name you
+want that's eight characters or less, select your message speed (which also
+affects battle speed), select your volume levels, and you are all set to go!
+
+Note: Message speed and volume levels can be changed by selecting the Misc.
+option in your Main Menu and then selecting Settings.
+
+
+
+<<----------------------------------TANTEGEL---------------------------------->>
+
+
+
+You will start with a talk between the Hero and the King. Your mission is to
+retrieve the Sphere of Light from the Dragonlord and restore light to the dark
+land of Alefgard... once more? Apparently this is not the first time Alefgard
+has been the land of darkness.
+
+It looks as if the Hero has a big nose. And the plume on the helmet looks like
+the Tanooki Tail from Super Mario 3. Mario! Is that you? You are in the wrong
+game!
+
+Anyway, once you have control of the Hero, open the chests for 120G, a TORCH and
+a MAGIC KEY. Use the Magic Key to unlock the door and go downstairs.
+
+Go south a bit and you should see three pots. Search the left pot for a
+MEDICINAL HERB. The guy behind the counter to the south will restore your MP for
+free. Then you could use your Heal spell, talk to the guy again to refill your
+MP again, and repeat until you are at maximum HP and MP, therefore saving money
+on Inn prices. I do not bother with this method because staying at an Inn is
+faster and the cost is so cheap that I prefer the saved time more.
+
+Equip your Bamboo Spear and leave Tantegel Castle through either the north or
+south exit. You are now on the overworld screen. You can view your map now by
+pressing X. Go east to the Town of Tantegel.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+|                                                                              |
+| TOWN OF TANTEGEL                                                             |
+|                                                                              |
+|                                                                              |
+| EQUIPMENT SHOP                            ITEM SHOP                          |
+| -------------------------------           -----------------------------      |
+| Bamboo Spear               10G            Medicinal Herb           10G       |
+| Oaken Club                 60G            Torch                     8G       |
+| Copper Sword              180G            Dragon Scale             20G       |
+| Plain Clothes              20G                                               |
+| Leather Suit               70G                                               |
+| Leather Shield             90G                                               |
+|                                           HOLY WATER SHOP                    |
+|                                           ----------------------------       |
+| INN:                        3G            Holy Water               12G       |
+|                                                                              |
+|                                                                              |
+| Vault                                                                        |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+Just north of where you enter is an equipment shop. Buy a Leather Suit for 70G,
+then go south to the Inn. The drawer in the southeast room of the Inn has a
+CHIMAERA WING. Next to that room is the Vault. Talk to the lady and she will
+deposit or withdraw gold or items for you.
+
+East of the Inn and across the bridge is an item shop. Buy a Dragon Scale for
+20G. You will have to equip it manually. Then leave town, because it's time to
+grind for a bit. You can save 60G to buy the Oaken Club, but personally I go
+straight for 180G so I can buy a Copper Sword.
+
+Notice the building with the locked door. This is the Holy Water Shop.
+Unfortunately you do not have access to this building right now, but remember it
+for later.
+
+
+
+<<----------------------------------GRIND 1----------------------------------->>
+
+
+
+Walk around a bit making sure you stay close to the castle. In this area are
+Slimes and She-Slimes. Fight them until you get to level 2. You can stay here to
+reach level 3, but once I'm level 2 I like to go to the hills southwest of the
+castle so I can start fighting Drackys. Do NOT go to the southern part of the
+hills; the monsters there are stronger and they will kill you. If your HP falls
+to 7 or less, go straight to the Inn, sleep and come back.
+
+At level 3 you learn the Heal spell, which costs 3MP per use. Now I like to go
+to a patch of hills northwest of Tantegel Castle and south of a cave surrounded
+by sand. You can fight Ghosts here. Ghosts dodge more than the average monster.
+Keep fighting until you have your Copper Sword.
+
+At level 4 you learn the Sizz spell which does 16-20 damage if successful.
+
+Do NOT cross the bridge southwest of the cave in the desert yet. Instead, earn
+90G and head back to the Town of Tantegel to buy and equip a Leather Shield. Be
+sure to have a Torch in your inventory. Torches light dark dungeons and do not
+wear out until you leave the dungeon.
+
+You should now be equipped as listed below.
+
+ ______________________________________________________________________________
+/                                                                              \
+|------------------------------------------------------------------------------|
+|                                                                              |
+| RECOMMENDED LEVEL: 5                                                         |
+|                                                                              |
+| CURRENT EQUIPMENT                                                            |
+| ------------------------------------------                                   |
+|                                                                              |
+| Weapon: Copper Sword (Town of Tantegel)                                      |
+| Armour: Leather Armour (Town of Tantegel)                                    |
+| Shield: Leather Shield (Town of Tantegel)                                    |
+| Accessory: Dragon Scale (Town of Tantegel)                                   |
+|                                                                              |
+|                                                                              |
+|------------------------------------------------------------------------------|
+\______________________________________________________________________________/
+
+
+
+
+<<-------------------------ERDRICK'S CAVE (OPTIONAL)-------------------------->>
+
+
+
+The cave surrounded by sand is called Erdrick's Cave. This cave is entirely
+optional and has no monsters or treasure, so you can skip it if you want.
